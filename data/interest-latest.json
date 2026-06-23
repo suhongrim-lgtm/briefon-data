@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-23T08:50:00+09:00",
+  "sourceLabel": "fixture 기반 예시 데이터",
+  "sourceMeta": {
+    "sourceLabel": "fixture 기반 예시 데이터",
+    "usedSources": [
+      "fixture"
+    ],
+    "sourceCounts": {
+      "fixture": 3,
+      "rss": 0,
+      "gdelt": 0
+    },
+    "warningsCount": 3
+  },
+  "keywordSummaries": {
+    "kw-nvidia": {
+      "keywordId": "kw-nvidia",
+      "summary": "엔비디아 관련 이슈 1건이 확인됐습니다. 관련 업종과 일정 변화를 함께 점검하세요.",
+      "newsCount": 3,
+      "relatedEventIds": [
+        "event-us-cpi-2026-06",
+        "event-korea-export-2026-06"
+      ],
+      "relatedTerms": [
+        "엔비디아",
+        "NVIDIA",
+        "NVDA",
+        "젠슨 황",
+        "ai",
+        "반도체"
+      ],
+      "updatedAt": "2026-06-23T08:50:00+09:00"
+    },
+    "kw-semiconductor": {
+      "keywordId": "kw-semiconductor",
+      "summary": "반도체 관련 이슈 1건이 확인됐습니다. 관련 업종과 일정 변화를 함께 점검하세요.",
+      "newsCount": 3,
+      "relatedEventIds": [
+        "event-us-cpi-2026-06",
+        "event-korea-export-2026-06"
+      ],
+      "relatedTerms": [
+        "반도체",
+        "AI 반도체",
+        "데이터센터",
+        "HBM",
+        "ai",
+        "규제"
+      ],
+      "updatedAt": "2026-06-23T08:50:00+09:00"
+    },
+    "kw-shipbuilding-defense": {
+      "keywordId": "kw-shipbuilding-defense",
+      "summary": "조선·방산 관련 새 이슈는 아직 확인되지 않았습니다.",
+      "newsCount": 0,
+      "relatedEventIds": [],
+      "relatedTerms": [
+        "조선",
+        "방산",
+        "조선 수주",
+        "방산 수출"
+      ],
+      "updatedAt": "2026-06-23T08:50:00+09:00"
+    }
+  },
+  "issuesByKeyword": {
+    "kw-nvidia": [
+      {
+        "id": "interest-kw-nvidia-issue-3a55a6b1-002",
+        "categoryId": "industry",
+        "categoryLabel": "산업·테마",
+        "impactLevel": "high",
+        "title": "AI 반도체 수출 규제 논의 확대",
+        "whatHappened": "미국의 AI 반도체 수출통제 논의가 데이터센터와 반도체 공급망 이슈로 번지고 있습니다.",
+        "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
+        "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
+        "tags": [
+          "ai",
+          "반도체",
+          "데이터센터",
+          "규제",
+          "수출통제",
+          "nvidia",
+          "투자",
+          "실적"
+        ],
+        "sectors": [
+          "반도체",
+          "데이터센터",
+          "장비"
+        ],
+        "relatedEventIds": [
+          "event-us-cpi-2026-06",
+          "event-korea-export-2026-06"
+        ],
+        "updatedAt": "2026-06-23T08:50:00+09:00",
+        "articles": [
+          {
+            "id": "news-003",
+            "title": "AI 반도체 수출 규제 논의 확대",
+            "description": "미국의 AI 반도체 수출통제 논의가 데이터센터와 반도체 공급망 이슈로 번지고 있습니다.",
+            "source": "fixture",
+            "sourceType": "fixture",
+            "url": "",
+            "publishedAt": "2026-06-23T05:35:00+09:00"
+          },
+          {
+            "id": "news-005",
+            "title": "NVIDIA 데이터센터 수요 기대 지속",
+            "description": "NVIDIA와 AI 서버 투자 기대가 반도체 장비와 데이터센터 밸류체인 관심을 높였습니다.",
+            "source": "fixture",
+            "sourceType": "fixture",
+            "url": "",
+            "publishedAt": "2026-06-23T05:50:00+09:00"
+          },
+          {
+            "id": "news-008",
+            "title": "기업 실적 시즌 진입, 반도체 가이던스 확인 필요",
+            "description": "실적 시즌을 앞두고 반도체 기업의 가이던스와 재고 흐름이 시장 변수로 거론됩니다.",
+            "source": "fixture",
+            "sourceType": "fixture",
+            "url": "",
+            "publishedAt": "2026-06-23T04:50:00+09:00"
+          }
+        ],
+        "detail": "미국의 AI 반도체 수출통제 논의가 데이터센터와 반도체 공급망 이슈로 번지고 있습니다."
+      }
+    ],
+    "kw-semiconductor": [
+      {
+        "id": "interest-kw-semiconductor-issue-3a55a6b1-002",
+        "categoryId": "industry",
+        "categoryLabel": "산업·테마",
+        "impactLevel": "high",
+        "title": "AI 반도체 수출 규제 논의 확대",
+        "whatHappened": "미국의 AI 반도체 수출통제 논의가 데이터센터와 반도체 공급망 이슈로 번지고 있습니다.",
+        "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
+        "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
+        "tags": [
+          "ai",
+          "반도체",
+          "데이터센터",
+          "규제",
+          "수출통제",
+          "nvidia",
+          "투자",
+          "실적"
+        ],
+        "sectors": [
+          "반도체",
+          "데이터센터",
+          "장비"
+        ],
+        "relatedEventIds": [
+          "event-us-cpi-2026-06",
+          "event-korea-export-2026-06"
+        ],
+        "updatedAt": "2026-06-23T08:50:00+09:00",
+        "articles": [
+          {
+            "id": "news-003",
+            "title": "AI 반도체 수출 규제 논의 확대",
+            "description": "미국의 AI 반도체 수출통제 논의가 데이터센터와 반도체 공급망 이슈로 번지고 있습니다.",
+            "source": "fixture",
+            "sourceType": "fixture",
+            "url": "",
+            "publishedAt": "2026-06-23T05:35:00+09:00"
+          },
+          {
+            "id": "news-005",
+            "title": "NVIDIA 데이터센터 수요 기대 지속",
+            "description": "NVIDIA와 AI 서버 투자 기대가 반도체 장비와 데이터센터 밸류체인 관심을 높였습니다.",
+            "source": "fixture",
+            "sourceType": "fixture",
+            "url": "",
+            "publishedAt": "2026-06-23T05:50:00+09:00"
+          },
+          {
+            "id": "news-008",
+            "title": "기업 실적 시즌 진입, 반도체 가이던스 확인 필요",
+            "description": "실적 시즌을 앞두고 반도체 기업의 가이던스와 재고 흐름이 시장 변수로 거론됩니다.",
+            "source": "fixture",
+            "sourceType": "fixture",
+            "url": "",
+            "publishedAt": "2026-06-23T04:50:00+09:00"
+          }
+        ],
+        "detail": "미국의 AI 반도체 수출통제 논의가 데이터센터와 반도체 공급망 이슈로 번지고 있습니다."
+      }
+    ],
+    "kw-shipbuilding-defense": []
+  }
+}

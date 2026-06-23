@@ -1,9 +1,7 @@
 {
   "schemaVersion": 1,
   "generatedAt": "2026-06-23T08:50:00+09:00",
-  "mode": "static",
   "sourceLabel": "fixture 기반 예시 데이터",
-  "freshness": "generated",
   "sourceReport": {
     "requestedSources": [
       "fixture",
@@ -76,6 +74,87 @@
     ],
     "sourceLabel": "fixture 기반 예시 데이터"
   },
+  "quality": {
+    "economy": {
+      "issueCount": 4,
+      "keywordCount": 8,
+      "articleCount": 7,
+      "uniqueArticleCount": 7,
+      "articleOccurrenceCount": 7,
+      "sourceTypeCounts": {
+        "fixture": 7,
+        "rss": 0,
+        "gdelt": 0
+      },
+      "occurrenceSourceTypeCounts": {
+        "fixture": 7,
+        "rss": 0,
+        "gdelt": 0
+      },
+      "fixtureArticleCount": 7,
+      "rssArticleCount": 0,
+      "gdeltArticleCount": 0,
+      "emptySections": [
+        "indicators",
+        "policy",
+        "company"
+      ]
+    },
+    "preopen": {
+      "issueCount": 3,
+      "articleCount": 3,
+      "uniqueArticleCount": 3,
+      "articleOccurrenceCount": 3,
+      "sourceTypeCounts": {
+        "fixture": 3,
+        "rss": 0,
+        "gdelt": 0
+      },
+      "occurrenceSourceTypeCounts": {
+        "fixture": 3,
+        "rss": 0,
+        "gdelt": 0
+      },
+      "fixtureArticleCount": 3,
+      "rssArticleCount": 0,
+      "gdeltArticleCount": 0,
+      "status": "ready",
+      "emptyReason": ""
+    },
+    "events": {
+      "eventCount": 3,
+      "confirmedCount": 3,
+      "cancelledCount": 0,
+      "completedCount": 0,
+      "candidateCount": 0
+    },
+    "interest": {
+      "keywordSummaryCount": 3,
+      "issueCount": 2,
+      "articleCount": 3,
+      "uniqueArticleCount": 3,
+      "articleOccurrenceCount": 6,
+      "sourceTypeCounts": {
+        "fixture": 3,
+        "rss": 0,
+        "gdelt": 0
+      },
+      "occurrenceSourceTypeCounts": {
+        "fixture": 6,
+        "rss": 0,
+        "gdelt": 0
+      },
+      "fixtureArticleCount": 3,
+      "rssArticleCount": 0,
+      "gdeltArticleCount": 0
+    }
+  },
+  "filterReport": {
+    "collected": 11,
+    "relevant": 11,
+    "excluded": 0,
+    "excludedSamples": []
+  },
   "warnings": [
     {
       "source": "rss",
@@ -94,27 +173,5 @@
       "queryId": "ai-semiconductor",
       "message": "GDELT request failed: HTTP 429."
     }
-  ],
-  "files": {
-    "economy": {
-      "path": "./data/economy-latest.json",
-      "generatedAt": "2026-06-23T08:50:00+09:00"
-    },
-    "preopen": {
-      "path": "./data/preopen-latest.json",
-      "generatedAt": "2026-06-23T08:50:00+09:00"
-    },
-    "events": {
-      "path": "./data/events-latest.json",
-      "generatedAt": "2026-06-23T08:50:00+09:00"
-    },
-    "interest": {
-      "path": "./data/interest-latest.json",
-      "generatedAt": "2026-06-23T08:50:00+09:00"
-    },
-    "qualityReport": {
-      "path": "./data/data-quality-report.json",
-      "generatedAt": "2026-06-23T08:50:00+09:00"
-    }
-  }
+  ]
 }

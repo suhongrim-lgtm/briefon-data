@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-23T08:50:00+09:00",
+  "sourceLabel": "수동 확정 일정",
+  "sourceMeta": {
+    "sourceLabel": "수동 확정 일정",
+    "usedSources": [
+      "manual"
+    ],
+    "sourceCounts": {
+      "manual": 3
+    },
+    "warningsCount": 0
+  },
+  "events": [
+    {
+      "eventId": "event-us-cpi-2026-06",
+      "title": "미국 CPI 발표",
+      "country": "US",
+      "category": "economic-indicator",
+      "importance": "high",
+      "status": "confirmed",
+      "changeStatus": "none",
+      "version": 1,
+      "acknowledgedVersion": 1,
+      "startAt": "2026-06-25T21:30:00+09:00",
+      "endAt": null,
+      "timeZone": "Asia/Seoul",
+      "expectedImpact": "금리와 환율, 성장주 변동성에 영향을 줄 수 있습니다.",
+      "relatedKeywordIds": [
+        "kw-us-cpi",
+        "kw-us-rates",
+        "kw-krw-usd-rise"
+      ],
+      "relatedArticleIds": []
+    },
+    {
+      "eventId": "event-fomc-minutes-2026-06",
+      "title": "FOMC 의사록 공개",
+      "country": "US",
+      "category": "central-bank",
+      "importance": "high",
+      "status": "confirmed",
+      "changeStatus": "new",
+      "version": 1,
+      "acknowledgedVersion": 0,
+      "startAt": "2026-06-27T03:00:00+09:00",
+      "endAt": null,
+      "timeZone": "Asia/Seoul",
+      "expectedImpact": "연준의 금리 판단과 달러 흐름을 확인하는 일정입니다.",
+      "relatedKeywordIds": [
+        "kw-fomc",
+        "kw-us-rates"
+      ],
+      "relatedArticleIds": []
+    },
+    {
+      "eventId": "event-korea-export-2026-06",
+      "title": "한국 수출입 동향",
+      "country": "KR",
+      "category": "economic-indicator",
+      "importance": "medium",
+      "status": "confirmed",
+      "changeStatus": "none",
+      "version": 1,
+      "acknowledgedVersion": 1,
+      "startAt": "2026-07-01T09:00:00+09:00",
+      "endAt": null,
+      "timeZone": "Asia/Seoul",
+      "expectedImpact": "반도체와 조선, 방산 수출 흐름을 확인할 수 있습니다.",
+      "relatedKeywordIds": [
+        "kw-chip-export-rule",
+        "kw-shipbuilding-orders"
+      ],
+      "relatedArticleIds": []
+    }
+  ]
+}
