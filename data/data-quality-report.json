@@ -1,7 +1,128 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-23T08:50:00+09:00",
-  "sourceLabel": "fixture 기반 예시 데이터",
+  "generatedAt": "2026-06-24T08:50:00+09:00",
+  "sourceLabel": "RSS static data",
+  "fixtureUsed": false,
+  "fixtureCount": 0,
+  "rssCount": 110,
+  "gdeltCount": 0,
+  "failedSources": [
+    {
+      "source": "gdelt",
+      "queryId": "global-market",
+      "reason": "HTTP 429",
+      "attemptCount": 3,
+      "statusCode": 429
+    },
+    {
+      "source": "gdelt",
+      "queryId": "ai-semiconductor",
+      "reason": "HTTP 429",
+      "attemptCount": 3,
+      "statusCode": 429
+    }
+  ],
+  "sourceHealth": {
+    "fixture": {
+      "requested": true,
+      "enabled": true,
+      "mode": "standby",
+      "availableCount": 11,
+      "usedCount": 0,
+      "failed": false,
+      "reason": "fixture reserved as fallback support",
+      "fixtureUsed": false
+    },
+    "rss": {
+      "configuredCount": 4,
+      "enabledCount": 4,
+      "successCount": 4,
+      "failedCount": 0,
+      "emptyCount": 0,
+      "failedSources": [],
+      "details": [
+        {
+          "id": "google-news-kr-economy",
+          "name": "Google News KR Economy",
+          "ok": true,
+          "failed": false,
+          "articleCount": 4,
+          "reason": "articles collected"
+        },
+        {
+          "id": "google-news-kr-market",
+          "name": "Google News KR Market",
+          "ok": true,
+          "failed": false,
+          "articleCount": 1,
+          "reason": "articles collected"
+        },
+        {
+          "id": "google-news-global-markets",
+          "name": "Google News Global Markets",
+          "ok": true,
+          "failed": false,
+          "articleCount": 86,
+          "reason": "articles collected"
+        },
+        {
+          "id": "google-news-ai-semiconductor",
+          "name": "Google News AI Semiconductor",
+          "ok": true,
+          "failed": false,
+          "articleCount": 30,
+          "reason": "articles collected"
+        }
+      ]
+    },
+    "gdelt": {
+      "configuredCount": 2,
+      "enabledCount": 2,
+      "successCount": 0,
+      "failedCount": 2,
+      "emptyCount": 0,
+      "rateLimitedCount": 2,
+      "failedSources": [
+        {
+          "source": "gdelt",
+          "queryId": "global-market",
+          "reason": "HTTP 429",
+          "attemptCount": 3,
+          "statusCode": 429
+        },
+        {
+          "source": "gdelt",
+          "queryId": "ai-semiconductor",
+          "reason": "HTTP 429",
+          "attemptCount": 3,
+          "statusCode": 429
+        }
+      ],
+      "details": [
+        {
+          "id": "global-market",
+          "ok": false,
+          "failed": true,
+          "rateLimited": true,
+          "articleCount": 0,
+          "attemptCount": 3,
+          "statusCode": 429,
+          "reason": "HTTP 429"
+        },
+        {
+          "id": "ai-semiconductor",
+          "ok": false,
+          "failed": true,
+          "rateLimited": true,
+          "articleCount": 0,
+          "attemptCount": 3,
+          "statusCode": 429,
+          "reason": "HTTP 429"
+        }
+      ]
+    }
+  },
+  "dataQualityStatus": "DEGRADED_SOURCE_FAILURE",
   "sourceReport": {
     "requestedSources": [
       "fixture",
@@ -9,26 +130,26 @@
       "gdelt"
     ],
     "usedSources": [
-      "fixture"
+      "rss"
     ],
     "sourceCounts": {
       "fixture": {
         "requested": true,
         "enabled": true,
         "collected": 11,
-        "relevant": 11,
-        "used": 11,
-        "failed": false,
-        "reason": "articles collected"
-      },
-      "rss": {
-        "requested": true,
-        "enabled": false,
-        "collected": 0,
         "relevant": 0,
         "used": 0,
         "failed": false,
-        "reason": "no enabled RSS sources"
+        "reason": "fixture reserved as fallback support"
+      },
+      "rss": {
+        "requested": true,
+        "enabled": true,
+        "collected": 121,
+        "relevant": 110,
+        "used": 110,
+        "failed": false,
+        "reason": "articles collected"
       },
       "gdelt": {
         "requested": true,
@@ -40,25 +161,161 @@
         "reason": "HTTP 429"
       }
     },
+    "sourceHealth": {
+      "fixture": {
+        "requested": true,
+        "enabled": true,
+        "mode": "standby",
+        "availableCount": 11,
+        "usedCount": 0,
+        "failed": false,
+        "reason": "fixture reserved as fallback support",
+        "fixtureUsed": false
+      },
+      "rss": {
+        "configuredCount": 4,
+        "enabledCount": 4,
+        "successCount": 4,
+        "failedCount": 0,
+        "emptyCount": 0,
+        "failedSources": [],
+        "details": [
+          {
+            "id": "google-news-kr-economy",
+            "name": "Google News KR Economy",
+            "ok": true,
+            "failed": false,
+            "articleCount": 4,
+            "reason": "articles collected"
+          },
+          {
+            "id": "google-news-kr-market",
+            "name": "Google News KR Market",
+            "ok": true,
+            "failed": false,
+            "articleCount": 1,
+            "reason": "articles collected"
+          },
+          {
+            "id": "google-news-global-markets",
+            "name": "Google News Global Markets",
+            "ok": true,
+            "failed": false,
+            "articleCount": 86,
+            "reason": "articles collected"
+          },
+          {
+            "id": "google-news-ai-semiconductor",
+            "name": "Google News AI Semiconductor",
+            "ok": true,
+            "failed": false,
+            "articleCount": 30,
+            "reason": "articles collected"
+          }
+        ]
+      },
+      "gdelt": {
+        "configuredCount": 2,
+        "enabledCount": 2,
+        "successCount": 0,
+        "failedCount": 2,
+        "emptyCount": 0,
+        "rateLimitedCount": 2,
+        "failedSources": [
+          {
+            "source": "gdelt",
+            "queryId": "global-market",
+            "reason": "HTTP 429",
+            "attemptCount": 3,
+            "statusCode": 429
+          },
+          {
+            "source": "gdelt",
+            "queryId": "ai-semiconductor",
+            "reason": "HTTP 429",
+            "attemptCount": 3,
+            "statusCode": 429
+          }
+        ],
+        "details": [
+          {
+            "id": "global-market",
+            "ok": false,
+            "failed": true,
+            "rateLimited": true,
+            "articleCount": 0,
+            "attemptCount": 3,
+            "statusCode": 429,
+            "reason": "HTTP 429"
+          },
+          {
+            "id": "ai-semiconductor",
+            "ok": false,
+            "failed": true,
+            "rateLimited": true,
+            "articleCount": 0,
+            "attemptCount": 3,
+            "statusCode": 429,
+            "reason": "HTTP 429"
+          }
+        ]
+      }
+    },
+    "failedSources": [
+      {
+        "source": "gdelt",
+        "queryId": "global-market",
+        "reason": "HTTP 429",
+        "attemptCount": 3,
+        "statusCode": 429
+      },
+      {
+        "source": "gdelt",
+        "queryId": "ai-semiconductor",
+        "reason": "HTTP 429",
+        "attemptCount": 3,
+        "statusCode": 429
+      }
+    ],
+    "fixtureUsed": false,
+    "fallbackUsed": false,
+    "fixtureCount": 0,
+    "rssCount": 110,
+    "gdeltCount": 0,
     "totals": {
-      "collected": 11,
-      "relevant": 11,
+      "collected": 132,
+      "relevant": 110,
       "duplicatesRemoved": 0,
-      "used": 11
+      "used": 110
     },
     "filterReport": {
-      "collected": 11,
-      "relevant": 11,
-      "excluded": 0,
-      "excludedSamples": []
+      "collected": 132,
+      "relevant": 110,
+      "excluded": 11,
+      "excludedSamples": [
+        {
+          "title": "Industrial Production Rises Amid Inflation Woes: 4 Stocks to Grab - Yahoo Finance",
+          "reason": "no BriefOn economic keyword"
+        },
+        {
+          "title": "Remembering Alan Greenspan - Brookings",
+          "reason": "no BriefOn economic keyword"
+        },
+        {
+          "title": "Requiem for Alan Greenspan the Bubble Master - The Nation",
+          "reason": "no BriefOn economic keyword"
+        },
+        {
+          "title": "May PCE Expected to Show Rising Inflation - Morningstar",
+          "reason": "no BriefOn economic keyword"
+        },
+        {
+          "title": "Alan Greenspan, architect of the modern American economy, dies aged 100 - BBC",
+          "reason": "no BriefOn economic keyword"
+        }
+      ]
     },
-    "fallbackUsed": false,
     "warnings": [
-      {
-        "source": "rss",
-        "level": "info",
-        "message": "No enabled RSS sources configured."
-      },
       {
         "source": "gdelt",
         "level": "warning",
@@ -72,54 +329,51 @@
         "message": "GDELT request failed: HTTP 429."
       }
     ],
-    "sourceLabel": "fixture 기반 예시 데이터"
+    "dataQualityStatus": "DEGRADED_SOURCE_FAILURE",
+    "sourceLabel": "RSS static data"
   },
   "quality": {
     "economy": {
-      "issueCount": 4,
-      "keywordCount": 8,
-      "articleCount": 7,
-      "uniqueArticleCount": 7,
-      "articleOccurrenceCount": 7,
+      "issueCount": 19,
+      "keywordCount": 2,
+      "articleCount": 27,
+      "uniqueArticleCount": 27,
+      "articleOccurrenceCount": 27,
       "sourceTypeCounts": {
-        "fixture": 7,
-        "rss": 0,
+        "fixture": 0,
+        "rss": 27,
         "gdelt": 0
       },
       "occurrenceSourceTypeCounts": {
-        "fixture": 7,
-        "rss": 0,
+        "fixture": 0,
+        "rss": 27,
         "gdelt": 0
       },
-      "fixtureArticleCount": 7,
-      "rssArticleCount": 0,
+      "fixtureArticleCount": 0,
+      "rssArticleCount": 27,
       "gdeltArticleCount": 0,
-      "emptySections": [
-        "indicators",
-        "policy",
-        "company"
-      ]
+      "emptySections": []
     },
     "preopen": {
-      "issueCount": 3,
-      "articleCount": 3,
-      "uniqueArticleCount": 3,
-      "articleOccurrenceCount": 3,
+      "issueCount": 0,
+      "articleCount": 0,
+      "uniqueArticleCount": 0,
+      "articleOccurrenceCount": 0,
       "sourceTypeCounts": {
-        "fixture": 3,
+        "fixture": 0,
         "rss": 0,
         "gdelt": 0
       },
       "occurrenceSourceTypeCounts": {
-        "fixture": 3,
+        "fixture": 0,
         "rss": 0,
         "gdelt": 0
       },
-      "fixtureArticleCount": 3,
+      "fixtureArticleCount": 0,
       "rssArticleCount": 0,
       "gdeltArticleCount": 0,
-      "status": "ready",
-      "emptyReason": ""
+      "status": "empty",
+      "emptyReason": "no high impact issues"
     },
     "events": {
       "eventCount": 3,
@@ -130,37 +384,53 @@
     },
     "interest": {
       "keywordSummaryCount": 3,
-      "issueCount": 2,
-      "articleCount": 3,
-      "uniqueArticleCount": 3,
-      "articleOccurrenceCount": 6,
+      "issueCount": 1,
+      "articleCount": 5,
+      "uniqueArticleCount": 5,
+      "articleOccurrenceCount": 5,
       "sourceTypeCounts": {
-        "fixture": 3,
-        "rss": 0,
+        "fixture": 0,
+        "rss": 5,
         "gdelt": 0
       },
       "occurrenceSourceTypeCounts": {
-        "fixture": 6,
-        "rss": 0,
+        "fixture": 0,
+        "rss": 5,
         "gdelt": 0
       },
-      "fixtureArticleCount": 3,
-      "rssArticleCount": 0,
+      "fixtureArticleCount": 0,
+      "rssArticleCount": 5,
       "gdeltArticleCount": 0
     }
   },
   "filterReport": {
-    "collected": 11,
-    "relevant": 11,
-    "excluded": 0,
-    "excludedSamples": []
+    "collected": 132,
+    "relevant": 110,
+    "excluded": 11,
+    "excludedSamples": [
+      {
+        "title": "Industrial Production Rises Amid Inflation Woes: 4 Stocks to Grab - Yahoo Finance",
+        "reason": "no BriefOn economic keyword"
+      },
+      {
+        "title": "Remembering Alan Greenspan - Brookings",
+        "reason": "no BriefOn economic keyword"
+      },
+      {
+        "title": "Requiem for Alan Greenspan the Bubble Master - The Nation",
+        "reason": "no BriefOn economic keyword"
+      },
+      {
+        "title": "May PCE Expected to Show Rising Inflation - Morningstar",
+        "reason": "no BriefOn economic keyword"
+      },
+      {
+        "title": "Alan Greenspan, architect of the modern American economy, dies aged 100 - BBC",
+        "reason": "no BriefOn economic keyword"
+      }
+    ]
   },
   "warnings": [
-    {
-      "source": "rss",
-      "level": "info",
-      "message": "No enabled RSS sources configured."
-    },
     {
       "source": "gdelt",
       "level": "warning",
