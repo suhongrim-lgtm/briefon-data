@@ -1,12 +1,12 @@
 {
   "schemaVersion": "briefon-gap-metrics-v1",
   "sourceLabel": "RSS/GDELT static data",
-  "generatedAt": "2026-06-25T08:50:00+09:00",
+  "generatedAt": "2026-06-28T08:50:00+09:00",
   "status": "pending_outcome_review",
   "missingIndicatorSummary": [
     {
       "indicator": "close confirmation",
-      "count": 96,
+      "count": 61,
       "relatedSectors": [
         "수출주",
         "항공",
@@ -17,65 +17,38 @@
         "정유",
         "반도체",
         "데이터센터",
-        "장비",
-        "조선",
-        "방산",
-        "기계"
+        "장비"
       ]
     },
     {
       "indicator": "official policy text",
-      "count": 83,
+      "count": 74,
       "relatedSectors": [
-        "수출주",
-        "항공",
-        "유통",
         "성장주",
         "은행",
         "채권",
         "조선",
         "방산",
-        "기계",
-        "운송",
-        "화학",
-        "정유"
+        "기계"
       ]
     },
     {
       "indicator": "policy path repricing",
-      "count": 83,
+      "count": 74,
       "relatedSectors": [
-        "수출주",
-        "항공",
-        "유통",
         "성장주",
         "은행",
         "채권",
         "조선",
         "방산",
-        "기계",
-        "운송",
-        "화학",
-        "정유"
+        "기계"
       ]
     },
     {
-      "indicator": "briefing inclusion review",
-      "count": 200,
+      "indicator": "peer price basket",
+      "count": 206,
       "relatedSectors": [
-        "수출주",
-        "항공",
-        "유통",
         "시장 전체",
-        "수출기업",
-        "공급망",
-        "산업재",
-        "성장주",
-        "은행",
-        "채권",
-        "운송",
-        "화학",
-        "정유",
         "반도체",
         "데이터센터",
         "장비",
@@ -85,46 +58,31 @@
       ]
     },
     {
-      "indicator": "legal text",
-      "count": 3,
+      "indicator": "follow-up disclosure",
+      "count": 206,
       "relatedSectors": [
-        "수출기업",
-        "공급망",
-        "산업재",
-        "반도체",
-        "데이터센터",
-        "장비"
-      ]
-    },
-    {
-      "indicator": "implementation schedule",
-      "count": 3,
-      "relatedSectors": [
-        "수출기업",
-        "공급망",
-        "산업재",
-        "반도체",
-        "데이터센터",
-        "장비"
-      ]
-    },
-    {
-      "indicator": "peer price basket",
-      "count": 176,
-      "relatedSectors": [
-        "조선",
-        "방산",
-        "기계",
+        "시장 전체",
         "반도체",
         "데이터센터",
         "장비",
-        "시장 전체"
+        "조선",
+        "방산",
+        "기계"
       ]
     },
     {
-      "indicator": "follow-up disclosure",
-      "count": 176,
+      "indicator": "briefing inclusion review",
+      "count": 190,
       "relatedSectors": [
+        "운송",
+        "화학",
+        "정유",
+        "성장주",
+        "은행",
+        "채권",
+        "수출주",
+        "항공",
+        "유통",
         "조선",
         "방산",
         "기계",
@@ -136,36 +94,58 @@
     },
     {
       "indicator": "official filing",
-      "count": 5,
+      "count": 3,
       "relatedSectors": [
-        "시장 전체",
-        "조선",
-        "방산",
-        "기계"
+        "시장 전체"
       ]
     },
     {
       "indicator": "next guidance update",
-      "count": 5,
+      "count": 3,
       "relatedSectors": [
-        "시장 전체",
-        "조선",
-        "방산",
-        "기계"
+        "시장 전체"
+      ]
+    },
+    {
+      "indicator": "legal text",
+      "count": 2,
+      "relatedSectors": [
+        "수출기업",
+        "공급망",
+        "산업재",
+        "반도체",
+        "데이터센터",
+        "장비"
+      ]
+    },
+    {
+      "indicator": "implementation schedule",
+      "count": 2,
+      "relatedSectors": [
+        "수출기업",
+        "공급망",
+        "산업재",
+        "반도체",
+        "데이터센터",
+        "장비"
       ]
     },
     {
       "indicator": "official release value",
       "count": 1,
       "relatedSectors": [
-        "시장 전체"
+        "반도체",
+        "데이터센터",
+        "장비"
       ]
     },
     {
       "indicator": "consensus baseline",
       "count": 1,
       "relatedSectors": [
-        "시장 전체"
+        "반도체",
+        "데이터센터",
+        "장비"
       ]
     }
   ],
