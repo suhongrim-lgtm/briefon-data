@@ -22,7 +22,7 @@
     },
     {
       "indicator": "official policy text",
-      "count": 74,
+      "count": 75,
       "relatedSectors": [
         "성장주",
         "은행",
@@ -34,7 +34,7 @@
     },
     {
       "indicator": "policy path repricing",
-      "count": 74,
+      "count": 75,
       "relatedSectors": [
         "성장주",
         "은행",
@@ -46,7 +46,7 @@
     },
     {
       "indicator": "peer price basket",
-      "count": 206,
+      "count": 186,
       "relatedSectors": [
         "시장 전체",
         "반도체",
@@ -59,7 +59,7 @@
     },
     {
       "indicator": "follow-up disclosure",
-      "count": 206,
+      "count": 186,
       "relatedSectors": [
         "시장 전체",
         "반도체",
@@ -72,7 +72,7 @@
     },
     {
       "indicator": "briefing inclusion review",
-      "count": 190,
+      "count": 176,
       "relatedSectors": [
         "운송",
         "화학",

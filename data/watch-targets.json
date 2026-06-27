@@ -508,7 +508,7 @@
       "reviewWindowRule": "policy_news_default"
     },
     {
-      "signalId": "sig-rss-6a2dbcd4d3dd9a-market-move",
+      "signalId": "sig-rss-c069dfef9c3e65-market-move",
       "eventType": "market_move",
       "expectedHorizon": "next_session",
       "watchTargets": [
@@ -530,7 +530,7 @@
       "reviewWindowRule": "market_move_default"
     },
     {
-      "signalId": "sig-rss-c069dfef9c3e65-market-move",
+      "signalId": "sig-rss-9e4d0bbd29b142-market-move",
       "eventType": "market_move",
       "expectedHorizon": "next_session",
       "watchTargets": [
@@ -1084,7 +1084,7 @@
       "reviewWindowRule": "market_move_default"
     },
     {
-      "signalId": "sig-rss-170aa4f2d20e12-market-move",
+      "signalId": "sig-rss-4838e8a8a4f2f4-market-move",
       "eventType": "market_move",
       "expectedHorizon": "next_session",
       "watchTargets": [
@@ -1106,7 +1106,7 @@
       "reviewWindowRule": "market_move_default"
     },
     {
-      "signalId": "sig-rss-4838e8a8a4f2f4-market-move",
+      "signalId": "sig-rss-170aa4f2d20e12-market-move",
       "eventType": "market_move",
       "expectedHorizon": "next_session",
       "watchTargets": [
@@ -1464,6 +1464,35 @@
       "reviewWindowRule": "rates_policy_default"
     },
     {
+      "signalId": "sig-rss-31bf704b711444-rates-policy",
+      "eventType": "rates_policy",
+      "expectedHorizon": "policy_window",
+      "watchTargets": [
+        {
+          "targetId": "US10Y",
+          "targetType": "yield",
+          "label": "US 10Y Treasury",
+          "metric": "change_bp",
+          "benchmark": "US 2Y Treasury"
+        },
+        {
+          "targetId": "USDKRW",
+          "targetType": "fx",
+          "label": "USD/KRW",
+          "metric": "change_pct",
+          "benchmark": "DXY"
+        },
+        {
+          "targetId": "NASDAQ",
+          "targetType": "index",
+          "label": "NASDAQ",
+          "metric": "return_pct",
+          "benchmark": "S&P 500"
+        }
+      ],
+      "reviewWindowRule": "rates_policy_default"
+    },
+    {
       "signalId": "sig-rss-a66cc47d43dafb-market-move",
       "eventType": "market_move",
       "expectedHorizon": "next_session",
@@ -1625,28 +1654,6 @@
       "reviewWindowRule": "market_move_default"
     },
     {
-      "signalId": "sig-rss-353a7bfbe8f51d-market-move",
-      "eventType": "market_move",
-      "expectedHorizon": "next_session",
-      "watchTargets": [
-        {
-          "targetId": "KOSPI",
-          "targetType": "index",
-          "label": "KOSPI",
-          "metric": "return_pct",
-          "benchmark": "KOSDAQ"
-        },
-        {
-          "targetId": "USDKRW",
-          "targetType": "fx",
-          "label": "USD/KRW",
-          "metric": "change_pct",
-          "benchmark": "DXY"
-        }
-      ],
-      "reviewWindowRule": "market_move_default"
-    },
-    {
       "signalId": "sig-rss-6df7d01f7e91fb-rates-policy",
       "eventType": "rates_policy",
       "expectedHorizon": "policy_window",
@@ -1676,6 +1683,28 @@
       "reviewWindowRule": "rates_policy_default"
     },
     {
+      "signalId": "sig-rss-353a7bfbe8f51d-market-move",
+      "eventType": "market_move",
+      "expectedHorizon": "next_session",
+      "watchTargets": [
+        {
+          "targetId": "KOSPI",
+          "targetType": "index",
+          "label": "KOSPI",
+          "metric": "return_pct",
+          "benchmark": "KOSDAQ"
+        },
+        {
+          "targetId": "USDKRW",
+          "targetType": "fx",
+          "label": "USD/KRW",
+          "metric": "change_pct",
+          "benchmark": "DXY"
+        }
+      ],
+      "reviewWindowRule": "market_move_default"
+    },
+    {
       "signalId": "sig-rss-987aaf320cb739-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
@@ -1703,28 +1732,6 @@
         }
       ],
       "reviewWindowRule": "industry_news_default"
-    },
-    {
-      "signalId": "sig-rss-bac36693c75dac-market-move",
-      "eventType": "market_move",
-      "expectedHorizon": "next_session",
-      "watchTargets": [
-        {
-          "targetId": "KOSPI",
-          "targetType": "index",
-          "label": "KOSPI",
-          "metric": "return_pct",
-          "benchmark": "KOSDAQ"
-        },
-        {
-          "targetId": "USDKRW",
-          "targetType": "fx",
-          "label": "USD/KRW",
-          "metric": "change_pct",
-          "benchmark": "DXY"
-        }
-      ],
-      "reviewWindowRule": "market_move_default"
     },
     {
       "signalId": "sig-rss-9997216418d4dd-market-move",
@@ -1776,6 +1783,28 @@
         }
       ],
       "reviewWindowRule": "rates_policy_default"
+    },
+    {
+      "signalId": "sig-rss-bac36693c75dac-market-move",
+      "eventType": "market_move",
+      "expectedHorizon": "next_session",
+      "watchTargets": [
+        {
+          "targetId": "KOSPI",
+          "targetType": "index",
+          "label": "KOSPI",
+          "metric": "return_pct",
+          "benchmark": "KOSDAQ"
+        },
+        {
+          "targetId": "USDKRW",
+          "targetType": "fx",
+          "label": "USD/KRW",
+          "metric": "change_pct",
+          "benchmark": "DXY"
+        }
+      ],
+      "reviewWindowRule": "market_move_default"
     },
     {
       "signalId": "sig-rss-9c5a5c01b21e91-market-move",
@@ -2366,6 +2395,35 @@
       "reviewWindowRule": "industry_news_default"
     },
     {
+      "signalId": "sig-rss-9f6a95a4d027e4-industry-news",
+      "eventType": "industry_news",
+      "expectedHorizon": "short_to_mid",
+      "watchTargets": [
+        {
+          "targetId": "SOXX",
+          "targetType": "etf",
+          "label": "US semiconductor ETF",
+          "metric": "return_pct",
+          "benchmark": "NASDAQ"
+        },
+        {
+          "targetId": "SKHYNIX",
+          "targetType": "stock",
+          "label": "SK Hynix",
+          "metric": "return_pct",
+          "benchmark": "KOSPI"
+        },
+        {
+          "targetId": "SAMSUNG-ELECTRONICS",
+          "targetType": "stock",
+          "label": "Samsung Electronics",
+          "metric": "return_pct",
+          "benchmark": "KOSPI"
+        }
+      ],
+      "reviewWindowRule": "industry_news_default"
+    },
+    {
       "signalId": "sig-rss-00df9b4a480d48-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
@@ -2598,7 +2656,7 @@
       "reviewWindowRule": "industry_news_default"
     },
     {
-      "signalId": "sig-rss-9f6a95a4d027e4-industry-news",
+      "signalId": "sig-rss-b46dc4588ae7f8-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
       "watchTargets": [
@@ -2627,7 +2685,7 @@
       "reviewWindowRule": "industry_news_default"
     },
     {
-      "signalId": "sig-rss-b46dc4588ae7f8-industry-news",
+      "signalId": "sig-rss-121e7383594a32-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
       "watchTargets": [
@@ -2888,35 +2946,6 @@
       "reviewWindowRule": "industry_news_default"
     },
     {
-      "signalId": "sig-rss-c259f1f482f5a9-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
-    },
-    {
       "signalId": "sig-rss-c933c2cb225c6b-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
@@ -3004,7 +3033,7 @@
       "reviewWindowRule": "industry_news_default"
     },
     {
-      "signalId": "sig-rss-311d112927e7ee-industry-news",
+      "signalId": "sig-rss-76c26cceb4636b-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
       "watchTargets": [
@@ -3062,7 +3091,7 @@
       "reviewWindowRule": "industry_news_default"
     },
     {
-      "signalId": "sig-rss-76c26cceb4636b-industry-news",
+      "signalId": "sig-rss-311d112927e7ee-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
       "watchTargets": [
@@ -3207,6 +3236,35 @@
       "reviewWindowRule": "industry_news_default"
     },
     {
+      "signalId": "sig-rss-e00c08ad757855-industry-news",
+      "eventType": "industry_news",
+      "expectedHorizon": "short_to_mid",
+      "watchTargets": [
+        {
+          "targetId": "SOXX",
+          "targetType": "etf",
+          "label": "US semiconductor ETF",
+          "metric": "return_pct",
+          "benchmark": "NASDAQ"
+        },
+        {
+          "targetId": "SKHYNIX",
+          "targetType": "stock",
+          "label": "SK Hynix",
+          "metric": "return_pct",
+          "benchmark": "KOSPI"
+        },
+        {
+          "targetId": "SAMSUNG-ELECTRONICS",
+          "targetType": "stock",
+          "label": "Samsung Electronics",
+          "metric": "return_pct",
+          "benchmark": "KOSPI"
+        }
+      ],
+      "reviewWindowRule": "industry_news_default"
+    },
+    {
       "signalId": "sig-rss-b36fdf8ff48399-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
@@ -3236,7 +3294,7 @@
       "reviewWindowRule": "industry_news_default"
     },
     {
-      "signalId": "sig-rss-e00c08ad757855-industry-news",
+      "signalId": "sig-rss-aae51948e3728c-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
       "watchTargets": [
@@ -3285,35 +3343,6 @@
         }
       ],
       "reviewWindowRule": "market_move_default"
-    },
-    {
-      "signalId": "sig-rss-aae51948e3728c-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
     },
     {
       "signalId": "sig-rss-6b6fd5b11a1c91-industry-news",
@@ -3548,7 +3577,7 @@
       "reviewWindowRule": "industry_news_default"
     },
     {
-      "signalId": "sig-rss-bace45a1927b26-industry-news",
+      "signalId": "sig-rss-a43b3987101e15-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
       "watchTargets": [
@@ -3577,7 +3606,7 @@
       "reviewWindowRule": "industry_news_default"
     },
     {
-      "signalId": "sig-rss-a43b3987101e15-industry-news",
+      "signalId": "sig-rss-bace45a1927b26-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
       "watchTargets": [
@@ -4970,35 +4999,6 @@
       "reviewWindowRule": "rates_policy_default"
     },
     {
-      "signalId": "sig-rss-43ae8e62fe4c0c-fed-rates-policy",
-      "eventType": "rates_policy",
-      "expectedHorizon": "policy_window",
-      "watchTargets": [
-        {
-          "targetId": "US10Y",
-          "targetType": "yield",
-          "label": "US 10Y Treasury",
-          "metric": "change_bp",
-          "benchmark": "US 2Y Treasury"
-        },
-        {
-          "targetId": "USDKRW",
-          "targetType": "fx",
-          "label": "USD/KRW",
-          "metric": "change_pct",
-          "benchmark": "DXY"
-        },
-        {
-          "targetId": "NASDAQ",
-          "targetType": "index",
-          "label": "NASDAQ",
-          "metric": "return_pct",
-          "benchmark": "S&P 500"
-        }
-      ],
-      "reviewWindowRule": "rates_policy_default"
-    },
-    {
       "signalId": "sig-rss-ccd36dfd119e7a-fed-rates-policy",
       "eventType": "rates_policy",
       "expectedHorizon": "policy_window",
@@ -5218,6 +5218,35 @@
     },
     {
       "signalId": "sig-rss-c41f4ae328be0a-fed-rates-policy",
+      "eventType": "rates_policy",
+      "expectedHorizon": "policy_window",
+      "watchTargets": [
+        {
+          "targetId": "US10Y",
+          "targetType": "yield",
+          "label": "US 10Y Treasury",
+          "metric": "change_bp",
+          "benchmark": "US 2Y Treasury"
+        },
+        {
+          "targetId": "USDKRW",
+          "targetType": "fx",
+          "label": "USD/KRW",
+          "metric": "change_pct",
+          "benchmark": "DXY"
+        },
+        {
+          "targetId": "NASDAQ",
+          "targetType": "index",
+          "label": "NASDAQ",
+          "metric": "return_pct",
+          "benchmark": "S&P 500"
+        }
+      ],
+      "reviewWindowRule": "rates_policy_default"
+    },
+    {
+      "signalId": "sig-rss-9ad3cdec9f01eb-fed-rates-policy",
       "eventType": "rates_policy",
       "expectedHorizon": "policy_window",
       "watchTargets": [
@@ -6102,7 +6131,7 @@
       "reviewWindowRule": "rates_policy_default"
     },
     {
-      "signalId": "sig-rss-e3234471803242-fed-rates-policy",
+      "signalId": "sig-rss-b7af9116c1d49a-fed-rates-policy",
       "eventType": "rates_policy",
       "expectedHorizon": "policy_window",
       "watchTargets": [
@@ -6131,7 +6160,7 @@
       "reviewWindowRule": "rates_policy_default"
     },
     {
-      "signalId": "sig-rss-b7af9116c1d49a-fed-rates-policy",
+      "signalId": "sig-rss-e3234471803242-fed-rates-policy",
       "eventType": "rates_policy",
       "expectedHorizon": "policy_window",
       "watchTargets": [
@@ -6390,28 +6419,6 @@
         }
       ],
       "reviewWindowRule": "rates_policy_default"
-    },
-    {
-      "signalId": "sig-rss-253b48559507e5-market-move",
-      "eventType": "market_move",
-      "expectedHorizon": "next_session",
-      "watchTargets": [
-        {
-          "targetId": "KOSPI",
-          "targetType": "index",
-          "label": "KOSPI",
-          "metric": "return_pct",
-          "benchmark": "KOSDAQ"
-        },
-        {
-          "targetId": "USDKRW",
-          "targetType": "fx",
-          "label": "USD/KRW",
-          "metric": "change_pct",
-          "benchmark": "DXY"
-        }
-      ],
-      "reviewWindowRule": "market_move_default"
     },
     {
       "signalId": "sig-rss-9380df18a9e563-nvidia-industry-news",
@@ -7168,35 +7175,6 @@
       "reviewWindowRule": "industry_news_default"
     },
     {
-      "signalId": "sig-rss-17703c0a652871-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
-    },
-    {
       "signalId": "sig-rss-18b404b7167ced-ai-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
@@ -7226,7 +7204,65 @@
       "reviewWindowRule": "industry_news_default"
     },
     {
+      "signalId": "sig-rss-17703c0a652871-ai-industry-news",
+      "eventType": "industry_news",
+      "expectedHorizon": "short_to_mid",
+      "watchTargets": [
+        {
+          "targetId": "SOXX",
+          "targetType": "etf",
+          "label": "US semiconductor ETF",
+          "metric": "return_pct",
+          "benchmark": "NASDAQ"
+        },
+        {
+          "targetId": "SKHYNIX",
+          "targetType": "stock",
+          "label": "SK Hynix",
+          "metric": "return_pct",
+          "benchmark": "KOSPI"
+        },
+        {
+          "targetId": "SAMSUNG-ELECTRONICS",
+          "targetType": "stock",
+          "label": "Samsung Electronics",
+          "metric": "return_pct",
+          "benchmark": "KOSPI"
+        }
+      ],
+      "reviewWindowRule": "industry_news_default"
+    },
+    {
       "signalId": "sig-rss-af4b54f6227eb9-ai-industry-news",
+      "eventType": "industry_news",
+      "expectedHorizon": "short_to_mid",
+      "watchTargets": [
+        {
+          "targetId": "SOXX",
+          "targetType": "etf",
+          "label": "US semiconductor ETF",
+          "metric": "return_pct",
+          "benchmark": "NASDAQ"
+        },
+        {
+          "targetId": "SKHYNIX",
+          "targetType": "stock",
+          "label": "SK Hynix",
+          "metric": "return_pct",
+          "benchmark": "KOSPI"
+        },
+        {
+          "targetId": "SAMSUNG-ELECTRONICS",
+          "targetType": "stock",
+          "label": "Samsung Electronics",
+          "metric": "return_pct",
+          "benchmark": "KOSPI"
+        }
+      ],
+      "reviewWindowRule": "industry_news_default"
+    },
+    {
+      "signalId": "sig-rss-82c31513fafc45-ai-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
       "watchTargets": [
@@ -7314,35 +7350,6 @@
     },
     {
       "signalId": "sig-rss-9acb2a5a0f8e52-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
-    },
-    {
-      "signalId": "sig-rss-82c31513fafc45-ai-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
       "watchTargets": [
@@ -7632,7 +7639,7 @@
       "reviewWindowRule": "industry_news_default"
     },
     {
-      "signalId": "sig-rss-e4fb27a6970cb2-nvidia-industry-news",
+      "signalId": "sig-rss-12f648a1615f1d-ai-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
       "watchTargets": [
@@ -7661,7 +7668,7 @@
       "reviewWindowRule": "industry_news_default"
     },
     {
-      "signalId": "sig-rss-12f648a1615f1d-ai-industry-news",
+      "signalId": "sig-rss-e4fb27a6970cb2-nvidia-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
       "watchTargets": [
@@ -7748,35 +7755,6 @@
       "reviewWindowRule": "industry_news_default"
     },
     {
-      "signalId": "sig-rss-edb18222415f2d-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
-    },
-    {
       "signalId": "sig-rss-471b350ded2258-ai-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
@@ -7826,6 +7804,35 @@
         }
       ],
       "reviewWindowRule": "market_move_default"
+    },
+    {
+      "signalId": "sig-rss-edb18222415f2d-ai-industry-news",
+      "eventType": "industry_news",
+      "expectedHorizon": "short_to_mid",
+      "watchTargets": [
+        {
+          "targetId": "SOXX",
+          "targetType": "etf",
+          "label": "US semiconductor ETF",
+          "metric": "return_pct",
+          "benchmark": "NASDAQ"
+        },
+        {
+          "targetId": "SKHYNIX",
+          "targetType": "stock",
+          "label": "SK Hynix",
+          "metric": "return_pct",
+          "benchmark": "KOSPI"
+        },
+        {
+          "targetId": "SAMSUNG-ELECTRONICS",
+          "targetType": "stock",
+          "label": "Samsung Electronics",
+          "metric": "return_pct",
+          "benchmark": "KOSPI"
+        }
+      ],
+      "reviewWindowRule": "industry_news_default"
     },
     {
       "signalId": "sig-rss-ac0d7131087882-market-move",
@@ -7995,6 +8002,35 @@
       "reviewWindowRule": "industry_news_default"
     },
     {
+      "signalId": "sig-rss-b130c7b3c9e77b-ai-industry-news",
+      "eventType": "industry_news",
+      "expectedHorizon": "short_to_mid",
+      "watchTargets": [
+        {
+          "targetId": "SOXX",
+          "targetType": "etf",
+          "label": "US semiconductor ETF",
+          "metric": "return_pct",
+          "benchmark": "NASDAQ"
+        },
+        {
+          "targetId": "SKHYNIX",
+          "targetType": "stock",
+          "label": "SK Hynix",
+          "metric": "return_pct",
+          "benchmark": "KOSPI"
+        },
+        {
+          "targetId": "SAMSUNG-ELECTRONICS",
+          "targetType": "stock",
+          "label": "Samsung Electronics",
+          "metric": "return_pct",
+          "benchmark": "KOSPI"
+        }
+      ],
+      "reviewWindowRule": "industry_news_default"
+    },
+    {
       "signalId": "sig-rss-570daad8529449-market-move",
       "eventType": "market_move",
       "expectedHorizon": "next_session",
@@ -8017,7 +8053,58 @@
       "reviewWindowRule": "market_move_default"
     },
     {
+      "signalId": "sig-rss-6083e174d39934-market-move",
+      "eventType": "market_move",
+      "expectedHorizon": "next_session",
+      "watchTargets": [
+        {
+          "targetId": "KOSPI",
+          "targetType": "index",
+          "label": "KOSPI",
+          "metric": "return_pct",
+          "benchmark": "KOSDAQ"
+        },
+        {
+          "targetId": "USDKRW",
+          "targetType": "fx",
+          "label": "USD/KRW",
+          "metric": "change_pct",
+          "benchmark": "DXY"
+        }
+      ],
+      "reviewWindowRule": "market_move_default"
+    },
+    {
       "signalId": "sig-rss-21d1e741b36078-ai-industry-news",
+      "eventType": "industry_news",
+      "expectedHorizon": "short_to_mid",
+      "watchTargets": [
+        {
+          "targetId": "SOXX",
+          "targetType": "etf",
+          "label": "US semiconductor ETF",
+          "metric": "return_pct",
+          "benchmark": "NASDAQ"
+        },
+        {
+          "targetId": "SKHYNIX",
+          "targetType": "stock",
+          "label": "SK Hynix",
+          "metric": "return_pct",
+          "benchmark": "KOSPI"
+        },
+        {
+          "targetId": "SAMSUNG-ELECTRONICS",
+          "targetType": "stock",
+          "label": "Samsung Electronics",
+          "metric": "return_pct",
+          "benchmark": "KOSPI"
+        }
+      ],
+      "reviewWindowRule": "industry_news_default"
+    },
+    {
+      "signalId": "sig-rss-d177f8236c9ead-ai-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
       "watchTargets": [
@@ -8104,28 +8191,6 @@
       "reviewWindowRule": "industry_news_default"
     },
     {
-      "signalId": "sig-rss-658414876442d8-market-move",
-      "eventType": "market_move",
-      "expectedHorizon": "next_session",
-      "watchTargets": [
-        {
-          "targetId": "KOSPI",
-          "targetType": "index",
-          "label": "KOSPI",
-          "metric": "return_pct",
-          "benchmark": "KOSDAQ"
-        },
-        {
-          "targetId": "USDKRW",
-          "targetType": "fx",
-          "label": "USD/KRW",
-          "metric": "change_pct",
-          "benchmark": "DXY"
-        }
-      ],
-      "reviewWindowRule": "market_move_default"
-    },
-    {
       "signalId": "sig-rss-7b7b57c338edee-ai-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
@@ -8184,33 +8249,26 @@
       "reviewWindowRule": "industry_news_default"
     },
     {
-      "signalId": "sig-rss-d177f8236c9ead-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
+      "signalId": "sig-rss-658414876442d8-market-move",
+      "eventType": "market_move",
+      "expectedHorizon": "next_session",
       "watchTargets": [
         {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
+          "targetId": "KOSPI",
+          "targetType": "index",
+          "label": "KOSPI",
           "metric": "return_pct",
-          "benchmark": "NASDAQ"
+          "benchmark": "KOSDAQ"
         },
         {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
+          "targetId": "USDKRW",
+          "targetType": "fx",
+          "label": "USD/KRW",
+          "metric": "change_pct",
+          "benchmark": "DXY"
         }
       ],
-      "reviewWindowRule": "industry_news_default"
+      "reviewWindowRule": "market_move_default"
     },
     {
       "signalId": "sig-rss-fb2b1fc55b55d2-nvidia-industry-news",
@@ -8300,35 +8358,6 @@
       "reviewWindowRule": "industry_news_default"
     },
     {
-      "signalId": "sig-rss-b130c7b3c9e77b-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
-    },
-    {
       "signalId": "sig-rss-a459c4fb15af00-ai-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
@@ -8387,26 +8416,33 @@
       "reviewWindowRule": "industry_news_default"
     },
     {
-      "signalId": "sig-rss-0d7eb9b41f98cf-market-move",
-      "eventType": "market_move",
-      "expectedHorizon": "next_session",
+      "signalId": "sig-rss-5ec69cae834ddc-ai-industry-news",
+      "eventType": "industry_news",
+      "expectedHorizon": "short_to_mid",
       "watchTargets": [
         {
-          "targetId": "KOSPI",
-          "targetType": "index",
-          "label": "KOSPI",
+          "targetId": "SOXX",
+          "targetType": "etf",
+          "label": "US semiconductor ETF",
           "metric": "return_pct",
-          "benchmark": "KOSDAQ"
+          "benchmark": "NASDAQ"
         },
         {
-          "targetId": "USDKRW",
-          "targetType": "fx",
-          "label": "USD/KRW",
-          "metric": "change_pct",
-          "benchmark": "DXY"
+          "targetId": "SKHYNIX",
+          "targetType": "stock",
+          "label": "SK Hynix",
+          "metric": "return_pct",
+          "benchmark": "KOSPI"
+        },
+        {
+          "targetId": "SAMSUNG-ELECTRONICS",
+          "targetType": "stock",
+          "label": "Samsung Electronics",
+          "metric": "return_pct",
+          "benchmark": "KOSPI"
         }
       ],
-      "reviewWindowRule": "market_move_default"
+      "reviewWindowRule": "industry_news_default"
     },
     {
       "signalId": "sig-rss-df82034515ce50-ai-industry-news",
@@ -8436,6 +8472,28 @@
         }
       ],
       "reviewWindowRule": "industry_news_default"
+    },
+    {
+      "signalId": "sig-rss-0d7eb9b41f98cf-market-move",
+      "eventType": "market_move",
+      "expectedHorizon": "next_session",
+      "watchTargets": [
+        {
+          "targetId": "KOSPI",
+          "targetType": "index",
+          "label": "KOSPI",
+          "metric": "return_pct",
+          "benchmark": "KOSDAQ"
+        },
+        {
+          "targetId": "USDKRW",
+          "targetType": "fx",
+          "label": "USD/KRW",
+          "metric": "change_pct",
+          "benchmark": "DXY"
+        }
+      ],
+      "reviewWindowRule": "market_move_default"
     },
     {
       "signalId": "sig-rss-59520ba29c491b-ai-industry-news",
@@ -8468,35 +8526,6 @@
     },
     {
       "signalId": "sig-rss-e7e78f133580c6-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
-    },
-    {
-      "signalId": "sig-rss-5ec69cae834ddc-ai-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
       "watchTargets": [
@@ -8605,6 +8634,35 @@
       "reviewWindowRule": "industry_news_default"
     },
     {
+      "signalId": "sig-rss-ab2b3574afe8aa-ai-industry-news",
+      "eventType": "industry_news",
+      "expectedHorizon": "short_to_mid",
+      "watchTargets": [
+        {
+          "targetId": "SOXX",
+          "targetType": "etf",
+          "label": "US semiconductor ETF",
+          "metric": "return_pct",
+          "benchmark": "NASDAQ"
+        },
+        {
+          "targetId": "SKHYNIX",
+          "targetType": "stock",
+          "label": "SK Hynix",
+          "metric": "return_pct",
+          "benchmark": "KOSPI"
+        },
+        {
+          "targetId": "SAMSUNG-ELECTRONICS",
+          "targetType": "stock",
+          "label": "Samsung Electronics",
+          "metric": "return_pct",
+          "benchmark": "KOSPI"
+        }
+      ],
+      "reviewWindowRule": "industry_news_default"
+    },
+    {
       "signalId": "sig-rss-8ec6797950445f-ai-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
@@ -8657,35 +8715,6 @@
     },
     {
       "signalId": "sig-rss-84512af28715b4-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
-    },
-    {
-      "signalId": "sig-rss-ab2b3574afe8aa-ai-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
       "watchTargets": [
@@ -8821,35 +8850,6 @@
         }
       ],
       "reviewWindowRule": "market_move_default"
-    },
-    {
-      "signalId": "sig-rss-0b3315e0afdb42-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
     },
     {
       "signalId": "sig-gdelt-1b82c1b02c122c-fed-rates-policy",
@@ -8998,557 +8998,6 @@
     },
     {
       "signalId": "sig-gdelt-989d6576df5cbb-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
-    },
-    {
-      "signalId": "sig-gdelt-caa6fb1db667cf-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
-    },
-    {
-      "signalId": "sig-gdelt-0d090c51783764-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
-    },
-    {
-      "signalId": "sig-gdelt-aa5019db8b4c1d-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
-    },
-    {
-      "signalId": "sig-gdelt-591dc9f38b4258-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
-    },
-    {
-      "signalId": "sig-gdelt-5b7b3d7b19bdf8-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
-    },
-    {
-      "signalId": "sig-gdelt-895dcaa97904ce-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
-    },
-    {
-      "signalId": "sig-gdelt-3905435e3e9a31-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
-    },
-    {
-      "signalId": "sig-gdelt-c5efdd206d2eeb-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
-    },
-    {
-      "signalId": "sig-gdelt-437f616b259f65-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
-    },
-    {
-      "signalId": "sig-gdelt-b0568fb59750c8-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
-    },
-    {
-      "signalId": "sig-gdelt-1cc1632430fb64-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
-    },
-    {
-      "signalId": "sig-gdelt-8c832fb2774a5e-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
-    },
-    {
-      "signalId": "sig-gdelt-d1affd1ed0959c-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
-    },
-    {
-      "signalId": "sig-gdelt-734de5efedcbb0-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
-    },
-    {
-      "signalId": "sig-gdelt-63ab41e6f52e5a-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
-    },
-    {
-      "signalId": "sig-gdelt-738d59301d5d6b-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
-    },
-    {
-      "signalId": "sig-gdelt-00423156c4afa9-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
-    },
-    {
-      "signalId": "sig-gdelt-15ccc199510939-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
-    },
-    {
-      "signalId": "sig-gdelt-bc288ed26b20e6-ai-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
       "watchTargets": [

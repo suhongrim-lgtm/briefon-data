@@ -6,9 +6,17 @@
   "freshness": "generated",
   "fixtureUsed": false,
   "fixtureCount": 0,
-  "rssCount": 342,
-  "gdeltCount": 25,
-  "failedSources": [],
+  "rssCount": 341,
+  "gdeltCount": 6,
+  "failedSources": [
+    {
+      "source": "gdelt",
+      "queryId": "ai-semiconductor",
+      "reason": "HTTP 429",
+      "attemptCount": 3,
+      "statusCode": 429
+    }
+  ],
   "sourceHealth": {
     "fixture": {
       "requested": true,
@@ -65,24 +73,22 @@
     "gdelt": {
       "configuredCount": 2,
       "enabledCount": 2,
-      "successCount": 2,
-      "failedCount": 0,
+      "successCount": 1,
+      "failedCount": 1,
       "emptyCount": 0,
       "rateLimitedCount": 1,
-      "failedSources": [],
+      "failedSources": [
+        {
+          "source": "gdelt",
+          "queryId": "ai-semiconductor",
+          "reason": "HTTP 429",
+          "attemptCount": 3,
+          "statusCode": 429
+        }
+      ],
       "details": [
         {
           "id": "global-market",
-          "ok": true,
-          "failed": false,
-          "rateLimited": true,
-          "articleCount": 20,
-          "attemptCount": 3,
-          "statusCode": 200,
-          "reason": "articles collected"
-        },
-        {
-          "id": "ai-semiconductor",
           "ok": true,
           "failed": false,
           "rateLimited": false,
@@ -90,11 +96,21 @@
           "attemptCount": 1,
           "statusCode": 200,
           "reason": "articles collected"
+        },
+        {
+          "id": "ai-semiconductor",
+          "ok": false,
+          "failed": true,
+          "rateLimited": true,
+          "articleCount": 0,
+          "attemptCount": 3,
+          "statusCode": 429,
+          "reason": "HTTP 429"
         }
       ]
     }
   },
-  "dataQualityStatus": "OK",
+  "dataQualityStatus": "DEGRADED_SOURCE_FAILURE",
   "sourceReport": {
     "requestedSources": [
       "fixture",
@@ -119,17 +135,17 @@
         "requested": true,
         "enabled": true,
         "collected": 400,
-        "relevant": 342,
-        "used": 342,
+        "relevant": 341,
+        "used": 341,
         "failed": false,
         "reason": "articles collected"
       },
       "gdelt": {
         "requested": true,
         "enabled": true,
-        "collected": 40,
-        "relevant": 25,
-        "used": 25,
+        "collected": 20,
+        "relevant": 6,
+        "used": 6,
         "failed": false,
         "reason": "articles collected"
       }
@@ -190,24 +206,22 @@
       "gdelt": {
         "configuredCount": 2,
         "enabledCount": 2,
-        "successCount": 2,
-        "failedCount": 0,
+        "successCount": 1,
+        "failedCount": 1,
         "emptyCount": 0,
         "rateLimitedCount": 1,
-        "failedSources": [],
+        "failedSources": [
+          {
+            "source": "gdelt",
+            "queryId": "ai-semiconductor",
+            "reason": "HTTP 429",
+            "attemptCount": 3,
+            "statusCode": 429
+          }
+        ],
         "details": [
           {
             "id": "global-market",
-            "ok": true,
-            "failed": false,
-            "rateLimited": true,
-            "articleCount": 20,
-            "attemptCount": 3,
-            "statusCode": 200,
-            "reason": "articles collected"
-          },
-          {
-            "id": "ai-semiconductor",
             "ok": true,
             "failed": false,
             "rateLimited": false,
@@ -215,26 +229,44 @@
             "attemptCount": 1,
             "statusCode": 200,
             "reason": "articles collected"
+          },
+          {
+            "id": "ai-semiconductor",
+            "ok": false,
+            "failed": true,
+            "rateLimited": true,
+            "articleCount": 0,
+            "attemptCount": 3,
+            "statusCode": 429,
+            "reason": "HTTP 429"
           }
         ]
       }
     },
-    "failedSources": [],
+    "failedSources": [
+      {
+        "source": "gdelt",
+        "queryId": "ai-semiconductor",
+        "reason": "HTTP 429",
+        "attemptCount": 3,
+        "statusCode": 429
+      }
+    ],
     "fixtureUsed": false,
     "fallbackUsed": false,
     "fixtureCount": 0,
-    "rssCount": 342,
-    "gdeltCount": 25,
+    "rssCount": 341,
+    "gdeltCount": 6,
     "totals": {
-      "collected": 451,
-      "relevant": 367,
-      "duplicatesRemoved": 6,
-      "used": 367
+      "collected": 431,
+      "relevant": 347,
+      "duplicatesRemoved": 5,
+      "used": 347
     },
     "filterReport": {
-      "collected": 451,
-      "relevant": 367,
-      "excluded": 67,
+      "collected": 431,
+      "relevant": 347,
+      "excluded": 68,
       "excludedSamples": [
         {
           "title": "월드옥타 경진기배 골프대회, 톈진서 성황리 개최 - 재외동포신문",
@@ -258,17 +290,31 @@
         }
       ]
     },
-    "warnings": [],
-    "dataQualityStatus": "OK",
+    "warnings": [
+      {
+        "source": "gdelt",
+        "level": "warning",
+        "queryId": "ai-semiconductor",
+        "message": "GDELT request failed: HTTP 429."
+      }
+    ],
+    "dataQualityStatus": "DEGRADED_SOURCE_FAILURE",
     "sourceLabel": "RSS/GDELT static data"
   },
-  "warnings": [],
+  "warnings": [
+    {
+      "source": "gdelt",
+      "level": "warning",
+      "queryId": "ai-semiconductor",
+      "message": "GDELT request failed: HTTP 429."
+    }
+  ],
   "ledgerStatus": {
     "enabled": true,
     "methodVersion": "briefon-signal-rule-v1",
-    "articleSnapshotCount": 367,
-    "signalCount": 347,
-    "appliedSignalCount": 157,
+    "articleSnapshotCount": 347,
+    "signalCount": 328,
+    "appliedSignalCount": 152,
     "missingIndicatorCount": 12,
     "userOpinionIncluded": false,
     "outcomeStatus": "pending_outcome_review"

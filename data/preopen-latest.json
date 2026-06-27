@@ -2,23 +2,29 @@
   "schemaVersion": 1,
   "generatedAt": "2026-06-28T08:50:00+09:00",
   "targetTime": "2026-06-28T08:50:00+09:00",
-  "sourceLabel": "GDELT static data",
+  "sourceLabel": " static data",
   "sourceMeta": {
-    "sourceLabel": "GDELT static data",
-    "usedSources": [
-      "gdelt"
-    ],
+    "sourceLabel": " static data",
+    "usedSources": [],
     "sourceCounts": {
       "fixture": 0,
       "rss": 0,
-      "gdelt": 5
+      "gdelt": 0
     },
-    "warningsCount": 0,
+    "warningsCount": 1,
     "fixtureUsed": false,
     "fixtureCount": 0,
     "rssCount": 0,
-    "gdeltCount": 5,
-    "failedSources": [],
+    "gdeltCount": 0,
+    "failedSources": [
+      {
+        "source": "gdelt",
+        "queryId": "ai-semiconductor",
+        "reason": "HTTP 429",
+        "attemptCount": 3,
+        "statusCode": 429
+      }
+    ],
     "sourceHealth": {
       "fixture": {
         "requested": true,
@@ -75,24 +81,22 @@
       "gdelt": {
         "configuredCount": 2,
         "enabledCount": 2,
-        "successCount": 2,
-        "failedCount": 0,
+        "successCount": 1,
+        "failedCount": 1,
         "emptyCount": 0,
         "rateLimitedCount": 1,
-        "failedSources": [],
+        "failedSources": [
+          {
+            "source": "gdelt",
+            "queryId": "ai-semiconductor",
+            "reason": "HTTP 429",
+            "attemptCount": 3,
+            "statusCode": 429
+          }
+        ],
         "details": [
           {
             "id": "global-market",
-            "ok": true,
-            "failed": false,
-            "rateLimited": true,
-            "articleCount": 20,
-            "attemptCount": 3,
-            "statusCode": 200,
-            "reason": "articles collected"
-          },
-          {
-            "id": "ai-semiconductor",
             "ok": true,
             "failed": false,
             "rateLimited": false,
@@ -100,106 +104,35 @@
             "attemptCount": 1,
             "statusCode": 200,
             "reason": "articles collected"
+          },
+          {
+            "id": "ai-semiconductor",
+            "ok": false,
+            "failed": true,
+            "rateLimited": true,
+            "articleCount": 0,
+            "attemptCount": 3,
+            "statusCode": 429,
+            "reason": "HTTP 429"
           }
         ]
       }
     },
-    "dataQualityStatus": "OK"
+    "dataQualityStatus": "DEGRADED_SOURCE_FAILURE"
   },
-  "status": "ready",
-  "emptyReason": "",
+  "status": "empty",
+  "emptyReason": "no high impact issues",
   "market": "KR",
-  "sourceArticleCount": 451,
-  "usedArticleCount": 25,
-  "sourceCount": 451,
+  "sourceArticleCount": 431,
+  "usedArticleCount": 6,
+  "sourceCount": 431,
   "period": {
     "startAt": "2026-06-28T06:00:00+09:00",
     "endAt": "2026-06-28T08:50:00+09:00",
     "targetTime": "2026-06-28T08:50:00+09:00",
     "windowLabel": "오늘 06:00 - 08:50"
   },
-  "summary": "1개 이슈가 국내 장 시작 전 확인 대상입니다. 환율, 금리, 반도체와 정책 변수를 우선 점검하세요.",
-  "checkPoints": [
-    "환율과 달러 흐름",
-    "미국 금리와 기술주 반응",
-    "반도체·AI 밸류체인",
-    "주요 일정 변화"
-  ],
-  "issues": [
-    {
-      "id": "preopen-issue-3a55a6b1-001",
-      "rank": 1,
-      "categoryId": "industry",
-      "impactLevel": "high",
-      "title": "What Huawei Chip Strategy Reveals About Innovation Under Pressure",
-      "summary": "AI 반도체 article seen in forbes.com. This summary is a short rewritten description based on source metadata.",
-      "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
-      "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
-      "tags": [
-        "ai",
-        "반도체",
-        "nvidia",
-        "nvda",
-        "엔비디아",
-        "ir"
-      ],
-      "sectors": [
-        "반도체",
-        "데이터센터",
-        "장비"
-      ],
-      "relatedEventIds": [
-        "event-korea-export-2026-06"
-      ],
-      "articles": [
-        {
-          "id": "gdelt-caa6fb1db667cf",
-          "title": "What Huawei Chip Strategy Reveals About Innovation Under Pressure",
-          "description": "AI 반도체 article seen in forbes.com. This summary is a short rewritten description based on source metadata.",
-          "source": "forbes.com",
-          "sourceType": "gdelt",
-          "url": "https://www.forbes.com/sites/markgreeven/2026/06/27/what-huaweis-chip-strategy-reveals-about-innovation-under-pressure/",
-          "publishedAt": "2026-06-28T08:50:00+09:00"
-        },
-        {
-          "id": "gdelt-0d090c51783764",
-          "title": "In AI Race With China , America Must Put Dominance Before Cooperation",
-          "description": "AI 반도체 article seen in theepochtimes.com. This summary is a short rewritten description based on source metadata.",
-          "source": "theepochtimes.com",
-          "sourceType": "gdelt",
-          "url": "https://www.theepochtimes.com/opinion/in-ai-race-with-china-america-must-put-dominance-before-cooperation-6054068",
-          "publishedAt": "2026-06-28T08:50:00+09:00"
-        },
-        {
-          "id": "gdelt-aa5019db8b4c1d",
-          "title": "NVIDIA Corporation ( NVDA ) Expands Vera CPU Push in China Despite Export Restrictions",
-          "description": "AI 반도체 article seen in finance.yahoo.com. This summary is a short rewritten description based on source metadata.",
-          "source": "finance.yahoo.com",
-          "sourceType": "gdelt",
-          "url": "https://finance.yahoo.com/technology/articles/nvidia-corporation-nvda-expands-vera-105026448.html",
-          "publishedAt": "2026-06-28T08:50:00+09:00"
-        },
-        {
-          "id": "gdelt-591dc9f38b4258",
-          "title": "OpenAI Is Building Its Own AI Chip With Broadcom . Should Nvidia Investors Be Worried ?",
-          "description": "AI 반도체 article seen in finance.yahoo.com. This summary is a short rewritten description based on source metadata.",
-          "source": "finance.yahoo.com",
-          "sourceType": "gdelt",
-          "url": "https://finance.yahoo.com/technology/ai/articles/openai-building-own-ai-chip-231200024.html",
-          "publishedAt": "2026-06-28T08:50:00+09:00"
-        },
-        {
-          "id": "gdelt-5b7b3d7b19bdf8",
-          "title": "OpenAI Is Building Its Own AI Chip With Broadcom . Should Nvidia Investors Be Worried ?",
-          "description": "AI 반도체 article seen in fool.com. This summary is a short rewritten description based on source metadata.",
-          "source": "fool.com",
-          "sourceType": "gdelt",
-          "url": "https://www.fool.com/investing/2026/06/26/openai-is-building-its-own-ai-chip-with-broadcom-s/?source=iedfolrf0000001",
-          "publishedAt": "2026-06-28T08:50:00+09:00"
-        }
-      ],
-      "updatedAt": "2026-06-28T08:50:00+09:00",
-      "active": true
-    }
-  ]
+  "summary": "현재 기준을 충족한 긴급 시장 이슈가 없습니다.",
+  "checkPoints": [],
+  "issues": []
 }

@@ -12,12 +12,20 @@
       "rss": 22,
       "gdelt": 0
     },
-    "warningsCount": 0,
+    "warningsCount": 1,
     "fixtureUsed": false,
     "fixtureCount": 0,
     "rssCount": 22,
     "gdeltCount": 0,
-    "failedSources": [],
+    "failedSources": [
+      {
+        "source": "gdelt",
+        "queryId": "ai-semiconductor",
+        "reason": "HTTP 429",
+        "attemptCount": 3,
+        "statusCode": 429
+      }
+    ],
     "sourceHealth": {
       "fixture": {
         "requested": true,
@@ -74,24 +82,22 @@
       "gdelt": {
         "configuredCount": 2,
         "enabledCount": 2,
-        "successCount": 2,
-        "failedCount": 0,
+        "successCount": 1,
+        "failedCount": 1,
         "emptyCount": 0,
         "rateLimitedCount": 1,
-        "failedSources": [],
+        "failedSources": [
+          {
+            "source": "gdelt",
+            "queryId": "ai-semiconductor",
+            "reason": "HTTP 429",
+            "attemptCount": 3,
+            "statusCode": 429
+          }
+        ],
         "details": [
           {
             "id": "global-market",
-            "ok": true,
-            "failed": false,
-            "rateLimited": true,
-            "articleCount": 20,
-            "attemptCount": 3,
-            "statusCode": 200,
-            "reason": "articles collected"
-          },
-          {
-            "id": "ai-semiconductor",
             "ok": true,
             "failed": false,
             "rateLimited": false,
@@ -99,11 +105,21 @@
             "attemptCount": 1,
             "statusCode": 200,
             "reason": "articles collected"
+          },
+          {
+            "id": "ai-semiconductor",
+            "ok": false,
+            "failed": true,
+            "rateLimited": true,
+            "articleCount": 0,
+            "attemptCount": 3,
+            "statusCode": 429,
+            "reason": "HTTP 429"
           }
         ]
       }
     },
-    "dataQualityStatus": "OK"
+    "dataQualityStatus": "DEGRADED_SOURCE_FAILURE"
   },
   "keywordSummaries": {
     "kw-nvidia": {
@@ -328,8 +344,8 @@
           "금",
           "달러",
           "유가",
-          "정책",
           "채권",
+          "정책",
           "반도체"
         ],
         "sectors": [
