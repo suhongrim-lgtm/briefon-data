@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-24T08:50:00+09:00",
+  "generatedAt": "2026-06-27T08:50:00+09:00",
   "sourceLabel": "RSS static data",
   "sourceMeta": {
     "sourceLabel": "RSS static data",
@@ -57,7 +57,7 @@
             "name": "Google News KR Economy",
             "ok": true,
             "failed": false,
-            "articleCount": 4,
+            "articleCount": 32,
             "reason": "articles collected"
           },
           {
@@ -65,7 +65,7 @@
             "name": "Google News KR Market",
             "ok": true,
             "failed": false,
-            "articleCount": 1,
+            "articleCount": 5,
             "reason": "articles collected"
           },
           {
@@ -73,7 +73,7 @@
             "name": "Google News Global Markets",
             "ok": true,
             "failed": false,
-            "articleCount": 86,
+            "articleCount": 76,
             "reason": "articles collected"
           },
           {
@@ -81,7 +81,7 @@
             "name": "Google News AI Semiconductor",
             "ok": true,
             "failed": false,
-            "articleCount": 30,
+            "articleCount": 26,
             "reason": "articles collected"
           }
         ]
@@ -139,59 +139,67 @@
     "kw-nvidia": {
       "keywordId": "kw-nvidia",
       "summary": "엔비디아 관련 이슈 1건이 확인됐습니다. 관련 업종과 일정 변화를 함께 점검하세요.",
-      "newsCount": 5,
+      "newsCount": 2,
       "relatedEventIds": [],
       "relatedTerms": [
         "엔비디아",
         "NVIDIA",
         "NVDA",
         "젠슨 황",
-        "nvidia",
-        "ai"
+        "ai",
+        "nvidia"
       ],
-      "updatedAt": "2026-06-24T08:50:00+09:00"
+      "updatedAt": "2026-06-27T08:50:00+09:00"
     },
     "kw-semiconductor": {
       "keywordId": "kw-semiconductor",
-      "summary": "반도체 관련 새 이슈는 아직 확인되지 않았습니다.",
-      "newsCount": 0,
-      "relatedEventIds": [],
+      "summary": "반도체 관련 이슈 1건이 확인됐습니다. 관련 업종과 일정 변화를 함께 점검하세요.",
+      "newsCount": 3,
+      "relatedEventIds": [
+        "event-korea-export-2026-06"
+      ],
       "relatedTerms": [
         "반도체",
         "AI 반도체",
         "데이터센터",
-        "HBM"
+        "HBM",
+        "조선",
+        "투자"
       ],
-      "updatedAt": "2026-06-24T08:50:00+09:00"
+      "updatedAt": "2026-06-27T08:50:00+09:00"
     },
     "kw-shipbuilding-defense": {
       "keywordId": "kw-shipbuilding-defense",
-      "summary": "조선·방산 관련 새 이슈는 아직 확인되지 않았습니다.",
-      "newsCount": 0,
-      "relatedEventIds": [],
+      "summary": "조선·방산 관련 이슈 1건이 확인됐습니다. 관련 업종과 일정 변화를 함께 점검하세요.",
+      "newsCount": 3,
+      "relatedEventIds": [
+        "event-korea-export-2026-06"
+      ],
       "relatedTerms": [
         "조선",
         "방산",
         "조선 수주",
-        "방산 수출"
+        "방산 수출",
+        "반도체",
+        "투자"
       ],
-      "updatedAt": "2026-06-24T08:50:00+09:00"
+      "updatedAt": "2026-06-27T08:50:00+09:00"
     }
   },
   "issuesByKeyword": {
     "kw-nvidia": [
       {
-        "id": "interest-kw-nvidia-issue-ef403eaa-002",
+        "id": "interest-kw-nvidia-issue-ef403eaa-005",
         "categoryId": "industry",
         "categoryLabel": "산업·테마",
         "impactLevel": "high",
-        "title": "NVIDIA Announces BioNeMo Agent Toolkit — Tools for Agents to Accelerate Scientific Discovery - NVIDIA Newsroom",
-        "whatHappened": "NVIDIA Announces BioNeMo Agent Toolkit — Tools for Agents to Accelerate Scientific Discovery NVIDIA Newsroom",
+        "title": "Nvidia Stock Continues Slide Amid Tech Sell-Off - Investor's Business Daily",
+        "whatHappened": "Nvidia Stock Continues Slide Amid Tech Sell-Off Investor's Business Daily",
         "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
         "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
         "tags": [
-          "nvidia",
-          "ai"
+          "ai",
+          "nvidia"
         ],
         "sectors": [
           "반도체",
@@ -199,58 +207,141 @@
           "장비"
         ],
         "relatedEventIds": [],
-        "updatedAt": "2026-06-24T08:50:00+09:00",
+        "updatedAt": "2026-06-27T08:50:00+09:00",
         "articles": [
           {
-            "id": "rss-c8d9bddbcca9d9",
-            "title": "NVIDIA Announces BioNeMo Agent Toolkit — Tools for Agents to Accelerate Scientific Discovery - NVIDIA Newsroom",
-            "description": "NVIDIA Announces BioNeMo Agent Toolkit — Tools for Agents to Accelerate Scientific Discovery NVIDIA Newsroom",
-            "source": "NVIDIA Newsroom",
+            "id": "rss-82c31513fafc45",
+            "title": "Nvidia Stock Continues Slide Amid Tech Sell-Off - Investor's Business Daily",
+            "description": "Nvidia Stock Continues Slide Amid Tech Sell-Off Investor's Business Daily",
+            "source": "Investor's Business Daily",
             "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZUoycWRkekFhdURRelBmYWtMdXk3UjVDaTFjeUF2bmJTOVNmSmk0TEoxZVNWZ29Qd2dPaVg2Sk4xb0tKUDJqaTZYTms0N3FFVnNka0J6S0c3NDRKOUFkeC14ZmhrWEJ6UkFIdjNXZjFzSU5vd09CUFV6TGdUa1FENUFKdFRSZG1DZHNtdDNwOTkzbWdYaGtKRURUT09COUxmcTlVTkVZcWpBS042MFJLdlZUTFl1Qlh1VHpxYkt0YlRjZkwwNmcxWV9FOG85RTg?oc=5",
-            "publishedAt": "2026-06-23T22:10:22+09:00"
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZWxBVXZBclZFRDRhc2pmSHBxSzY1TWNSZ2lLQ0hvUmdKYjFwcHZMdzdvTGhHXzZQYzZIUzVPcnBkU3daV2xLUklYT0x6QzJaMFl1LXZPWEtxdVI0RWRxRGVWVEd0bUR1bDBNVm16eGJsdmNvajM3R2Y3SUVkdzFBY1E3SmZZaF9YMzBYaklsTVE?oc=5",
+            "publishedAt": "2026-06-27T05:24:00+09:00"
           },
           {
-            "id": "rss-342a8e243044f6",
-            "title": "Nvidia, Micron, AMD lead tech sell-off as AI trade cools - Yahoo Finance",
-            "description": "Nvidia, Micron, AMD lead tech sell-off as AI trade cools Yahoo Finance",
-            "source": "Yahoo Finance",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUWQ3UzZaY1JCdkpMTC1WYlZKWXhZU05OZWpYVS1rRHZXcm12NzVGaC1LbzZfTmVDRkRCNVdwdjRUSEhxY0VyTFZNSXExTHotVm81T0toYWdldk5QbW1lenFnRWRDWVYwdmd2M3dZa0pUdjMzdWVCZGd2bDdfdU5hajJaRDBsYnNmZ291SHB4QjNqenc3YmszOFd4b1QwNklfRFA5Wk9wVmFkMjRuYVNGZHNXYUNoVENvaUE?oc=5",
-            "publishedAt": "2026-06-24T05:40:29+09:00"
-          },
-          {
-            "id": "rss-debe6faaa59075",
-            "title": "Nvidia Stock Falls as Tech Selloff Catches Up With Chips - Barron's",
-            "description": "Nvidia Stock Falls as Tech Selloff Catches Up With Chips Barron's",
+            "id": "rss-e4fb27a6970cb2",
+            "title": "Nvidia Stock Keeps Falling as ‘Hot Money’ Heads Elsewhere - Barron's",
+            "description": "Nvidia Stock Keeps Falling as ‘Hot Money’ Heads Elsewhere Barron's",
             "source": "Barron's",
             "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1PeGI2VTFHRmRxeHNCUDVWVGdhQk5kOFZSaWxITXVqaEpwQU1iN2VOOVZCeG1XTXQzQm5QSjFCNHpHSVJnTXAyb1dsOWJwUWd3ZVFVMVlzUkFWTzBxZzcxb0wxUFRreno3TGhpMEEyaHU0ZHVYdDFqa1pPTC0xdw?oc=5",
-            "publishedAt": "2026-06-24T05:05:00+09:00"
-          },
-          {
-            "id": "rss-45c846de9259c2",
-            "title": "Build an AI Scientist for Life Science Discovery with NVIDIA BioNeMo Agent Toolkit | NVIDIA Technical Blog - NVIDIA Developer",
-            "description": "Build an AI Scientist for Life Science Discovery with NVIDIA BioNeMo Agent Toolkit | NVIDIA Technical Blog NVIDIA Developer",
-            "source": "NVIDIA Developer",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNFRCVUQ4TTVKeXVtWS1yWlhONDdGWDRDLXdOZUY2QlNpT1IzanpCVHFuWk91OWp4OXMxVjJPeVZrOVdRZll0S2FKZU1GUTZSZXVmSFpzQlhKaFoxd01UODRLaGY4SlpFT25Mczg2N2szVVh2ZXI4NmlKRmtwSk5ic3lrUEVUSDdJT2F4d1ZBZ0xNbUtOVXpUdzlIdUUxZlgtejc2bS0zM1ZlR0pnLXRUdXliR3RhYWZC?oc=5",
-            "publishedAt": "2026-06-23T22:38:40+09:00"
-          },
-          {
-            "id": "rss-80e92d2226e640",
-            "title": "NVIDIA Is Stalled at $200. Is the Next Move a Breakout or a Breakdown? - 24/7 Wall St.",
-            "description": "NVIDIA Is Stalled at $200. Is the Next Move a Breakout or a Breakdown? 24/7 Wall St.",
-            "source": "24/7 Wall St.",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSkdFY195TEFuRHJadkJJdWRLbGRrV0ZmRFJFMURBbXVwZkJiMXNXaDdTMVlIYl90THNXNTdWRlFTNHh0VTM5ZEtfVG41ZjZ6bE1IcWhtNF9iVWFwN0MweVQ4YWZKU1hyckU4WUVSNmdOWFluenF5SFI1SWdJTjN5ZmowQXZzZHYzMURrUXhPVkJULVhHd1p3eU4yZGp6YlN3WlVFV3ZIUlcxV05EaW9iRw?oc=5",
-            "publishedAt": "2026-06-24T04:29:05+09:00"
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB2VHluNTZUeXZab1RLR2NXNXc0S0Q2MGx2enFUb3VmbHNOZWhmTEdGQThEWURzc1pVQmVyUnJrTFM4QjRTeDNDMXJNU1V1cE15djVxUmN1VHJIaUpmM3l0RDJHMnlVYnkyMnlaUV80R1luVkV5cmkyNQ?oc=5",
+            "publishedAt": "2026-06-27T03:19:00+09:00"
           }
         ],
-        "detail": "NVIDIA Announces BioNeMo Agent Toolkit — Tools for Agents to Accelerate Scientific Discovery NVIDIA Newsroom"
+        "detail": "Nvidia Stock Continues Slide Amid Tech Sell-Off Investor's Business Daily"
       }
     ],
-    "kw-semiconductor": [],
-    "kw-shipbuilding-defense": []
+    "kw-semiconductor": [
+      {
+        "id": "interest-kw-semiconductor-issue-3a55a6b1-003",
+        "categoryId": "industry",
+        "categoryLabel": "산업·테마",
+        "impactLevel": "high",
+        "title": "\"인력·용수·전력이 핵심인데...반도체 입지, 호남 안 유리해\" - 조선일보",
+        "whatHappened": "\"인력·용수·전력이 핵심인데...반도체 입지, 호남 안 유리해\" 조선일보",
+        "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
+        "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
+        "tags": [
+          "반도체",
+          "조선",
+          "투자"
+        ],
+        "sectors": [
+          "반도체",
+          "데이터센터",
+          "장비"
+        ],
+        "relatedEventIds": [
+          "event-korea-export-2026-06"
+        ],
+        "updatedAt": "2026-06-27T08:50:00+09:00",
+        "articles": [
+          {
+            "id": "rss-0bb4639deb4ae5",
+            "title": "\"인력·용수·전력이 핵심인데...반도체 입지, 호남 안 유리해\" - 조선일보",
+            "description": "\"인력·용수·전력이 핵심인데...반도체 입지, 호남 안 유리해\" 조선일보",
+            "source": "조선일보",
+            "sourceType": "rss",
+            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYWJ3di11cTFMWE5KeGhmUUZHVXZSaXZVQUZ6MDBpdjc4Q01tX216X2V5SkNvU0NUcDc5MGFMbDFNUlprekFsR25BSlVnaW9sdUpqWXJGSGRoZklQc244RWJoWEtkTVR3UEQtVHRRX3FOWUFoYUpJLTlvcVEwcG00a3piVG5PR1gyX1VaREN4aw?oc=5",
+            "publishedAt": "2026-06-27T05:28:03+09:00"
+          },
+          {
+            "id": "rss-41adc2520f7e35",
+            "title": "[단독] 정부, 반도체 물 부족 대책 있나… 호남 농업용 저수지서 끌어올 판 - 조선일보",
+            "description": "[단독] 정부, 반도체 물 부족 대책 있나… 호남 농업용 저수지서 끌어올 판 조선일보",
+            "source": "조선일보",
+            "sourceType": "rss",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNEI5UFJFYjNOYTJaUjRKbmJtWmRvUlNQTFI5Tnp3ejI2ZTdDYnRNSmh6TTYxVk1SSHZqNmZVb1ZyM0ZrQ3RXREZzMWR3UWN2a3VpSzk0Zm5uV3VNcnNKS0RtakpObVFibWJWX0k4UVV6QnMtZ2dNTEh0RTNZY1ROcEdRSlVkT2UxQkJTOHp0UDJtMGVBQXJV?oc=5",
+            "publishedAt": "2026-06-27T05:05:48+09:00"
+          },
+          {
+            "id": "rss-76c26cceb4636b",
+            "title": "‘숫자부터 내놓으라’ 앞뒤 바뀐 반도체 투자 - 조선일보",
+            "description": "‘숫자부터 내놓으라’ 앞뒤 바뀐 반도체 투자 조선일보",
+            "source": "조선일보",
+            "sourceType": "rss",
+            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNW1kMzE1TU5razRVWlZIMXc2UkIxSG9iWllDbG5BTmVMUWtIS09udkF6VS1OYjhiVjJGLV9HMFVwT3RaSGF0dmFmYlJqVEhXMXluQlprYkVVZGpnRFI3dWkyOGNMeWc3bld0cnJmYnFWVkJqNnVxQTlQTDk2R0lxODVKMUVLTFpiNDI5RTliQQ?oc=5",
+            "publishedAt": "2026-06-27T01:06:23+09:00"
+          }
+        ],
+        "detail": "\"인력·용수·전력이 핵심인데...반도체 입지, 호남 안 유리해\" 조선일보"
+      }
+    ],
+    "kw-shipbuilding-defense": [
+      {
+        "id": "interest-kw-shipbuilding-defense-issue-3a55a6b1-003",
+        "categoryId": "industry",
+        "categoryLabel": "산업·테마",
+        "impactLevel": "high",
+        "title": "\"인력·용수·전력이 핵심인데...반도체 입지, 호남 안 유리해\" - 조선일보",
+        "whatHappened": "\"인력·용수·전력이 핵심인데...반도체 입지, 호남 안 유리해\" 조선일보",
+        "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
+        "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
+        "tags": [
+          "반도체",
+          "조선",
+          "투자"
+        ],
+        "sectors": [
+          "반도체",
+          "데이터센터",
+          "장비"
+        ],
+        "relatedEventIds": [
+          "event-korea-export-2026-06"
+        ],
+        "updatedAt": "2026-06-27T08:50:00+09:00",
+        "articles": [
+          {
+            "id": "rss-0bb4639deb4ae5",
+            "title": "\"인력·용수·전력이 핵심인데...반도체 입지, 호남 안 유리해\" - 조선일보",
+            "description": "\"인력·용수·전력이 핵심인데...반도체 입지, 호남 안 유리해\" 조선일보",
+            "source": "조선일보",
+            "sourceType": "rss",
+            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYWJ3di11cTFMWE5KeGhmUUZHVXZSaXZVQUZ6MDBpdjc4Q01tX216X2V5SkNvU0NUcDc5MGFMbDFNUlprekFsR25BSlVnaW9sdUpqWXJGSGRoZklQc244RWJoWEtkTVR3UEQtVHRRX3FOWUFoYUpJLTlvcVEwcG00a3piVG5PR1gyX1VaREN4aw?oc=5",
+            "publishedAt": "2026-06-27T05:28:03+09:00"
+          },
+          {
+            "id": "rss-41adc2520f7e35",
+            "title": "[단독] 정부, 반도체 물 부족 대책 있나… 호남 농업용 저수지서 끌어올 판 - 조선일보",
+            "description": "[단독] 정부, 반도체 물 부족 대책 있나… 호남 농업용 저수지서 끌어올 판 조선일보",
+            "source": "조선일보",
+            "sourceType": "rss",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNEI5UFJFYjNOYTJaUjRKbmJtWmRvUlNQTFI5Tnp3ejI2ZTdDYnRNSmh6TTYxVk1SSHZqNmZVb1ZyM0ZrQ3RXREZzMWR3UWN2a3VpSzk0Zm5uV3VNcnNKS0RtakpObVFibWJWX0k4UVV6QnMtZ2dNTEh0RTNZY1ROcEdRSlVkT2UxQkJTOHp0UDJtMGVBQXJV?oc=5",
+            "publishedAt": "2026-06-27T05:05:48+09:00"
+          },
+          {
+            "id": "rss-76c26cceb4636b",
+            "title": "‘숫자부터 내놓으라’ 앞뒤 바뀐 반도체 투자 - 조선일보",
+            "description": "‘숫자부터 내놓으라’ 앞뒤 바뀐 반도체 투자 조선일보",
+            "source": "조선일보",
+            "sourceType": "rss",
+            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNW1kMzE1TU5razRVWlZIMXc2UkIxSG9iWllDbG5BTmVMUWtIS09udkF6VS1OYjhiVjJGLV9HMFVwT3RaSGF0dmFmYlJqVEhXMXluQlprYkVVZGpnRFI3dWkyOGNMeWc3bld0cnJmYnFWVkJqNnVxQTlQTDk2R0lxODVKMUVLTFpiNDI5RTliQQ?oc=5",
+            "publishedAt": "2026-06-27T01:06:23+09:00"
+          }
+        ],
+        "detail": "\"인력·용수·전력이 핵심인데...반도체 입지, 호남 안 유리해\" 조선일보"
+      }
+    ]
   }
 }

@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-24T08:50:00+09:00",
+  "generatedAt": "2026-06-27T08:50:00+09:00",
   "sourceLabel": "RSS static data",
   "fixtureUsed": false,
   "fixtureCount": 0,
-  "rssCount": 110,
+  "rssCount": 112,
   "gdeltCount": 0,
   "failedSources": [
     {
@@ -46,7 +46,7 @@
           "name": "Google News KR Economy",
           "ok": true,
           "failed": false,
-          "articleCount": 4,
+          "articleCount": 32,
           "reason": "articles collected"
         },
         {
@@ -54,7 +54,7 @@
           "name": "Google News KR Market",
           "ok": true,
           "failed": false,
-          "articleCount": 1,
+          "articleCount": 5,
           "reason": "articles collected"
         },
         {
@@ -62,7 +62,7 @@
           "name": "Google News Global Markets",
           "ok": true,
           "failed": false,
-          "articleCount": 86,
+          "articleCount": 76,
           "reason": "articles collected"
         },
         {
@@ -70,7 +70,7 @@
           "name": "Google News AI Semiconductor",
           "ok": true,
           "failed": false,
-          "articleCount": 30,
+          "articleCount": 26,
           "reason": "articles collected"
         }
       ]
@@ -145,9 +145,9 @@
       "rss": {
         "requested": true,
         "enabled": true,
-        "collected": 121,
-        "relevant": 110,
-        "used": 110,
+        "collected": 139,
+        "relevant": 112,
+        "used": 112,
         "failed": false,
         "reason": "articles collected"
       },
@@ -185,7 +185,7 @@
             "name": "Google News KR Economy",
             "ok": true,
             "failed": false,
-            "articleCount": 4,
+            "articleCount": 32,
             "reason": "articles collected"
           },
           {
@@ -193,7 +193,7 @@
             "name": "Google News KR Market",
             "ok": true,
             "failed": false,
-            "articleCount": 1,
+            "articleCount": 5,
             "reason": "articles collected"
           },
           {
@@ -201,7 +201,7 @@
             "name": "Google News Global Markets",
             "ok": true,
             "failed": false,
-            "articleCount": 86,
+            "articleCount": 76,
             "reason": "articles collected"
           },
           {
@@ -209,7 +209,7 @@
             "name": "Google News AI Semiconductor",
             "ok": true,
             "failed": false,
-            "articleCount": 30,
+            "articleCount": 26,
             "reason": "articles collected"
           }
         ]
@@ -280,37 +280,37 @@
     "fixtureUsed": false,
     "fallbackUsed": false,
     "fixtureCount": 0,
-    "rssCount": 110,
+    "rssCount": 112,
     "gdeltCount": 0,
     "totals": {
-      "collected": 132,
-      "relevant": 110,
+      "collected": 150,
+      "relevant": 112,
       "duplicatesRemoved": 0,
-      "used": 110
+      "used": 112
     },
     "filterReport": {
-      "collected": 132,
-      "relevant": 110,
-      "excluded": 11,
+      "collected": 150,
+      "relevant": 112,
+      "excluded": 27,
       "excludedSamples": [
         {
-          "title": "Industrial Production Rises Amid Inflation Woes: 4 Stocks to Grab - Yahoo Finance",
+          "title": "1613원? 공항서 환율 보고 ‘헉’ \"미국 여행 다음에 갈까…\" - JTBC",
+          "reason": "excluded keyword: 여행"
+        },
+        {
+          "title": "Consumer sentiment rises from record low on prospect of lower inflation - CFO Dive",
           "reason": "no BriefOn economic keyword"
         },
         {
-          "title": "Remembering Alan Greenspan - Brookings",
+          "title": "Buy 4 Defensive Stocks as Inflation Hits Highest Level in 3 Years - Yahoo Finance UK",
           "reason": "no BriefOn economic keyword"
         },
         {
-          "title": "Requiem for Alan Greenspan the Bubble Master - The Nation",
+          "title": "Rep. Lucas Hosts House Financial Services Task Force Field Hearing in OKC - Oklahoma Farm ",
           "reason": "no BriefOn economic keyword"
         },
         {
-          "title": "May PCE Expected to Show Rising Inflation - Morningstar",
-          "reason": "no BriefOn economic keyword"
-        },
-        {
-          "title": "Alan Greenspan, architect of the modern American economy, dies aged 100 - BBC",
+          "title": "What to Look Out for in Economic Data This Week (June 29-July 3) - Kiplinger",
           "reason": "no BriefOn economic keyword"
         }
       ]
@@ -334,46 +334,46 @@
   },
   "quality": {
     "economy": {
-      "issueCount": 19,
-      "keywordCount": 2,
-      "articleCount": 27,
-      "uniqueArticleCount": 27,
-      "articleOccurrenceCount": 27,
+      "issueCount": 22,
+      "keywordCount": 6,
+      "articleCount": 34,
+      "uniqueArticleCount": 34,
+      "articleOccurrenceCount": 34,
       "sourceTypeCounts": {
         "fixture": 0,
-        "rss": 27,
+        "rss": 34,
         "gdelt": 0
       },
       "occurrenceSourceTypeCounts": {
         "fixture": 0,
-        "rss": 27,
+        "rss": 34,
         "gdelt": 0
       },
       "fixtureArticleCount": 0,
-      "rssArticleCount": 27,
+      "rssArticleCount": 34,
       "gdeltArticleCount": 0,
       "emptySections": []
     },
     "preopen": {
-      "issueCount": 0,
-      "articleCount": 0,
-      "uniqueArticleCount": 0,
-      "articleOccurrenceCount": 0,
+      "issueCount": 3,
+      "articleCount": 11,
+      "uniqueArticleCount": 11,
+      "articleOccurrenceCount": 11,
       "sourceTypeCounts": {
         "fixture": 0,
-        "rss": 0,
+        "rss": 11,
         "gdelt": 0
       },
       "occurrenceSourceTypeCounts": {
         "fixture": 0,
-        "rss": 0,
+        "rss": 11,
         "gdelt": 0
       },
       "fixtureArticleCount": 0,
-      "rssArticleCount": 0,
+      "rssArticleCount": 11,
       "gdeltArticleCount": 0,
-      "status": "empty",
-      "emptyReason": "no high impact issues"
+      "status": "ready",
+      "emptyReason": ""
     },
     "events": {
       "eventCount": 3,
@@ -384,10 +384,10 @@
     },
     "interest": {
       "keywordSummaryCount": 3,
-      "issueCount": 1,
+      "issueCount": 3,
       "articleCount": 5,
       "uniqueArticleCount": 5,
-      "articleOccurrenceCount": 5,
+      "articleOccurrenceCount": 8,
       "sourceTypeCounts": {
         "fixture": 0,
         "rss": 5,
@@ -395,7 +395,7 @@
       },
       "occurrenceSourceTypeCounts": {
         "fixture": 0,
-        "rss": 5,
+        "rss": 8,
         "gdelt": 0
       },
       "fixtureArticleCount": 0,
@@ -404,28 +404,28 @@
     }
   },
   "filterReport": {
-    "collected": 132,
-    "relevant": 110,
-    "excluded": 11,
+    "collected": 150,
+    "relevant": 112,
+    "excluded": 27,
     "excludedSamples": [
       {
-        "title": "Industrial Production Rises Amid Inflation Woes: 4 Stocks to Grab - Yahoo Finance",
+        "title": "1613원? 공항서 환율 보고 ‘헉’ \"미국 여행 다음에 갈까…\" - JTBC",
+        "reason": "excluded keyword: 여행"
+      },
+      {
+        "title": "Consumer sentiment rises from record low on prospect of lower inflation - CFO Dive",
         "reason": "no BriefOn economic keyword"
       },
       {
-        "title": "Remembering Alan Greenspan - Brookings",
+        "title": "Buy 4 Defensive Stocks as Inflation Hits Highest Level in 3 Years - Yahoo Finance UK",
         "reason": "no BriefOn economic keyword"
       },
       {
-        "title": "Requiem for Alan Greenspan the Bubble Master - The Nation",
+        "title": "Rep. Lucas Hosts House Financial Services Task Force Field Hearing in OKC - Oklahoma Farm ",
         "reason": "no BriefOn economic keyword"
       },
       {
-        "title": "May PCE Expected to Show Rising Inflation - Morningstar",
-        "reason": "no BriefOn economic keyword"
-      },
-      {
-        "title": "Alan Greenspan, architect of the modern American economy, dies aged 100 - BBC",
+        "title": "What to Look Out for in Economic Data This Week (June 29-July 3) - Kiplinger",
         "reason": "no BriefOn economic keyword"
       }
     ]

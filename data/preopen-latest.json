@@ -1,20 +1,22 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-24T08:50:00+09:00",
-  "targetTime": "2026-06-24T08:50:00+09:00",
-  "sourceLabel": " static data",
+  "generatedAt": "2026-06-27T08:50:00+09:00",
+  "targetTime": "2026-06-27T08:50:00+09:00",
+  "sourceLabel": "RSS static data",
   "sourceMeta": {
-    "sourceLabel": " static data",
-    "usedSources": [],
+    "sourceLabel": "RSS static data",
+    "usedSources": [
+      "rss"
+    ],
     "sourceCounts": {
       "fixture": 0,
-      "rss": 0,
+      "rss": 11,
       "gdelt": 0
     },
     "warningsCount": 2,
     "fixtureUsed": false,
     "fixtureCount": 0,
-    "rssCount": 0,
+    "rssCount": 11,
     "gdeltCount": 0,
     "failedSources": [
       {
@@ -56,7 +58,7 @@
             "name": "Google News KR Economy",
             "ok": true,
             "failed": false,
-            "articleCount": 4,
+            "articleCount": 32,
             "reason": "articles collected"
           },
           {
@@ -64,7 +66,7 @@
             "name": "Google News KR Market",
             "ok": true,
             "failed": false,
-            "articleCount": 1,
+            "articleCount": 5,
             "reason": "articles collected"
           },
           {
@@ -72,7 +74,7 @@
             "name": "Google News Global Markets",
             "ok": true,
             "failed": false,
-            "articleCount": 86,
+            "articleCount": 76,
             "reason": "articles collected"
           },
           {
@@ -80,7 +82,7 @@
             "name": "Google News AI Semiconductor",
             "ok": true,
             "failed": false,
-            "articleCount": 30,
+            "articleCount": 26,
             "reason": "articles collected"
           }
         ]
@@ -134,19 +136,212 @@
     },
     "dataQualityStatus": "DEGRADED_SOURCE_FAILURE"
   },
-  "status": "empty",
-  "emptyReason": "no high impact issues",
+  "status": "ready",
+  "emptyReason": "",
   "market": "KR",
-  "sourceArticleCount": 132,
-  "usedArticleCount": 11,
-  "sourceCount": 132,
+  "sourceArticleCount": 150,
+  "usedArticleCount": 31,
+  "sourceCount": 150,
   "period": {
-    "startAt": "2026-06-24T06:00:00+09:00",
-    "endAt": "2026-06-24T08:50:00+09:00",
-    "targetTime": "2026-06-24T08:50:00+09:00",
+    "startAt": "2026-06-27T06:00:00+09:00",
+    "endAt": "2026-06-27T08:50:00+09:00",
+    "targetTime": "2026-06-27T08:50:00+09:00",
     "windowLabel": "오늘 06:00 - 08:50"
   },
-  "summary": "현재 기준을 충족한 긴급 시장 이슈가 없습니다.",
-  "checkPoints": [],
-  "issues": []
+  "summary": "3개 이슈가 국내 장 시작 전 확인 대상입니다. 환율, 금리, 반도체와 정책 변수를 우선 점검하세요.",
+  "checkPoints": [
+    "환율과 달러 흐름",
+    "미국 금리와 기술주 반응",
+    "반도체·AI 밸류체인",
+    "주요 일정 변화"
+  ],
+  "issues": [
+    {
+      "id": "preopen-issue-50691f94-001",
+      "rank": 1,
+      "categoryId": "market",
+      "impactLevel": "high",
+      "title": "유가는 되돌렸는데 달러는 강세…환율, 결국 금리의 문제 | - 연합인포맥스",
+      "summary": "유가는 되돌렸는데 달러는 강세…환율, 결국 금리의 문제 | 연합인포맥스",
+      "whyItMatters": "시장흐름 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
+      "marketImpact": "외국인 수급과 수입 원가 부담에 영향을 줄 수 있습니다.",
+      "tags": [
+        "금리",
+        "환율",
+        "달러",
+        "유가",
+        "금"
+      ],
+      "sectors": [
+        "수출주",
+        "항공",
+        "유통"
+      ],
+      "relatedEventIds": [
+        "event-us-cpi-2026-06",
+        "event-fomc-minutes-2026-06"
+      ],
+      "articles": [
+        {
+          "id": "rss-0aaf086f66c248",
+          "title": "유가는 되돌렸는데 달러는 강세…환율, 결국 금리의 문제 | - 연합인포맥스",
+          "description": "유가는 되돌렸는데 달러는 강세…환율, 결국 금리의 문제 | 연합인포맥스",
+          "source": "연합인포맥스",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1sWmZtVkkwU3N3RWgwWS03eXRsVmVLZUNMS21RVHlxS2d2ZjluaElsNmVmMTdPWGZYalZMTUVZSVg3QXhOZnM3Q3dHRS1DbEVQUE1RaVFCREMweGxiNmZ4WUlQZV9QU25La09jaXZLdVFodEMy?oc=5",
+          "publishedAt": "2026-06-27T07:23:39+09:00"
+        },
+        {
+          "id": "rss-eaac6646c3dd54",
+          "title": "ETF 이름 뒤 '(H)' 뜻 아세요?…환율이 수익률 바꾼다 - v.daum.net",
+          "description": "ETF 이름 뒤 '(H)' 뜻 아세요?…환율이 수익률 바꾼다 v.daum.net",
+          "source": "v.daum.net",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9MMy03Wkp1dnJtVlNydTFmY1M4c2xqdnd4LUxldGRnSFNmSl9kVnF1akd5TzNfdU5uSy1WdkpkS3RSM3M3V0hHSUNXN0EtNnM?oc=5",
+          "publishedAt": "2026-06-27T08:03:00+09:00"
+        },
+        {
+          "id": "rss-caec95bf9b58c2",
+          "title": "1550원 넘보던 환율 1530원대 급락…당국 개입 추정 - 서울경제TV",
+          "description": "1550원 넘보던 환율 1530원대 급락…당국 개입 추정 서울경제TV",
+          "source": "서울경제TV",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ITWwxNGJUOFQxYU5HalRzVTMwRGlZZDl4Sy1ueC13SG9WQXJiSENIYjFpNV8tQ0s5RE9YUjhFVTVKZ2NNMklUOU10SkxVRkItdUYxT1ZHZmNtNE5fUFRGY01kN1Y?oc=5",
+          "publishedAt": "2026-06-27T08:16:43+09:00"
+        },
+        {
+          "id": "rss-a5977ef19b8ecb",
+          "title": "“휴가 환전, 지금 해야 하나?” 1550원 공포의 환율 앞 계산법 - 국민일보",
+          "description": "“휴가 환전, 지금 해야 하나?” 1550원 공포의 환율 앞 계산법 국민일보",
+          "source": "국민일보",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6WWk1cElic2JRdkVTUlhKSW1zSXRvSUNnNWQxS2I1NkZfT1NWa1NzQ2JELWFfY3F5cXF2R1FTWDljMEZaNnQ5dnlyNFg4SHV1OENadXB1Q1pRWmYwcHNpcEZ5NGc0MzhhLWJKQ9IBbEFVX3lxTFB6WWk1cElic2JRdkVTUlhKSW1zSXRvSUNnNWQxS2I1NkZfT1NWa1NzQ2JELWFfY3F5cXF2R1FTWDljMEZaNnQ5dnlyNFg4SHV1OENadXB1Q1pRWmYwcHNpcEZ5NGc0MzhhLWJKQw?oc=5",
+          "publishedAt": "2026-06-27T07:01:00+09:00"
+        },
+        {
+          "id": "rss-e62b24a157a3a5",
+          "title": "SK하이닉스 45조원 ADR, 고환율 시대 ‘환율 방패’ 기대감 - 동아일보",
+          "description": "SK하이닉스 45조원 ADR, 고환율 시대 ‘환율 방패’ 기대감 동아일보",
+          "source": "동아일보",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBQNjJpbTA3MDFjenBHUWZnbFAycXBQbklDU2lGczlpU3R4YnVyN0xNYjJQZmVMLTh1ZkNRbGlXZjdNaGhKV1lzNHRfQi1UYld1NzZWVWkzLVJkMmhqY2kxd2JBZTNhZ2lNRnFkVkxmdWR1TklpRFHSAWZBVV95cUxQSmNOb3JhcmhBRFBHdVRINGlqMzREakZfR1ROYkRhV1lqNERNRkR1SDdwZ2h2eUdFZzJuY0Y0eFBPbGRDUksyNFJmWW9vQVJ5LXI3c1R5andETk1mWkV0UlpzeElGaVE?oc=5",
+          "publishedAt": "2026-06-27T07:37:37+09:00"
+        }
+      ],
+      "updatedAt": "2026-06-27T08:50:00+09:00",
+      "active": true
+    },
+    {
+      "id": "preopen-issue-212680a7-002",
+      "rank": 2,
+      "categoryId": "market",
+      "impactLevel": "high",
+      "title": "[뉴욕채권] 단기물 강세 속 혼조…유가 급락에 금리 인상 기대↓ | - 연합인포맥스",
+      "summary": "[뉴욕채권] 단기물 강세 속 혼조…유가 급락에 금리 인상 기대↓ | 연합인포맥스",
+      "whyItMatters": "시장흐름 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
+      "marketImpact": "성장주와 채권, 달러 흐름의 변동성을 확인해야 합니다.",
+      "tags": [
+        "금리",
+        "유가",
+        "금",
+        "채권",
+        "fed",
+        "조선"
+      ],
+      "sectors": [
+        "운송",
+        "화학",
+        "정유"
+      ],
+      "relatedEventIds": [
+        "event-us-cpi-2026-06",
+        "event-fomc-minutes-2026-06",
+        "event-korea-export-2026-06"
+      ],
+      "articles": [
+        {
+          "id": "rss-90345389153770",
+          "title": "[뉴욕채권] 단기물 강세 속 혼조…유가 급락에 금리 인상 기대↓ | - 연합인포맥스",
+          "description": "[뉴욕채권] 단기물 강세 속 혼조…유가 급락에 금리 인상 기대↓ | 연합인포맥스",
+          "source": "연합인포맥스",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBDWnV2ZHppSnZGcGs0TklnQjQ2MlMxLU9hQnI3amFnYl9XVWMwQmw5eHFBWHJCc1lrN1BuUDhsVDVYNUVOLXdFRnQyc1lBaXRrSzMzQUlybkhRNjE4dHh1UFFCaE5ZWVVyV0V4MS1wN0JkcFhM?oc=5",
+          "publishedAt": "2026-06-27T07:09:39+09:00"
+        },
+        {
+          "id": "rss-b1fb2b8315d8c2",
+          "title": "스페이스X 공모가 아래로 간다(83%) Fed 금리 안 올려(54%) [김현석의 월스트리트나우] - 한국경제",
+          "description": "스페이스X 공모가 아래로 간다(83%) Fed 금리 안 올려(54%) [김현석의 월스트리트나우] 한국경제",
+          "source": "한국경제",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9vNzI3WlREY2RTMkNCdFdRQkVudlFQdm9oY0lXejREd1Fjc0F4bThQU2RaV1phSVA3bnhmTTNyUEFTcVZMM3RhdXJZcjdJdWdsTFE2ZXlZZll2d9IBVEFVX3lxTE1xY2RLblg4QzlEMjF1aFNhZ0ZFbHdia3ZYUVNBaXd4NGQ5a2ZoN0llR0cyUk9FZnJWYVI5VWNXZXRvQ1d5V0lTLUt3LWpfbFl5MS1mXw?oc=5",
+          "publishedAt": "2026-06-27T08:10:46+09:00"
+        },
+        {
+          "id": "rss-c6570fa7cf4537",
+          "title": "금리인하부터 빚 탕감까지… 은행권, 중저신용자 ‘포용금융’ 속도 - IT조선",
+          "description": "금리인하부터 빚 탕감까지… 은행권, 중저신용자 ‘포용금융’ 속도 IT조선",
+          "source": "IT조선",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Zd1dDVTdfYXoxa3M5c2cxSGRTME5LT1JxNElnZHVQdFB2YmRQc2NfTjI5VGtQY1hjVUZQaHlCMEh0R1ZpWFJXV1F1cDRUMVpLX0xjdWlvWG1YbjFTYjlGV3BQa0xfZ29uQUd5OGpydjFqRUhh0gF0QVVfeXFMT1l3V0NVN19hejFrczlzZzFIZFMwTktPUnE0SWdkdVB0UHZiZFBzY19OMjlUa1BjWGNVRlBoeUIwSHRHVmlYUldXUXVwNFQxWktfTGN1aW9YbVhuMVNiOUZXcFBrTF9nb25BR3k4anJ2MWpFSGE?oc=5",
+          "publishedAt": "2026-06-27T06:24:06+09:00"
+        }
+      ],
+      "updatedAt": "2026-06-27T08:50:00+09:00",
+      "active": true
+    },
+    {
+      "id": "preopen-issue-3a55a6b1-003",
+      "rank": 3,
+      "categoryId": "industry",
+      "impactLevel": "high",
+      "title": "[2026.05] 반도체 호조 - KDI 경제교육",
+      "summary": "[2026.05] 반도체 호조 KDI 경제교육",
+      "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
+      "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
+      "tags": [
+        "반도체",
+        "조선"
+      ],
+      "sectors": [
+        "반도체",
+        "데이터센터",
+        "장비"
+      ],
+      "relatedEventIds": [
+        "event-korea-export-2026-06"
+      ],
+      "articles": [
+        {
+          "id": "rss-5f48ab9d457772",
+          "title": "[2026.05] 반도체 호조 - KDI 경제교육",
+          "description": "[2026.05] 반도체 호조 KDI 경제교육",
+          "source": "KDI 경제교육",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1GcTMwMndfRTdLVWo3MzRMcUxOeFd4QW81YWdQOW9TTmY3c2xOQnN0U0Z2X21UcmxzYzRUcXVlN3FabmRVYzQ3Qm84alhiYjJzZ3ZfMkJhYjJoMmF0VWZ2TQ?oc=5",
+          "publishedAt": "2026-06-27T06:36:44+09:00"
+        },
+        {
+          "id": "rss-5c616955a8c234",
+          "title": "삼성·SK ‘호남 반도체’에 지자체 들썩… “또 다른 지역 편중” 우려 - 조선비즈 - Chosunbiz",
+          "description": "삼성·SK ‘호남 반도체’에 지자체 들썩… “또 다른 지역 편중” 우려 - 조선비즈 Chosunbiz",
+          "source": "Chosunbiz",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNa3JrN2ZWeWVrQlUwVHM0dzlTQzA1TUR2TFhTYjhfSENwSGZVOFJBQU5ybTBLTlFrbmdUdE5mdFZmWHBtX0NaR1BkN1kzRFdLUUZfV3diVjVtN0xNS0lPNlZyWVJSZG1qV0dsdHFDR1c4Wlo1TEhMWk1rdV9fM2dKTEJCMjVGSHBCdnfSAZ4BQVVfeXFMUEZMOUlYZUppSkp4eFB1UDc1R1RDbUFJcVJ5bDFQc3cyNzBqRmp2TFVyYVNPUS1sdzVTdXd5NC1yUDFleHpycTIxT1F2SkpNZVFKNk43NzZMRlJDdTVIeTRSR2FudXB2c09mYnZfMFMzU3hpWktpMlNndXAyYVdhQ3FEX2ctMEptaTJtTTI2YVlpQzJ2U1o2SGg1NUc1bFE?oc=5",
+          "publishedAt": "2026-06-27T06:00:54+09:00"
+        },
+        {
+          "id": "rss-923cca82e25815",
+          "title": "해외서 뜨거운 관심, 한국의 ‘이 학교’…반도체 호황에 더 뜨거워졌다 - v.daum.net",
+          "description": "해외서 뜨거운 관심, 한국의 ‘이 학교’…반도체 호황에 더 뜨거워졌다 v.daum.net",
+          "source": "v.daum.net",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9kWFNQWHAyUXZzczRmbnlybVFnTllBamNWZDBuazhLa2hpVXhWZG9JRzZONGE4VmU4OWlzLXJsbGZLT0E5UWtuU3ZpQmNXWnM?oc=5",
+          "publishedAt": "2026-06-27T08:35:43+09:00"
+        }
+      ],
+      "updatedAt": "2026-06-27T08:50:00+09:00",
+      "active": true
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-24T08:50:00+09:00",
+  "generatedAt": "2026-06-27T08:50:00+09:00",
   "sourceLabel": "RSS static data",
   "sourceMeta": {
     "sourceLabel": "RSS static data",
@@ -9,13 +9,13 @@
     ],
     "sourceCounts": {
       "fixture": 0,
-      "rss": 27,
+      "rss": 34,
       "gdelt": 0
     },
     "warningsCount": 2,
     "fixtureUsed": false,
     "fixtureCount": 0,
-    "rssCount": 27,
+    "rssCount": 34,
     "gdeltCount": 0,
     "failedSources": [
       {
@@ -57,7 +57,7 @@
             "name": "Google News KR Economy",
             "ok": true,
             "failed": false,
-            "articleCount": 4,
+            "articleCount": 32,
             "reason": "articles collected"
           },
           {
@@ -65,7 +65,7 @@
             "name": "Google News KR Market",
             "ok": true,
             "failed": false,
-            "articleCount": 1,
+            "articleCount": 5,
             "reason": "articles collected"
           },
           {
@@ -73,7 +73,7 @@
             "name": "Google News Global Markets",
             "ok": true,
             "failed": false,
-            "articleCount": 86,
+            "articleCount": 76,
             "reason": "articles collected"
           },
           {
@@ -81,7 +81,7 @@
             "name": "Google News AI Semiconductor",
             "ok": true,
             "failed": false,
-            "articleCount": 30,
+            "articleCount": 26,
             "reason": "articles collected"
           }
         ]
@@ -136,19 +136,19 @@
     "dataQualityStatus": "DEGRADED_SOURCE_FAILURE"
   },
   "period": {
-    "startAt": "2026-06-23T06:00:00+09:00",
-    "endAt": "2026-06-24T06:00:00+09:00",
+    "startAt": "2026-06-26T06:00:00+09:00",
+    "endAt": "2026-06-27T06:00:00+09:00",
     "windowLabel": "전일 06:00 - 오늘 06:00"
   },
   "status": "ready",
-  "sourceArticleCount": 132,
-  "usedArticleCount": 49,
+  "sourceArticleCount": 150,
+  "usedArticleCount": 58,
   "briefing": {
     "title": "06:00 경제 브리핑",
     "windowLabel": "전일 06:00 - 오늘 06:00",
-    "summary": "Inside Kevin Warsh's selection process for the next Atlanta Fed president - CNBC, NVIDIA Announces BioNeMo Agent Toolkit — Tools for Agents to Accelerate Scientific Discovery - NVIDIA Newsroom, Alan Greenspan Was a Faithful Servant of the Ruling Class - Jacobin 이슈가 시장 변수로 확인됐습니다. 금리와 환율, 산업별 수급 변화를 함께 점검해야 합니다.",
-    "sourceArticleCount": 132,
-    "usedArticleCount": 49,
+    "summary": "Nobody's sure where the Federal Reserve is heading - Axios, 달러-원, 안전 선호 확산에 낙폭 축소…1,535.80원 마감 - 연합뉴스, \"인력·용수·전력이 핵심인데...반도체 입지, 호남 안 유리해\" - 조선일보 이슈가 시장 변수로 확인됐습니다. 금리와 환율, 산업별 수급 변화를 함께 점검해야 합니다.",
+    "sourceArticleCount": 150,
+    "usedArticleCount": 58,
     "sections": [
       {
         "id": "indicators",
@@ -158,12 +158,12 @@
       {
         "id": "rates",
         "title": "중앙은행·금리",
-        "summary": "시장 전반의 위험 선호와 업종별 흐름을 확인해야 합니다."
+        "summary": "시장 전반의 위험 선호와 업종별 흐름을 확인해야 합니다. 성장주와 채권, 달러 흐름의 변동성을 확인해야 합니다."
       },
       {
         "id": "market",
         "title": "시장흐름",
-        "summary": "시장 전반의 위험 선호와 업종별 흐름을 확인해야 합니다. 시장 전반의 위험 선호와 업종별 흐름을 확인해야 합니다."
+        "summary": "외국인 수급과 수입 원가 부담에 영향을 줄 수 있습니다. 시장 전반의 위험 선호와 업종별 흐름을 확인해야 합니다."
       },
       {
         "id": "industry",
@@ -215,7 +215,7 @@
       "name": "FOMC",
       "impactLevel": "high",
       "impact": "금리 경로와 위험자산 선호를 확인하는 변수입니다.",
-      "newsCount": 27,
+      "newsCount": 29,
       "relatedIssueIds": [
         "issue-fomc-001"
       ],
@@ -225,29 +225,123 @@
       "relatedEventIds": [
         "event-fomc-minutes-2026-06"
       ],
-      "updatedAt": "2026-06-24T08:50:00+09:00",
-      "summary": "FOMC 관련 시장 변수는 관련 뉴스 27건에서 반복 확인됐습니다.",
+      "updatedAt": "2026-06-27T08:50:00+09:00",
+      "summary": "FOMC 관련 시장 변수는 관련 뉴스 29건에서 반복 확인됐습니다.",
       "why": "시장 가격과 업종별 수급에 영향을 줄 수 있는 공통 변수입니다.",
       "marketImpact": "금리 경로와 위험자산 선호를 확인하는 변수입니다.",
       "positiveSectors": [],
       "negativeSectors": []
     },
     {
-      "id": "kw-ef403eaa",
+      "id": "kw-50691f94",
       "rank": 2,
-      "name": "엔비디아",
+      "name": "원/달러 환율 상승",
       "impactLevel": "high",
-      "impact": "AI 반도체와 데이터센터 투자 심리를 확인해야 합니다.",
-      "newsCount": 5,
+      "impact": "외국인 수급과 수입 원가 부담을 같이 확인해야 합니다.",
+      "newsCount": 4,
       "relatedIssueIds": [
-        "issue-ef403eaa-002"
+        "issue-50691f94-002"
       ],
       "issueIds": [
-        "issue-ef403eaa-002"
+        "issue-50691f94-002"
+      ],
+      "relatedEventIds": [
+        "event-us-cpi-2026-06",
+        "event-fomc-minutes-2026-06"
+      ],
+      "updatedAt": "2026-06-27T08:50:00+09:00",
+      "summary": "원/달러 환율 상승 관련 시장 변수는 관련 뉴스 4건에서 반복 확인됐습니다.",
+      "why": "시장 가격과 업종별 수급에 영향을 줄 수 있는 공통 변수입니다.",
+      "marketImpact": "외국인 수급과 수입 원가 부담을 같이 확인해야 합니다.",
+      "positiveSectors": [],
+      "negativeSectors": []
+    },
+    {
+      "id": "kw-212680a7",
+      "rank": 3,
+      "name": "미국 국채금리",
+      "impactLevel": "high",
+      "impact": "성장주 할인율과 달러 흐름에 영향을 줄 수 있습니다.",
+      "newsCount": 3,
+      "relatedIssueIds": [
+        "issue-212680a7-004"
+      ],
+      "issueIds": [
+        "issue-212680a7-004"
+      ],
+      "relatedEventIds": [
+        "event-us-cpi-2026-06",
+        "event-fomc-minutes-2026-06"
+      ],
+      "updatedAt": "2026-06-27T08:50:00+09:00",
+      "summary": "미국 국채금리 관련 시장 변수는 관련 뉴스 3건에서 반복 확인됐습니다.",
+      "why": "시장 가격과 업종별 수급에 영향을 줄 수 있는 공통 변수입니다.",
+      "marketImpact": "성장주 할인율과 달러 흐름에 영향을 줄 수 있습니다.",
+      "positiveSectors": [],
+      "negativeSectors": []
+    },
+    {
+      "id": "kw-3a55a6b1",
+      "rank": 4,
+      "name": "반도체 수출 규제",
+      "impactLevel": "high",
+      "impact": "반도체와 데이터센터 밸류체인 변동성을 확인해야 합니다.",
+      "newsCount": 3,
+      "relatedIssueIds": [
+        "issue-3a55a6b1-003"
+      ],
+      "issueIds": [
+        "issue-3a55a6b1-003"
+      ],
+      "relatedEventIds": [
+        "event-korea-export-2026-06"
+      ],
+      "updatedAt": "2026-06-27T08:50:00+09:00",
+      "summary": "반도체 수출 규제 관련 시장 변수는 관련 뉴스 3건에서 반복 확인됐습니다.",
+      "why": "시장 가격과 업종별 수급에 영향을 줄 수 있는 공통 변수입니다.",
+      "marketImpact": "반도체와 데이터센터 밸류체인 변동성을 확인해야 합니다.",
+      "positiveSectors": [],
+      "negativeSectors": []
+    },
+    {
+      "id": "kw-f5724fb8",
+      "rank": 5,
+      "name": "조선 수주",
+      "impactLevel": "high",
+      "impact": "산업재와 수출 업종의 실적 기대를 확인해야 합니다.",
+      "newsCount": 3,
+      "relatedIssueIds": [
+        "issue-3a55a6b1-003"
+      ],
+      "issueIds": [
+        "issue-3a55a6b1-003"
+      ],
+      "relatedEventIds": [
+        "event-korea-export-2026-06"
+      ],
+      "updatedAt": "2026-06-27T08:50:00+09:00",
+      "summary": "조선 수주 관련 시장 변수는 관련 뉴스 3건에서 반복 확인됐습니다.",
+      "why": "시장 가격과 업종별 수급에 영향을 줄 수 있는 공통 변수입니다.",
+      "marketImpact": "산업재와 수출 업종의 실적 기대를 확인해야 합니다.",
+      "positiveSectors": [],
+      "negativeSectors": []
+    },
+    {
+      "id": "kw-ef403eaa",
+      "rank": 6,
+      "name": "엔비디아",
+      "impactLevel": "medium",
+      "impact": "AI 반도체와 데이터센터 투자 심리를 확인해야 합니다.",
+      "newsCount": 2,
+      "relatedIssueIds": [
+        "issue-ef403eaa-005"
+      ],
+      "issueIds": [
+        "issue-ef403eaa-005"
       ],
       "relatedEventIds": [],
-      "updatedAt": "2026-06-24T08:50:00+09:00",
-      "summary": "엔비디아 관련 시장 변수는 관련 뉴스 5건에서 반복 확인됐습니다.",
+      "updatedAt": "2026-06-27T08:50:00+09:00",
+      "summary": "엔비디아 관련 시장 변수는 관련 뉴스 2건에서 반복 확인됐습니다.",
       "why": "시장 가격과 업종별 수급에 영향을 줄 수 있는 공통 변수입니다.",
       "marketImpact": "AI 반도체와 데이터센터 투자 심리를 확인해야 합니다.",
       "positiveSectors": [],
@@ -260,8 +354,8 @@
       "categoryId": "rates",
       "categoryLabel": "중앙은행·금리",
       "impactLevel": "high",
-      "title": "Inside Kevin Warsh's selection process for the next Atlanta Fed president - CNBC",
-      "whatHappened": "Inside Kevin Warsh's selection process for the next Atlanta Fed president CNBC",
+      "title": "Nobody's sure where the Federal Reserve is heading - Axios",
+      "whatHappened": "Nobody's sure where the Federal Reserve is heading Axios",
       "marketImpact": "시장 전반의 위험 선호와 업종별 흐름을 확인해야 합니다.",
       "whyItMatters": "중앙은행·금리 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
       "tags": [
@@ -275,67 +369,237 @@
         "채권"
       ],
       "relatedEventIds": [],
-      "updatedAt": "2026-06-24T08:50:00+09:00",
+      "updatedAt": "2026-06-27T08:50:00+09:00",
       "articles": [
         {
-          "id": "rss-730c252f3eac64",
-          "title": "Inside Kevin Warsh's selection process for the next Atlanta Fed president - CNBC",
-          "description": "Inside Kevin Warsh's selection process for the next Atlanta Fed president CNBC",
-          "source": "CNBC",
+          "id": "rss-444504c544fe76",
+          "title": "Nobody's sure where the Federal Reserve is heading - Axios",
+          "description": "Nobody's sure where the Federal Reserve is heading Axios",
+          "source": "Axios",
           "sourceType": "rss",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1uZy02Z1pzNEFvRHhnVGlqcXVJeEV3SXUwT2VmRURPd0FNTV9PNzNZaUFmS1IzaUFCdUV1bmxNZWMxbnY5UFV5MFJDZDlKMVdmcjRJLXVWbDdTeUstZWNYdlhjV3pwQVdTbFNCcG5yRUNmOXVwLXFrSkY4R2xvQdIBgwFBVV95cUxOMGF6U25HWHVQVG9nZC1Fb1JDRTJpdlpaakZhMzNkYTVhTzU0X2cwbzRhYXN6ODBFUzkzUWladHl2MkM2SkZ1TGFyekxfUEVtSzNMbE40cHY5OWF6cW5oblhCdXdUeGhyZUwwbE9aaVdVblY5V3hfZklIMGxiTTNLZXJzMA?oc=5",
-          "publishedAt": "2026-06-24T02:06:45+09:00"
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5aOFZrRWozMTdjNFQwbnh5Ul8xUzFUdVRKTjlVcS0tcUxWSnNDMnlOZGNaMGF2eXJEQjlDTmxEQjl1b2prTFVBWTllT3hYeS1TcWVITlZpVmpvRzJLYV9IVUtWMEJnY1VyWFVWZzMwWHY?oc=5",
+          "publishedAt": "2026-06-27T01:04:18+09:00"
         },
         {
-          "id": "rss-9bb172ff30f459",
-          "title": "Alan Greenspan was a titan among Federal Reserve chairs. What's his legacy? - NPR",
-          "description": "Alan Greenspan was a titan among Federal Reserve chairs. What's his legacy? NPR",
-          "source": "NPR",
+          "id": "rss-f8a689eff7d0ee",
+          "title": "Federal Reserve Bank of Boston: BUSSW Researchers Examine Inequities in Childcare Subsidies for Parents Working Non-Traditional Hours in Massachusetts - Boston University",
+          "description": "Federal Reserve Bank of Boston: BUSSW Researchers Examine Inequities in Childcare Subsidies for Parents Working Non-Traditional Hours in Massachusetts Boston University",
+          "source": "Boston University",
           "sourceType": "rss",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbXBEc2hEX2JObGR0WWZ0SW1GQUpDNkM5WEFrSmlhcnM0dnZZRFRUV1BHdVpnTVlzWjR3OGR3RldQYmlMd3JQeDdpUVhYU040QUt0YVBhNUUxb3Bzbkh6RlowZDBqN2hIZXAxa2E3N215eW9mSS1jZzd5SWRDYzVGR1dMT2cteDZHVTVJRzRHWVB0UmQwc042ZXdIRWxobnF6dUc1cnA3MnluV2NfOGdiSVRnZGpLQVF6?oc=5",
-          "publishedAt": "2026-06-23T06:32:48+09:00"
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQRXh6QmEzRUZmbVF4dGxfMGFuOEVIWWxlclZjMlM4Y0VrM2RodXI3dy1ya0ZPNzFyZDlZdHpfTHloblEzSUZ5TWMzZ013c0FJYnpvWmVpTWIydTR6TVQzUUs0LW1vSmRCZmEwZjFobHRFRUw3OGNKUUFBUTV4bU15aGZmbzlHLThZYV8tUG5PLVpfbXVtUUpSeEJnY1NtMlRCNTdBT3VvRXZ4dWItSW90MU5zRzJWY3VaeFFfUVRHNmhXS1dDbGoxODIzZWhxNlRkNVYyRkQwTVhxZFcyLVhwQWpfNG1DbnNycVNHb05EMXEzWDRrblgyazBZaVRzXzFRZGpF?oc=5",
+          "publishedAt": "2026-06-27T01:43:24+09:00"
         },
         {
-          "id": "rss-f283ec7894123a",
-          "title": "Federal Reserve Signals Keep Pressure on the Japanese Yen - StoneX",
-          "description": "Federal Reserve Signals Keep Pressure on the Japanese Yen StoneX",
-          "source": "StoneX",
+          "id": "rss-426637b38eed01",
+          "title": "Neel Kashkari at the Aspen Ideas Festival 2026 - Federal Reserve Bank of Minneapolis",
+          "description": "Neel Kashkari at the Aspen Ideas Festival 2026 Federal Reserve Bank of Minneapolis",
+          "source": "Federal Reserve Bank of Minneapolis",
           "sourceType": "rss",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUnRrSHRLa1dYWS1pTFBFVWpIRDRVaHZYOEZhVHZvb0NENjFpQVdORTF6Mnpzc1c3MTdqUUx6YnAwVjNDWm05enFwRU9MUnFEenlxZTYzVXRtZGpZZU45MHRFVDEzdUpTSTRWOTZCcXRFMFFTR0daSjJJX1ZtNmJhc0xGVDlqSmVaOHdYVWtkV2laZDRkYk1ZSA?oc=5",
-          "publishedAt": "2026-06-23T22:41:00+09:00"
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQVAtbld0cGpVdHgyaUtHVmZLcmRDSEZqUzBuVVM3TkwzUlg2Z2gwV0lGMmNiY0xLVEFBZE1RWVdmNWJ3anJLN084TDJLS25Ic3BmbFM0eklNX2JGdkFlc3M4bjhraDRxdlluVXY4U3l4VWlLUXh3eUhwcXdzZzdQRzY1YU4tT0I1N1hybnA0WHJ6OWdGUFE?oc=5",
+          "publishedAt": "2026-06-27T00:30:00+09:00"
         },
         {
-          "id": "rss-764ed55a4db7cd",
-          "title": "Fed's Goolsbee says labor market stable, inflation going the wrong way - Reuters",
-          "description": "Fed's Goolsbee says labor market stable, inflation going the wrong way Reuters",
-          "source": "Reuters",
+          "id": "rss-e5921847b5eba5",
+          "title": "Nebraska’s Job Market Steady, but Uneven and Facing Uncertainty - Kansas City Fed",
+          "description": "Nebraska’s Job Market Steady, but Uneven and Facing Uncertainty Kansas City Fed",
+          "source": "Kansas City Fed",
           "sourceType": "rss",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeWlTMGpUVWVMbVFBNVgyWTFaQ3NVQjljOVB2RWdoNDlnbEhEX09SQkdoem9ocGFGc2lueWtqdDVWU3VvUnM0ZWRfalNESWwzejRTOGJJWTZsWHU2enJ4aExUNDZxU0doc2c5UTVxSGFWZTgtZXlmSHB4OTF1eUZNbU8zczVoMlN5UnFfNVFjeEJvVTY4ODI2c3poaG5FWk1LYWxiRVF1YzNrQQ?oc=5",
-          "publishedAt": "2026-06-23T07:28:07+09:00"
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZWdwZG5STERuZll4NVhKeENHOGRFTWFkZkM5U2ltZWJlU1dzNWRTZW5iWHd4WXZwV0NuT0FSM0xtWkFjODJ3a09qNEVJSEpMQVU2akRXcUtUQW93ajJRelkzYzMtWTBTNXp5TlB6dnQ0R2ExZzZ3OVVVc0NnVWNJT1NKUUxuNUtzOC1tZjFwdy1MZFdQQkZLajdhVWpsUkNuaHVxNE9rOGNsX0YtSnFjb1pRTVdFMFZD?oc=5",
+          "publishedAt": "2026-06-27T04:32:36+09:00"
         },
         {
-          "id": "rss-a6642e07b3b8e6",
-          "title": "Why the Fed may need to stay patient - invesco.com",
-          "description": "Why the Fed may need to stay patient invesco.com",
-          "source": "invesco.com",
+          "id": "rss-934d55ba976944",
+          "title": "Kashkari Says Fed May Need Rate Hike Amid Broad Inflation - Bloomberg.com",
+          "description": "Kashkari Says Fed May Need Rate Hike Amid Broad Inflation Bloomberg.com",
+          "source": "Bloomberg.com",
           "sourceType": "rss",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPY2Rodm44akFzYjFsTkk2ZXpZQTliWnJpUlc0TGQtYzFRMEFRSUlIYmNnaE5NeERfV2c2Njdud3RjcXlnNklUYTIzbE5kSDRBRHl1SW5YeHRLS0NibjRUNF9wRDFNQXg1UDRrdTB6ajhTM0U3MnZNNmdhdGFfamZ2ZHp1YmVBUQ?oc=5",
-          "publishedAt": "2026-06-23T09:53:13+09:00"
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOY0xEb3hkdHZjZlZFREhCT3VfV0JLdVdQZkUtTEdqclVYTHRoLWdWczlkZi1tbGF5c25oNzQ0bXpSdlRHbE94NlpkQ1BKZVdpM0Z4dGpuM1lIOEMxLTR3LUxpNkxob1BLRGJpWllXOEJvS3lYcDI0OWdTQUpsQmt6a0ZubGl3Qmw2a190NlpQUGItbDJ3UGZGcTIwYTZ0UWlueHUwNmh4cEhiaWJveVBPbFJ6bw?oc=5",
+          "publishedAt": "2026-06-27T02:58:27+09:00"
         }
       ]
     },
     {
-      "id": "issue-ef403eaa-002",
+      "id": "issue-50691f94-002",
+      "categoryId": "market",
+      "categoryLabel": "시장흐름",
+      "impactLevel": "high",
+      "title": "달러-원, 안전 선호 확산에 낙폭 축소…1,535.80원 마감 - 연합뉴스",
+      "whatHappened": "달러-원, 안전 선호 확산에 낙폭 축소…1,535.80원 마감 연합뉴스",
+      "marketImpact": "외국인 수급과 수입 원가 부담에 영향을 줄 수 있습니다.",
+      "whyItMatters": "시장흐름 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
+      "tags": [
+        "달러",
+        "환율",
+        "원/달러"
+      ],
+      "sectors": [
+        "수출주",
+        "항공",
+        "유통"
+      ],
+      "relatedEventIds": [
+        "event-us-cpi-2026-06",
+        "event-fomc-minutes-2026-06"
+      ],
+      "updatedAt": "2026-06-27T08:50:00+09:00",
+      "articles": [
+        {
+          "id": "rss-733a388b9b300c",
+          "title": "달러-원, 안전 선호 확산에 낙폭 축소…1,535.80원 마감 - 연합뉴스",
+          "description": "달러-원, 안전 선호 확산에 낙폭 축소…1,535.80원 마감 연합뉴스",
+          "source": "연합뉴스",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9YUkNJcThBR3E5UTdOOW9fS0dRQ3VKRkRQdk9JMlB6STQ3alFEZGVuTXRqZ0xyM3hFU3VaUTFrYUxwcmZCMTRjdDRvZzk4ZnNQRjdkYmVHbXhPTHI0b2NlNdIBYEFVX3lxTE9YUkNJcThBR3E5UTdOOW9fS0dRQ3VKRkRQdk9JMlB6STQ3alFEZGVuTXRqZ0xyM3hFU3VaUTFrYUxwcmZCMTRjdDRvZzk4ZnNQRjdkYmVHbXhPTHI0b2NlNQ?oc=5",
+          "publishedAt": "2026-06-27T03:57:46+09:00"
+        },
+        {
+          "id": "rss-8712a5d16171a6",
+          "title": "진정 안 되는 원/달러 환율 - 연합뉴스",
+          "description": "진정 안 되는 원/달러 환율 연합뉴스",
+          "source": "연합뉴스",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9HTVZsckNQbUtyU2JkbHRMWWM0Wl90NFlFYmpXUVZyemNSQ0tQaHM2Q29hcFVpWjZhdXJtX1FEMDlHUjloczZXOVdyZ2hwWlpzSkswRmVxVTI3cTUyUHoxSNIBYEFVX3lxTE9HTVZsckNQbUtyU2JkbHRMWWM0Wl90NFlFYmpXUVZyemNSQ0tQaHM2Q29hcFVpWjZhdXJtX1FEMDlHUjloczZXOVdyZ2hwWlpzSkswRmVxVTI3cTUyUHoxSA?oc=5",
+          "publishedAt": "2026-06-26T15:56:54+09:00"
+        },
+        {
+          "id": "rss-bac36693c75dac",
+          "title": "환율 한달반 가까이 1500원대… 장중 1550원 육박, 외환당국 개입한 듯 - 동아일보",
+          "description": "환율 한달반 가까이 1500원대… 장중 1550원 육박, 외환당국 개입한 듯 동아일보",
+          "source": "동아일보",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91UWlJQ2c1RzBqU1BqQ2VyZHBoc05WT1E0Rmh5SVpraTJUemM4Yl9mamh1cURJR3ZBWWpKcDZ2STg2aWIwaXRNV2g4eXA2UXpCVDhaWnp0LTItN28zX3N3aE1fTXFnUGdPa3V2Mmx3TFBFWVFiMmfSAWZBVV95cUxOOGEzX3Flb2pzYVBGcW9ObHNWenY4UEpyVkZfb3hxRG9kY0xMOElwV1MxRlVEakp1LXNBM1ZpUGFQSHgwT2R0SFpIUG44d0NSWHlZRFhZVFliaUgzTkFiWXZBTjZSSmc?oc=5",
+          "publishedAt": "2026-06-27T01:40:00+09:00"
+        },
+        {
+          "id": "rss-546f0e096f8bda",
+          "title": "[이슈체크] 1550원 위협하던 환율…갑자기 1530원대로 급락, 왜? - v.daum.net",
+          "description": "[이슈체크] 1550원 위협하던 환율…갑자기 1530원대로 급락, 왜? v.daum.net",
+          "source": "v.daum.net",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9KOHBHZ3c0a1FoSXZUbXBFTTZlUWlIcW9scG5sTmpvODBJaGkxOUZ0Y1kySGNhUUtKTVlZYkJ2UGhwcklSYWRxZndkQjhiMmc?oc=5",
+          "publishedAt": "2026-06-26T18:48:23+09:00"
+        }
+      ]
+    },
+    {
+      "id": "issue-3a55a6b1-003",
       "categoryId": "industry",
       "categoryLabel": "산업·테마",
       "impactLevel": "high",
-      "title": "NVIDIA Announces BioNeMo Agent Toolkit — Tools for Agents to Accelerate Scientific Discovery - NVIDIA Newsroom",
-      "whatHappened": "NVIDIA Announces BioNeMo Agent Toolkit — Tools for Agents to Accelerate Scientific Discovery NVIDIA Newsroom",
+      "title": "\"인력·용수·전력이 핵심인데...반도체 입지, 호남 안 유리해\" - 조선일보",
+      "whatHappened": "\"인력·용수·전력이 핵심인데...반도체 입지, 호남 안 유리해\" 조선일보",
       "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
       "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
       "tags": [
-        "nvidia",
-        "ai"
+        "반도체",
+        "조선",
+        "투자"
+      ],
+      "sectors": [
+        "반도체",
+        "데이터센터",
+        "장비"
+      ],
+      "relatedEventIds": [
+        "event-korea-export-2026-06"
+      ],
+      "updatedAt": "2026-06-27T08:50:00+09:00",
+      "articles": [
+        {
+          "id": "rss-0bb4639deb4ae5",
+          "title": "\"인력·용수·전력이 핵심인데...반도체 입지, 호남 안 유리해\" - 조선일보",
+          "description": "\"인력·용수·전력이 핵심인데...반도체 입지, 호남 안 유리해\" 조선일보",
+          "source": "조선일보",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYWJ3di11cTFMWE5KeGhmUUZHVXZSaXZVQUZ6MDBpdjc4Q01tX216X2V5SkNvU0NUcDc5MGFMbDFNUlprekFsR25BSlVnaW9sdUpqWXJGSGRoZklQc244RWJoWEtkTVR3UEQtVHRRX3FOWUFoYUpJLTlvcVEwcG00a3piVG5PR1gyX1VaREN4aw?oc=5",
+          "publishedAt": "2026-06-27T05:28:03+09:00"
+        },
+        {
+          "id": "rss-41adc2520f7e35",
+          "title": "[단독] 정부, 반도체 물 부족 대책 있나… 호남 농업용 저수지서 끌어올 판 - 조선일보",
+          "description": "[단독] 정부, 반도체 물 부족 대책 있나… 호남 농업용 저수지서 끌어올 판 조선일보",
+          "source": "조선일보",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNEI5UFJFYjNOYTJaUjRKbmJtWmRvUlNQTFI5Tnp3ejI2ZTdDYnRNSmh6TTYxVk1SSHZqNmZVb1ZyM0ZrQ3RXREZzMWR3UWN2a3VpSzk0Zm5uV3VNcnNKS0RtakpObVFibWJWX0k4UVV6QnMtZ2dNTEh0RTNZY1ROcEdRSlVkT2UxQkJTOHp0UDJtMGVBQXJV?oc=5",
+          "publishedAt": "2026-06-27T05:05:48+09:00"
+        },
+        {
+          "id": "rss-76c26cceb4636b",
+          "title": "‘숫자부터 내놓으라’ 앞뒤 바뀐 반도체 투자 - 조선일보",
+          "description": "‘숫자부터 내놓으라’ 앞뒤 바뀐 반도체 투자 조선일보",
+          "source": "조선일보",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNW1kMzE1TU5razRVWlZIMXc2UkIxSG9iWllDbG5BTmVMUWtIS09udkF6VS1OYjhiVjJGLV9HMFVwT3RaSGF0dmFmYlJqVEhXMXluQlprYkVVZGpnRFI3dWkyOGNMeWc3bld0cnJmYnFWVkJqNnVxQTlQTDk2R0lxODVKMUVLTFpiNDI5RTliQQ?oc=5",
+          "publishedAt": "2026-06-27T01:06:23+09:00"
+        }
+      ]
+    },
+    {
+      "id": "issue-212680a7-004",
+      "categoryId": "rates",
+      "categoryLabel": "중앙은행·금리",
+      "impactLevel": "high",
+      "title": "미니애 연은 총재 \"올해 한 차례 기준금리 인상 전망\" - KB Think",
+      "whatHappened": "미니애 연은 총재 \"올해 한 차례 기준금리 인상 전망\" KB Think",
+      "marketImpact": "성장주와 채권, 달러 흐름의 변동성을 확인해야 합니다.",
+      "whyItMatters": "중앙은행·금리 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
+      "tags": [
+        "금리",
+        "기준금리",
+        "금"
+      ],
+      "sectors": [
+        "성장주",
+        "은행",
+        "채권"
+      ],
+      "relatedEventIds": [
+        "event-us-cpi-2026-06",
+        "event-fomc-minutes-2026-06"
+      ],
+      "updatedAt": "2026-06-27T08:50:00+09:00",
+      "articles": [
+        {
+          "id": "rss-e4666fd04ba60b",
+          "title": "미니애 연은 총재 \"올해 한 차례 기준금리 인상 전망\" - KB Think",
+          "description": "미니애 연은 총재 \"올해 한 차례 기준금리 인상 전망\" KB Think",
+          "source": "KB Think",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBtVzNXSHVvZWpFNFVvRWVxU2l0Y2REdTJYMkZmVkNkUzhTdlFUbDFCSmRZYUlXdUlLeS15MGFhMDItbF9xN0R0b1NRSjRvR3J2RkdNSW9MWUFnTWl5bTJKcmxLbkZfSGZFby0xMW1MRnNHUQ?oc=5",
+          "publishedAt": "2026-06-27T01:53:49+09:00"
+        },
+        {
+          "id": "rss-90b40450d44f54",
+          "title": "5월 주담대 금리 4.32%…고정금리 비중은 축소 - 연합뉴스",
+          "description": "5월 주담대 금리 4.32%…고정금리 비중은 축소 연합뉴스",
+          "source": "연합뉴스",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB3RExQeng4MG12U01EbVdKQlEyQlJONV9udUlCNnZRWGhLWTctSWhuQ0RxaVBvMGt2Sk43bzBWY1g5ODZPZ2hXZDlnNnNSVDFyZ21JSW16WllodllDLUhIctIBYEFVX3lxTFB3RExQeng4MG12U01EbVdKQlEyQlJONV9udUlCNnZRWGhLWTctSWhuQ0RxaVBvMGt2Sk43bzBWY1g5ODZPZ2hXZDlnNnNSVDFyZ21JSW16WllodllDLUhIcg?oc=5",
+          "publishedAt": "2026-06-26T12:59:19+09:00"
+        },
+        {
+          "id": "rss-6df7d01f7e91fb",
+          "title": "미, '물가 쇼크'에 긴축 고삐…한, 빨라지는 '금리 인상' - 뉴스토마토",
+          "description": "미, '물가 쇼크'에 긴축 고삐…한, 빨라지는 '금리 인상' 뉴스토마토",
+          "source": "뉴스토마토",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1UbjBBVkJ6RHB4bVlOOXpBWXBQRGxCZFBBVGhiMDhMOVV6MlZ6bnZTb2FzNVc4R1JlNkxhWjB1ZmUtbEM2dUdWSm5vd1V4QnQybk5DQWc4TndONi04dEE3eg?oc=5",
+          "publishedAt": "2026-06-26T17:21:24+09:00"
+        }
+      ]
+    },
+    {
+      "id": "issue-ef403eaa-005",
+      "categoryId": "industry",
+      "categoryLabel": "산업·테마",
+      "impactLevel": "high",
+      "title": "Nvidia Stock Continues Slide Amid Tech Sell-Off - Investor's Business Daily",
+      "whatHappened": "Nvidia Stock Continues Slide Amid Tech Sell-Off Investor's Business Daily",
+      "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
+      "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
+      "tags": [
+        "ai",
+        "nvidia"
       ],
       "sectors": [
         "반도체",
@@ -343,375 +607,119 @@
         "장비"
       ],
       "relatedEventIds": [],
-      "updatedAt": "2026-06-24T08:50:00+09:00",
+      "updatedAt": "2026-06-27T08:50:00+09:00",
       "articles": [
         {
-          "id": "rss-c8d9bddbcca9d9",
-          "title": "NVIDIA Announces BioNeMo Agent Toolkit — Tools for Agents to Accelerate Scientific Discovery - NVIDIA Newsroom",
-          "description": "NVIDIA Announces BioNeMo Agent Toolkit — Tools for Agents to Accelerate Scientific Discovery NVIDIA Newsroom",
-          "source": "NVIDIA Newsroom",
-          "sourceType": "rss",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZUoycWRkekFhdURRelBmYWtMdXk3UjVDaTFjeUF2bmJTOVNmSmk0TEoxZVNWZ29Qd2dPaVg2Sk4xb0tKUDJqaTZYTms0N3FFVnNka0J6S0c3NDRKOUFkeC14ZmhrWEJ6UkFIdjNXZjFzSU5vd09CUFV6TGdUa1FENUFKdFRSZG1DZHNtdDNwOTkzbWdYaGtKRURUT09COUxmcTlVTkVZcWpBS042MFJLdlZUTFl1Qlh1VHpxYkt0YlRjZkwwNmcxWV9FOG85RTg?oc=5",
-          "publishedAt": "2026-06-23T22:10:22+09:00"
-        },
-        {
-          "id": "rss-342a8e243044f6",
-          "title": "Nvidia, Micron, AMD lead tech sell-off as AI trade cools - Yahoo Finance",
-          "description": "Nvidia, Micron, AMD lead tech sell-off as AI trade cools Yahoo Finance",
-          "source": "Yahoo Finance",
-          "sourceType": "rss",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUWQ3UzZaY1JCdkpMTC1WYlZKWXhZU05OZWpYVS1rRHZXcm12NzVGaC1LbzZfTmVDRkRCNVdwdjRUSEhxY0VyTFZNSXExTHotVm81T0toYWdldk5QbW1lenFnRWRDWVYwdmd2M3dZa0pUdjMzdWVCZGd2bDdfdU5hajJaRDBsYnNmZ291SHB4QjNqenc3YmszOFd4b1QwNklfRFA5Wk9wVmFkMjRuYVNGZHNXYUNoVENvaUE?oc=5",
-          "publishedAt": "2026-06-24T05:40:29+09:00"
-        },
-        {
-          "id": "rss-debe6faaa59075",
-          "title": "Nvidia Stock Falls as Tech Selloff Catches Up With Chips - Barron's",
-          "description": "Nvidia Stock Falls as Tech Selloff Catches Up With Chips Barron's",
-          "source": "Barron's",
-          "sourceType": "rss",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1PeGI2VTFHRmRxeHNCUDVWVGdhQk5kOFZSaWxITXVqaEpwQU1iN2VOOVZCeG1XTXQzQm5QSjFCNHpHSVJnTXAyb1dsOWJwUWd3ZVFVMVlzUkFWTzBxZzcxb0wxUFRreno3TGhpMEEyaHU0ZHVYdDFqa1pPTC0xdw?oc=5",
-          "publishedAt": "2026-06-24T05:05:00+09:00"
-        },
-        {
-          "id": "rss-45c846de9259c2",
-          "title": "Build an AI Scientist for Life Science Discovery with NVIDIA BioNeMo Agent Toolkit | NVIDIA Technical Blog - NVIDIA Developer",
-          "description": "Build an AI Scientist for Life Science Discovery with NVIDIA BioNeMo Agent Toolkit | NVIDIA Technical Blog NVIDIA Developer",
-          "source": "NVIDIA Developer",
-          "sourceType": "rss",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNFRCVUQ4TTVKeXVtWS1yWlhONDdGWDRDLXdOZUY2QlNpT1IzanpCVHFuWk91OWp4OXMxVjJPeVZrOVdRZll0S2FKZU1GUTZSZXVmSFpzQlhKaFoxd01UODRLaGY4SlpFT25Mczg2N2szVVh2ZXI4NmlKRmtwSk5ic3lrUEVUSDdJT2F4d1ZBZ0xNbUtOVXpUdzlIdUUxZlgtejc2bS0zM1ZlR0pnLXRUdXliR3RhYWZC?oc=5",
-          "publishedAt": "2026-06-23T22:38:40+09:00"
-        },
-        {
-          "id": "rss-80e92d2226e640",
-          "title": "NVIDIA Is Stalled at $200. Is the Next Move a Breakout or a Breakdown? - 24/7 Wall St.",
-          "description": "NVIDIA Is Stalled at $200. Is the Next Move a Breakout or a Breakdown? 24/7 Wall St.",
-          "source": "24/7 Wall St.",
-          "sourceType": "rss",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSkdFY195TEFuRHJadkJJdWRLbGRrV0ZmRFJFMURBbXVwZkJiMXNXaDdTMVlIYl90THNXNTdWRlFTNHh0VTM5ZEtfVG41ZjZ6bE1IcWhtNF9iVWFwN0MweVQ4YWZKU1hyckU4WUVSNmdOWFluenF5SFI1SWdJTjN5ZmowQXZzZHYzMURrUXhPVkJULVhHd1p3eU4yZGp6YlN3WlVFV3ZIUlcxV05EaW9iRw?oc=5",
-          "publishedAt": "2026-06-24T04:29:05+09:00"
-        }
-      ]
-    },
-    {
-      "id": "issue-industry-alan-greenspan-was-a-faithful-servant-o-003",
-      "categoryId": "industry",
-      "categoryLabel": "산업·테마",
-      "impactLevel": "reference",
-      "title": "Alan Greenspan Was a Faithful Servant of the Ruling Class - Jacobin",
-      "whatHappened": "Alan Greenspan Was a Faithful Servant of the Ruling Class Jacobin",
-      "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
-      "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
-      "tags": [
-        "ai"
-      ],
-      "sectors": [
-        "시장 전체"
-      ],
-      "relatedEventIds": [],
-      "updatedAt": "2026-06-24T08:50:00+09:00",
-      "articles": [
-        {
-          "id": "rss-26ea17776f5717",
-          "title": "Alan Greenspan Was a Faithful Servant of the Ruling Class - Jacobin",
-          "description": "Alan Greenspan Was a Faithful Servant of the Ruling Class Jacobin",
-          "source": "Jacobin",
-          "sourceType": "rss",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMzNLVVRMbEZmekVodk5pbTBob19RSlRyXzQ5UktIVjN1di1jMVE4WkxQaFZ5MHZxSFJXUFVLV1ZWUTBFc1lvRVAxb21ITUNPdm1fNXFUbjd4V252Wmc3Z0ExbXQyTGE2a0xnU3RFU1NqQWVXNzl0SGR0T0J3RDU3alNR?oc=5",
-          "publishedAt": "2026-06-24T02:21:38+09:00"
-        }
-      ]
-    },
-    {
-      "id": "issue-market-unpacking-the-alan-greenspan-era-and-the--004",
-      "categoryId": "market",
-      "categoryLabel": "시장흐름",
-      "impactLevel": "reference",
-      "title": "Unpacking the Alan Greenspan Era — and the Crisis That Followed - PBS",
-      "whatHappened": "Unpacking the Alan Greenspan Era — and the Crisis That Followed PBS",
-      "marketImpact": "시장 전반의 위험 선호와 업종별 흐름을 확인해야 합니다.",
-      "whyItMatters": "시장흐름 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
-      "tags": [],
-      "sectors": [
-        "시장 전체"
-      ],
-      "relatedEventIds": [],
-      "updatedAt": "2026-06-24T08:50:00+09:00",
-      "articles": [
-        {
-          "id": "rss-d15fdc9ef7660f",
-          "title": "Unpacking the Alan Greenspan Era — and the Crisis That Followed - PBS",
-          "description": "Unpacking the Alan Greenspan Era — and the Crisis That Followed PBS",
-          "source": "PBS",
-          "sourceType": "rss",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaG95eUlYRnVzX0ZyN3gzWnlrZFM4MUhKeWc4NFZUSGs5WnRLRlVsMU9JZFU3U19zOUJNbjdfUjM3MWpYYU80SVk4OTQtRlBGSEJfWld3d2Y2VUFKN1p5NHRSZl9pV19kTUs1REQwQzJoMlBjT29EUC1xZWNNVTQ1U2ZPWnhzNEFkOG8xQm5lRWFUN09MTDJtMHBqNHNjNXNoSi15TzN3eXJ4TTBDWUE?oc=5",
-          "publishedAt": "2026-06-23T09:15:08+09:00"
-        }
-      ]
-    },
-    {
-      "id": "issue-market-key-inflation-gauge-worsens-as-americans--005",
-      "categoryId": "market",
-      "categoryLabel": "시장흐름",
-      "impactLevel": "reference",
-      "title": "Key inflation gauge worsens as Americans' income and spending power erodes - Post Register",
-      "whatHappened": "Key inflation gauge worsens as Americans' income and spending power erodes Post Register",
-      "marketImpact": "시장 전반의 위험 선호와 업종별 흐름을 확인해야 합니다.",
-      "whyItMatters": "시장흐름 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
-      "tags": [],
-      "sectors": [
-        "시장 전체"
-      ],
-      "relatedEventIds": [],
-      "updatedAt": "2026-06-24T08:50:00+09:00",
-      "articles": [
-        {
-          "id": "rss-e88ae61f75684b",
-          "title": "Key inflation gauge worsens as Americans' income and spending power erodes - Post Register",
-          "description": "Key inflation gauge worsens as Americans' income and spending power erodes Post Register",
-          "source": "Post Register",
-          "sourceType": "rss",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPbnprcWFCTTNaLVhxczE4NXhGYUp2QS16M0lXVzhlR2JETXM4amhwR1dobzc1N0tSdjM4b3JRSVFIWndYS2lTaTFHQlZua0NDTkIxMElOWVdYQll3Yjl0Qk1vQ0FKMldYUzNuSFhYQWQ1WGNiY3dQZnNpajI2czNwTzUzSkdyU3MxR1JvbzRLOWtYQWpOTXJFM3lxMW9XUldJWU80M2lhT29ROV8yTjBuYmxieTJmTkh0aVVSQjVVMHpnNkJhRF85TDRCX284Tl92eEVXcHBDRDJsMUducHZZRDNpRG95ZjhGa0dfLUNYa2dmUmp6aVZGa1VocWJtRlF1?oc=5",
-          "publishedAt": "2026-06-24T04:15:00+09:00"
-        }
-      ]
-    },
-    {
-      "id": "issue-market-treasury-yields-fall-despite-rate-hike-co-006",
-      "categoryId": "market",
-      "categoryLabel": "시장흐름",
-      "impactLevel": "reference",
-      "title": "Treasury yields fall despite rate hike concerns hitting tech stocks - CNBC",
-      "whatHappened": "Treasury yields fall despite rate hike concerns hitting tech stocks CNBC",
-      "marketImpact": "시장 전반의 위험 선호와 업종별 흐름을 확인해야 합니다.",
-      "whyItMatters": "시장흐름 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
-      "tags": [],
-      "sectors": [
-        "시장 전체"
-      ],
-      "relatedEventIds": [],
-      "updatedAt": "2026-06-24T08:50:00+09:00",
-      "articles": [
-        {
-          "id": "rss-7221aa5debc160",
-          "title": "Treasury yields fall despite rate hike concerns hitting tech stocks - CNBC",
-          "description": "Treasury yields fall despite rate hike concerns hitting tech stocks CNBC",
-          "source": "CNBC",
-          "sourceType": "rss",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbEV2VHJnWDI1MEZ5alBTZWo3OUtQalowZ0o2OTNaQ00zY2RnUkMyNXIxeXhvYVVlSngxM1BUNDNUN3RIWWlXMTZEeHlPcUpfZGhveGJrMHZUNFNtYk1IYkRGOGdSN3JRcDJkQnpjdUMxTFE1X2VCWEpIZk9wQWl2QzhCcWRzYnJ1OUJLdWhoN2EyRWVqaUFsakoyWdIBmwFBVV95cUxNbEV2VHJnWDI1MEZ5alBTZWo3OUtQalowZ0o2OTNaQ00zY2RnUkMyNXIxeXhvYVVlSngxM1BUNDNUN3RIWWlXMTZEeHlPcUpfZGhveGJrMHZUNFNtYk1IYkRGOGdSN3JRcDJkQnpjdUMxTFE1X2VCWEpIZk9wQWl2QzhCcWRzYnJ1OUJLdWhoN2EyRWVqaUFsakoyWQ?oc=5",
-          "publishedAt": "2026-06-23T18:08:16+09:00"
-        }
-      ]
-    },
-    {
-      "id": "issue-industry-many-economists-believe-that-ai-will-le-007",
-      "categoryId": "industry",
-      "categoryLabel": "산업·테마",
-      "impactLevel": "reference",
-      "title": "Many economists believe that AI will lead to more inflation. Why? - marketplace.org",
-      "whatHappened": "Many economists believe that AI will lead to more inflation. Why? marketplace.org",
-      "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
-      "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
-      "tags": [
-        "ai"
-      ],
-      "sectors": [
-        "시장 전체"
-      ],
-      "relatedEventIds": [],
-      "updatedAt": "2026-06-24T08:50:00+09:00",
-      "articles": [
-        {
-          "id": "rss-548244c16d5ac4",
-          "title": "Many economists believe that AI will lead to more inflation. Why? - marketplace.org",
-          "description": "Many economists believe that AI will lead to more inflation. Why? marketplace.org",
-          "source": "marketplace.org",
-          "sourceType": "rss",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaFZfWDkxemd3LW9hSWRPWkh3bVJzWXBzX1VJWWlIYnJxcWFEcG9XUFRMX09QYXVaOGxzdmZicHNFRFlSeVRUd3Y1VTdMdEdLdzFMT2IydmtMZXRCVjAtTnR5cXZLU1lQNU15QXJfaVVxMXowNlJzZ3lzdUw5Z3RicEpzZlo?oc=5",
-          "publishedAt": "2026-06-23T06:45:00+09:00"
-        }
-      ]
-    },
-    {
-      "id": "issue-industry-major-supreme-court-decisions-testing-t-008",
-      "categoryId": "industry",
-      "categoryLabel": "산업·테마",
-      "impactLevel": "reference",
-      "title": "Major Supreme Court Decisions Testing Trump’s Policies Remain - The New York Times",
-      "whatHappened": "Major Supreme Court Decisions Testing Trump’s Policies Remain The New York Times",
-      "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
-      "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
-      "tags": [
-        "ai"
-      ],
-      "sectors": [
-        "시장 전체"
-      ],
-      "relatedEventIds": [],
-      "updatedAt": "2026-06-24T08:50:00+09:00",
-      "articles": [
-        {
-          "id": "rss-788bc57eaaa0e3",
-          "title": "Major Supreme Court Decisions Testing Trump’s Policies Remain - The New York Times",
-          "description": "Major Supreme Court Decisions Testing Trump’s Policies Remain The New York Times",
-          "source": "The New York Times",
-          "sourceType": "rss",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcWM0ZFBkWlhUSjZzakxRTmtJRkZfaE9WSkVHNWtielRHd1VQT2Z3d2ZxbkZfSkMxR25DcWwzQkVQWTlwTkI1VEtSRmtKRzJpb2Q1RDBqSml0d2dENXBnaGFzOHB1LVVaQzVIQ2llNHd2SGtMY0xZa0tST3ZqM1dvR3M5a2s1aTY2N3lv?oc=5",
-          "publishedAt": "2026-06-23T18:02:33+09:00"
-        }
-      ]
-    },
-    {
-      "id": "issue-industry-is-ai-one-big-bubble-behind-the-tech-se-009",
-      "categoryId": "industry",
-      "categoryLabel": "산업·테마",
-      "impactLevel": "reference",
-      "title": "Is AI 'one big bubble'? Behind the tech sell-off - NPR",
-      "whatHappened": "Is AI 'one big bubble'? Behind the tech sell-off NPR",
-      "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
-      "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
-      "tags": [
-        "ai"
-      ],
-      "sectors": [
-        "시장 전체"
-      ],
-      "relatedEventIds": [],
-      "updatedAt": "2026-06-24T08:50:00+09:00",
-      "articles": [
-        {
-          "id": "rss-ded297220ee9a0",
-          "title": "Is AI 'one big bubble'? Behind the tech sell-off - NPR",
-          "description": "Is AI 'one big bubble'? Behind the tech sell-off NPR",
-          "source": "NPR",
-          "sourceType": "rss",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdWU0VkdBSm4xdno0NjBPZDNmZlJ3dS02MVc4akhFVlpEalFDNXJoMzRQWmxaNnowWUxzM0w2N1RRZUVUUHFMZGprejR6Z2ltUkdYOE1Na3lfcVRNLVJOQzQ4c1puRUNSS1lLVndFV0lhNnFLZTNJYzB0Z2Y0YUVIRWZYd2NDdFQy?oc=5",
-          "publishedAt": "2026-06-24T04:31:54+09:00"
-        }
-      ]
-    },
-    {
-      "id": "issue-industry-tech-stocks-slump-as-ai-bubble-fears-lo-010",
-      "categoryId": "industry",
-      "categoryLabel": "산업·테마",
-      "impactLevel": "reference",
-      "title": "Tech stocks slump as AI bubble fears loom - Axios",
-      "whatHappened": "Tech stocks slump as AI bubble fears loom Axios",
-      "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
-      "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
-      "tags": [
-        "ai"
-      ],
-      "sectors": [
-        "시장 전체"
-      ],
-      "relatedEventIds": [],
-      "updatedAt": "2026-06-24T08:50:00+09:00",
-      "articles": [
-        {
-          "id": "rss-b41185574a7133",
-          "title": "Tech stocks slump as AI bubble fears loom - Axios",
-          "description": "Tech stocks slump as AI bubble fears loom Axios",
-          "source": "Axios",
-          "sourceType": "rss",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9aSW1rS2luaVhzUWVpSkNGMG1mSzk5LWJXOEhZY1VaZnBSaVRtZVRHQ2NDdlU2THVlenAxZ2hVRkh6Sk4wdGdpY1p0N19PSTdEV1NXcEdqSVJyYVBzUXFza3NudEw?oc=5",
-          "publishedAt": "2026-06-24T04:45:11+09:00"
-        }
-      ]
-    },
-    {
-      "id": "issue-industry-tech-stocks-are-plummeting-is-ai-to-bla-011",
-      "categoryId": "industry",
-      "categoryLabel": "산업·테마",
-      "impactLevel": "reference",
-      "title": "Tech stocks are plummeting. Is AI to blame? - ABC News - Breaking News, Latest News and Videos",
-      "whatHappened": "Tech stocks are plummeting. Is AI to blame? ABC News - Breaking News, Latest News and Videos",
-      "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
-      "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
-      "tags": [
-        "ai"
-      ],
-      "sectors": [
-        "시장 전체"
-      ],
-      "relatedEventIds": [],
-      "updatedAt": "2026-06-24T08:50:00+09:00",
-      "articles": [
-        {
-          "id": "rss-6739be5359bc4a",
-          "title": "Tech stocks are plummeting. Is AI to blame? - ABC News - Breaking News, Latest News and Videos",
-          "description": "Tech stocks are plummeting. Is AI to blame? ABC News - Breaking News, Latest News and Videos",
-          "source": "ABC News - Breaking News, Latest News and Videos",
-          "sourceType": "rss",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQYU5UeFkzYXdNSzF2RlFWVV8zOGVfY2VEeWg2dmZNUmVQbTBUNjJIdTIydlBBWGwwd3VKam1tMW9mS1J4STRHWE1iTGlBNVVjNDc0a3RmZ2k3ZVpHVG9wOE5udm1wOHpUa0RDWndneHBBWWV5ck5sSFV2YndRSkpNV2t0bVdOZ9IBiwFBVV95cUxNZVozUEIyaXUzSjBSajFraUt5bzhjd1UweXFqdHdBVGZTMW1nbVc2aDlzOC1WbG9tM1pHNWswTFpPMWxnYVJtWk82bFhacWFIcF9aX2tRNTN4YnRCN09rcnE5dW1PbzBLOGI0Z1FIZjBILUJJZjJLNHpuLW9VaWdadFhkTkdNMEZHNm9B?oc=5",
-          "publishedAt": "2026-06-24T05:34:37+09:00"
-        }
-      ]
-    },
-    {
-      "id": "issue-industry-global-tech-sell-off-intensifies-led-by-012",
-      "categoryId": "industry",
-      "categoryLabel": "산업·테마",
-      "impactLevel": "reference",
-      "title": "Global tech sell-off intensifies, led by AI and chip stocks - NBC News",
-      "whatHappened": "Global tech sell-off intensifies, led by AI and chip stocks NBC News",
-      "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
-      "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
-      "tags": [
-        "ai"
-      ],
-      "sectors": [
-        "시장 전체"
-      ],
-      "relatedEventIds": [],
-      "updatedAt": "2026-06-24T08:50:00+09:00",
-      "articles": [
-        {
-          "id": "rss-6738d2ae4ff7b0",
-          "title": "Global tech sell-off intensifies, led by AI and chip stocks - NBC News",
-          "description": "Global tech sell-off intensifies, led by AI and chip stocks NBC News",
-          "source": "NBC News",
-          "sourceType": "rss",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdUJwcS1tc0otcS1kZFNpbllLQ1JUWXZrczgtOExVbGM5bjFQN0tKR0J1NEpETmwtajM0QUYxbUM0Sk1wWm5sZmtOM2JjdmtYb0xCdjJ3QUZ1LXRhemRYUVRycUhEaDJEbW9LeVB0elN6SWIyWVFvUG9Ub0RDbUhEQjdkVGRib1BuQUp4eTEwSTZYTUhyY0NkSzlKeExFMHE1UnZ3aWhiNDljNzIxRDJaNUx3?oc=5",
-          "publishedAt": "2026-06-24T05:15:47+09:00"
-        }
-      ]
-    },
-    {
-      "id": "issue-industry-chip-stocks-tumble-from-record-heights--013",
-      "categoryId": "industry",
-      "categoryLabel": "산업·테마",
-      "impactLevel": "reference",
-      "title": "Chip Stocks Tumble From Record Heights, Lead Tech Wreck - Investor's Business Daily",
-      "whatHappened": "Chip Stocks Tumble From Record Heights, Lead Tech Wreck Investor's Business Daily",
-      "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
-      "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
-      "tags": [
-        "ai"
-      ],
-      "sectors": [
-        "시장 전체"
-      ],
-      "relatedEventIds": [],
-      "updatedAt": "2026-06-24T08:50:00+09:00",
-      "articles": [
-        {
-          "id": "rss-5a5cbdba0375b5",
-          "title": "Chip Stocks Tumble From Record Heights, Lead Tech Wreck - Investor's Business Daily",
-          "description": "Chip Stocks Tumble From Record Heights, Lead Tech Wreck Investor's Business Daily",
+          "id": "rss-82c31513fafc45",
+          "title": "Nvidia Stock Continues Slide Amid Tech Sell-Off - Investor's Business Daily",
+          "description": "Nvidia Stock Continues Slide Amid Tech Sell-Off Investor's Business Daily",
           "source": "Investor's Business Daily",
           "sourceType": "rss",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNU1dlYnFOMGpwWFJNdlBKQlJUWS1ZVjYySld4Y19WUGhBSXhhZG9ucFk3U3YtZGdsYnAtUXlBelNZR2dnWFNjM0w1NHgxTWZIRE5SN2hoQzRmR2xBTU9mclVNdmdBQUMtMUJMQ0lYdDd6OWFCX1Q1UjNLaEZBT3ZFSlZsWnNoVnltbXdYci02UHctUVVvTFNkWnNrMVp5eVl1VXMzamlR?oc=5",
-          "publishedAt": "2026-06-24T05:36:00+09:00"
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZWxBVXZBclZFRDRhc2pmSHBxSzY1TWNSZ2lLQ0hvUmdKYjFwcHZMdzdvTGhHXzZQYzZIUzVPcnBkU3daV2xLUklYT0x6QzJaMFl1LXZPWEtxdVI0RWRxRGVWVEd0bUR1bDBNVm16eGJsdmNvajM3R2Y3SUVkdzFBY1E3SmZZaF9YMzBYaklsTVE?oc=5",
+          "publishedAt": "2026-06-27T05:24:00+09:00"
+        },
+        {
+          "id": "rss-e4fb27a6970cb2",
+          "title": "Nvidia Stock Keeps Falling as ‘Hot Money’ Heads Elsewhere - Barron's",
+          "description": "Nvidia Stock Keeps Falling as ‘Hot Money’ Heads Elsewhere Barron's",
+          "source": "Barron's",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB2VHluNTZUeXZab1RLR2NXNXc0S0Q2MGx2enFUb3VmbHNOZWhmTEdGQThEWURzc1pVQmVyUnJrTFM4QjRTeDNDMXJNU1V1cE15djVxUmN1VHJIaUpmM3l0RDJHMnlVYnkyMnlaUV80R1luVkV5cmkyNQ?oc=5",
+          "publishedAt": "2026-06-27T03:19:00+09:00"
         }
       ]
     },
     {
-      "id": "issue-industry-ai-stock-slump-raises-the-question-if-i-014",
+      "id": "issue-market-ytn-006",
+      "categoryId": "market",
+      "categoryLabel": "시장흐름",
+      "impactLevel": "reference",
+      "title": "무너진 경제에 지진까지 강타...'삼중고' 베네수엘라 - YTN",
+      "whatHappened": "무너진 경제에 지진까지 강타...'삼중고' 베네수엘라 YTN",
+      "marketImpact": "시장 전반의 위험 선호와 업종별 흐름을 확인해야 합니다.",
+      "whyItMatters": "시장흐름 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
+      "tags": [],
+      "sectors": [
+        "시장 전체"
+      ],
+      "relatedEventIds": [],
+      "updatedAt": "2026-06-27T08:50:00+09:00",
+      "articles": [
+        {
+          "id": "rss-ed12f70be934ec",
+          "title": "무너진 경제에 지진까지 강타...'삼중고' 베네수엘라 - YTN",
+          "description": "무너진 경제에 지진까지 강타...'삼중고' 베네수엘라 YTN",
+          "source": "YTN",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Ta05nbWQ3MXNEZHk4MHBfR2tUaWgybk1pY2ZGeWtiM3poaWlCQ1lweUtndjlmQzlkMkloTl9OaC05RmZZc1daNnhDNWhFMjEzOEpZSWFuRW9wckxRcWc?oc=5",
+          "publishedAt": "2026-06-27T01:06:00+09:00"
+        }
+      ]
+    },
+    {
+      "id": "issue-market-v-daum-net-007",
+      "categoryId": "market",
+      "categoryLabel": "시장흐름",
+      "impactLevel": "reference",
+      "title": "전 세계 덮친 폭염·엘니뇨 비상…물가 폭등 우려[기후로운 경제생활] - v.daum.net",
+      "whatHappened": "전 세계 덮친 폭염·엘니뇨 비상…물가 폭등 우려[기후로운 경제생활] v.daum.net",
+      "marketImpact": "시장 전반의 위험 선호와 업종별 흐름을 확인해야 합니다.",
+      "whyItMatters": "시장흐름 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
+      "tags": [],
+      "sectors": [
+        "시장 전체"
+      ],
+      "relatedEventIds": [],
+      "updatedAt": "2026-06-27T08:50:00+09:00",
+      "articles": [
+        {
+          "id": "rss-d3e773bc9f3439",
+          "title": "전 세계 덮친 폭염·엘니뇨 비상…물가 폭등 우려[기후로운 경제생활] - v.daum.net",
+          "description": "전 세계 덮친 폭염·엘니뇨 비상…물가 폭등 우려[기후로운 경제생활] v.daum.net",
+          "source": "v.daum.net",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1OZlpmOTVzeUlQU0ljczl4bmVpMnlBMUdpel9HdDRTMjdNT0NDQ3Z3dzFfeWRndW5CaDFDaHBvWFZWdE41UXFDT0I3WDRkaHc?oc=5",
+          "publishedAt": "2026-06-27T05:03:11+09:00"
+        }
+      ]
+    },
+    {
+      "id": "issue-industry-iran-deal-inflation-ai-all-pull-markets-008",
       "categoryId": "industry",
       "categoryLabel": "산업·테마",
       "impactLevel": "reference",
-      "title": "AI stock slump raises the question if investors are just taking profits or getting very nervous - AP News",
-      "whatHappened": "AI stock slump raises the question if investors are just taking profits or getting very nervous AP News",
+      "title": "Iran deal, inflation, AI all pull markets in different directions - Courthouse News",
+      "whatHappened": "Iran deal, inflation, AI all pull markets in different directions Courthouse News",
+      "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
+      "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
+      "tags": [
+        "ai",
+        "ir"
+      ],
+      "sectors": [
+        "시장 전체"
+      ],
+      "relatedEventIds": [],
+      "updatedAt": "2026-06-27T08:50:00+09:00",
+      "articles": [
+        {
+          "id": "rss-05a7e1129bd477",
+          "title": "Iran deal, inflation, AI all pull markets in different directions - Courthouse News",
+          "description": "Iran deal, inflation, AI all pull markets in different directions Courthouse News",
+          "source": "Courthouse News",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeXhEMFJ6cEFtbEE3RHJndE1HeHRrNTljeUcybzcwWS1uOXF6YnhiN3g0bTQtZVZRd2hrX3dxNk05NXBUYmctVHN0dkYwaTJySlQweXRBMWJOUk84aGNrOUNyNTd3UHY0NkxNcjR0RWNvcVdNWFNiU0g2ejZPbnpyaEpnNUJXWGVlcWsyTmt0LWRlQUVNTm13Rktnaw?oc=5",
+          "publishedAt": "2026-06-27T05:44:45+09:00"
+        }
+      ]
+    },
+    {
+      "id": "issue-industry-dollar-falls-for-second-straight-day-bu-009",
+      "categoryId": "industry",
+      "categoryLabel": "산업·테마",
+      "impactLevel": "reference",
+      "title": "Dollar falls for second straight day but poised for weekly gain - CNBC",
+      "whatHappened": "Dollar falls for second straight day but poised for weekly gain CNBC",
       "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
       "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
       "tags": [
@@ -721,26 +729,53 @@
         "시장 전체"
       ],
       "relatedEventIds": [],
-      "updatedAt": "2026-06-24T08:50:00+09:00",
+      "updatedAt": "2026-06-27T08:50:00+09:00",
       "articles": [
         {
-          "id": "rss-584b4b2bfbafc6",
-          "title": "AI stock slump raises the question if investors are just taking profits or getting very nervous - AP News",
-          "description": "AI stock slump raises the question if investors are just taking profits or getting very nervous AP News",
-          "source": "AP News",
+          "id": "rss-9896e11ebb8550",
+          "title": "Dollar falls for second straight day but poised for weekly gain - CNBC",
+          "description": "Dollar falls for second straight day but poised for weekly gain CNBC",
+          "source": "CNBC",
           "sourceType": "rss",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPc0hsaTJHSzN3R1pMUkVGZUZncFczQjZMaHh6RzNzS3BFYWs4ZDQ2b3IzcDE2TXo4LVdReE9QSkNMLXY0eDJBR3RGUzZ0Z2ltUTZLUDdKd2ZsaERzVnZFcXlod1hrVTU1V3VQUngtam9CX0FoWWZOUTVtUlVRakhvcEw4Ti1vQ3ZjbmRsak95MA?oc=5",
-          "publishedAt": "2026-06-24T03:38:20+09:00"
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbl9nVzRsVjNCODdjV2ZQQXBQajMwekxlQkJrOFNpMEtVUXo3MWpyUk1GamZwb1I1cmJ3MVZkRjhSMWxjVVpZU1ZraFpLYzkyU3RpNnEyekRycW5zdnZDMFVuSnlvQzItMzRuYnMzd2RrYWhXTjlGZWlReldHX3NpNHFTdXRXaGxhYW1ZRDJuT01hd193MHpfUnpWWlhZWm9pX2RjMDJJV2U2dWJQWkJJLUdaNnFRd9IBuwFBVV95cUxQVEx0NEJQb3Z1ZmFudWRVU0hJVmppVVNmUS1QeE53MjZEYmxyWE5lX0F5Si1zYXJYZ2xPUmhSTV9qdmJGZVpKeVl2aUlSbTdON0d3V3FneHAzYUF3aFVhcDNJRzFsaEpRNlExNjZSM25idmhmSHhCWXp6Ny1JYWt3TThORVZ3WW56LTFVUm9GdG8yY3lpdUl1M0YtOWY0THFBMXdjV19TQnhmVC0wNnFRQ0VOLUtDWFBBMjlz?oc=5",
+          "publishedAt": "2026-06-26T20:08:30+09:00"
         }
       ]
     },
     {
-      "id": "issue-industry-ai-spending-jitters-weigh-on-tech-stock-015",
+      "id": "issue-market-dollar-retreats-as-us-inflation-data-ease-010",
+      "categoryId": "market",
+      "categoryLabel": "시장흐름",
+      "impactLevel": "reference",
+      "title": "Dollar retreats as US inflation data eases rate hike expectations - Reuters",
+      "whatHappened": "Dollar retreats as US inflation data eases rate hike expectations Reuters",
+      "marketImpact": "시장 전반의 위험 선호와 업종별 흐름을 확인해야 합니다.",
+      "whyItMatters": "시장흐름 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
+      "tags": [],
+      "sectors": [
+        "시장 전체"
+      ],
+      "relatedEventIds": [],
+      "updatedAt": "2026-06-27T08:50:00+09:00",
+      "articles": [
+        {
+          "id": "rss-d51fcbfbdb6923",
+          "title": "Dollar retreats as US inflation data eases rate hike expectations - Reuters",
+          "description": "Dollar retreats as US inflation data eases rate hike expectations Reuters",
+          "source": "Reuters",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPX25hZkZ0OWxlTlFwamppOEZIM1dTMUx6MUx4ZVNWYXhXZlQ0ZHljYXFBMjYybWZPaEZHSy1TejhxMWp6VlJCT3o3YnV3MHFQWHVFbThYMHlZOWZjRDFfa0VtR2F4dXdpUzZLLWQwVFQ2OU9KVTU2T001bmEzZFpCTHpVaXB6SGFMTE9xYlFzTkVXSmVudWc?oc=5",
+          "publishedAt": "2026-06-26T08:01:48+09:00"
+        }
+      ]
+    },
+    {
+      "id": "issue-industry-prices-jump-again-in-may-but-has-inflat-011",
       "categoryId": "industry",
       "categoryLabel": "산업·테마",
       "impactLevel": "reference",
-      "title": "AI Spending Jitters Weigh on Tech Stocks - WSJ",
-      "whatHappened": "AI Spending Jitters Weigh on Tech Stocks WSJ",
+      "title": "Prices Jump Again in May, but Has Inflation Peaked? - The Fiscal Times",
+      "whatHappened": "Prices Jump Again in May, but Has Inflation Peaked? The Fiscal Times",
       "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
       "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
       "tags": [
@@ -750,26 +785,26 @@
         "시장 전체"
       ],
       "relatedEventIds": [],
-      "updatedAt": "2026-06-24T08:50:00+09:00",
+      "updatedAt": "2026-06-27T08:50:00+09:00",
       "articles": [
         {
-          "id": "rss-7eb9bd3d4c81bf",
-          "title": "AI Spending Jitters Weigh on Tech Stocks - WSJ",
-          "description": "AI Spending Jitters Weigh on Tech Stocks WSJ",
-          "source": "WSJ",
+          "id": "rss-f934cd12cd4fa1",
+          "title": "Prices Jump Again in May, but Has Inflation Peaked? - The Fiscal Times",
+          "description": "Prices Jump Again in May, but Has Inflation Peaked? The Fiscal Times",
+          "source": "The Fiscal Times",
           "sourceType": "rss",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOc1I5YkJCUlNBY1FhY1ZXQ0VLSGJoSnRrSFlaNnBqMlNOOTI2TlpNMnByRnpreEo4YjlfYy1LNzhHVGtmNS1TbE1mMmtlWm1BWTFzdnNJYXRMODNzVDRjanJmZXVuUHNGeEt3Q0E3d2ViZTAwOS1MMEFZNmtxa05FQXVicVloTk9jWllESUVyWQ?oc=5",
-          "publishedAt": "2026-06-24T05:12:00+09:00"
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRDN4Y2NteW1IOThrQUtSbFhEUEhnWE1zX2VSdkI4aVBXTmlRYzhWVDhpd1EyUk5uRFU2U2lLcGp2NXgxcWVIckVIRzFCc3N6Tk1tcGpMbE5Wdms0OWQtQWF6S3BfZHpXSFF0STBHN0hzWmdFcXFyMmlFUnowR3FVR204UlFNYnQ2MGtr?oc=5",
+          "publishedAt": "2026-06-26T08:01:02+09:00"
         }
       ]
     },
     {
-      "id": "issue-industry-how-to-burst-the-ai-bubble-strike-at-it-016",
+      "id": "issue-industry-patients-are-bringing-ai-to-therapy-ame-012",
       "categoryId": "industry",
       "categoryLabel": "산업·테마",
       "impactLevel": "reference",
-      "title": "How to burst the AI bubble: Strike at its roots - Ars Technica",
-      "whatHappened": "How to burst the AI bubble: Strike at its roots Ars Technica",
+      "title": "Patients are bringing AI to therapy - American Psychological Association (APA)",
+      "whatHappened": "Patients are bringing AI to therapy American Psychological Association (APA)",
       "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
       "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
       "tags": [
@@ -779,26 +814,26 @@
         "시장 전체"
       ],
       "relatedEventIds": [],
-      "updatedAt": "2026-06-24T08:50:00+09:00",
+      "updatedAt": "2026-06-27T08:50:00+09:00",
       "articles": [
         {
-          "id": "rss-72b6aa4088ae86",
-          "title": "How to burst the AI bubble: Strike at its roots - Ars Technica",
-          "description": "How to burst the AI bubble: Strike at its roots Ars Technica",
-          "source": "Ars Technica",
+          "id": "rss-a2434af9aa0fbf",
+          "title": "Patients are bringing AI to therapy - American Psychological Association (APA)",
+          "description": "Patients are bringing AI to therapy American Psychological Association (APA)",
+          "source": "American Psychological Association (APA)",
           "sourceType": "rss",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOV0pmQkljek5TRXhjUXRTMDhlQzVnRDBJM1NRMHc5Y1JweUY3d1BTbTlmUlZmRURVTmdUOGtqUHJIbXZWdXZNZ1hQMlcxdzdZbWx2QmVSTi0zNF9fWTdKSXZWdnhiU2hJSXV6TVZnWWRPVGxhYi1sUFZuSUZNU2lIX1dBWWptLS1DVjktdHNLckk?oc=5",
-          "publishedAt": "2026-06-23T21:00:34+09:00"
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1WWnJKR2tRSjN0dk1PajZUX085VmM3aGxKZWRJWGNnTjVvSHZSZWlnd05oM2llajF6YXBDRV8zOTRFRjV6ZTF2SW5FUUh2UU5OLVNMN0tYX2k2cXZvZHFvU2c5UXF6OHNJY3lieQ?oc=5",
+          "publishedAt": "2026-06-26T23:24:17+09:00"
         }
       ]
     },
     {
-      "id": "issue-industry-google-takes-the-hit-in-ai-s-talent-war-017",
+      "id": "issue-industry-openai-limits-new-ai-models-to-trusted--013",
       "categoryId": "industry",
       "categoryLabel": "산업·테마",
       "impactLevel": "reference",
-      "title": "Google takes the hit in AI's talent war - Axios",
-      "whatHappened": "Google takes the hit in AI's talent war Axios",
+      "title": "OpenAI limits new AI models to 'trusted partners' at request of U.S. government - CNBC",
+      "whatHappened": "OpenAI limits new AI models to 'trusted partners' at request of U.S. government CNBC",
       "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
       "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
       "tags": [
@@ -808,26 +843,83 @@
         "시장 전체"
       ],
       "relatedEventIds": [],
-      "updatedAt": "2026-06-24T08:50:00+09:00",
+      "updatedAt": "2026-06-27T08:50:00+09:00",
       "articles": [
         {
-          "id": "rss-808eed086b88b0",
-          "title": "Google takes the hit in AI's talent war - Axios",
-          "description": "Google takes the hit in AI's talent war Axios",
-          "source": "Axios",
+          "id": "rss-108cfc747638ca",
+          "title": "OpenAI limits new AI models to 'trusted partners' at request of U.S. government - CNBC",
+          "description": "OpenAI limits new AI models to 'trusted partners' at request of U.S. government CNBC",
+          "source": "CNBC",
           "sourceType": "rss",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5SMzByMWZzTV9MNFdFTkk3YnBNZTBDaTU4ME1UaW1hbENPM3VONllGMUFXaXJkWXhoZHY4VTdnVXFwOTRJRGptQ1NoU0c4bGRuWkJmU1VBMEFrN3pQU1pneXNFMjVYMmNSNHQ0dmRpR3dpcGZSb2lTbTdR?oc=5",
-          "publishedAt": "2026-06-24T02:01:33+09:00"
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbXc3S3VNWkFPMXVnZmZSRWhFYmpaQTV5X0NuMFJsUlZiRHZPY2lfNlJ0U0VNUTFlLUpNNFFCRC01akpSX3hET0IzM21IRVBaYmVYOHRlLWN0LXhmajhzZDQyd2pSSUVSUnFKek5oQ0xjUDhIRi05ZFZCcVIzUndQQjZGQUJ3V0piMGNjMF9WQ0NDYUdCb3V6a095emJpSlV5eFJYZEx2ck5sd9IBrwFBVV95cUxNQ2tyUVkzakNiV1hERTNhVXNKdXAwWmVmZU5MeEg5QUhMYzB4dVBPYzBMZWxPRUhBTm9MYlZfbWRzaUllS19PMjU1MkNWRGtCNVNGQWhYemttSWtyTGhnTU9CLWVhQUd1MXFIb1VjNXVDSE9hX0tubVpuSTB6MTBDMlFzejk5Z2MyNEdVY0xsQTdrdjBlS2pVWUo3eTgwc0hFWlI1emNVMDZ1c3NaT3pZ?oc=5",
+          "publishedAt": "2026-06-27T02:02:44+09:00"
         }
       ]
     },
     {
-      "id": "issue-industry-helping-build-shared-standards-for-adva-018",
+      "id": "issue-industry-a24-will-survive-the-ai-backlash-but-so-014",
       "categoryId": "industry",
       "categoryLabel": "산업·테마",
       "impactLevel": "reference",
-      "title": "Helping build shared standards for advanced AI - OpenAI",
-      "whatHappened": "Helping build shared standards for advanced AI OpenAI",
+      "title": "A24 Will Survive the AI Backlash, but Some Are Convinced the Company Has ‘Sold Its Soul’ - IndieWire",
+      "whatHappened": "A24 Will Survive the AI Backlash, but Some Are Convinced the Company Has ‘Sold Its Soul’ IndieWire",
+      "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
+      "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
+      "tags": [
+        "ai",
+        "ir"
+      ],
+      "sectors": [
+        "시장 전체"
+      ],
+      "relatedEventIds": [],
+      "updatedAt": "2026-06-27T08:50:00+09:00",
+      "articles": [
+        {
+          "id": "rss-2047ab1d99985b",
+          "title": "A24 Will Survive the AI Backlash, but Some Are Convinced the Company Has ‘Sold Its Soul’ - IndieWire",
+          "description": "A24 Will Survive the AI Backlash, but Some Are Convinced the Company Has ‘Sold Its Soul’ IndieWire",
+          "source": "IndieWire",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQajhmV25FTEJyMDAwT3FJbC1BdjlzQjJvQVd4eE5HRmFjT3RFbW81aWhyUXEwREdyUG12d1ZJSmVpUG1xT1BnaVJFRUxPdC1VWGI2MnZZelB6ZW1oRTFMcm9BVi1wY1N5M3pkaldxaU5zczRsRklKaC1vZlFHX3p3Tkdn?oc=5",
+          "publishedAt": "2026-06-27T04:34:41+09:00"
+        }
+      ]
+    },
+    {
+      "id": "issue-market-on-semiconductor-records-worst-day-since--015",
+      "categoryId": "market",
+      "categoryLabel": "시장흐름",
+      "impactLevel": "reference",
+      "title": "ON Semiconductor records worst day since 2020 as CEO defends Synaptics deal - CNBC",
+      "whatHappened": "ON Semiconductor records worst day since 2020 as CEO defends Synaptics deal CNBC",
+      "marketImpact": "시장 전반의 위험 선호와 업종별 흐름을 확인해야 합니다.",
+      "whyItMatters": "시장흐름 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
+      "tags": [],
+      "sectors": [
+        "시장 전체"
+      ],
+      "relatedEventIds": [],
+      "updatedAt": "2026-06-27T08:50:00+09:00",
+      "articles": [
+        {
+          "id": "rss-262bffe7bbecf1",
+          "title": "ON Semiconductor records worst day since 2020 as CEO defends Synaptics deal - CNBC",
+          "description": "ON Semiconductor records worst day since 2020 as CEO defends Synaptics deal CNBC",
+          "source": "CNBC",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVzgwNUMwY2c5cDN6NG5yLWl6TURJZU1wQ0RXWVo2dkt6WFEzTmh0NWpEMHQ0VnMyYk9VbHRHWmRtamNSZXB3d1I0YUdQc2czc2J6Q2pHVVVTVFFUNkRjVW1fY1BvbTk2MTFjRUVNSHQxOWstX0d0a3RoN2hyaXZPS01ORmttdFlyX1HSAY8BQVVfeXFMUGxiMmtPRm1Wd3dZUlNLN3Rodzd4WW1EYW5hVkNac3A5ZkJLY00zVTlIbng4ZHJqSXkzNjNmdFFsRk0td09KaFJXa2Rtd1VwY0xhOUtWNjBqaEtjNDVqRTFnTnA5ZXBqcmFPSGRzWC1WSTJxNk1FYlJHZDJVYWJleU9ULWQzVlRaSVVSZXhkSjg?oc=5",
+          "publishedAt": "2026-06-27T00:39:01+09:00"
+        }
+      ]
+    },
+    {
+      "id": "issue-industry-a24-explains-why-ai-deal-with-google-ex-016",
+      "categoryId": "industry",
+      "categoryLabel": "산업·테마",
+      "impactLevel": "reference",
+      "title": "A24 Explains Why AI Deal With Google Exists: ‘We’d Rather Have a Seat at the Table Than on the Sidelines’ - Variety",
+      "whatHappened": "A24 Explains Why AI Deal With Google Exists: ‘We’d Rather Have a Seat at the Table Than on the Sidelines’ Variety",
       "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
       "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
       "tags": [
@@ -837,26 +929,53 @@
         "시장 전체"
       ],
       "relatedEventIds": [],
-      "updatedAt": "2026-06-24T08:50:00+09:00",
+      "updatedAt": "2026-06-27T08:50:00+09:00",
       "articles": [
         {
-          "id": "rss-a046b077c2e54f",
-          "title": "Helping build shared standards for advanced AI - OpenAI",
-          "description": "Helping build shared standards for advanced AI OpenAI",
-          "source": "OpenAI",
+          "id": "rss-b70701cc32a83b",
+          "title": "A24 Explains Why AI Deal With Google Exists: ‘We’d Rather Have a Seat at the Table Than on the Sidelines’ - Variety",
+          "description": "A24 Explains Why AI Deal With Google Exists: ‘We’d Rather Have a Seat at the Table Than on the Sidelines’ Variety",
+          "source": "Variety",
           "sourceType": "rss",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5zSVBMT0ZiRm1qNy04ZTJZSm1XZFA5ZGdnYnhLX1EyVVhsQlZCWkZlQk9zNjNmdFdKVzZIdTVUUkJUdGVsYTJITzFfaUQ3YXoyVll2eUNVbmdPdjRvZEVlYV9EZzltQ0IyMmh6N2RPUVRGUFgtQmNPNTZ4Mmc?oc=5",
-          "publishedAt": "2026-06-24T05:21:54+09:00"
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82NWZnOV9mdWZfLXFCQndvRFJ5TmZqZWxyam5ET2s2WUpObmFVSTREc3Z6S25obkNhLUR2VDVoUWJWS3Y2WG1QUk1NSUFsVDZWSFR1d19QMGwzY1NxX1BETEM3dnlXanl4LVpSZmYxVElhU0lvTmhCeldWQ1FUUQ?oc=5",
+          "publishedAt": "2026-06-27T04:03:00+09:00"
         }
       ]
     },
     {
-      "id": "issue-industry-meta-halts-worker-tracking-for-ai-train-019",
+      "id": "issue-market-here-s-why-on-semiconductor-stock-crashed-017",
+      "categoryId": "market",
+      "categoryLabel": "시장흐름",
+      "impactLevel": "reference",
+      "title": "Here's Why ON Semiconductor Stock Crashed Hard Today - The Motley Fool",
+      "whatHappened": "Here's Why ON Semiconductor Stock Crashed Hard Today The Motley Fool",
+      "marketImpact": "시장 전반의 위험 선호와 업종별 흐름을 확인해야 합니다.",
+      "whyItMatters": "시장흐름 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
+      "tags": [],
+      "sectors": [
+        "시장 전체"
+      ],
+      "relatedEventIds": [],
+      "updatedAt": "2026-06-27T08:50:00+09:00",
+      "articles": [
+        {
+          "id": "rss-c70ee9e7c299d6",
+          "title": "Here's Why ON Semiconductor Stock Crashed Hard Today - The Motley Fool",
+          "description": "Here's Why ON Semiconductor Stock Crashed Hard Today The Motley Fool",
+          "source": "The Motley Fool",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMmtueGNGMXFQbDE2ODljamItUjJOVks2UWliR1EzY2pKTElvdzN2d2xYSmZlOUNKM2RjTnpiUkJGZDdxU3M0TUZCQmN3MnN3Um9jUjdpQk96RjRLaFVsdTRIbkhheWFhamNjMGFTTHZWSFp6TXVYSzdsUV9YVVpyaE5NQjMxNnFJTTN0RERTdjhYZW13cmtsMw?oc=5",
+          "publishedAt": "2026-06-27T04:32:00+09:00"
+        }
+      ]
+    },
+    {
+      "id": "issue-industry-gadget-prices-have-fallen-for-decades-t-018",
       "categoryId": "industry",
       "categoryLabel": "산업·테마",
       "impactLevel": "reference",
-      "title": "Meta halts worker tracking for AI training due to privacy fears - BBC",
-      "whatHappened": "Meta halts worker tracking for AI training due to privacy fears BBC",
+      "title": "Gadget prices have fallen for decades. Then AI happened. - CBS News",
+      "whatHappened": "Gadget prices have fallen for decades. Then AI happened. CBS News",
       "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
       "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
       "tags": [
@@ -866,16 +985,134 @@
         "시장 전체"
       ],
       "relatedEventIds": [],
-      "updatedAt": "2026-06-24T08:50:00+09:00",
+      "updatedAt": "2026-06-27T08:50:00+09:00",
       "articles": [
         {
-          "id": "rss-4e4e190520ee48",
-          "title": "Meta halts worker tracking for AI training due to privacy fears - BBC",
-          "description": "Meta halts worker tracking for AI training due to privacy fears BBC",
-          "source": "BBC",
+          "id": "rss-8a63414f86b506",
+          "title": "Gadget prices have fallen for decades. Then AI happened. - CBS News",
+          "description": "Gadget prices have fallen for decades. Then AI happened. CBS News",
+          "source": "CBS News",
           "sourceType": "rss",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE40ZUFOUnJIQk90TzBjX092eGoybjAwMGJ1ZEVJc2k2U3plTVdkQXRLZ2E2cFV4M1JfZGxQWnpoMnhYUU9PN25vd3pVaTF0a1k3eFpZdEk2bVVGQQ?oc=5",
-          "publishedAt": "2026-06-24T02:51:30+09:00"
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeU9PWVUxbEcyTEZpTTlTQkhrLTJYR0RibUREOUFxbW4xZ2V3eUpnVFBRaUJuaFdvZV9IcGNBNHh2NExSdUVfcXRYSTA3Mk16NndMUUw5dTI4QkNJOGZBaHFNRFBUcDhyeVhFdFRJa2Q4WUVBVzRWeGlfaHdHQkg2N2xnWERwQk54?oc=5",
+          "publishedAt": "2026-06-27T05:09:00+09:00"
+        }
+      ]
+    },
+    {
+      "id": "issue-industry-openai-has-new-ai-models-here-s-why-you-019",
+      "categoryId": "industry",
+      "categoryLabel": "산업·테마",
+      "impactLevel": "reference",
+      "title": "OpenAI Has New AI Models. Here’s Why You Can’t Use Them - WIRED",
+      "whatHappened": "OpenAI Has New AI Models. Here’s Why You Can’t Use Them WIRED",
+      "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
+      "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
+      "tags": [
+        "ai",
+        "ir"
+      ],
+      "sectors": [
+        "시장 전체"
+      ],
+      "relatedEventIds": [],
+      "updatedAt": "2026-06-27T08:50:00+09:00",
+      "articles": [
+        {
+          "id": "rss-940f56662f3d16",
+          "title": "OpenAI Has New AI Models. Here’s Why You Can’t Use Them - WIRED",
+          "description": "OpenAI Has New AI Models. Here’s Why You Can’t Use Them WIRED",
+          "source": "WIRED",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeVdGN1lHMHBSdkxfZWJyMHlHZjVGS3JxVGRfdllzVHFTZEdFdm0tSU96RnFSYmp2UDlIck5wWlphNnpfTXdiV3hERDlwd0VxdmdpdE1KWUJOZ0o1WDFCUHJIM0l3dXdMOWNldFpVSk1zUEl0ZmJVMGNqb2hFT2c4WVpNNA?oc=5",
+          "publishedAt": "2026-06-27T02:05:00+09:00"
+        }
+      ]
+    },
+    {
+      "id": "issue-industry-ai-boom-may-be-on-its-last-legs-but-wil-020",
+      "categoryId": "industry",
+      "categoryLabel": "산업·테마",
+      "impactLevel": "reference",
+      "title": "AI boom may be on its last legs but will first surge in a 'blow-off phase' before bubble pops - Fortune",
+      "whatHappened": "AI boom may be on its last legs but will first surge in a 'blow-off phase' before bubble pops Fortune",
+      "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
+      "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
+      "tags": [
+        "ai",
+        "ir"
+      ],
+      "sectors": [
+        "시장 전체"
+      ],
+      "relatedEventIds": [],
+      "updatedAt": "2026-06-27T08:50:00+09:00",
+      "articles": [
+        {
+          "id": "rss-9c3ce106b3f861",
+          "title": "AI boom may be on its last legs but will first surge in a 'blow-off phase' before bubble pops - Fortune",
+          "description": "AI boom may be on its last legs but will first surge in a 'blow-off phase' before bubble pops Fortune",
+          "source": "Fortune",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONjZTVWtCQXhBRkFjX21wQUdKQmZ2MUxHTnE1Y1UxbmE3MDQ2N2hTRFpOdDRjZTdldVp2U3RyVk9Vc1BMbTBGOU5sVGpxem5xa1pLazFFQWdmSUhwQy0zeFkwUmlnSW1rd1U1LUM2ME1JOG16aWtoWGpIbDF3enJIazAxUXhadm9Ua0FqaXNrcFRUTHlJcDhsMHpPeHMtWmdHZ0FYNXpvQjBGMjR5UTdYSWRGcw?oc=5",
+          "publishedAt": "2026-06-27T01:09:00+09:00"
+        }
+      ]
+    },
+    {
+      "id": "issue-industry-how-ai-will-make-art-worse-time-magazin-021",
+      "categoryId": "industry",
+      "categoryLabel": "산업·테마",
+      "impactLevel": "reference",
+      "title": "How AI Will Make Art Worse - Time Magazine",
+      "whatHappened": "How AI Will Make Art Worse Time Magazine",
+      "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
+      "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
+      "tags": [
+        "ai"
+      ],
+      "sectors": [
+        "시장 전체"
+      ],
+      "relatedEventIds": [],
+      "updatedAt": "2026-06-27T08:50:00+09:00",
+      "articles": [
+        {
+          "id": "rss-22a11bdbb7cb1d",
+          "title": "How AI Will Make Art Worse - Time Magazine",
+          "description": "How AI Will Make Art Worse Time Magazine",
+          "source": "Time Magazine",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9WS25RalJOdVVkQS1lUU0wNVBnYmVMdjNsUHpsZ0ktcWFHTEpyRnlSMzR0ckVqRmJyQTNrZk9ZSnBvOXRMU0JWcnU4ZHI4N2FwWWZhLUZ6SmVLVnp1UnViWDltU3A5bFBxdXV6NndVeW8?oc=5",
+          "publishedAt": "2026-06-26T19:00:04+09:00"
+        }
+      ]
+    },
+    {
+      "id": "issue-industry-oracle-stock-has-worst-week-since-2001--022",
+      "categoryId": "industry",
+      "categoryLabel": "산업·테마",
+      "impactLevel": "reference",
+      "title": "Oracle stock has worst week since 2001 dot-com bust as AI financing concerns escalate - CNBC",
+      "whatHappened": "Oracle stock has worst week since 2001 dot-com bust as AI financing concerns escalate CNBC",
+      "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
+      "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
+      "tags": [
+        "ai"
+      ],
+      "sectors": [
+        "시장 전체"
+      ],
+      "relatedEventIds": [],
+      "updatedAt": "2026-06-27T08:50:00+09:00",
+      "articles": [
+        {
+          "id": "rss-e5fc3eeb548c9e",
+          "title": "Oracle stock has worst week since 2001 dot-com bust as AI financing concerns escalate - CNBC",
+          "description": "Oracle stock has worst week since 2001 dot-com bust as AI financing concerns escalate CNBC",
+          "source": "CNBC",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQb1RFMEVwRFhxS2VQTy1ZcEpaUVFHNTVpVlp5QXJJWHRuc0xrbi12Qnh5MEdGazg1QUN3TWFXaGgzTl9DRmRaWjVSM0J2anJIdHFmdmlBVHF0MkNNSGNwYU1xWlQ0c19DTUs4ZzE0SFZlLWlhMmxqVGljNlBxT3FZY1ktMi1OeEJRUnd2LXlWYUFzVXlZbE12a2tzaWctV2ppZjFiN2wzMUlSTmPSAbABQVVfeXFMTnNmTzZwTVdCNkZab1JOWEdTblVvT1BCaEZHUHM5cTFfVVdnMXBoV3JYa1RwbzlTcmVoRlNVTnNxTjVpakVZQ1ZmcFB2YTA3cExiejlfcGNJeVFoc1RHSzVnaFJ4OTR3b3dSd0NJcm5Tc0hwTHRNakR6NU5JUmtubmRqWkdTa3Z4bjZoMHMtMVZtcm1ZOEJxUHJhOE55TUI2YkxQcTM0aXNuSTVFUkZnRlQ?oc=5",
+          "publishedAt": "2026-06-27T05:20:20+09:00"
         }
       ]
     }
