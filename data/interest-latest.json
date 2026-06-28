@@ -12,12 +12,19 @@
       "rss": 3,
       "gdelt": 0
     },
-    "warningsCount": 1,
+    "warningsCount": 3,
     "fixtureUsed": false,
     "fixtureCount": 0,
     "rssCount": 3,
     "gdeltCount": 0,
     "failedSources": [
+      {
+        "source": "gdelt",
+        "queryId": "global-market",
+        "reason": "HTTP 429",
+        "attemptCount": 3,
+        "statusCode": 429
+      },
       {
         "source": "gdelt",
         "queryId": "ai-semiconductor",
@@ -42,7 +49,7 @@
         "enabledCount": 4,
         "successCount": 4,
         "failedCount": 0,
-        "emptyCount": 0,
+        "emptyCount": 1,
         "failedSources": [],
         "details": [
           {
@@ -50,8 +57,8 @@
             "name": "Google News KR Economy",
             "ok": true,
             "failed": false,
-            "articleCount": 8,
-            "reason": "articles collected"
+            "articleCount": 0,
+            "reason": "no usable recent articles"
           },
           {
             "id": "google-news-kr-market",
@@ -66,7 +73,7 @@
             "name": "Google News Global Markets",
             "ok": true,
             "failed": false,
-            "articleCount": 83,
+            "articleCount": 78,
             "reason": "articles collected"
           },
           {
@@ -74,7 +81,7 @@
             "name": "Google News AI Semiconductor",
             "ok": true,
             "failed": false,
-            "articleCount": 13,
+            "articleCount": 14,
             "reason": "articles collected"
           }
         ]
@@ -82,11 +89,18 @@
       "gdelt": {
         "configuredCount": 2,
         "enabledCount": 2,
-        "successCount": 1,
-        "failedCount": 1,
+        "successCount": 0,
+        "failedCount": 2,
         "emptyCount": 0,
         "rateLimitedCount": 2,
         "failedSources": [
+          {
+            "source": "gdelt",
+            "queryId": "global-market",
+            "reason": "HTTP 429",
+            "attemptCount": 3,
+            "statusCode": 429
+          },
           {
             "source": "gdelt",
             "queryId": "ai-semiconductor",
@@ -98,13 +112,13 @@
         "details": [
           {
             "id": "global-market",
-            "ok": true,
-            "failed": false,
+            "ok": false,
+            "failed": true,
             "rateLimited": true,
-            "articleCount": 20,
+            "articleCount": 0,
             "attemptCount": 3,
-            "statusCode": 200,
-            "reason": "articles collected"
+            "statusCode": 429,
+            "reason": "HTTP 429"
           },
           {
             "id": "ai-semiconductor",
@@ -215,7 +229,7 @@
     "kw-semiconductor": [],
     "kw-shipbuilding-defense": [
       {
-        "id": "interest-kw-shipbuilding-defense-issue-f5724fb8-004",
+        "id": "interest-kw-shipbuilding-defense-issue-f5724fb8-003",
         "categoryId": "industry",
         "categoryLabel": "산업·테마",
         "impactLevel": "medium",

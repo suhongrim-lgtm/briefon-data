@@ -2,13 +2,20 @@
   "schemaVersion": 1,
   "generatedAt": "2026-06-28T08:50:00+09:00",
   "mode": "static",
-  "sourceLabel": "RSS/GDELT static data",
+  "sourceLabel": "RSS static data",
   "freshness": "generated",
   "fixtureUsed": false,
   "fixtureCount": 0,
-  "rssCount": 88,
-  "gdeltCount": 7,
+  "rssCount": 80,
+  "gdeltCount": 0,
   "failedSources": [
+    {
+      "source": "gdelt",
+      "queryId": "global-market",
+      "reason": "HTTP 429",
+      "attemptCount": 3,
+      "statusCode": 429
+    },
     {
       "source": "gdelt",
       "queryId": "ai-semiconductor",
@@ -33,7 +40,7 @@
       "enabledCount": 4,
       "successCount": 4,
       "failedCount": 0,
-      "emptyCount": 0,
+      "emptyCount": 1,
       "failedSources": [],
       "details": [
         {
@@ -41,8 +48,8 @@
           "name": "Google News KR Economy",
           "ok": true,
           "failed": false,
-          "articleCount": 8,
-          "reason": "articles collected"
+          "articleCount": 0,
+          "reason": "no usable recent articles"
         },
         {
           "id": "google-news-kr-market",
@@ -57,7 +64,7 @@
           "name": "Google News Global Markets",
           "ok": true,
           "failed": false,
-          "articleCount": 83,
+          "articleCount": 78,
           "reason": "articles collected"
         },
         {
@@ -65,7 +72,7 @@
           "name": "Google News AI Semiconductor",
           "ok": true,
           "failed": false,
-          "articleCount": 13,
+          "articleCount": 14,
           "reason": "articles collected"
         }
       ]
@@ -73,11 +80,18 @@
     "gdelt": {
       "configuredCount": 2,
       "enabledCount": 2,
-      "successCount": 1,
-      "failedCount": 1,
+      "successCount": 0,
+      "failedCount": 2,
       "emptyCount": 0,
       "rateLimitedCount": 2,
       "failedSources": [
+        {
+          "source": "gdelt",
+          "queryId": "global-market",
+          "reason": "HTTP 429",
+          "attemptCount": 3,
+          "statusCode": 429
+        },
         {
           "source": "gdelt",
           "queryId": "ai-semiconductor",
@@ -89,13 +103,13 @@
       "details": [
         {
           "id": "global-market",
-          "ok": true,
-          "failed": false,
+          "ok": false,
+          "failed": true,
           "rateLimited": true,
-          "articleCount": 20,
+          "articleCount": 0,
           "attemptCount": 3,
-          "statusCode": 200,
-          "reason": "articles collected"
+          "statusCode": 429,
+          "reason": "HTTP 429"
         },
         {
           "id": "ai-semiconductor",
@@ -118,8 +132,7 @@
       "gdelt"
     ],
     "usedSources": [
-      "rss",
-      "gdelt"
+      "rss"
     ],
     "sourceCounts": {
       "fixture": {
@@ -134,20 +147,20 @@
       "rss": {
         "requested": true,
         "enabled": true,
-        "collected": 105,
-        "relevant": 88,
-        "used": 88,
+        "collected": 93,
+        "relevant": 80,
+        "used": 80,
         "failed": false,
         "reason": "articles collected"
       },
       "gdelt": {
         "requested": true,
         "enabled": true,
-        "collected": 20,
-        "relevant": 7,
-        "used": 7,
-        "failed": false,
-        "reason": "articles collected"
+        "collected": 0,
+        "relevant": 0,
+        "used": 0,
+        "failed": true,
+        "reason": "HTTP 429"
       }
     },
     "sourceHealth": {
@@ -166,7 +179,7 @@
         "enabledCount": 4,
         "successCount": 4,
         "failedCount": 0,
-        "emptyCount": 0,
+        "emptyCount": 1,
         "failedSources": [],
         "details": [
           {
@@ -174,8 +187,8 @@
             "name": "Google News KR Economy",
             "ok": true,
             "failed": false,
-            "articleCount": 8,
-            "reason": "articles collected"
+            "articleCount": 0,
+            "reason": "no usable recent articles"
           },
           {
             "id": "google-news-kr-market",
@@ -190,7 +203,7 @@
             "name": "Google News Global Markets",
             "ok": true,
             "failed": false,
-            "articleCount": 83,
+            "articleCount": 78,
             "reason": "articles collected"
           },
           {
@@ -198,7 +211,7 @@
             "name": "Google News AI Semiconductor",
             "ok": true,
             "failed": false,
-            "articleCount": 13,
+            "articleCount": 14,
             "reason": "articles collected"
           }
         ]
@@ -206,11 +219,18 @@
       "gdelt": {
         "configuredCount": 2,
         "enabledCount": 2,
-        "successCount": 1,
-        "failedCount": 1,
+        "successCount": 0,
+        "failedCount": 2,
         "emptyCount": 0,
         "rateLimitedCount": 2,
         "failedSources": [
+          {
+            "source": "gdelt",
+            "queryId": "global-market",
+            "reason": "HTTP 429",
+            "attemptCount": 3,
+            "statusCode": 429
+          },
           {
             "source": "gdelt",
             "queryId": "ai-semiconductor",
@@ -222,13 +242,13 @@
         "details": [
           {
             "id": "global-market",
-            "ok": true,
-            "failed": false,
+            "ok": false,
+            "failed": true,
             "rateLimited": true,
-            "articleCount": 20,
+            "articleCount": 0,
             "attemptCount": 3,
-            "statusCode": 200,
-            "reason": "articles collected"
+            "statusCode": 429,
+            "reason": "HTTP 429"
           },
           {
             "id": "ai-semiconductor",
@@ -246,6 +266,13 @@
     "failedSources": [
       {
         "source": "gdelt",
+        "queryId": "global-market",
+        "reason": "HTTP 429",
+        "attemptCount": 3,
+        "statusCode": 429
+      },
+      {
+        "source": "gdelt",
         "queryId": "ai-semiconductor",
         "reason": "HTTP 429",
         "attemptCount": 3,
@@ -255,18 +282,18 @@
     "fixtureUsed": false,
     "fallbackUsed": false,
     "fixtureCount": 0,
-    "rssCount": 88,
-    "gdeltCount": 7,
+    "rssCount": 80,
+    "gdeltCount": 0,
     "totals": {
-      "collected": 136,
-      "relevant": 95,
+      "collected": 104,
+      "relevant": 80,
       "duplicatesRemoved": 0,
-      "used": 95
+      "used": 80
     },
     "filterReport": {
-      "collected": 136,
-      "relevant": 95,
-      "excluded": 30,
+      "collected": 104,
+      "relevant": 80,
+      "excluded": 13,
       "excludedSamples": [
         {
           "title": "Why investors may want to prioritize bond markets outside the U.S. - CNBC",
@@ -277,7 +304,7 @@
           "reason": "no BriefOn economic keyword"
         },
         {
-          "title": "America In Focus: Key inflation gauge surges to 3-year high, mortgage rate climbs - 104.5 ",
+          "title": "America In Focus: Key inflation gauge surges to 3-year high, mortgage rate climbs - KLAS 8",
           "reason": "no BriefOn economic keyword"
         },
         {
@@ -292,6 +319,18 @@
     },
     "warnings": [
       {
+        "source": "rss",
+        "level": "info",
+        "sourceId": "google-news-kr-economy",
+        "message": "RSS source google-news-kr-economy returned no usable recent articles."
+      },
+      {
+        "source": "gdelt",
+        "level": "warning",
+        "queryId": "global-market",
+        "message": "GDELT request failed: HTTP 429."
+      },
+      {
         "source": "gdelt",
         "level": "warning",
         "queryId": "ai-semiconductor",
@@ -299,9 +338,21 @@
       }
     ],
     "dataQualityStatus": "DEGRADED_SOURCE_FAILURE",
-    "sourceLabel": "RSS/GDELT static data"
+    "sourceLabel": "RSS static data"
   },
   "warnings": [
+    {
+      "source": "rss",
+      "level": "info",
+      "sourceId": "google-news-kr-economy",
+      "message": "RSS source google-news-kr-economy returned no usable recent articles."
+    },
+    {
+      "source": "gdelt",
+      "level": "warning",
+      "queryId": "global-market",
+      "message": "GDELT request failed: HTTP 429."
+    },
     {
       "source": "gdelt",
       "level": "warning",
@@ -312,19 +363,19 @@
   "ledgerStatus": {
     "enabled": true,
     "methodVersion": "briefon-signal-rule-v1",
-    "articleSnapshotCount": 95,
-    "signalCount": 90,
-    "appliedSignalCount": 29,
-    "missingIndicatorCount": 10,
-    "missingIndicatorOccurrenceCount": 231,
+    "articleSnapshotCount": 80,
+    "signalCount": 77,
+    "appliedSignalCount": 28,
+    "missingIndicatorCount": 8,
+    "missingIndicatorOccurrenceCount": 197,
     "gapQualityStatus": "READY_FOR_REVIEW",
     "userOpinionIncluded": false,
     "outcomeStatus": {
       "enabled": true,
       "status": "pending_observation",
-      "outcomeTargetCount": 254,
+      "outcomeTargetCount": 221,
       "observedCount": 0,
-      "pendingCount": 254,
+      "pendingCount": 221,
       "noDataCount": 0,
       "sourceUnavailableCount": 0,
       "readyForReviewCount": 0

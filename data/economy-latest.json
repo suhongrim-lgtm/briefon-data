@@ -12,12 +12,19 @@
       "rss": 28,
       "gdelt": 0
     },
-    "warningsCount": 1,
+    "warningsCount": 3,
     "fixtureUsed": false,
     "fixtureCount": 0,
     "rssCount": 28,
     "gdeltCount": 0,
     "failedSources": [
+      {
+        "source": "gdelt",
+        "queryId": "global-market",
+        "reason": "HTTP 429",
+        "attemptCount": 3,
+        "statusCode": 429
+      },
       {
         "source": "gdelt",
         "queryId": "ai-semiconductor",
@@ -42,7 +49,7 @@
         "enabledCount": 4,
         "successCount": 4,
         "failedCount": 0,
-        "emptyCount": 0,
+        "emptyCount": 1,
         "failedSources": [],
         "details": [
           {
@@ -50,8 +57,8 @@
             "name": "Google News KR Economy",
             "ok": true,
             "failed": false,
-            "articleCount": 8,
-            "reason": "articles collected"
+            "articleCount": 0,
+            "reason": "no usable recent articles"
           },
           {
             "id": "google-news-kr-market",
@@ -66,7 +73,7 @@
             "name": "Google News Global Markets",
             "ok": true,
             "failed": false,
-            "articleCount": 83,
+            "articleCount": 78,
             "reason": "articles collected"
           },
           {
@@ -74,7 +81,7 @@
             "name": "Google News AI Semiconductor",
             "ok": true,
             "failed": false,
-            "articleCount": 13,
+            "articleCount": 14,
             "reason": "articles collected"
           }
         ]
@@ -82,11 +89,18 @@
       "gdelt": {
         "configuredCount": 2,
         "enabledCount": 2,
-        "successCount": 1,
-        "failedCount": 1,
+        "successCount": 0,
+        "failedCount": 2,
         "emptyCount": 0,
         "rateLimitedCount": 2,
         "failedSources": [
+          {
+            "source": "gdelt",
+            "queryId": "global-market",
+            "reason": "HTTP 429",
+            "attemptCount": 3,
+            "statusCode": 429
+          },
           {
             "source": "gdelt",
             "queryId": "ai-semiconductor",
@@ -98,13 +112,13 @@
         "details": [
           {
             "id": "global-market",
-            "ok": true,
-            "failed": false,
+            "ok": false,
+            "failed": true,
             "rateLimited": true,
-            "articleCount": 20,
+            "articleCount": 0,
             "attemptCount": 3,
-            "statusCode": 200,
-            "reason": "articles collected"
+            "statusCode": 429,
+            "reason": "HTTP 429"
           },
           {
             "id": "ai-semiconductor",
@@ -127,14 +141,14 @@
     "windowLabel": "전일 06:00 - 오늘 06:00"
   },
   "status": "ready",
-  "sourceArticleCount": 136,
-  "usedArticleCount": 52,
+  "sourceArticleCount": 104,
+  "usedArticleCount": 53,
   "briefing": {
     "title": "06:00 경제 브리핑",
     "windowLabel": "전일 06:00 - 오늘 06:00",
-    "summary": "AI boom, stubborn inflation point to rate hike ahead, says Minneapolis Fed President - MPR News, Where Will Nvidia Stock Be in 2030? - Yahoo Finance, 2분기 평균 환율 1,500원 넘었다…외환위기 이후 처음 - 연합뉴스 이슈가 시장 변수로 확인됐습니다. 금리와 환율, 산업별 수급 변화를 함께 점검해야 합니다.",
-    "sourceArticleCount": 136,
-    "usedArticleCount": 52,
+    "summary": "AI boom, stubborn inflation point to rate hike ahead, says Minneapolis Fed President - MPR News, Where Will Nvidia Stock Be in 2030? - Yahoo Finance, AI Boom Bubble Collapse Risk from Rate Hikes - 조선일보 이슈가 시장 변수로 확인됐습니다. 금리와 환율, 산업별 수급 변화를 함께 점검해야 합니다.",
+    "sourceArticleCount": 104,
+    "usedArticleCount": 53,
     "sections": [
       {
         "id": "indicators",
@@ -149,7 +163,7 @@
       {
         "id": "market",
         "title": "시장흐름",
-        "summary": "외국인 수급과 수입 원가 부담에 영향을 줄 수 있습니다. 시장 전반의 위험 선호와 업종별 흐름을 확인해야 합니다."
+        "summary": "시장 전반의 위험 선호와 업종별 흐름을 확인해야 합니다. 시장 전반의 위험 선호와 업종별 흐름을 확인해야 합니다."
       },
       {
         "id": "industry",
@@ -201,7 +215,7 @@
       "name": "FOMC",
       "impactLevel": "high",
       "impact": "금리 경로와 위험자산 선호를 확인하는 변수입니다.",
-      "newsCount": 29,
+      "newsCount": 30,
       "relatedIssueIds": [
         "issue-fomc-001"
       ],
@@ -212,39 +226,15 @@
         "event-fomc-minutes-2026-06"
       ],
       "updatedAt": "2026-06-28T08:50:00+09:00",
-      "summary": "FOMC 관련 시장 변수는 관련 뉴스 29건에서 반복 확인됐습니다.",
+      "summary": "FOMC 관련 시장 변수는 관련 뉴스 30건에서 반복 확인됐습니다.",
       "why": "시장 가격과 업종별 수급에 영향을 줄 수 있는 공통 변수입니다.",
       "marketImpact": "금리 경로와 위험자산 선호를 확인하는 변수입니다.",
       "positiveSectors": [],
       "negativeSectors": []
     },
     {
-      "id": "kw-50691f94",
-      "rank": 2,
-      "name": "원/달러 환율 상승",
-      "impactLevel": "high",
-      "impact": "외국인 수급과 수입 원가 부담을 같이 확인해야 합니다.",
-      "newsCount": 1,
-      "relatedIssueIds": [
-        "issue-50691f94-003"
-      ],
-      "issueIds": [
-        "issue-50691f94-003"
-      ],
-      "relatedEventIds": [
-        "event-us-cpi-2026-06",
-        "event-fomc-minutes-2026-06"
-      ],
-      "updatedAt": "2026-06-28T08:50:00+09:00",
-      "summary": "원/달러 환율 상승 관련 시장 변수는 관련 뉴스 1건에서 반복 확인됐습니다.",
-      "why": "시장 가격과 업종별 수급에 영향을 줄 수 있는 공통 변수입니다.",
-      "marketImpact": "외국인 수급과 수입 원가 부담을 같이 확인해야 합니다.",
-      "positiveSectors": [],
-      "negativeSectors": []
-    },
-    {
       "id": "kw-ef403eaa",
-      "rank": 3,
+      "rank": 2,
       "name": "엔비디아",
       "impactLevel": "medium",
       "impact": "AI 반도체와 데이터센터 투자 심리를 확인해야 합니다.",
@@ -265,16 +255,16 @@
     },
     {
       "id": "kw-f5724fb8",
-      "rank": 4,
+      "rank": 3,
       "name": "조선 수주",
       "impactLevel": "medium",
       "impact": "산업재와 수출 업종의 실적 기대를 확인해야 합니다.",
       "newsCount": 1,
       "relatedIssueIds": [
-        "issue-f5724fb8-004"
+        "issue-f5724fb8-003"
       ],
       "issueIds": [
-        "issue-f5724fb8-004"
+        "issue-f5724fb8-003"
       ],
       "relatedEventIds": [
         "event-korea-export-2026-06"
@@ -403,40 +393,7 @@
       ]
     },
     {
-      "id": "issue-50691f94-003",
-      "categoryId": "market",
-      "categoryLabel": "시장흐름",
-      "impactLevel": "medium",
-      "title": "2분기 평균 환율 1,500원 넘었다…외환위기 이후 처음 - 연합뉴스",
-      "whatHappened": "2분기 평균 환율 1,500원 넘었다…외환위기 이후 처음 연합뉴스",
-      "marketImpact": "외국인 수급과 수입 원가 부담에 영향을 줄 수 있습니다.",
-      "whyItMatters": "시장흐름 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
-      "tags": [
-        "환율"
-      ],
-      "sectors": [
-        "수출주",
-        "항공",
-        "유통"
-      ],
-      "relatedEventIds": [
-        "event-us-cpi-2026-06"
-      ],
-      "updatedAt": "2026-06-28T08:50:00+09:00",
-      "articles": [
-        {
-          "id": "rss-404b9711e64f8f",
-          "title": "2분기 평균 환율 1,500원 넘었다…외환위기 이후 처음 - 연합뉴스",
-          "description": "2분기 평균 환율 1,500원 넘었다…외환위기 이후 처음 연합뉴스",
-          "source": "연합뉴스",
-          "sourceType": "rss",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBwUFFmaFZ5QVFmZENsS1JRdG5EX0NkTFdBc0ZJbFRLS2VQd3FzNlM3ak5QY0JzZTk5RndUQ2NmMGJUNHplQmgwcUVaTnJyMTlUb1UtNWpRZVVrRkHSAWBBVV95cUxQYjNYX3NSVG9ZcXcxNGlGWTQwZjRVUFBNbkhaY2s5eHpXZVBRVEViQkR2WFdzZEowdDFtTGVGdE5NRHcyWVZOWHk3VUNyNW5LZjlfTnV0SW4ycXl3a3I1UVE?oc=5",
-          "publishedAt": "2026-06-28T05:49:00+09:00"
-        }
-      ]
-    },
-    {
-      "id": "issue-f5724fb8-004",
+      "id": "issue-f5724fb8-003",
       "categoryId": "industry",
       "categoryLabel": "산업·테마",
       "impactLevel": "medium",
@@ -470,7 +427,7 @@
       ]
     },
     {
-      "id": "issue-market-9000-005",
+      "id": "issue-market-9000-004",
       "categoryId": "market",
       "categoryLabel": "시장흐름",
       "impactLevel": "reference",
@@ -499,7 +456,7 @@
       ]
     },
     {
-      "id": "issue-market-personal-finance-alan-greenspan-s-greates-006",
+      "id": "issue-market-personal-finance-alan-greenspan-s-greates-005",
       "categoryId": "market",
       "categoryLabel": "시장흐름",
       "impactLevel": "reference",
@@ -526,7 +483,7 @@
       ]
     },
     {
-      "id": "issue-industry-mortgage-rates-edge-higher-amid-iran-te-007",
+      "id": "issue-industry-mortgage-rates-edge-higher-amid-iran-te-006",
       "categoryId": "industry",
       "categoryLabel": "산업·테마",
       "impactLevel": "reference",
@@ -556,7 +513,7 @@
       ]
     },
     {
-      "id": "issue-company-wall-st-week-ahead-jobs-data-rate-bets-i-008",
+      "id": "issue-company-wall-st-week-ahead-jobs-data-rate-bets-i-007",
       "categoryId": "company",
       "categoryLabel": "기업·공시",
       "impactLevel": "reference",
@@ -585,7 +542,7 @@
       ]
     },
     {
-      "id": "issue-market-30-year-fixed-mortgage-rates-stay-flat-ar-009",
+      "id": "issue-market-30-year-fixed-mortgage-rates-stay-flat-ar-008",
       "categoryId": "market",
       "categoryLabel": "시장흐름",
       "impactLevel": "reference",
@@ -612,7 +569,7 @@
       ]
     },
     {
-      "id": "issue-industry-weekly-applications-for-jobless-aid-fal-010",
+      "id": "issue-industry-weekly-applications-for-jobless-aid-fal-009",
       "categoryId": "industry",
       "categoryLabel": "산업·테마",
       "impactLevel": "reference",
@@ -641,7 +598,7 @@
       ]
     },
     {
-      "id": "issue-industry-eth-xrp-doge-price-news-majors-fall-9-o-011",
+      "id": "issue-industry-eth-xrp-doge-price-news-majors-fall-9-o-010",
       "categoryId": "industry",
       "categoryLabel": "산업·테마",
       "impactLevel": "reference",
@@ -670,7 +627,7 @@
       ]
     },
     {
-      "id": "issue-company-s-p-500-and-dow-jones-forecast-stocks-fa-012",
+      "id": "issue-company-s-p-500-and-dow-jones-forecast-stocks-fa-011",
       "categoryId": "company",
       "categoryLabel": "기업·공시",
       "impactLevel": "reference",
@@ -695,6 +652,33 @@
           "sourceType": "rss",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMFQtaUlFZExwbXpucXN1b2pKNHBQV2xPQW1WZFFqSEpiNFpMNEw0em02UDBOdmhCcTJaSTFqWDBNb1VJbmowNnRfdnRUVU1uVkRhZ3hXVFZaVlViLVB4amQya1AtSzc2ZEdlT0p3dDNFbllwd241cmUzTFJURzRUZVFnUTljLVdlVU11TzNhbk56b1lCUW1nXzYwLXJXellSNTlScXgyNG1pTU9ES1hmNWYySlBrZUVaUjRaem9zbUxSU2NnYUJB?oc=5",
           "publishedAt": "2026-06-27T18:37:00+09:00"
+        }
+      ]
+    },
+    {
+      "id": "issue-market-canadian-dollar-rebounds-as-us-pce-inflat-012",
+      "categoryId": "market",
+      "categoryLabel": "시장흐름",
+      "impactLevel": "reference",
+      "title": "Canadian Dollar Rebounds as US PCE Inflation Data Eases Rate Hike Bets - CryptoRank",
+      "whatHappened": "Canadian Dollar Rebounds as US PCE Inflation Data Eases Rate Hike Bets CryptoRank",
+      "marketImpact": "시장 전반의 위험 선호와 업종별 흐름을 확인해야 합니다.",
+      "whyItMatters": "시장흐름 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
+      "tags": [],
+      "sectors": [
+        "시장 전체"
+      ],
+      "relatedEventIds": [],
+      "updatedAt": "2026-06-28T08:50:00+09:00",
+      "articles": [
+        {
+          "id": "rss-5b34ede4ec19f6",
+          "title": "Canadian Dollar Rebounds as US PCE Inflation Data Eases Rate Hike Bets - CryptoRank",
+          "description": "Canadian Dollar Rebounds as US PCE Inflation Data Eases Rate Hike Bets CryptoRank",
+          "source": "CryptoRank",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQk9peURQamttVUU1MXd5N1dsWFoySmlpdzlSMmhaSXlLN1N2U3RQcC1QM1Y0M3ItUVR0QUFMZ096WFBtaGc1QmVqRkEtRm9kdjVwM1V1ZEo4bm1zV24yME9TYU1pS2pHNWc0Y181aDRRbUs2TWtLa3RhZjBEdktLQVNrc3U5dw?oc=5",
+          "publishedAt": "2026-06-27T14:44:01+09:00"
         }
       ]
     },
@@ -871,65 +855,7 @@
       ]
     },
     {
-      "id": "issue-industry-accelerating-science-with-ai-anl-gov-019",
-      "categoryId": "industry",
-      "categoryLabel": "산업·테마",
-      "impactLevel": "reference",
-      "title": "Accelerating Science with AI - anl.gov",
-      "whatHappened": "Accelerating Science with AI anl.gov",
-      "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
-      "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
-      "tags": [
-        "ai"
-      ],
-      "sectors": [
-        "시장 전체"
-      ],
-      "relatedEventIds": [],
-      "updatedAt": "2026-06-28T08:50:00+09:00",
-      "articles": [
-        {
-          "id": "rss-0f7a1042bf1fc6",
-          "title": "Accelerating Science with AI - anl.gov",
-          "description": "Accelerating Science with AI anl.gov",
-          "source": "anl.gov",
-          "sourceType": "rss",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9HUWlmeFctYXZwb0ZCX25QUzB2UnlWREVKM05qbjFQeU5kRnVhTFJuNmphS3FNb2RjMzhCenU4TEF4T1NHMF9CZ1BTQ1JGczV0cXJ2WHB1Qk1HaVFfUmhKZWNzY0tUMEhaaElNc1RVUkt1UQ?oc=5",
-          "publishedAt": "2026-06-28T02:51:12+09:00"
-        }
-      ]
-    },
-    {
-      "id": "issue-industry-taking-an-up-close-look-at-the-supermic-020",
-      "categoryId": "industry",
-      "categoryLabel": "산업·테마",
-      "impactLevel": "reference",
-      "title": "Taking an Up-Close Look at the Supermicro GB300 Super AI Station - ServeTheHome",
-      "whatHappened": "Taking an Up-Close Look at the Supermicro GB300 Super AI Station ServeTheHome",
-      "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
-      "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
-      "tags": [
-        "ai"
-      ],
-      "sectors": [
-        "시장 전체"
-      ],
-      "relatedEventIds": [],
-      "updatedAt": "2026-06-28T08:50:00+09:00",
-      "articles": [
-        {
-          "id": "rss-752ae974935e21",
-          "title": "Taking an Up-Close Look at the Supermicro GB300 Super AI Station - ServeTheHome",
-          "description": "Taking an Up-Close Look at the Supermicro GB300 Super AI Station ServeTheHome",
-          "source": "ServeTheHome",
-          "sourceType": "rss",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeDJ6bTdIQU5UVmlUZ3loOFBHdHg2SEs0Zmd1X3ZBeEtRaHJuTXRjMnl3aVl3V0pra1FwZVF1MlNjcW4zSTNOM3A1cGREa2tyMVpiSF9xLWtQVjhBeU5mdHpJdktjTVl5QTE4bnpHZWdvUzUtaEZoYkVwa3J3XzExYkJyY2JXYTJwR1Fib05ybjVmX3BzM2ZiS3FR?oc=5",
-          "publishedAt": "2026-06-28T00:00:22+09:00"
-        }
-      ]
-    },
-    {
-      "id": "issue-industry-alphabet-burnishes-one-of-its-best-weap-021",
+      "id": "issue-industry-alphabet-burnishes-one-of-its-best-weap-019",
       "categoryId": "industry",
       "categoryLabel": "산업·테마",
       "impactLevel": "reference",
@@ -958,7 +884,7 @@
       ]
     },
     {
-      "id": "issue-industry-it-s-not-going-away-the-stanford-econom-022",
+      "id": "issue-industry-it-s-not-going-away-the-stanford-econom-020",
       "categoryId": "industry",
       "categoryLabel": "산업·테마",
       "impactLevel": "reference",
@@ -987,7 +913,36 @@
       ]
     },
     {
-      "id": "issue-industry-how-ge-vernova-builds-the-massive-gas-t-023",
+      "id": "issue-industry-anthropic-s-mythos-5-ai-model-cleared-b-021",
+      "categoryId": "industry",
+      "categoryLabel": "산업·테마",
+      "impactLevel": "reference",
+      "title": "Anthropic’s Mythos 5 AI model cleared by U.S. for wider use - Fortune",
+      "whatHappened": "Anthropic’s Mythos 5 AI model cleared by U.S. for wider use Fortune",
+      "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
+      "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
+      "tags": [
+        "ai"
+      ],
+      "sectors": [
+        "시장 전체"
+      ],
+      "relatedEventIds": [],
+      "updatedAt": "2026-06-28T08:50:00+09:00",
+      "articles": [
+        {
+          "id": "rss-b375f197f1fa7c",
+          "title": "Anthropic’s Mythos 5 AI model cleared by U.S. for wider use - Fortune",
+          "description": "Anthropic’s Mythos 5 AI model cleared by U.S. for wider use Fortune",
+          "source": "Fortune",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQUI0dGRWU0J5UDFxVVRJbUw2eDUzTVEzNW1WVThBck1mZVlwSlM5WVRXNHBSY29SNWxxdWFOWDF2cEVSbjNCLVdBVmZWSzdOTW9tWERYYmJDU0k2eDZ0dFpjWEM1YmJvR1FBNVl0a2xOcThCYlVTeGFRXzA1OTRsVFYzdnFMbkJXNnZLVGNHMWtOdGhYdlVzeTZWMWJVMlE?oc=5",
+          "publishedAt": "2026-06-27T23:01:00+09:00"
+        }
+      ]
+    },
+    {
+      "id": "issue-industry-how-ge-vernova-builds-the-massive-gas-t-022",
       "categoryId": "industry",
       "categoryLabel": "산업·테마",
       "impactLevel": "reference",
@@ -1012,6 +967,35 @@
           "sourceType": "rss",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOOWJyakJOOHU5STZ2dnNwNGVZazRKczFHNnlZZnZzaUpzRnhZTUMxOW9zNUE1TExrakpTVlVTRU9HNWZtNEFwemVGWEd4RTg1Y2szV1lmMnBkQVNEYTlGOElDOThJbUYxUXlxdkMtWVVEOHEyY0gzVkc1UHBLUjVQbS1B0gGHAUFVX3lxTFBMUWE0MS01eHJPWEtBU0lDYV9fSlloY095dEFnUXJXd2RSa0ZKT253bUpUaExmRXQ5blZsSzRRT0J1SkQ1NTVwYTh4WlhEOUEwSEp4Rkl2S2xXNXJ5aFpaWTVhUDVpZFZyVFNlSnNRaXJjYkNrSERxekc3a0xqZGVPQzdjOW1yVQ?oc=5",
           "publishedAt": "2026-06-27T21:00:01+09:00"
+        }
+      ]
+    },
+    {
+      "id": "issue-industry-is-ai-replacing-radiologists-a-radiolog-023",
+      "categoryId": "industry",
+      "categoryLabel": "산업·테마",
+      "impactLevel": "reference",
+      "title": "Is AI replacing radiologists? A radiologist disagrees. - KevinMD.com",
+      "whatHappened": "Is AI replacing radiologists? A radiologist disagrees. KevinMD.com",
+      "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
+      "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
+      "tags": [
+        "ai"
+      ],
+      "sectors": [
+        "시장 전체"
+      ],
+      "relatedEventIds": [],
+      "updatedAt": "2026-06-28T08:50:00+09:00",
+      "articles": [
+        {
+          "id": "rss-08c806d31ebea8",
+          "title": "Is AI replacing radiologists? A radiologist disagrees. - KevinMD.com",
+          "description": "Is AI replacing radiologists? A radiologist disagrees. KevinMD.com",
+          "source": "KevinMD.com",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZ0pyZll5b0tnM2YwQUFBODh2bl9vR3p3amQ1WkFHazRGT2VlVEVGYzRMMklEUUFvWnlPeXV2MkpRMjZjUzNsX0FhQ0FUWTROMF9RUjNtZjlyM18zWWtMMVpDWG1BeUxiblVWUEVQZW9DMXl2dEkwQ0JXUC1sNUZwXzZyb0s0Sm4ydGdOYWdR?oc=5",
+          "publishedAt": "2026-06-28T00:10:58+09:00"
         }
       ]
     }

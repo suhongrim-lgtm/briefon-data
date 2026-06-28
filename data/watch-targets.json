@@ -1,162 +1,8 @@
 {
   "schemaVersion": "briefon-watch-targets-v1",
   "generatedAt": "2026-06-28T08:50:00+09:00",
-  "sourceLabel": "RSS/GDELT static data",
+  "sourceLabel": "RSS static data",
   "targets": [
-    {
-      "signalId": "sig-rss-404b9711e64f8f-market-move",
-      "eventType": "market_move",
-      "expectedHorizon": "next_session",
-      "watchTargets": [
-        {
-          "targetId": "KOSPI",
-          "targetType": "index",
-          "label": "KOSPI",
-          "metric": "return_pct",
-          "benchmark": "KOSDAQ"
-        },
-        {
-          "targetId": "USDKRW",
-          "targetType": "fx",
-          "label": "USD/KRW",
-          "metric": "change_pct",
-          "benchmark": "DXY"
-        }
-      ],
-      "reviewWindowRule": "market_move_default"
-    },
-    {
-      "signalId": "sig-rss-ec40d7ad73aa47-market-move",
-      "eventType": "market_move",
-      "expectedHorizon": "next_session",
-      "watchTargets": [
-        {
-          "targetId": "KOSPI",
-          "targetType": "index",
-          "label": "KOSPI",
-          "metric": "return_pct",
-          "benchmark": "KOSDAQ"
-        },
-        {
-          "targetId": "USDKRW",
-          "targetType": "fx",
-          "label": "USD/KRW",
-          "metric": "change_pct",
-          "benchmark": "DXY"
-        }
-      ],
-      "reviewWindowRule": "market_move_default"
-    },
-    {
-      "signalId": "sig-rss-14cf738239018d-economic-indicator",
-      "eventType": "economic_indicator",
-      "expectedHorizon": "indicator_release_window",
-      "watchTargets": [
-        {
-          "targetId": "US10Y",
-          "targetType": "yield",
-          "label": "US 10Y Treasury",
-          "metric": "change_bp",
-          "benchmark": "2Y Treasury"
-        },
-        {
-          "targetId": "NASDAQ",
-          "targetType": "index",
-          "label": "NASDAQ",
-          "metric": "return_pct",
-          "benchmark": "S&P 500"
-        }
-      ],
-      "reviewWindowRule": "economic_indicator_default"
-    },
-    {
-      "signalId": "sig-rss-d77d41c7bdb984-market-move",
-      "eventType": "market_move",
-      "expectedHorizon": "next_session",
-      "watchTargets": [
-        {
-          "targetId": "KOSPI",
-          "targetType": "index",
-          "label": "KOSPI",
-          "metric": "return_pct",
-          "benchmark": "KOSDAQ"
-        },
-        {
-          "targetId": "USDKRW",
-          "targetType": "fx",
-          "label": "USD/KRW",
-          "metric": "change_pct",
-          "benchmark": "DXY"
-        }
-      ],
-      "reviewWindowRule": "market_move_default"
-    },
-    {
-      "signalId": "sig-rss-165388e4e860a3-market-move",
-      "eventType": "market_move",
-      "expectedHorizon": "next_session",
-      "watchTargets": [
-        {
-          "targetId": "KOSPI",
-          "targetType": "index",
-          "label": "KOSPI",
-          "metric": "return_pct",
-          "benchmark": "KOSDAQ"
-        },
-        {
-          "targetId": "USDKRW",
-          "targetType": "fx",
-          "label": "USD/KRW",
-          "metric": "change_pct",
-          "benchmark": "DXY"
-        }
-      ],
-      "reviewWindowRule": "market_move_default"
-    },
-    {
-      "signalId": "sig-rss-65d9cd43394d05-market-move",
-      "eventType": "market_move",
-      "expectedHorizon": "next_session",
-      "watchTargets": [
-        {
-          "targetId": "KOSPI",
-          "targetType": "index",
-          "label": "KOSPI",
-          "metric": "return_pct",
-          "benchmark": "KOSDAQ"
-        },
-        {
-          "targetId": "USDKRW",
-          "targetType": "fx",
-          "label": "USD/KRW",
-          "metric": "change_pct",
-          "benchmark": "DXY"
-        }
-      ],
-      "reviewWindowRule": "market_move_default"
-    },
-    {
-      "signalId": "sig-rss-3c8285b10473a1-pmi-economic-indicator",
-      "eventType": "economic_indicator",
-      "expectedHorizon": "indicator_release_window",
-      "watchTargets": [
-        {
-          "targetId": "US10Y",
-          "targetType": "yield",
-          "label": "US 10Y Treasury",
-          "metric": "change_bp",
-          "benchmark": "2Y Treasury"
-        },
-        {
-          "targetId": "NASDAQ",
-          "targetType": "index",
-          "label": "NASDAQ",
-          "metric": "return_pct",
-          "benchmark": "S&P 500"
-        }
-      ],
-      "reviewWindowRule": "economic_indicator_default"
-    },
     {
       "signalId": "sig-rss-c1df5d6fec6be6-market-move",
       "eventType": "market_move",
@@ -209,7 +55,7 @@
       "reviewWindowRule": "rates_policy_default"
     },
     {
-      "signalId": "sig-rss-153dfce93d833b-fed-rates-policy",
+      "signalId": "sig-rss-426637b38eed01-fed-rates-policy",
       "eventType": "rates_policy",
       "expectedHorizon": "policy_window",
       "watchTargets": [
@@ -238,7 +84,7 @@
       "reviewWindowRule": "rates_policy_default"
     },
     {
-      "signalId": "sig-rss-426637b38eed01-fed-rates-policy",
+      "signalId": "sig-rss-153dfce93d833b-fed-rates-policy",
       "eventType": "rates_policy",
       "expectedHorizon": "policy_window",
       "watchTargets": [
@@ -405,6 +251,35 @@
       "reviewWindowRule": "rates_policy_default"
     },
     {
+      "signalId": "sig-rss-3209910e0a7c94-fed-rates-policy",
+      "eventType": "rates_policy",
+      "expectedHorizon": "policy_window",
+      "watchTargets": [
+        {
+          "targetId": "US10Y",
+          "targetType": "yield",
+          "label": "US 10Y Treasury",
+          "metric": "change_bp",
+          "benchmark": "US 2Y Treasury"
+        },
+        {
+          "targetId": "USDKRW",
+          "targetType": "fx",
+          "label": "USD/KRW",
+          "metric": "change_pct",
+          "benchmark": "DXY"
+        },
+        {
+          "targetId": "NASDAQ",
+          "targetType": "index",
+          "label": "NASDAQ",
+          "metric": "return_pct",
+          "benchmark": "S&P 500"
+        }
+      ],
+      "reviewWindowRule": "rates_policy_default"
+    },
+    {
       "signalId": "sig-rss-7c0abc6aa5ed70-ai-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
@@ -463,94 +338,7 @@
       "reviewWindowRule": "rates_policy_default"
     },
     {
-      "signalId": "sig-rss-3209910e0a7c94-fed-rates-policy",
-      "eventType": "rates_policy",
-      "expectedHorizon": "policy_window",
-      "watchTargets": [
-        {
-          "targetId": "US10Y",
-          "targetType": "yield",
-          "label": "US 10Y Treasury",
-          "metric": "change_bp",
-          "benchmark": "US 2Y Treasury"
-        },
-        {
-          "targetId": "USDKRW",
-          "targetType": "fx",
-          "label": "USD/KRW",
-          "metric": "change_pct",
-          "benchmark": "DXY"
-        },
-        {
-          "targetId": "NASDAQ",
-          "targetType": "index",
-          "label": "NASDAQ",
-          "metric": "return_pct",
-          "benchmark": "S&P 500"
-        }
-      ],
-      "reviewWindowRule": "rates_policy_default"
-    },
-    {
-      "signalId": "sig-rss-9cae568de994f9-fed-rates-policy",
-      "eventType": "rates_policy",
-      "expectedHorizon": "policy_window",
-      "watchTargets": [
-        {
-          "targetId": "US10Y",
-          "targetType": "yield",
-          "label": "US 10Y Treasury",
-          "metric": "change_bp",
-          "benchmark": "US 2Y Treasury"
-        },
-        {
-          "targetId": "USDKRW",
-          "targetType": "fx",
-          "label": "USD/KRW",
-          "metric": "change_pct",
-          "benchmark": "DXY"
-        },
-        {
-          "targetId": "NASDAQ",
-          "targetType": "index",
-          "label": "NASDAQ",
-          "metric": "return_pct",
-          "benchmark": "S&P 500"
-        }
-      ],
-      "reviewWindowRule": "rates_policy_default"
-    },
-    {
-      "signalId": "sig-rss-5ef0a20fe26bf7-fed-rates-policy",
-      "eventType": "rates_policy",
-      "expectedHorizon": "policy_window",
-      "watchTargets": [
-        {
-          "targetId": "US10Y",
-          "targetType": "yield",
-          "label": "US 10Y Treasury",
-          "metric": "change_bp",
-          "benchmark": "US 2Y Treasury"
-        },
-        {
-          "targetId": "USDKRW",
-          "targetType": "fx",
-          "label": "USD/KRW",
-          "metric": "change_pct",
-          "benchmark": "DXY"
-        },
-        {
-          "targetId": "NASDAQ",
-          "targetType": "index",
-          "label": "NASDAQ",
-          "metric": "return_pct",
-          "benchmark": "S&P 500"
-        }
-      ],
-      "reviewWindowRule": "rates_policy_default"
-    },
-    {
-      "signalId": "sig-rss-7677496a422b05-fed-rates-policy",
+      "signalId": "sig-rss-8559457ea777bc-fed-rates-policy",
       "eventType": "rates_policy",
       "expectedHorizon": "policy_window",
       "watchTargets": [
@@ -608,6 +396,64 @@
       "reviewWindowRule": "industry_news_default"
     },
     {
+      "signalId": "sig-rss-9cae568de994f9-fed-rates-policy",
+      "eventType": "rates_policy",
+      "expectedHorizon": "policy_window",
+      "watchTargets": [
+        {
+          "targetId": "US10Y",
+          "targetType": "yield",
+          "label": "US 10Y Treasury",
+          "metric": "change_bp",
+          "benchmark": "US 2Y Treasury"
+        },
+        {
+          "targetId": "USDKRW",
+          "targetType": "fx",
+          "label": "USD/KRW",
+          "metric": "change_pct",
+          "benchmark": "DXY"
+        },
+        {
+          "targetId": "NASDAQ",
+          "targetType": "index",
+          "label": "NASDAQ",
+          "metric": "return_pct",
+          "benchmark": "S&P 500"
+        }
+      ],
+      "reviewWindowRule": "rates_policy_default"
+    },
+    {
+      "signalId": "sig-rss-7677496a422b05-fed-rates-policy",
+      "eventType": "rates_policy",
+      "expectedHorizon": "policy_window",
+      "watchTargets": [
+        {
+          "targetId": "US10Y",
+          "targetType": "yield",
+          "label": "US 10Y Treasury",
+          "metric": "change_bp",
+          "benchmark": "US 2Y Treasury"
+        },
+        {
+          "targetId": "USDKRW",
+          "targetType": "fx",
+          "label": "USD/KRW",
+          "metric": "change_pct",
+          "benchmark": "DXY"
+        },
+        {
+          "targetId": "NASDAQ",
+          "targetType": "index",
+          "label": "NASDAQ",
+          "metric": "return_pct",
+          "benchmark": "S&P 500"
+        }
+      ],
+      "reviewWindowRule": "rates_policy_default"
+    },
+    {
       "signalId": "sig-rss-934d55ba976944-fed-rates-policy",
       "eventType": "rates_policy",
       "expectedHorizon": "policy_window",
@@ -637,7 +483,7 @@
       "reviewWindowRule": "rates_policy_default"
     },
     {
-      "signalId": "sig-rss-37a041ff4c8513-fed-rates-policy",
+      "signalId": "sig-rss-5ef0a20fe26bf7-fed-rates-policy",
       "eventType": "rates_policy",
       "expectedHorizon": "policy_window",
       "watchTargets": [
@@ -666,7 +512,7 @@
       "reviewWindowRule": "rates_policy_default"
     },
     {
-      "signalId": "sig-rss-650736e7a7ae51-fed-rates-policy",
+      "signalId": "sig-rss-37a041ff4c8513-fed-rates-policy",
       "eventType": "rates_policy",
       "expectedHorizon": "policy_window",
       "watchTargets": [
@@ -725,6 +571,35 @@
     },
     {
       "signalId": "sig-rss-c41f4ae328be0a-fed-rates-policy",
+      "eventType": "rates_policy",
+      "expectedHorizon": "policy_window",
+      "watchTargets": [
+        {
+          "targetId": "US10Y",
+          "targetType": "yield",
+          "label": "US 10Y Treasury",
+          "metric": "change_bp",
+          "benchmark": "US 2Y Treasury"
+        },
+        {
+          "targetId": "USDKRW",
+          "targetType": "fx",
+          "label": "USD/KRW",
+          "metric": "change_pct",
+          "benchmark": "DXY"
+        },
+        {
+          "targetId": "NASDAQ",
+          "targetType": "index",
+          "label": "NASDAQ",
+          "metric": "return_pct",
+          "benchmark": "S&P 500"
+        }
+      ],
+      "reviewWindowRule": "rates_policy_default"
+    },
+    {
+      "signalId": "sig-rss-650736e7a7ae51-fed-rates-policy",
       "eventType": "rates_policy",
       "expectedHorizon": "policy_window",
       "watchTargets": [
@@ -869,7 +744,7 @@
       "reviewWindowRule": "rates_policy_default"
     },
     {
-      "signalId": "sig-rss-225bfd812d2f32-fomc-rates-policy",
+      "signalId": "sig-rss-2a50e3ce4dd23e-fed-rates-policy",
       "eventType": "rates_policy",
       "expectedHorizon": "policy_window",
       "watchTargets": [
@@ -898,7 +773,7 @@
       "reviewWindowRule": "rates_policy_default"
     },
     {
-      "signalId": "sig-rss-2a50e3ce4dd23e-fed-rates-policy",
+      "signalId": "sig-rss-225bfd812d2f32-fomc-rates-policy",
       "eventType": "rates_policy",
       "expectedHorizon": "policy_window",
       "watchTargets": [
@@ -1022,35 +897,6 @@
       "reviewWindowRule": "market_move_default"
     },
     {
-      "signalId": "sig-rss-760581a5a9967e-fed-rates-policy",
-      "eventType": "rates_policy",
-      "expectedHorizon": "policy_window",
-      "watchTargets": [
-        {
-          "targetId": "US10Y",
-          "targetType": "yield",
-          "label": "US 10Y Treasury",
-          "metric": "change_bp",
-          "benchmark": "US 2Y Treasury"
-        },
-        {
-          "targetId": "USDKRW",
-          "targetType": "fx",
-          "label": "USD/KRW",
-          "metric": "change_pct",
-          "benchmark": "DXY"
-        },
-        {
-          "targetId": "NASDAQ",
-          "targetType": "index",
-          "label": "NASDAQ",
-          "metric": "return_pct",
-          "benchmark": "S&P 500"
-        }
-      ],
-      "reviewWindowRule": "rates_policy_default"
-    },
-    {
       "signalId": "sig-rss-4dde74dc9c7a5e-fed-rates-policy",
       "eventType": "rates_policy",
       "expectedHorizon": "policy_window",
@@ -1138,7 +984,7 @@
       "reviewWindowRule": "industry_news_default"
     },
     {
-      "signalId": "sig-rss-ccd36dfd119e7a-fed-rates-policy",
+      "signalId": "sig-rss-9fed61c4d343ce-fed-rates-policy",
       "eventType": "rates_policy",
       "expectedHorizon": "policy_window",
       "watchTargets": [
@@ -1167,7 +1013,7 @@
       "reviewWindowRule": "rates_policy_default"
     },
     {
-      "signalId": "sig-rss-86747512055d13-fed-rates-policy",
+      "signalId": "sig-rss-760581a5a9967e-fed-rates-policy",
       "eventType": "rates_policy",
       "expectedHorizon": "policy_window",
       "watchTargets": [
@@ -1225,7 +1071,7 @@
       "reviewWindowRule": "rates_policy_default"
     },
     {
-      "signalId": "sig-rss-7f9170221745e7-fed-rates-policy",
+      "signalId": "sig-rss-86747512055d13-fed-rates-policy",
       "eventType": "rates_policy",
       "expectedHorizon": "policy_window",
       "watchTargets": [
@@ -1254,36 +1100,7 @@
       "reviewWindowRule": "rates_policy_default"
     },
     {
-      "signalId": "sig-rss-cf39c5ec1a086c-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
-    },
-    {
-      "signalId": "sig-rss-3e61453526d48e-fed-rates-policy",
+      "signalId": "sig-rss-ccd36dfd119e7a-fed-rates-policy",
       "eventType": "rates_policy",
       "expectedHorizon": "policy_window",
       "watchTargets": [
@@ -1341,35 +1158,6 @@
       "reviewWindowRule": "rates_policy_default"
     },
     {
-      "signalId": "sig-rss-e89ea15944a09c-fed-rates-policy",
-      "eventType": "rates_policy",
-      "expectedHorizon": "policy_window",
-      "watchTargets": [
-        {
-          "targetId": "US10Y",
-          "targetType": "yield",
-          "label": "US 10Y Treasury",
-          "metric": "change_bp",
-          "benchmark": "US 2Y Treasury"
-        },
-        {
-          "targetId": "USDKRW",
-          "targetType": "fx",
-          "label": "USD/KRW",
-          "metric": "change_pct",
-          "benchmark": "DXY"
-        },
-        {
-          "targetId": "NASDAQ",
-          "targetType": "index",
-          "label": "NASDAQ",
-          "metric": "return_pct",
-          "benchmark": "S&P 500"
-        }
-      ],
-      "reviewWindowRule": "rates_policy_default"
-    },
-    {
       "signalId": "sig-rss-ca52a0a469b7c2-ai-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
@@ -1399,33 +1187,33 @@
       "reviewWindowRule": "industry_news_default"
     },
     {
-      "signalId": "sig-rss-e90696bb1579df-fed-rates-policy",
-      "eventType": "rates_policy",
-      "expectedHorizon": "policy_window",
+      "signalId": "sig-rss-cf39c5ec1a086c-ai-industry-news",
+      "eventType": "industry_news",
+      "expectedHorizon": "short_to_mid",
       "watchTargets": [
         {
-          "targetId": "US10Y",
-          "targetType": "yield",
-          "label": "US 10Y Treasury",
-          "metric": "change_bp",
-          "benchmark": "US 2Y Treasury"
-        },
-        {
-          "targetId": "USDKRW",
-          "targetType": "fx",
-          "label": "USD/KRW",
-          "metric": "change_pct",
-          "benchmark": "DXY"
-        },
-        {
-          "targetId": "NASDAQ",
-          "targetType": "index",
-          "label": "NASDAQ",
+          "targetId": "SOXX",
+          "targetType": "etf",
+          "label": "US semiconductor ETF",
           "metric": "return_pct",
-          "benchmark": "S&P 500"
+          "benchmark": "NASDAQ"
+        },
+        {
+          "targetId": "SKHYNIX",
+          "targetType": "stock",
+          "label": "SK Hynix",
+          "metric": "return_pct",
+          "benchmark": "KOSPI"
+        },
+        {
+          "targetId": "SAMSUNG-ELECTRONICS",
+          "targetType": "stock",
+          "label": "Samsung Electronics",
+          "metric": "return_pct",
+          "benchmark": "KOSPI"
         }
       ],
-      "reviewWindowRule": "rates_policy_default"
+      "reviewWindowRule": "industry_news_default"
     },
     {
       "signalId": "sig-rss-e3234471803242-fed-rates-policy",
@@ -1457,7 +1245,36 @@
       "reviewWindowRule": "rates_policy_default"
     },
     {
-      "signalId": "sig-rss-e9d31e07af512b-fed-rates-policy",
+      "signalId": "sig-rss-e89ea15944a09c-fed-rates-policy",
+      "eventType": "rates_policy",
+      "expectedHorizon": "policy_window",
+      "watchTargets": [
+        {
+          "targetId": "US10Y",
+          "targetType": "yield",
+          "label": "US 10Y Treasury",
+          "metric": "change_bp",
+          "benchmark": "US 2Y Treasury"
+        },
+        {
+          "targetId": "USDKRW",
+          "targetType": "fx",
+          "label": "USD/KRW",
+          "metric": "change_pct",
+          "benchmark": "DXY"
+        },
+        {
+          "targetId": "NASDAQ",
+          "targetType": "index",
+          "label": "NASDAQ",
+          "metric": "return_pct",
+          "benchmark": "S&P 500"
+        }
+      ],
+      "reviewWindowRule": "rates_policy_default"
+    },
+    {
+      "signalId": "sig-rss-e90696bb1579df-fed-rates-policy",
       "eventType": "rates_policy",
       "expectedHorizon": "policy_window",
       "watchTargets": [
@@ -1646,7 +1463,7 @@
       "reviewWindowRule": "rates_policy_default"
     },
     {
-      "signalId": "sig-rss-351e2926ac3432-fed-rates-policy",
+      "signalId": "sig-rss-cf2a4ce984024f-fed-rates-policy",
       "eventType": "rates_policy",
       "expectedHorizon": "policy_window",
       "watchTargets": [
@@ -1675,7 +1492,7 @@
       "reviewWindowRule": "rates_policy_default"
     },
     {
-      "signalId": "sig-rss-3f16a096228408-fed-rates-policy",
+      "signalId": "sig-rss-351e2926ac3432-fed-rates-policy",
       "eventType": "rates_policy",
       "expectedHorizon": "policy_window",
       "watchTargets": [
@@ -1762,7 +1579,7 @@
       "reviewWindowRule": "rates_policy_default"
     },
     {
-      "signalId": "sig-rss-4db9787e74b863-fomc-rates-policy",
+      "signalId": "sig-rss-e1130a53cc4f4e-fed-rates-policy",
       "eventType": "rates_policy",
       "expectedHorizon": "policy_window",
       "watchTargets": [
@@ -1791,7 +1608,58 @@
       "reviewWindowRule": "rates_policy_default"
     },
     {
-      "signalId": "sig-rss-e1130a53cc4f4e-fed-rates-policy",
+      "signalId": "sig-rss-5b34ede4ec19f6-market-move",
+      "eventType": "market_move",
+      "expectedHorizon": "next_session",
+      "watchTargets": [
+        {
+          "targetId": "KOSPI",
+          "targetType": "index",
+          "label": "KOSPI",
+          "metric": "return_pct",
+          "benchmark": "KOSDAQ"
+        },
+        {
+          "targetId": "USDKRW",
+          "targetType": "fx",
+          "label": "USD/KRW",
+          "metric": "change_pct",
+          "benchmark": "DXY"
+        }
+      ],
+      "reviewWindowRule": "market_move_default"
+    },
+    {
+      "signalId": "sig-rss-61aba9a6bd4277-fed-rates-policy",
+      "eventType": "rates_policy",
+      "expectedHorizon": "policy_window",
+      "watchTargets": [
+        {
+          "targetId": "US10Y",
+          "targetType": "yield",
+          "label": "US 10Y Treasury",
+          "metric": "change_bp",
+          "benchmark": "US 2Y Treasury"
+        },
+        {
+          "targetId": "USDKRW",
+          "targetType": "fx",
+          "label": "USD/KRW",
+          "metric": "change_pct",
+          "benchmark": "DXY"
+        },
+        {
+          "targetId": "NASDAQ",
+          "targetType": "index",
+          "label": "NASDAQ",
+          "metric": "return_pct",
+          "benchmark": "S&P 500"
+        }
+      ],
+      "reviewWindowRule": "rates_policy_default"
+    },
+    {
+      "signalId": "sig-rss-4db9787e74b863-fomc-rates-policy",
       "eventType": "rates_policy",
       "expectedHorizon": "policy_window",
       "watchTargets": [
@@ -1849,87 +1717,36 @@
       "reviewWindowRule": "industry_news_default"
     },
     {
+      "signalId": "sig-rss-752f52685b5576-fed-rates-policy",
+      "eventType": "rates_policy",
+      "expectedHorizon": "policy_window",
+      "watchTargets": [
+        {
+          "targetId": "US10Y",
+          "targetType": "yield",
+          "label": "US 10Y Treasury",
+          "metric": "change_bp",
+          "benchmark": "US 2Y Treasury"
+        },
+        {
+          "targetId": "USDKRW",
+          "targetType": "fx",
+          "label": "USD/KRW",
+          "metric": "change_pct",
+          "benchmark": "DXY"
+        },
+        {
+          "targetId": "NASDAQ",
+          "targetType": "index",
+          "label": "NASDAQ",
+          "metric": "return_pct",
+          "benchmark": "S&P 500"
+        }
+      ],
+      "reviewWindowRule": "rates_policy_default"
+    },
+    {
       "signalId": "sig-rss-387203b78aa9f8-fomc-rates-policy",
-      "eventType": "rates_policy",
-      "expectedHorizon": "policy_window",
-      "watchTargets": [
-        {
-          "targetId": "US10Y",
-          "targetType": "yield",
-          "label": "US 10Y Treasury",
-          "metric": "change_bp",
-          "benchmark": "US 2Y Treasury"
-        },
-        {
-          "targetId": "USDKRW",
-          "targetType": "fx",
-          "label": "USD/KRW",
-          "metric": "change_pct",
-          "benchmark": "DXY"
-        },
-        {
-          "targetId": "NASDAQ",
-          "targetType": "index",
-          "label": "NASDAQ",
-          "metric": "return_pct",
-          "benchmark": "S&P 500"
-        }
-      ],
-      "reviewWindowRule": "rates_policy_default"
-    },
-    {
-      "signalId": "sig-rss-61aba9a6bd4277-fed-rates-policy",
-      "eventType": "rates_policy",
-      "expectedHorizon": "policy_window",
-      "watchTargets": [
-        {
-          "targetId": "US10Y",
-          "targetType": "yield",
-          "label": "US 10Y Treasury",
-          "metric": "change_bp",
-          "benchmark": "US 2Y Treasury"
-        },
-        {
-          "targetId": "USDKRW",
-          "targetType": "fx",
-          "label": "USD/KRW",
-          "metric": "change_pct",
-          "benchmark": "DXY"
-        },
-        {
-          "targetId": "NASDAQ",
-          "targetType": "index",
-          "label": "NASDAQ",
-          "metric": "return_pct",
-          "benchmark": "S&P 500"
-        }
-      ],
-      "reviewWindowRule": "rates_policy_default"
-    },
-    {
-      "signalId": "sig-rss-864498d9a64cee-market-move",
-      "eventType": "market_move",
-      "expectedHorizon": "next_session",
-      "watchTargets": [
-        {
-          "targetId": "KOSPI",
-          "targetType": "index",
-          "label": "KOSPI",
-          "metric": "return_pct",
-          "benchmark": "KOSDAQ"
-        },
-        {
-          "targetId": "USDKRW",
-          "targetType": "fx",
-          "label": "USD/KRW",
-          "metric": "change_pct",
-          "benchmark": "DXY"
-        }
-      ],
-      "reviewWindowRule": "market_move_default"
-    },
-    {
-      "signalId": "sig-rss-0b0ec45e250827-fed-rates-policy",
       "eventType": "rates_policy",
       "expectedHorizon": "policy_window",
       "watchTargets": [
@@ -1987,6 +1804,28 @@
       "reviewWindowRule": "rates_policy_default"
     },
     {
+      "signalId": "sig-rss-864498d9a64cee-market-move",
+      "eventType": "market_move",
+      "expectedHorizon": "next_session",
+      "watchTargets": [
+        {
+          "targetId": "KOSPI",
+          "targetType": "index",
+          "label": "KOSPI",
+          "metric": "return_pct",
+          "benchmark": "KOSDAQ"
+        },
+        {
+          "targetId": "USDKRW",
+          "targetType": "fx",
+          "label": "USD/KRW",
+          "metric": "change_pct",
+          "benchmark": "DXY"
+        }
+      ],
+      "reviewWindowRule": "market_move_default"
+    },
+    {
       "signalId": "sig-rss-6ef1cffd2bbb0a-nvidia-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
@@ -2016,7 +1855,7 @@
       "reviewWindowRule": "industry_news_default"
     },
     {
-      "signalId": "sig-rss-d3b052f9f06615-ai-industry-news",
+      "signalId": "sig-rss-cb8fc12e888bbc-nvidia-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
       "watchTargets": [
@@ -2045,7 +1884,7 @@
       "reviewWindowRule": "industry_news_default"
     },
     {
-      "signalId": "sig-rss-cb8fc12e888bbc-nvidia-industry-news",
+      "signalId": "sig-rss-d3b052f9f06615-ai-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
       "watchTargets": [
@@ -2154,64 +1993,6 @@
       "reviewWindowRule": "market_move_default"
     },
     {
-      "signalId": "sig-rss-0f7a1042bf1fc6-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
-    },
-    {
-      "signalId": "sig-rss-752ae974935e21-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
-    },
-    {
       "signalId": "sig-rss-a12b380a93d013-ai-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
@@ -2270,6 +2051,35 @@
       "reviewWindowRule": "industry_news_default"
     },
     {
+      "signalId": "sig-rss-b375f197f1fa7c-ai-industry-news",
+      "eventType": "industry_news",
+      "expectedHorizon": "short_to_mid",
+      "watchTargets": [
+        {
+          "targetId": "SOXX",
+          "targetType": "etf",
+          "label": "US semiconductor ETF",
+          "metric": "return_pct",
+          "benchmark": "NASDAQ"
+        },
+        {
+          "targetId": "SKHYNIX",
+          "targetType": "stock",
+          "label": "SK Hynix",
+          "metric": "return_pct",
+          "benchmark": "KOSPI"
+        },
+        {
+          "targetId": "SAMSUNG-ELECTRONICS",
+          "targetType": "stock",
+          "label": "Samsung Electronics",
+          "metric": "return_pct",
+          "benchmark": "KOSPI"
+        }
+      ],
+      "reviewWindowRule": "industry_news_default"
+    },
+    {
       "signalId": "sig-rss-b74ac2d18a918d-ai-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
@@ -2299,65 +2109,7 @@
       "reviewWindowRule": "industry_news_default"
     },
     {
-      "signalId": "sig-gdelt-1b82c1b02c122c-fed-rates-policy",
-      "eventType": "rates_policy",
-      "expectedHorizon": "policy_window",
-      "watchTargets": [
-        {
-          "targetId": "US10Y",
-          "targetType": "yield",
-          "label": "US 10Y Treasury",
-          "metric": "change_bp",
-          "benchmark": "US 2Y Treasury"
-        },
-        {
-          "targetId": "USDKRW",
-          "targetType": "fx",
-          "label": "USD/KRW",
-          "metric": "change_pct",
-          "benchmark": "DXY"
-        },
-        {
-          "targetId": "NASDAQ",
-          "targetType": "index",
-          "label": "NASDAQ",
-          "metric": "return_pct",
-          "benchmark": "S&P 500"
-        }
-      ],
-      "reviewWindowRule": "rates_policy_default"
-    },
-    {
-      "signalId": "sig-gdelt-7c31aa28ab2d0d-fed-rates-policy",
-      "eventType": "rates_policy",
-      "expectedHorizon": "policy_window",
-      "watchTargets": [
-        {
-          "targetId": "US10Y",
-          "targetType": "yield",
-          "label": "US 10Y Treasury",
-          "metric": "change_bp",
-          "benchmark": "US 2Y Treasury"
-        },
-        {
-          "targetId": "USDKRW",
-          "targetType": "fx",
-          "label": "USD/KRW",
-          "metric": "change_pct",
-          "benchmark": "DXY"
-        },
-        {
-          "targetId": "NASDAQ",
-          "targetType": "index",
-          "label": "NASDAQ",
-          "metric": "return_pct",
-          "benchmark": "S&P 500"
-        }
-      ],
-      "reviewWindowRule": "rates_policy_default"
-    },
-    {
-      "signalId": "sig-gdelt-02fcaf7e6f74bf-ai-industry-news",
+      "signalId": "sig-rss-08b5751343fc20-ai-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
       "watchTargets": [
@@ -2386,7 +2138,7 @@
       "reviewWindowRule": "industry_news_default"
     },
     {
-      "signalId": "sig-gdelt-92668ae7c07081-ai-industry-news",
+      "signalId": "sig-rss-08c806d31ebea8-ai-industry-news",
       "eventType": "industry_news",
       "expectedHorizon": "short_to_mid",
       "watchTargets": [
@@ -2413,93 +2165,6 @@
         }
       ],
       "reviewWindowRule": "industry_news_default"
-    },
-    {
-      "signalId": "sig-gdelt-68f56304105f22-ai-industry-news",
-      "eventType": "industry_news",
-      "expectedHorizon": "short_to_mid",
-      "watchTargets": [
-        {
-          "targetId": "SOXX",
-          "targetType": "etf",
-          "label": "US semiconductor ETF",
-          "metric": "return_pct",
-          "benchmark": "NASDAQ"
-        },
-        {
-          "targetId": "SKHYNIX",
-          "targetType": "stock",
-          "label": "SK Hynix",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        },
-        {
-          "targetId": "SAMSUNG-ELECTRONICS",
-          "targetType": "stock",
-          "label": "Samsung Electronics",
-          "metric": "return_pct",
-          "benchmark": "KOSPI"
-        }
-      ],
-      "reviewWindowRule": "industry_news_default"
-    },
-    {
-      "signalId": "sig-gdelt-85444c3008b87a-fed-rates-policy",
-      "eventType": "rates_policy",
-      "expectedHorizon": "policy_window",
-      "watchTargets": [
-        {
-          "targetId": "US10Y",
-          "targetType": "yield",
-          "label": "US 10Y Treasury",
-          "metric": "change_bp",
-          "benchmark": "US 2Y Treasury"
-        },
-        {
-          "targetId": "USDKRW",
-          "targetType": "fx",
-          "label": "USD/KRW",
-          "metric": "change_pct",
-          "benchmark": "DXY"
-        },
-        {
-          "targetId": "NASDAQ",
-          "targetType": "index",
-          "label": "NASDAQ",
-          "metric": "return_pct",
-          "benchmark": "S&P 500"
-        }
-      ],
-      "reviewWindowRule": "rates_policy_default"
-    },
-    {
-      "signalId": "sig-gdelt-badd56138c4afc-fed-rates-policy",
-      "eventType": "rates_policy",
-      "expectedHorizon": "policy_window",
-      "watchTargets": [
-        {
-          "targetId": "US10Y",
-          "targetType": "yield",
-          "label": "US 10Y Treasury",
-          "metric": "change_bp",
-          "benchmark": "US 2Y Treasury"
-        },
-        {
-          "targetId": "USDKRW",
-          "targetType": "fx",
-          "label": "USD/KRW",
-          "metric": "change_pct",
-          "benchmark": "DXY"
-        },
-        {
-          "targetId": "NASDAQ",
-          "targetType": "index",
-          "label": "NASDAQ",
-          "metric": "return_pct",
-          "benchmark": "S&P 500"
-        }
-      ],
-      "reviewWindowRule": "rates_policy_default"
     }
   ]
 }

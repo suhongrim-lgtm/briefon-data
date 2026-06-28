@@ -1,439 +1,8 @@
 {
   "schemaVersion": "briefon-signal-evidence-v1",
   "generatedAt": "2026-06-28T08:50:00+09:00",
-  "sourceLabel": "RSS/GDELT static data",
+  "sourceLabel": "RSS static data",
   "evidence": [
-    {
-      "signalId": "sig-rss-404b9711e64f8f-market-move",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "환율",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "원/달러 환율 상승",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "source_count",
-          "value": "Applied across 1 briefing surface(s)",
-          "directionImpact": "supporting",
-          "sourceField": "briefing_application"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "close_confirmation",
-          "label": "close confirmation",
-          "indicator": "close confirmation",
-          "category": "market_price",
-          "reason": "Need the next session close to verify whether the article-time move persisted.",
-          "relatedSector": "수출주",
-          "relatedTopic": "환율",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "KOSPI",
-            "USDKRW"
-          ],
-          "reviewWindowRule": "market_move_default"
-        }
-      ],
-      "evidenceCompleteness": "sufficient",
-      "articleId": "rss-404b9711e64f8f"
-    },
-    {
-      "signalId": "sig-rss-ec40d7ad73aa47-market-move",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "환율",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "원/달러 환율 상승",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "close_confirmation",
-          "label": "close confirmation",
-          "indicator": "close confirmation",
-          "category": "market_price",
-          "reason": "Need the next session close to verify whether the article-time move persisted.",
-          "relatedSector": "수출주",
-          "relatedTopic": "환율",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "KOSPI",
-            "USDKRW"
-          ],
-          "reviewWindowRule": "market_move_default"
-        },
-        {
-          "indicatorId": "briefing_inclusion_review",
-          "label": "Briefing inclusion review",
-          "indicator": "Briefing inclusion review",
-          "category": "data_quality",
-          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
-          "relatedSector": "수출주",
-          "relatedTopic": "환율",
-          "priority": "medium",
-          "status": "partial",
-          "suggestedTargetIds": [
-            "KOSPI",
-            "USDKRW"
-          ],
-          "reviewWindowRule": "market_move_default"
-        }
-      ],
-      "evidenceCompleteness": "partial",
-      "articleId": "rss-ec40d7ad73aa47"
-    },
-    {
-      "signalId": "sig-rss-14cf738239018d-economic-indicator",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "고용",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "고용 둔화",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "official_release_value",
-          "label": "official release value",
-          "indicator": "official release value",
-          "category": "macro_indicator",
-          "reason": "Need the official macro release to compare article interpretation with the actual print.",
-          "relatedSector": "시장 전체",
-          "relatedTopic": "고용",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "economic_indicator_default"
-        },
-        {
-          "indicatorId": "consensus_baseline",
-          "label": "consensus baseline",
-          "indicator": "consensus baseline",
-          "category": "macro_indicator",
-          "reason": "Need market expectation data to judge whether the release was a surprise.",
-          "relatedSector": "시장 전체",
-          "relatedTopic": "고용",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "economic_indicator_default"
-        },
-        {
-          "indicatorId": "briefing_inclusion_review",
-          "label": "Briefing inclusion review",
-          "indicator": "Briefing inclusion review",
-          "category": "data_quality",
-          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
-          "relatedSector": "시장 전체",
-          "relatedTopic": "고용",
-          "priority": "medium",
-          "status": "partial",
-          "suggestedTargetIds": [
-            "US10Y",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "economic_indicator_default"
-        }
-      ],
-      "evidenceCompleteness": "partial",
-      "articleId": "rss-14cf738239018d"
-    },
-    {
-      "signalId": "sig-rss-d77d41c7bdb984-market-move",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "환율",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "원/달러 환율 상승",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "close_confirmation",
-          "label": "close confirmation",
-          "indicator": "close confirmation",
-          "category": "market_price",
-          "reason": "Need the next session close to verify whether the article-time move persisted.",
-          "relatedSector": "수출주",
-          "relatedTopic": "환율",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "KOSPI",
-            "USDKRW"
-          ],
-          "reviewWindowRule": "market_move_default"
-        },
-        {
-          "indicatorId": "briefing_inclusion_review",
-          "label": "Briefing inclusion review",
-          "indicator": "Briefing inclusion review",
-          "category": "data_quality",
-          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
-          "relatedSector": "수출주",
-          "relatedTopic": "환율",
-          "priority": "medium",
-          "status": "partial",
-          "suggestedTargetIds": [
-            "KOSPI",
-            "USDKRW"
-          ],
-          "reviewWindowRule": "market_move_default"
-        }
-      ],
-      "evidenceCompleteness": "partial",
-      "articleId": "rss-d77d41c7bdb984"
-    },
-    {
-      "signalId": "sig-rss-165388e4e860a3-market-move",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "환율",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "원/달러 환율 상승",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "close_confirmation",
-          "label": "close confirmation",
-          "indicator": "close confirmation",
-          "category": "market_price",
-          "reason": "Need the next session close to verify whether the article-time move persisted.",
-          "relatedSector": "수출주",
-          "relatedTopic": "환율",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "KOSPI",
-            "USDKRW"
-          ],
-          "reviewWindowRule": "market_move_default"
-        },
-        {
-          "indicatorId": "briefing_inclusion_review",
-          "label": "Briefing inclusion review",
-          "indicator": "Briefing inclusion review",
-          "category": "data_quality",
-          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
-          "relatedSector": "수출주",
-          "relatedTopic": "환율",
-          "priority": "medium",
-          "status": "partial",
-          "suggestedTargetIds": [
-            "KOSPI",
-            "USDKRW"
-          ],
-          "reviewWindowRule": "market_move_default"
-        }
-      ],
-      "evidenceCompleteness": "partial",
-      "articleId": "rss-165388e4e860a3"
-    },
-    {
-      "signalId": "sig-rss-65d9cd43394d05-market-move",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "환율",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "원/달러 환율 상승",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "source_count",
-          "value": "Applied across 1 briefing surface(s)",
-          "directionImpact": "supporting",
-          "sourceField": "briefing_application"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "close_confirmation",
-          "label": "close confirmation",
-          "indicator": "close confirmation",
-          "category": "market_price",
-          "reason": "Need the next session close to verify whether the article-time move persisted.",
-          "relatedSector": "수출주",
-          "relatedTopic": "환율",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "KOSPI",
-            "USDKRW"
-          ],
-          "reviewWindowRule": "market_move_default"
-        }
-      ],
-      "evidenceCompleteness": "sufficient",
-      "articleId": "rss-65d9cd43394d05"
-    },
-    {
-      "signalId": "sig-rss-3c8285b10473a1-pmi-economic-indicator",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "pmi",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "고용",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "고용 둔화",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "official_release_value",
-          "label": "official release value",
-          "indicator": "official release value",
-          "category": "macro_indicator",
-          "reason": "Need the official macro release to compare article interpretation with the actual print.",
-          "relatedSector": "시장 전체",
-          "relatedTopic": "pmi",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "economic_indicator_default"
-        },
-        {
-          "indicatorId": "consensus_baseline",
-          "label": "consensus baseline",
-          "indicator": "consensus baseline",
-          "category": "macro_indicator",
-          "reason": "Need market expectation data to judge whether the release was a surprise.",
-          "relatedSector": "시장 전체",
-          "relatedTopic": "pmi",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "economic_indicator_default"
-        },
-        {
-          "indicatorId": "briefing_inclusion_review",
-          "label": "Briefing inclusion review",
-          "indicator": "Briefing inclusion review",
-          "category": "data_quality",
-          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
-          "relatedSector": "시장 전체",
-          "relatedTopic": "pmi",
-          "priority": "medium",
-          "status": "partial",
-          "suggestedTargetIds": [
-            "US10Y",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "economic_indicator_default"
-        }
-      ],
-      "evidenceCompleteness": "partial",
-      "articleId": "rss-3c8285b10473a1"
-    },
     {
       "signalId": "sig-rss-c1df5d6fec6be6-market-move",
       "evidenceItems": [
@@ -562,79 +131,6 @@
       "articleId": "rss-1f828e94069299"
     },
     {
-      "signalId": "sig-rss-153dfce93d833b-fed-rates-policy",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "fed",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "ai",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "FOMC",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "source_count",
-          "value": "Applied across 1 briefing surface(s)",
-          "directionImpact": "supporting",
-          "sourceField": "briefing_application"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "official_policy_text",
-          "label": "official policy text",
-          "indicator": "official policy text",
-          "category": "rates",
-          "reason": "Need the official statement or minutes to compare with the article-time reading.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "policy_path_repricing",
-          "label": "policy path repricing",
-          "indicator": "policy path repricing",
-          "category": "rates",
-          "reason": "Need rates and FX follow-through after the policy event.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        }
-      ],
-      "evidenceCompleteness": "partial",
-      "articleId": "rss-153dfce93d833b"
-    },
-    {
       "signalId": "sig-rss-426637b38eed01-fed-rates-policy",
       "evidenceItems": [
         {
@@ -717,6 +213,79 @@
       ],
       "evidenceCompleteness": "partial",
       "articleId": "rss-426637b38eed01"
+    },
+    {
+      "signalId": "sig-rss-153dfce93d833b-fed-rates-policy",
+      "evidenceItems": [
+        {
+          "type": "keyword",
+          "value": "fed",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "keyword",
+          "value": "ai",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "keyword",
+          "value": "FOMC",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "source_count",
+          "value": "Applied across 1 briefing surface(s)",
+          "directionImpact": "supporting",
+          "sourceField": "briefing_application"
+        },
+        {
+          "type": "data_quality",
+          "value": "DEGRADED_SOURCE_FAILURE",
+          "directionImpact": "supporting",
+          "sourceField": "source_report"
+        }
+      ],
+      "missingIndicators": [
+        {
+          "indicatorId": "official_policy_text",
+          "label": "official policy text",
+          "indicator": "official policy text",
+          "category": "rates",
+          "reason": "Need the official statement or minutes to compare with the article-time reading.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fed",
+          "priority": "high",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        },
+        {
+          "indicatorId": "policy_path_repricing",
+          "label": "policy path repricing",
+          "indicator": "policy path repricing",
+          "category": "rates",
+          "reason": "Need rates and FX follow-through after the policy event.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fed",
+          "priority": "high",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        }
+      ],
+      "evidenceCompleteness": "partial",
+      "articleId": "rss-153dfce93d833b"
     },
     {
       "signalId": "sig-rss-f8a689eff7d0ee-fed-rates-policy",
@@ -1074,6 +643,90 @@
       "articleId": "rss-b411175082bb46"
     },
     {
+      "signalId": "sig-rss-3209910e0a7c94-fed-rates-policy",
+      "evidenceItems": [
+        {
+          "type": "keyword",
+          "value": "fed",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "keyword",
+          "value": "ai",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "keyword",
+          "value": "ir",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "data_quality",
+          "value": "DEGRADED_SOURCE_FAILURE",
+          "directionImpact": "supporting",
+          "sourceField": "source_report"
+        }
+      ],
+      "missingIndicators": [
+        {
+          "indicatorId": "official_policy_text",
+          "label": "official policy text",
+          "indicator": "official policy text",
+          "category": "rates",
+          "reason": "Need the official statement or minutes to compare with the article-time reading.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fed",
+          "priority": "high",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        },
+        {
+          "indicatorId": "policy_path_repricing",
+          "label": "policy path repricing",
+          "indicator": "policy path repricing",
+          "category": "rates",
+          "reason": "Need rates and FX follow-through after the policy event.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fed",
+          "priority": "high",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        },
+        {
+          "indicatorId": "briefing_inclusion_review",
+          "label": "Briefing inclusion review",
+          "indicator": "Briefing inclusion review",
+          "category": "data_quality",
+          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fed",
+          "priority": "medium",
+          "status": "partial",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        }
+      ],
+      "evidenceCompleteness": "partial",
+      "articleId": "rss-3209910e0a7c94"
+    },
+    {
       "signalId": "sig-rss-7c0abc6aa5ed70-ai-industry-news",
       "evidenceItems": [
         {
@@ -1226,7 +879,7 @@
       "articleId": "rss-fbe06e883caf32"
     },
     {
-      "signalId": "sig-rss-3209910e0a7c94-fed-rates-policy",
+      "signalId": "sig-rss-8559457ea777bc-fed-rates-policy",
       "evidenceItems": [
         {
           "type": "keyword",
@@ -1237,224 +890,6 @@
         {
           "type": "keyword",
           "value": "ai",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "ir",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "official_policy_text",
-          "label": "official policy text",
-          "indicator": "official policy text",
-          "category": "rates",
-          "reason": "Need the official statement or minutes to compare with the article-time reading.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "policy_path_repricing",
-          "label": "policy path repricing",
-          "indicator": "policy path repricing",
-          "category": "rates",
-          "reason": "Need rates and FX follow-through after the policy event.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "briefing_inclusion_review",
-          "label": "Briefing inclusion review",
-          "indicator": "Briefing inclusion review",
-          "category": "data_quality",
-          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "medium",
-          "status": "partial",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        }
-      ],
-      "evidenceCompleteness": "partial",
-      "articleId": "rss-3209910e0a7c94"
-    },
-    {
-      "signalId": "sig-rss-9cae568de994f9-fed-rates-policy",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "fed",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "FOMC",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "source_count",
-          "value": "Applied across 1 briefing surface(s)",
-          "directionImpact": "supporting",
-          "sourceField": "briefing_application"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "official_policy_text",
-          "label": "official policy text",
-          "indicator": "official policy text",
-          "category": "rates",
-          "reason": "Need the official statement or minutes to compare with the article-time reading.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "policy_path_repricing",
-          "label": "policy path repricing",
-          "indicator": "policy path repricing",
-          "category": "rates",
-          "reason": "Need rates and FX follow-through after the policy event.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        }
-      ],
-      "evidenceCompleteness": "partial",
-      "articleId": "rss-9cae568de994f9"
-    },
-    {
-      "signalId": "sig-rss-5ef0a20fe26bf7-fed-rates-policy",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "fed",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "ai",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "ir",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "source_count",
-          "value": "Applied across 1 briefing surface(s)",
-          "directionImpact": "supporting",
-          "sourceField": "briefing_application"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "official_policy_text",
-          "label": "official policy text",
-          "indicator": "official policy text",
-          "category": "rates",
-          "reason": "Need the official statement or minutes to compare with the article-time reading.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "policy_path_repricing",
-          "label": "policy path repricing",
-          "indicator": "policy path repricing",
-          "category": "rates",
-          "reason": "Need rates and FX follow-through after the policy event.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        }
-      ],
-      "evidenceCompleteness": "partial",
-      "articleId": "rss-5ef0a20fe26bf7"
-    },
-    {
-      "signalId": "sig-rss-7677496a422b05-fed-rates-policy",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "fed",
           "directionImpact": "neutral",
           "sourceField": "keywords"
         },
@@ -1525,7 +960,7 @@
         }
       ],
       "evidenceCompleteness": "partial",
-      "articleId": "rss-7677496a422b05"
+      "articleId": "rss-8559457ea777bc"
     },
     {
       "signalId": "sig-rss-9342f0ebdfc7a5-ai-industry-news",
@@ -1606,6 +1041,151 @@
       "articleId": "rss-9342f0ebdfc7a5"
     },
     {
+      "signalId": "sig-rss-9cae568de994f9-fed-rates-policy",
+      "evidenceItems": [
+        {
+          "type": "keyword",
+          "value": "fed",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "keyword",
+          "value": "FOMC",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "source_count",
+          "value": "Applied across 1 briefing surface(s)",
+          "directionImpact": "supporting",
+          "sourceField": "briefing_application"
+        },
+        {
+          "type": "data_quality",
+          "value": "DEGRADED_SOURCE_FAILURE",
+          "directionImpact": "supporting",
+          "sourceField": "source_report"
+        }
+      ],
+      "missingIndicators": [
+        {
+          "indicatorId": "official_policy_text",
+          "label": "official policy text",
+          "indicator": "official policy text",
+          "category": "rates",
+          "reason": "Need the official statement or minutes to compare with the article-time reading.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fed",
+          "priority": "high",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        },
+        {
+          "indicatorId": "policy_path_repricing",
+          "label": "policy path repricing",
+          "indicator": "policy path repricing",
+          "category": "rates",
+          "reason": "Need rates and FX follow-through after the policy event.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fed",
+          "priority": "high",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        }
+      ],
+      "evidenceCompleteness": "partial",
+      "articleId": "rss-9cae568de994f9"
+    },
+    {
+      "signalId": "sig-rss-7677496a422b05-fed-rates-policy",
+      "evidenceItems": [
+        {
+          "type": "keyword",
+          "value": "fed",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "keyword",
+          "value": "FOMC",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "data_quality",
+          "value": "DEGRADED_SOURCE_FAILURE",
+          "directionImpact": "supporting",
+          "sourceField": "source_report"
+        }
+      ],
+      "missingIndicators": [
+        {
+          "indicatorId": "official_policy_text",
+          "label": "official policy text",
+          "indicator": "official policy text",
+          "category": "rates",
+          "reason": "Need the official statement or minutes to compare with the article-time reading.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fed",
+          "priority": "high",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        },
+        {
+          "indicatorId": "policy_path_repricing",
+          "label": "policy path repricing",
+          "indicator": "policy path repricing",
+          "category": "rates",
+          "reason": "Need rates and FX follow-through after the policy event.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fed",
+          "priority": "high",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        },
+        {
+          "indicatorId": "briefing_inclusion_review",
+          "label": "Briefing inclusion review",
+          "indicator": "Briefing inclusion review",
+          "category": "data_quality",
+          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fed",
+          "priority": "medium",
+          "status": "partial",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        }
+      ],
+      "evidenceCompleteness": "partial",
+      "articleId": "rss-7677496a422b05"
+    },
+    {
       "signalId": "sig-rss-934d55ba976944-fed-rates-policy",
       "evidenceItems": [
         {
@@ -1684,6 +1264,79 @@
       "articleId": "rss-934d55ba976944"
     },
     {
+      "signalId": "sig-rss-5ef0a20fe26bf7-fed-rates-policy",
+      "evidenceItems": [
+        {
+          "type": "keyword",
+          "value": "fed",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "keyword",
+          "value": "ai",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "keyword",
+          "value": "ir",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "source_count",
+          "value": "Applied across 1 briefing surface(s)",
+          "directionImpact": "supporting",
+          "sourceField": "briefing_application"
+        },
+        {
+          "type": "data_quality",
+          "value": "DEGRADED_SOURCE_FAILURE",
+          "directionImpact": "supporting",
+          "sourceField": "source_report"
+        }
+      ],
+      "missingIndicators": [
+        {
+          "indicatorId": "official_policy_text",
+          "label": "official policy text",
+          "indicator": "official policy text",
+          "category": "rates",
+          "reason": "Need the official statement or minutes to compare with the article-time reading.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fed",
+          "priority": "high",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        },
+        {
+          "indicatorId": "policy_path_repricing",
+          "label": "policy path repricing",
+          "indicator": "policy path repricing",
+          "category": "rates",
+          "reason": "Need rates and FX follow-through after the policy event.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fed",
+          "priority": "high",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        }
+      ],
+      "evidenceCompleteness": "partial",
+      "articleId": "rss-5ef0a20fe26bf7"
+    },
+    {
       "signalId": "sig-rss-37a041ff4c8513-fed-rates-policy",
       "evidenceItems": [
         {
@@ -1755,90 +1408,6 @@
       ],
       "evidenceCompleteness": "partial",
       "articleId": "rss-37a041ff4c8513"
-    },
-    {
-      "signalId": "sig-rss-650736e7a7ae51-fed-rates-policy",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "fed",
-          "directionImpact": "unclear",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "ai",
-          "directionImpact": "unclear",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "FOMC",
-          "directionImpact": "unclear",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "official_policy_text",
-          "label": "official policy text",
-          "indicator": "official policy text",
-          "category": "rates",
-          "reason": "Need the official statement or minutes to compare with the article-time reading.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "policy_path_repricing",
-          "label": "policy path repricing",
-          "indicator": "policy path repricing",
-          "category": "rates",
-          "reason": "Need rates and FX follow-through after the policy event.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "briefing_inclusion_review",
-          "label": "Briefing inclusion review",
-          "indicator": "Briefing inclusion review",
-          "category": "data_quality",
-          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "medium",
-          "status": "partial",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        }
-      ],
-      "evidenceCompleteness": "partial",
-      "articleId": "rss-650736e7a7ae51"
     },
     {
       "signalId": "sig-rss-54c96d01d6c9fd-fed-rates-policy",
@@ -2001,6 +1570,90 @@
       ],
       "evidenceCompleteness": "partial",
       "articleId": "rss-c41f4ae328be0a"
+    },
+    {
+      "signalId": "sig-rss-650736e7a7ae51-fed-rates-policy",
+      "evidenceItems": [
+        {
+          "type": "keyword",
+          "value": "fed",
+          "directionImpact": "unclear",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "keyword",
+          "value": "ai",
+          "directionImpact": "unclear",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "keyword",
+          "value": "FOMC",
+          "directionImpact": "unclear",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "data_quality",
+          "value": "DEGRADED_SOURCE_FAILURE",
+          "directionImpact": "supporting",
+          "sourceField": "source_report"
+        }
+      ],
+      "missingIndicators": [
+        {
+          "indicatorId": "official_policy_text",
+          "label": "official policy text",
+          "indicator": "official policy text",
+          "category": "rates",
+          "reason": "Need the official statement or minutes to compare with the article-time reading.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fed",
+          "priority": "high",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        },
+        {
+          "indicatorId": "policy_path_repricing",
+          "label": "policy path repricing",
+          "indicator": "policy path repricing",
+          "category": "rates",
+          "reason": "Need rates and FX follow-through after the policy event.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fed",
+          "priority": "high",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        },
+        {
+          "indicatorId": "briefing_inclusion_review",
+          "label": "Briefing inclusion review",
+          "indicator": "Briefing inclusion review",
+          "category": "data_quality",
+          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fed",
+          "priority": "medium",
+          "status": "partial",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        }
+      ],
+      "evidenceCompleteness": "partial",
+      "articleId": "rss-650736e7a7ae51"
     },
     {
       "signalId": "sig-rss-4ee319f59f1b7c-fed-rates-policy",
@@ -2333,6 +1986,84 @@
       "articleId": "rss-8457d902f65d65"
     },
     {
+      "signalId": "sig-rss-2a50e3ce4dd23e-fed-rates-policy",
+      "evidenceItems": [
+        {
+          "type": "keyword",
+          "value": "fed",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "keyword",
+          "value": "FOMC",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "data_quality",
+          "value": "DEGRADED_SOURCE_FAILURE",
+          "directionImpact": "supporting",
+          "sourceField": "source_report"
+        }
+      ],
+      "missingIndicators": [
+        {
+          "indicatorId": "official_policy_text",
+          "label": "official policy text",
+          "indicator": "official policy text",
+          "category": "rates",
+          "reason": "Need the official statement or minutes to compare with the article-time reading.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fed",
+          "priority": "high",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        },
+        {
+          "indicatorId": "policy_path_repricing",
+          "label": "policy path repricing",
+          "indicator": "policy path repricing",
+          "category": "rates",
+          "reason": "Need rates and FX follow-through after the policy event.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fed",
+          "priority": "high",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        },
+        {
+          "indicatorId": "briefing_inclusion_review",
+          "label": "Briefing inclusion review",
+          "indicator": "Briefing inclusion review",
+          "category": "data_quality",
+          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fed",
+          "priority": "medium",
+          "status": "partial",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        }
+      ],
+      "evidenceCompleteness": "partial",
+      "articleId": "rss-2a50e3ce4dd23e"
+    },
+    {
       "signalId": "sig-rss-225bfd812d2f32-fomc-rates-policy",
       "evidenceItems": [
         {
@@ -2415,84 +2146,6 @@
       ],
       "evidenceCompleteness": "partial",
       "articleId": "rss-225bfd812d2f32"
-    },
-    {
-      "signalId": "sig-rss-2a50e3ce4dd23e-fed-rates-policy",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "fed",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "FOMC",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "official_policy_text",
-          "label": "official policy text",
-          "indicator": "official policy text",
-          "category": "rates",
-          "reason": "Need the official statement or minutes to compare with the article-time reading.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "policy_path_repricing",
-          "label": "policy path repricing",
-          "indicator": "policy path repricing",
-          "category": "rates",
-          "reason": "Need rates and FX follow-through after the policy event.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "briefing_inclusion_review",
-          "label": "Briefing inclusion review",
-          "indicator": "Briefing inclusion review",
-          "category": "data_quality",
-          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "medium",
-          "status": "partial",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        }
-      ],
-      "evidenceCompleteness": "partial",
-      "articleId": "rss-2a50e3ce4dd23e"
     },
     {
       "signalId": "sig-rss-c7be353335bccf-fed-rates-policy",
@@ -2745,84 +2398,6 @@
       "articleId": "rss-76ab7eed8ee693"
     },
     {
-      "signalId": "sig-rss-760581a5a9967e-fed-rates-policy",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "fed",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "FOMC",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "official_policy_text",
-          "label": "official policy text",
-          "indicator": "official policy text",
-          "category": "rates",
-          "reason": "Need the official statement or minutes to compare with the article-time reading.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "policy_path_repricing",
-          "label": "policy path repricing",
-          "indicator": "policy path repricing",
-          "category": "rates",
-          "reason": "Need rates and FX follow-through after the policy event.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "briefing_inclusion_review",
-          "label": "Briefing inclusion review",
-          "indicator": "Briefing inclusion review",
-          "category": "data_quality",
-          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "medium",
-          "status": "partial",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        }
-      ],
-      "evidenceCompleteness": "partial",
-      "articleId": "rss-760581a5a9967e"
-    },
-    {
       "signalId": "sig-rss-4dde74dc9c7a5e-fed-rates-policy",
       "evidenceItems": [
         {
@@ -3052,24 +2627,108 @@
       "articleId": "rss-dc1ff10a7d1831"
     },
     {
-      "signalId": "sig-rss-ccd36dfd119e7a-fed-rates-policy",
+      "signalId": "sig-rss-9fed61c4d343ce-fed-rates-policy",
       "evidenceItems": [
         {
           "type": "keyword",
           "value": "fed",
-          "directionImpact": "unclear",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "ai",
-          "directionImpact": "unclear",
+          "directionImpact": "negative",
           "sourceField": "keywords"
         },
         {
           "type": "keyword",
           "value": "FOMC",
-          "directionImpact": "unclear",
+          "directionImpact": "negative",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "phrase",
+          "value": "fall",
+          "directionImpact": "negative",
+          "sourceField": "title_or_summary"
+        },
+        {
+          "type": "phrase",
+          "value": "falls",
+          "directionImpact": "negative",
+          "sourceField": "title_or_summary"
+        },
+        {
+          "type": "data_quality",
+          "value": "DEGRADED_SOURCE_FAILURE",
+          "directionImpact": "supporting",
+          "sourceField": "source_report"
+        }
+      ],
+      "missingIndicators": [
+        {
+          "indicatorId": "official_policy_text",
+          "label": "official policy text",
+          "indicator": "official policy text",
+          "category": "rates",
+          "reason": "Need the official statement or minutes to compare with the article-time reading.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fed",
+          "priority": "high",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        },
+        {
+          "indicatorId": "policy_path_repricing",
+          "label": "policy path repricing",
+          "indicator": "policy path repricing",
+          "category": "rates",
+          "reason": "Need rates and FX follow-through after the policy event.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fed",
+          "priority": "high",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        },
+        {
+          "indicatorId": "briefing_inclusion_review",
+          "label": "Briefing inclusion review",
+          "indicator": "Briefing inclusion review",
+          "category": "data_quality",
+          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fed",
+          "priority": "medium",
+          "status": "partial",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        }
+      ],
+      "evidenceCompleteness": "partial",
+      "articleId": "rss-9fed61c4d343ce"
+    },
+    {
+      "signalId": "sig-rss-760581a5a9967e-fed-rates-policy",
+      "evidenceItems": [
+        {
+          "type": "keyword",
+          "value": "fed",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "keyword",
+          "value": "FOMC",
+          "directionImpact": "neutral",
           "sourceField": "keywords"
         },
         {
@@ -3133,7 +2792,85 @@
         }
       ],
       "evidenceCompleteness": "partial",
-      "articleId": "rss-ccd36dfd119e7a"
+      "articleId": "rss-760581a5a9967e"
+    },
+    {
+      "signalId": "sig-rss-ec982ff607ce19-fed-rates-policy",
+      "evidenceItems": [
+        {
+          "type": "keyword",
+          "value": "fed",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "keyword",
+          "value": "FOMC",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "data_quality",
+          "value": "DEGRADED_SOURCE_FAILURE",
+          "directionImpact": "supporting",
+          "sourceField": "source_report"
+        }
+      ],
+      "missingIndicators": [
+        {
+          "indicatorId": "official_policy_text",
+          "label": "official policy text",
+          "indicator": "official policy text",
+          "category": "rates",
+          "reason": "Need the official statement or minutes to compare with the article-time reading.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fed",
+          "priority": "high",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        },
+        {
+          "indicatorId": "policy_path_repricing",
+          "label": "policy path repricing",
+          "indicator": "policy path repricing",
+          "category": "rates",
+          "reason": "Need rates and FX follow-through after the policy event.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fed",
+          "priority": "high",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        },
+        {
+          "indicatorId": "briefing_inclusion_review",
+          "label": "Briefing inclusion review",
+          "indicator": "Briefing inclusion review",
+          "category": "data_quality",
+          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fed",
+          "priority": "medium",
+          "status": "partial",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        }
+      ],
+      "evidenceCompleteness": "partial",
+      "articleId": "rss-ec982ff607ce19"
     },
     {
       "signalId": "sig-rss-86747512055d13-fed-rates-policy",
@@ -3220,253 +2957,24 @@
       "articleId": "rss-86747512055d13"
     },
     {
-      "signalId": "sig-rss-ec982ff607ce19-fed-rates-policy",
+      "signalId": "sig-rss-ccd36dfd119e7a-fed-rates-policy",
       "evidenceItems": [
         {
           "type": "keyword",
           "value": "fed",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "FOMC",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "official_policy_text",
-          "label": "official policy text",
-          "indicator": "official policy text",
-          "category": "rates",
-          "reason": "Need the official statement or minutes to compare with the article-time reading.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "policy_path_repricing",
-          "label": "policy path repricing",
-          "indicator": "policy path repricing",
-          "category": "rates",
-          "reason": "Need rates and FX follow-through after the policy event.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "briefing_inclusion_review",
-          "label": "Briefing inclusion review",
-          "indicator": "Briefing inclusion review",
-          "category": "data_quality",
-          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "medium",
-          "status": "partial",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        }
-      ],
-      "evidenceCompleteness": "partial",
-      "articleId": "rss-ec982ff607ce19"
-    },
-    {
-      "signalId": "sig-rss-7f9170221745e7-fed-rates-policy",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "fed",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "FOMC",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "official_policy_text",
-          "label": "official policy text",
-          "indicator": "official policy text",
-          "category": "rates",
-          "reason": "Need the official statement or minutes to compare with the article-time reading.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "policy_path_repricing",
-          "label": "policy path repricing",
-          "indicator": "policy path repricing",
-          "category": "rates",
-          "reason": "Need rates and FX follow-through after the policy event.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "briefing_inclusion_review",
-          "label": "Briefing inclusion review",
-          "indicator": "Briefing inclusion review",
-          "category": "data_quality",
-          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "medium",
-          "status": "partial",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        }
-      ],
-      "evidenceCompleteness": "partial",
-      "articleId": "rss-7f9170221745e7"
-    },
-    {
-      "signalId": "sig-rss-cf39c5ec1a086c-ai-industry-news",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "ai",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "조선",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "조선 수주",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "source_count",
-          "value": "Applied across 2 briefing surface(s)",
-          "directionImpact": "supporting",
-          "sourceField": "briefing_application"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "peer_price_basket",
-          "label": "peer price basket",
-          "indicator": "peer price basket",
-          "category": "sector_indicator",
-          "reason": "Need peer stock response to confirm whether the interpretation was sector-wide.",
-          "relatedSector": "조선",
-          "relatedTopic": "ai",
-          "priority": "medium",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "SOXX",
-            "SKHYNIX",
-            "SAMSUNG-ELECTRONICS"
-          ],
-          "reviewWindowRule": "industry_news_default"
-        },
-        {
-          "indicatorId": "follow_up_disclosure",
-          "label": "follow-up disclosure",
-          "indicator": "follow-up disclosure",
-          "category": "sector_indicator",
-          "reason": "Need shipment, order, or management follow-up to confirm the industry reading.",
-          "relatedSector": "조선",
-          "relatedTopic": "ai",
-          "priority": "medium",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "SOXX",
-            "SKHYNIX",
-            "SAMSUNG-ELECTRONICS"
-          ],
-          "reviewWindowRule": "industry_news_default"
-        }
-      ],
-      "evidenceCompleteness": "partial",
-      "articleId": "rss-cf39c5ec1a086c"
-    },
-    {
-      "signalId": "sig-rss-3e61453526d48e-fed-rates-policy",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "fed",
-          "directionImpact": "neutral",
+          "directionImpact": "unclear",
           "sourceField": "keywords"
         },
         {
           "type": "keyword",
           "value": "ai",
-          "directionImpact": "neutral",
+          "directionImpact": "unclear",
           "sourceField": "keywords"
         },
         {
           "type": "keyword",
-          "value": "ir",
-          "directionImpact": "neutral",
+          "value": "FOMC",
+          "directionImpact": "unclear",
           "sourceField": "keywords"
         },
         {
@@ -3530,7 +3038,7 @@
         }
       ],
       "evidenceCompleteness": "partial",
-      "articleId": "rss-3e61453526d48e"
+      "articleId": "rss-ccd36dfd119e7a"
     },
     {
       "signalId": "sig-rss-0fd0aa06df385b-fed-rates-policy",
@@ -3609,6 +3117,224 @@
       ],
       "evidenceCompleteness": "partial",
       "articleId": "rss-0fd0aa06df385b"
+    },
+    {
+      "signalId": "sig-rss-ca52a0a469b7c2-ai-industry-news",
+      "evidenceItems": [
+        {
+          "type": "keyword",
+          "value": "ai",
+          "directionImpact": "weak_negative",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "phrase",
+          "value": "fall",
+          "directionImpact": "weak_negative",
+          "sourceField": "title_or_summary"
+        },
+        {
+          "type": "source_count",
+          "value": "Applied across 1 briefing surface(s)",
+          "directionImpact": "supporting",
+          "sourceField": "briefing_application"
+        },
+        {
+          "type": "data_quality",
+          "value": "DEGRADED_SOURCE_FAILURE",
+          "directionImpact": "supporting",
+          "sourceField": "source_report"
+        }
+      ],
+      "missingIndicators": [
+        {
+          "indicatorId": "peer_price_basket",
+          "label": "peer price basket",
+          "indicator": "peer price basket",
+          "category": "sector_indicator",
+          "reason": "Need peer stock response to confirm whether the interpretation was sector-wide.",
+          "relatedSector": "시장 전체",
+          "relatedTopic": "ai",
+          "priority": "medium",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "SOXX",
+            "SKHYNIX",
+            "SAMSUNG-ELECTRONICS"
+          ],
+          "reviewWindowRule": "industry_news_default"
+        },
+        {
+          "indicatorId": "follow_up_disclosure",
+          "label": "follow-up disclosure",
+          "indicator": "follow-up disclosure",
+          "category": "sector_indicator",
+          "reason": "Need shipment, order, or management follow-up to confirm the industry reading.",
+          "relatedSector": "시장 전체",
+          "relatedTopic": "ai",
+          "priority": "medium",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "SOXX",
+            "SKHYNIX",
+            "SAMSUNG-ELECTRONICS"
+          ],
+          "reviewWindowRule": "industry_news_default"
+        }
+      ],
+      "evidenceCompleteness": "partial",
+      "articleId": "rss-ca52a0a469b7c2"
+    },
+    {
+      "signalId": "sig-rss-cf39c5ec1a086c-ai-industry-news",
+      "evidenceItems": [
+        {
+          "type": "keyword",
+          "value": "ai",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "keyword",
+          "value": "조선",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "keyword",
+          "value": "조선 수주",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "source_count",
+          "value": "Applied across 2 briefing surface(s)",
+          "directionImpact": "supporting",
+          "sourceField": "briefing_application"
+        },
+        {
+          "type": "data_quality",
+          "value": "DEGRADED_SOURCE_FAILURE",
+          "directionImpact": "supporting",
+          "sourceField": "source_report"
+        }
+      ],
+      "missingIndicators": [
+        {
+          "indicatorId": "peer_price_basket",
+          "label": "peer price basket",
+          "indicator": "peer price basket",
+          "category": "sector_indicator",
+          "reason": "Need peer stock response to confirm whether the interpretation was sector-wide.",
+          "relatedSector": "조선",
+          "relatedTopic": "ai",
+          "priority": "medium",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "SOXX",
+            "SKHYNIX",
+            "SAMSUNG-ELECTRONICS"
+          ],
+          "reviewWindowRule": "industry_news_default"
+        },
+        {
+          "indicatorId": "follow_up_disclosure",
+          "label": "follow-up disclosure",
+          "indicator": "follow-up disclosure",
+          "category": "sector_indicator",
+          "reason": "Need shipment, order, or management follow-up to confirm the industry reading.",
+          "relatedSector": "조선",
+          "relatedTopic": "ai",
+          "priority": "medium",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "SOXX",
+            "SKHYNIX",
+            "SAMSUNG-ELECTRONICS"
+          ],
+          "reviewWindowRule": "industry_news_default"
+        }
+      ],
+      "evidenceCompleteness": "partial",
+      "articleId": "rss-cf39c5ec1a086c"
+    },
+    {
+      "signalId": "sig-rss-e3234471803242-fed-rates-policy",
+      "evidenceItems": [
+        {
+          "type": "keyword",
+          "value": "fed",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "keyword",
+          "value": "FOMC",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "data_quality",
+          "value": "DEGRADED_SOURCE_FAILURE",
+          "directionImpact": "supporting",
+          "sourceField": "source_report"
+        }
+      ],
+      "missingIndicators": [
+        {
+          "indicatorId": "official_policy_text",
+          "label": "official policy text",
+          "indicator": "official policy text",
+          "category": "rates",
+          "reason": "Need the official statement or minutes to compare with the article-time reading.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fed",
+          "priority": "high",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        },
+        {
+          "indicatorId": "policy_path_repricing",
+          "label": "policy path repricing",
+          "indicator": "policy path repricing",
+          "category": "rates",
+          "reason": "Need rates and FX follow-through after the policy event.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fed",
+          "priority": "high",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        },
+        {
+          "indicatorId": "briefing_inclusion_review",
+          "label": "Briefing inclusion review",
+          "indicator": "Briefing inclusion review",
+          "category": "data_quality",
+          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fed",
+          "priority": "medium",
+          "status": "partial",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        }
+      ],
+      "evidenceCompleteness": "partial",
+      "articleId": "rss-e3234471803242"
     },
     {
       "signalId": "sig-rss-e89ea15944a09c-fed-rates-policy",
@@ -3695,73 +3421,6 @@
       "articleId": "rss-e89ea15944a09c"
     },
     {
-      "signalId": "sig-rss-ca52a0a469b7c2-ai-industry-news",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "ai",
-          "directionImpact": "weak_negative",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "phrase",
-          "value": "fall",
-          "directionImpact": "weak_negative",
-          "sourceField": "title_or_summary"
-        },
-        {
-          "type": "source_count",
-          "value": "Applied across 1 briefing surface(s)",
-          "directionImpact": "supporting",
-          "sourceField": "briefing_application"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "peer_price_basket",
-          "label": "peer price basket",
-          "indicator": "peer price basket",
-          "category": "sector_indicator",
-          "reason": "Need peer stock response to confirm whether the interpretation was sector-wide.",
-          "relatedSector": "시장 전체",
-          "relatedTopic": "ai",
-          "priority": "medium",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "SOXX",
-            "SKHYNIX",
-            "SAMSUNG-ELECTRONICS"
-          ],
-          "reviewWindowRule": "industry_news_default"
-        },
-        {
-          "indicatorId": "follow_up_disclosure",
-          "label": "follow-up disclosure",
-          "indicator": "follow-up disclosure",
-          "category": "sector_indicator",
-          "reason": "Need shipment, order, or management follow-up to confirm the industry reading.",
-          "relatedSector": "시장 전체",
-          "relatedTopic": "ai",
-          "priority": "medium",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "SOXX",
-            "SKHYNIX",
-            "SAMSUNG-ELECTRONICS"
-          ],
-          "reviewWindowRule": "industry_news_default"
-        }
-      ],
-      "evidenceCompleteness": "partial",
-      "articleId": "rss-ca52a0a469b7c2"
-    },
-    {
       "signalId": "sig-rss-e90696bb1579df-fed-rates-policy",
       "evidenceItems": [
         {
@@ -3844,162 +3503,6 @@
       ],
       "evidenceCompleteness": "partial",
       "articleId": "rss-e90696bb1579df"
-    },
-    {
-      "signalId": "sig-rss-e3234471803242-fed-rates-policy",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "fed",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "FOMC",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "official_policy_text",
-          "label": "official policy text",
-          "indicator": "official policy text",
-          "category": "rates",
-          "reason": "Need the official statement or minutes to compare with the article-time reading.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "policy_path_repricing",
-          "label": "policy path repricing",
-          "indicator": "policy path repricing",
-          "category": "rates",
-          "reason": "Need rates and FX follow-through after the policy event.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "briefing_inclusion_review",
-          "label": "Briefing inclusion review",
-          "indicator": "Briefing inclusion review",
-          "category": "data_quality",
-          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "medium",
-          "status": "partial",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        }
-      ],
-      "evidenceCompleteness": "partial",
-      "articleId": "rss-e3234471803242"
-    },
-    {
-      "signalId": "sig-rss-e9d31e07af512b-fed-rates-policy",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "fed",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "FOMC",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "official_policy_text",
-          "label": "official policy text",
-          "indicator": "official policy text",
-          "category": "rates",
-          "reason": "Need the official statement or minutes to compare with the article-time reading.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "policy_path_repricing",
-          "label": "policy path repricing",
-          "indicator": "policy path repricing",
-          "category": "rates",
-          "reason": "Need rates and FX follow-through after the policy event.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "briefing_inclusion_review",
-          "label": "Briefing inclusion review",
-          "indicator": "Briefing inclusion review",
-          "category": "data_quality",
-          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "medium",
-          "status": "partial",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        }
-      ],
-      "evidenceCompleteness": "partial",
-      "articleId": "rss-e9d31e07af512b"
     },
     {
       "signalId": "sig-rss-7519aa5d110f3b-fed-rates-policy",
@@ -4473,6 +3976,96 @@
       "articleId": "rss-0a07fcdb2a58ed"
     },
     {
+      "signalId": "sig-rss-cf2a4ce984024f-fed-rates-policy",
+      "evidenceItems": [
+        {
+          "type": "keyword",
+          "value": "fed",
+          "directionImpact": "weak_positive",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "keyword",
+          "value": "ecb",
+          "directionImpact": "weak_positive",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "keyword",
+          "value": "ir",
+          "directionImpact": "weak_positive",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "phrase",
+          "value": "up",
+          "directionImpact": "weak_positive",
+          "sourceField": "title_or_summary"
+        },
+        {
+          "type": "data_quality",
+          "value": "DEGRADED_SOURCE_FAILURE",
+          "directionImpact": "supporting",
+          "sourceField": "source_report"
+        }
+      ],
+      "missingIndicators": [
+        {
+          "indicatorId": "official_policy_text",
+          "label": "official policy text",
+          "indicator": "official policy text",
+          "category": "rates",
+          "reason": "Need the official statement or minutes to compare with the article-time reading.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fed",
+          "priority": "high",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        },
+        {
+          "indicatorId": "policy_path_repricing",
+          "label": "policy path repricing",
+          "indicator": "policy path repricing",
+          "category": "rates",
+          "reason": "Need rates and FX follow-through after the policy event.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fed",
+          "priority": "high",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        },
+        {
+          "indicatorId": "briefing_inclusion_review",
+          "label": "Briefing inclusion review",
+          "indicator": "Briefing inclusion review",
+          "category": "data_quality",
+          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fed",
+          "priority": "medium",
+          "status": "partial",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        }
+      ],
+      "evidenceCompleteness": "partial",
+      "articleId": "rss-cf2a4ce984024f"
+    },
+    {
       "signalId": "sig-rss-351e2926ac3432-fed-rates-policy",
       "evidenceItems": [
         {
@@ -4555,90 +4148,6 @@
       ],
       "evidenceCompleteness": "partial",
       "articleId": "rss-351e2926ac3432"
-    },
-    {
-      "signalId": "sig-rss-3f16a096228408-fed-rates-policy",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "fed",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "ir",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "FOMC",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "official_policy_text",
-          "label": "official policy text",
-          "indicator": "official policy text",
-          "category": "rates",
-          "reason": "Need the official statement or minutes to compare with the article-time reading.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "policy_path_repricing",
-          "label": "policy path repricing",
-          "indicator": "policy path repricing",
-          "category": "rates",
-          "reason": "Need rates and FX follow-through after the policy event.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "briefing_inclusion_review",
-          "label": "Briefing inclusion review",
-          "indicator": "Briefing inclusion review",
-          "category": "data_quality",
-          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "medium",
-          "status": "partial",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        }
-      ],
-      "evidenceCompleteness": "partial",
-      "articleId": "rss-3f16a096228408"
     },
     {
       "signalId": "sig-rss-517d43819f3bf2-fed-rates-policy",
@@ -4803,90 +4312,6 @@
       "articleId": "rss-172e5bf351cf2b"
     },
     {
-      "signalId": "sig-rss-4db9787e74b863-fomc-rates-policy",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "fomc",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "ir",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "FOMC",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "official_policy_text",
-          "label": "official policy text",
-          "indicator": "official policy text",
-          "category": "rates",
-          "reason": "Need the official statement or minutes to compare with the article-time reading.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fomc",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "policy_path_repricing",
-          "label": "policy path repricing",
-          "indicator": "policy path repricing",
-          "category": "rates",
-          "reason": "Need rates and FX follow-through after the policy event.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fomc",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "briefing_inclusion_review",
-          "label": "Briefing inclusion review",
-          "indicator": "Briefing inclusion review",
-          "category": "data_quality",
-          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fomc",
-          "priority": "medium",
-          "status": "partial",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        }
-      ],
-      "evidenceCompleteness": "partial",
-      "articleId": "rss-4db9787e74b863"
-    },
-    {
       "signalId": "sig-rss-e1130a53cc4f4e-fed-rates-policy",
       "evidenceItems": [
         {
@@ -4977,19 +4402,13 @@
       "articleId": "rss-e1130a53cc4f4e"
     },
     {
-      "signalId": "sig-rss-faf36364238f06-ai-industry-news",
+      "signalId": "sig-rss-5b34ede4ec19f6-market-move",
       "evidenceItems": [
         {
-          "type": "keyword",
-          "value": "ai",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "ir",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
+          "type": "phrase",
+          "value": "rebound",
+          "directionImpact": "positive",
+          "sourceField": "title_or_summary"
         },
         {
           "type": "source_count",
@@ -5006,126 +4425,24 @@
       ],
       "missingIndicators": [
         {
-          "indicatorId": "peer_price_basket",
-          "label": "peer price basket",
-          "indicator": "peer price basket",
-          "category": "sector_indicator",
-          "reason": "Need peer stock response to confirm whether the interpretation was sector-wide.",
+          "indicatorId": "close_confirmation",
+          "label": "close confirmation",
+          "indicator": "close confirmation",
+          "category": "market_price",
+          "reason": "Need the next session close to verify whether the article-time move persisted.",
           "relatedSector": "시장 전체",
-          "relatedTopic": "ai",
-          "priority": "medium",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "SOXX",
-            "SKHYNIX",
-            "SAMSUNG-ELECTRONICS"
-          ],
-          "reviewWindowRule": "industry_news_default"
-        },
-        {
-          "indicatorId": "follow_up_disclosure",
-          "label": "follow-up disclosure",
-          "indicator": "follow-up disclosure",
-          "category": "sector_indicator",
-          "reason": "Need shipment, order, or management follow-up to confirm the industry reading.",
-          "relatedSector": "시장 전체",
-          "relatedTopic": "ai",
-          "priority": "medium",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "SOXX",
-            "SKHYNIX",
-            "SAMSUNG-ELECTRONICS"
-          ],
-          "reviewWindowRule": "industry_news_default"
-        }
-      ],
-      "evidenceCompleteness": "partial",
-      "articleId": "rss-faf36364238f06"
-    },
-    {
-      "signalId": "sig-rss-387203b78aa9f8-fomc-rates-policy",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "fomc",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "ir",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "FOMC",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "official_policy_text",
-          "label": "official policy text",
-          "indicator": "official policy text",
-          "category": "rates",
-          "reason": "Need the official statement or minutes to compare with the article-time reading.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fomc",
+          "relatedTopic": "시장 전체",
           "priority": "high",
           "status": "missing",
           "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
+            "KOSPI",
+            "USDKRW"
           ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "policy_path_repricing",
-          "label": "policy path repricing",
-          "indicator": "policy path repricing",
-          "category": "rates",
-          "reason": "Need rates and FX follow-through after the policy event.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fomc",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "briefing_inclusion_review",
-          "label": "Briefing inclusion review",
-          "indicator": "Briefing inclusion review",
-          "category": "data_quality",
-          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fomc",
-          "priority": "medium",
-          "status": "partial",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
+          "reviewWindowRule": "market_move_default"
         }
       ],
       "evidenceCompleteness": "partial",
-      "articleId": "rss-387203b78aa9f8"
+      "articleId": "rss-5b34ede4ec19f6"
     },
     {
       "signalId": "sig-rss-61aba9a6bd4277-fed-rates-policy",
@@ -5224,8 +4541,104 @@
       "articleId": "rss-61aba9a6bd4277"
     },
     {
-      "signalId": "sig-rss-864498d9a64cee-market-move",
+      "signalId": "sig-rss-4db9787e74b863-fomc-rates-policy",
       "evidenceItems": [
+        {
+          "type": "keyword",
+          "value": "fomc",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "keyword",
+          "value": "ir",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "keyword",
+          "value": "FOMC",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "data_quality",
+          "value": "DEGRADED_SOURCE_FAILURE",
+          "directionImpact": "supporting",
+          "sourceField": "source_report"
+        }
+      ],
+      "missingIndicators": [
+        {
+          "indicatorId": "official_policy_text",
+          "label": "official policy text",
+          "indicator": "official policy text",
+          "category": "rates",
+          "reason": "Need the official statement or minutes to compare with the article-time reading.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fomc",
+          "priority": "high",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        },
+        {
+          "indicatorId": "policy_path_repricing",
+          "label": "policy path repricing",
+          "indicator": "policy path repricing",
+          "category": "rates",
+          "reason": "Need rates and FX follow-through after the policy event.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fomc",
+          "priority": "high",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        },
+        {
+          "indicatorId": "briefing_inclusion_review",
+          "label": "Briefing inclusion review",
+          "indicator": "Briefing inclusion review",
+          "category": "data_quality",
+          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fomc",
+          "priority": "medium",
+          "status": "partial",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        }
+      ],
+      "evidenceCompleteness": "partial",
+      "articleId": "rss-4db9787e74b863"
+    },
+    {
+      "signalId": "sig-rss-faf36364238f06-ai-industry-news",
+      "evidenceItems": [
+        {
+          "type": "keyword",
+          "value": "ai",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "keyword",
+          "value": "ir",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
         {
           "type": "source_count",
           "value": "Applied across 1 briefing surface(s)",
@@ -5241,45 +4654,69 @@
       ],
       "missingIndicators": [
         {
-          "indicatorId": "close_confirmation",
-          "label": "close confirmation",
-          "indicator": "close confirmation",
-          "category": "market_price",
-          "reason": "Need the next session close to verify whether the article-time move persisted.",
+          "indicatorId": "peer_price_basket",
+          "label": "peer price basket",
+          "indicator": "peer price basket",
+          "category": "sector_indicator",
+          "reason": "Need peer stock response to confirm whether the interpretation was sector-wide.",
           "relatedSector": "시장 전체",
-          "relatedTopic": "시장 전체",
-          "priority": "high",
+          "relatedTopic": "ai",
+          "priority": "medium",
           "status": "missing",
           "suggestedTargetIds": [
-            "KOSPI",
-            "USDKRW"
+            "SOXX",
+            "SKHYNIX",
+            "SAMSUNG-ELECTRONICS"
           ],
-          "reviewWindowRule": "market_move_default"
+          "reviewWindowRule": "industry_news_default"
+        },
+        {
+          "indicatorId": "follow_up_disclosure",
+          "label": "follow-up disclosure",
+          "indicator": "follow-up disclosure",
+          "category": "sector_indicator",
+          "reason": "Need shipment, order, or management follow-up to confirm the industry reading.",
+          "relatedSector": "시장 전체",
+          "relatedTopic": "ai",
+          "priority": "medium",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "SOXX",
+            "SKHYNIX",
+            "SAMSUNG-ELECTRONICS"
+          ],
+          "reviewWindowRule": "industry_news_default"
         }
       ],
       "evidenceCompleteness": "partial",
-      "articleId": "rss-864498d9a64cee"
+      "articleId": "rss-faf36364238f06"
     },
     {
-      "signalId": "sig-rss-0b0ec45e250827-fed-rates-policy",
+      "signalId": "sig-rss-752f52685b5576-fed-rates-policy",
       "evidenceItems": [
         {
           "type": "keyword",
           "value": "fed",
-          "directionImpact": "neutral",
+          "directionImpact": "weak_negative",
           "sourceField": "keywords"
         },
         {
           "type": "keyword",
           "value": "ai",
-          "directionImpact": "neutral",
+          "directionImpact": "weak_negative",
           "sourceField": "keywords"
         },
         {
           "type": "keyword",
           "value": "FOMC",
-          "directionImpact": "neutral",
+          "directionImpact": "weak_negative",
           "sourceField": "keywords"
+        },
+        {
+          "type": "phrase",
+          "value": "lower",
+          "directionImpact": "weak_negative",
+          "sourceField": "title_or_summary"
         },
         {
           "type": "data_quality",
@@ -5342,7 +4779,91 @@
         }
       ],
       "evidenceCompleteness": "partial",
-      "articleId": "rss-0b0ec45e250827"
+      "articleId": "rss-752f52685b5576"
+    },
+    {
+      "signalId": "sig-rss-387203b78aa9f8-fomc-rates-policy",
+      "evidenceItems": [
+        {
+          "type": "keyword",
+          "value": "fomc",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "keyword",
+          "value": "ir",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "keyword",
+          "value": "FOMC",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "data_quality",
+          "value": "DEGRADED_SOURCE_FAILURE",
+          "directionImpact": "supporting",
+          "sourceField": "source_report"
+        }
+      ],
+      "missingIndicators": [
+        {
+          "indicatorId": "official_policy_text",
+          "label": "official policy text",
+          "indicator": "official policy text",
+          "category": "rates",
+          "reason": "Need the official statement or minutes to compare with the article-time reading.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fomc",
+          "priority": "high",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        },
+        {
+          "indicatorId": "policy_path_repricing",
+          "label": "policy path repricing",
+          "indicator": "policy path repricing",
+          "category": "rates",
+          "reason": "Need rates and FX follow-through after the policy event.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fomc",
+          "priority": "high",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        },
+        {
+          "indicatorId": "briefing_inclusion_review",
+          "label": "Briefing inclusion review",
+          "indicator": "Briefing inclusion review",
+          "category": "data_quality",
+          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
+          "relatedSector": "성장주",
+          "relatedTopic": "fomc",
+          "priority": "medium",
+          "status": "partial",
+          "suggestedTargetIds": [
+            "US10Y",
+            "USDKRW",
+            "NASDAQ"
+          ],
+          "reviewWindowRule": "rates_policy_default"
+        }
+      ],
+      "evidenceCompleteness": "partial",
+      "articleId": "rss-387203b78aa9f8"
     },
     {
       "signalId": "sig-rss-82278c97fde329-fed-rates-policy",
@@ -5423,6 +4944,43 @@
       "articleId": "rss-82278c97fde329"
     },
     {
+      "signalId": "sig-rss-864498d9a64cee-market-move",
+      "evidenceItems": [
+        {
+          "type": "source_count",
+          "value": "Applied across 1 briefing surface(s)",
+          "directionImpact": "supporting",
+          "sourceField": "briefing_application"
+        },
+        {
+          "type": "data_quality",
+          "value": "DEGRADED_SOURCE_FAILURE",
+          "directionImpact": "supporting",
+          "sourceField": "source_report"
+        }
+      ],
+      "missingIndicators": [
+        {
+          "indicatorId": "close_confirmation",
+          "label": "close confirmation",
+          "indicator": "close confirmation",
+          "category": "market_price",
+          "reason": "Need the next session close to verify whether the article-time move persisted.",
+          "relatedSector": "시장 전체",
+          "relatedTopic": "시장 전체",
+          "priority": "high",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "KOSPI",
+            "USDKRW"
+          ],
+          "reviewWindowRule": "market_move_default"
+        }
+      ],
+      "evidenceCompleteness": "partial",
+      "articleId": "rss-864498d9a64cee"
+    },
+    {
       "signalId": "sig-rss-6ef1cffd2bbb0a-nvidia-industry-news",
       "evidenceItems": [
         {
@@ -5488,67 +5046,6 @@
       ],
       "evidenceCompleteness": "partial",
       "articleId": "rss-6ef1cffd2bbb0a"
-    },
-    {
-      "signalId": "sig-rss-d3b052f9f06615-ai-industry-news",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "ai",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "source_count",
-          "value": "Applied across 1 briefing surface(s)",
-          "directionImpact": "supporting",
-          "sourceField": "briefing_application"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "peer_price_basket",
-          "label": "peer price basket",
-          "indicator": "peer price basket",
-          "category": "sector_indicator",
-          "reason": "Need peer stock response to confirm whether the interpretation was sector-wide.",
-          "relatedSector": "시장 전체",
-          "relatedTopic": "ai",
-          "priority": "medium",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "SOXX",
-            "SKHYNIX",
-            "SAMSUNG-ELECTRONICS"
-          ],
-          "reviewWindowRule": "industry_news_default"
-        },
-        {
-          "indicatorId": "follow_up_disclosure",
-          "label": "follow-up disclosure",
-          "indicator": "follow-up disclosure",
-          "category": "sector_indicator",
-          "reason": "Need shipment, order, or management follow-up to confirm the industry reading.",
-          "relatedSector": "시장 전체",
-          "relatedTopic": "ai",
-          "priority": "medium",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "SOXX",
-            "SKHYNIX",
-            "SAMSUNG-ELECTRONICS"
-          ],
-          "reviewWindowRule": "industry_news_default"
-        }
-      ],
-      "evidenceCompleteness": "partial",
-      "articleId": "rss-d3b052f9f06615"
     },
     {
       "signalId": "sig-rss-cb8fc12e888bbc-nvidia-industry-news",
@@ -5622,6 +5119,67 @@
       ],
       "evidenceCompleteness": "partial",
       "articleId": "rss-cb8fc12e888bbc"
+    },
+    {
+      "signalId": "sig-rss-d3b052f9f06615-ai-industry-news",
+      "evidenceItems": [
+        {
+          "type": "keyword",
+          "value": "ai",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "source_count",
+          "value": "Applied across 1 briefing surface(s)",
+          "directionImpact": "supporting",
+          "sourceField": "briefing_application"
+        },
+        {
+          "type": "data_quality",
+          "value": "DEGRADED_SOURCE_FAILURE",
+          "directionImpact": "supporting",
+          "sourceField": "source_report"
+        }
+      ],
+      "missingIndicators": [
+        {
+          "indicatorId": "peer_price_basket",
+          "label": "peer price basket",
+          "indicator": "peer price basket",
+          "category": "sector_indicator",
+          "reason": "Need peer stock response to confirm whether the interpretation was sector-wide.",
+          "relatedSector": "시장 전체",
+          "relatedTopic": "ai",
+          "priority": "medium",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "SOXX",
+            "SKHYNIX",
+            "SAMSUNG-ELECTRONICS"
+          ],
+          "reviewWindowRule": "industry_news_default"
+        },
+        {
+          "indicatorId": "follow_up_disclosure",
+          "label": "follow-up disclosure",
+          "indicator": "follow-up disclosure",
+          "category": "sector_indicator",
+          "reason": "Need shipment, order, or management follow-up to confirm the industry reading.",
+          "relatedSector": "시장 전체",
+          "relatedTopic": "ai",
+          "priority": "medium",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "SOXX",
+            "SKHYNIX",
+            "SAMSUNG-ELECTRONICS"
+          ],
+          "reviewWindowRule": "industry_news_default"
+        }
+      ],
+      "evidenceCompleteness": "partial",
+      "articleId": "rss-d3b052f9f06615"
     },
     {
       "signalId": "sig-rss-5f2ffd3c669560-ai-industry-news",
@@ -5801,134 +5359,6 @@
       "articleId": "rss-d85d11f495c52e"
     },
     {
-      "signalId": "sig-rss-0f7a1042bf1fc6-ai-industry-news",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "ai",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "source_count",
-          "value": "Applied across 1 briefing surface(s)",
-          "directionImpact": "supporting",
-          "sourceField": "briefing_application"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "peer_price_basket",
-          "label": "peer price basket",
-          "indicator": "peer price basket",
-          "category": "sector_indicator",
-          "reason": "Need peer stock response to confirm whether the interpretation was sector-wide.",
-          "relatedSector": "시장 전체",
-          "relatedTopic": "ai",
-          "priority": "medium",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "SOXX",
-            "SKHYNIX",
-            "SAMSUNG-ELECTRONICS"
-          ],
-          "reviewWindowRule": "industry_news_default"
-        },
-        {
-          "indicatorId": "follow_up_disclosure",
-          "label": "follow-up disclosure",
-          "indicator": "follow-up disclosure",
-          "category": "sector_indicator",
-          "reason": "Need shipment, order, or management follow-up to confirm the industry reading.",
-          "relatedSector": "시장 전체",
-          "relatedTopic": "ai",
-          "priority": "medium",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "SOXX",
-            "SKHYNIX",
-            "SAMSUNG-ELECTRONICS"
-          ],
-          "reviewWindowRule": "industry_news_default"
-        }
-      ],
-      "evidenceCompleteness": "partial",
-      "articleId": "rss-0f7a1042bf1fc6"
-    },
-    {
-      "signalId": "sig-rss-752ae974935e21-ai-industry-news",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "ai",
-          "directionImpact": "weak_positive",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "phrase",
-          "value": "up",
-          "directionImpact": "weak_positive",
-          "sourceField": "title_or_summary"
-        },
-        {
-          "type": "source_count",
-          "value": "Applied across 1 briefing surface(s)",
-          "directionImpact": "supporting",
-          "sourceField": "briefing_application"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "peer_price_basket",
-          "label": "peer price basket",
-          "indicator": "peer price basket",
-          "category": "sector_indicator",
-          "reason": "Need peer stock response to confirm whether the interpretation was sector-wide.",
-          "relatedSector": "시장 전체",
-          "relatedTopic": "ai",
-          "priority": "medium",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "SOXX",
-            "SKHYNIX",
-            "SAMSUNG-ELECTRONICS"
-          ],
-          "reviewWindowRule": "industry_news_default"
-        },
-        {
-          "indicatorId": "follow_up_disclosure",
-          "label": "follow-up disclosure",
-          "indicator": "follow-up disclosure",
-          "category": "sector_indicator",
-          "reason": "Need shipment, order, or management follow-up to confirm the industry reading.",
-          "relatedSector": "시장 전체",
-          "relatedTopic": "ai",
-          "priority": "medium",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "SOXX",
-            "SKHYNIX",
-            "SAMSUNG-ELECTRONICS"
-          ],
-          "reviewWindowRule": "industry_news_default"
-        }
-      ],
-      "evidenceCompleteness": "partial",
-      "articleId": "rss-752ae974935e21"
-    },
-    {
       "signalId": "sig-rss-a12b380a93d013-ai-industry-news",
       "evidenceItems": [
         {
@@ -6057,6 +5487,67 @@
       "articleId": "rss-74961e78fdf521"
     },
     {
+      "signalId": "sig-rss-b375f197f1fa7c-ai-industry-news",
+      "evidenceItems": [
+        {
+          "type": "keyword",
+          "value": "ai",
+          "directionImpact": "neutral",
+          "sourceField": "keywords"
+        },
+        {
+          "type": "source_count",
+          "value": "Applied across 1 briefing surface(s)",
+          "directionImpact": "supporting",
+          "sourceField": "briefing_application"
+        },
+        {
+          "type": "data_quality",
+          "value": "DEGRADED_SOURCE_FAILURE",
+          "directionImpact": "supporting",
+          "sourceField": "source_report"
+        }
+      ],
+      "missingIndicators": [
+        {
+          "indicatorId": "peer_price_basket",
+          "label": "peer price basket",
+          "indicator": "peer price basket",
+          "category": "sector_indicator",
+          "reason": "Need peer stock response to confirm whether the interpretation was sector-wide.",
+          "relatedSector": "시장 전체",
+          "relatedTopic": "ai",
+          "priority": "medium",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "SOXX",
+            "SKHYNIX",
+            "SAMSUNG-ELECTRONICS"
+          ],
+          "reviewWindowRule": "industry_news_default"
+        },
+        {
+          "indicatorId": "follow_up_disclosure",
+          "label": "follow-up disclosure",
+          "indicator": "follow-up disclosure",
+          "category": "sector_indicator",
+          "reason": "Need shipment, order, or management follow-up to confirm the industry reading.",
+          "relatedSector": "시장 전체",
+          "relatedTopic": "ai",
+          "priority": "medium",
+          "status": "missing",
+          "suggestedTargetIds": [
+            "SOXX",
+            "SKHYNIX",
+            "SAMSUNG-ELECTRONICS"
+          ],
+          "reviewWindowRule": "industry_news_default"
+        }
+      ],
+      "evidenceCompleteness": "partial",
+      "articleId": "rss-b375f197f1fa7c"
+    },
+    {
       "signalId": "sig-rss-b74ac2d18a918d-ai-industry-news",
       "evidenceItems": [
         {
@@ -6118,187 +5609,13 @@
       "articleId": "rss-b74ac2d18a918d"
     },
     {
-      "signalId": "sig-gdelt-1b82c1b02c122c-fed-rates-policy",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "fed",
-          "directionImpact": "unclear",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "FOMC",
-          "directionImpact": "unclear",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "phrase",
-          "value": "rebound",
-          "directionImpact": "weak_positive",
-          "sourceField": "title_or_summary"
-        },
-        {
-          "type": "phrase",
-          "value": "lower",
-          "directionImpact": "weak_negative",
-          "sourceField": "title_or_summary"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "official_policy_text",
-          "label": "official policy text",
-          "indicator": "official policy text",
-          "category": "rates",
-          "reason": "Need the official statement or minutes to compare with the article-time reading.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "policy_path_repricing",
-          "label": "policy path repricing",
-          "indicator": "policy path repricing",
-          "category": "rates",
-          "reason": "Need rates and FX follow-through after the policy event.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "briefing_inclusion_review",
-          "label": "Briefing inclusion review",
-          "indicator": "Briefing inclusion review",
-          "category": "data_quality",
-          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "medium",
-          "status": "partial",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        }
-      ],
-      "evidenceCompleteness": "partial",
-      "articleId": "gdelt-1b82c1b02c122c"
-    },
-    {
-      "signalId": "sig-gdelt-7c31aa28ab2d0d-fed-rates-policy",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "fed",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "FOMC",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "official_policy_text",
-          "label": "official policy text",
-          "indicator": "official policy text",
-          "category": "rates",
-          "reason": "Need the official statement or minutes to compare with the article-time reading.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "policy_path_repricing",
-          "label": "policy path repricing",
-          "indicator": "policy path repricing",
-          "category": "rates",
-          "reason": "Need rates and FX follow-through after the policy event.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "briefing_inclusion_review",
-          "label": "Briefing inclusion review",
-          "indicator": "Briefing inclusion review",
-          "category": "data_quality",
-          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "medium",
-          "status": "partial",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        }
-      ],
-      "evidenceCompleteness": "partial",
-      "articleId": "gdelt-7c31aa28ab2d0d"
-    },
-    {
-      "signalId": "sig-gdelt-02fcaf7e6f74bf-ai-industry-news",
+      "signalId": "sig-rss-08b5751343fc20-ai-industry-news",
       "evidenceItems": [
         {
           "type": "keyword",
           "value": "ai",
-          "directionImpact": "negative",
+          "directionImpact": "unclear",
           "sourceField": "keywords"
-        },
-        {
-          "type": "phrase",
-          "value": "ban",
-          "directionImpact": "negative",
-          "sourceField": "title_or_summary"
         },
         {
           "type": "data_quality",
@@ -6361,22 +5678,22 @@
         }
       ],
       "evidenceCompleteness": "partial",
-      "articleId": "gdelt-02fcaf7e6f74bf"
+      "articleId": "rss-08b5751343fc20"
     },
     {
-      "signalId": "sig-gdelt-92668ae7c07081-ai-industry-news",
+      "signalId": "sig-rss-08c806d31ebea8-ai-industry-news",
       "evidenceItems": [
         {
           "type": "keyword",
           "value": "ai",
-          "directionImpact": "negative",
+          "directionImpact": "neutral",
           "sourceField": "keywords"
         },
         {
-          "type": "phrase",
-          "value": "ban",
-          "directionImpact": "negative",
-          "sourceField": "title_or_summary"
+          "type": "source_count",
+          "value": "Applied across 1 briefing surface(s)",
+          "directionImpact": "supporting",
+          "sourceField": "briefing_application"
         },
         {
           "type": "data_quality",
@@ -6419,273 +5736,10 @@
             "SAMSUNG-ELECTRONICS"
           ],
           "reviewWindowRule": "industry_news_default"
-        },
-        {
-          "indicatorId": "briefing_inclusion_review",
-          "label": "Briefing inclusion review",
-          "indicator": "Briefing inclusion review",
-          "category": "data_quality",
-          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
-          "relatedSector": "시장 전체",
-          "relatedTopic": "ai",
-          "priority": "medium",
-          "status": "partial",
-          "suggestedTargetIds": [
-            "SOXX",
-            "SKHYNIX",
-            "SAMSUNG-ELECTRONICS"
-          ],
-          "reviewWindowRule": "industry_news_default"
         }
       ],
       "evidenceCompleteness": "partial",
-      "articleId": "gdelt-92668ae7c07081"
-    },
-    {
-      "signalId": "sig-gdelt-68f56304105f22-ai-industry-news",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "ai",
-          "directionImpact": "unclear",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "phrase",
-          "value": "gain",
-          "directionImpact": "weak_positive",
-          "sourceField": "title_or_summary"
-        },
-        {
-          "type": "phrase",
-          "value": "gains",
-          "directionImpact": "weak_positive",
-          "sourceField": "title_or_summary"
-        },
-        {
-          "type": "phrase",
-          "value": "ban",
-          "directionImpact": "weak_negative",
-          "sourceField": "title_or_summary"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "peer_price_basket",
-          "label": "peer price basket",
-          "indicator": "peer price basket",
-          "category": "sector_indicator",
-          "reason": "Need peer stock response to confirm whether the interpretation was sector-wide.",
-          "relatedSector": "시장 전체",
-          "relatedTopic": "ai",
-          "priority": "medium",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "SOXX",
-            "SKHYNIX",
-            "SAMSUNG-ELECTRONICS"
-          ],
-          "reviewWindowRule": "industry_news_default"
-        },
-        {
-          "indicatorId": "follow_up_disclosure",
-          "label": "follow-up disclosure",
-          "indicator": "follow-up disclosure",
-          "category": "sector_indicator",
-          "reason": "Need shipment, order, or management follow-up to confirm the industry reading.",
-          "relatedSector": "시장 전체",
-          "relatedTopic": "ai",
-          "priority": "medium",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "SOXX",
-            "SKHYNIX",
-            "SAMSUNG-ELECTRONICS"
-          ],
-          "reviewWindowRule": "industry_news_default"
-        },
-        {
-          "indicatorId": "briefing_inclusion_review",
-          "label": "Briefing inclusion review",
-          "indicator": "Briefing inclusion review",
-          "category": "data_quality",
-          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
-          "relatedSector": "시장 전체",
-          "relatedTopic": "ai",
-          "priority": "medium",
-          "status": "partial",
-          "suggestedTargetIds": [
-            "SOXX",
-            "SKHYNIX",
-            "SAMSUNG-ELECTRONICS"
-          ],
-          "reviewWindowRule": "industry_news_default"
-        }
-      ],
-      "evidenceCompleteness": "partial",
-      "articleId": "gdelt-68f56304105f22"
-    },
-    {
-      "signalId": "sig-gdelt-85444c3008b87a-fed-rates-policy",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "fed",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "FOMC",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "official_policy_text",
-          "label": "official policy text",
-          "indicator": "official policy text",
-          "category": "rates",
-          "reason": "Need the official statement or minutes to compare with the article-time reading.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "policy_path_repricing",
-          "label": "policy path repricing",
-          "indicator": "policy path repricing",
-          "category": "rates",
-          "reason": "Need rates and FX follow-through after the policy event.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "briefing_inclusion_review",
-          "label": "Briefing inclusion review",
-          "indicator": "Briefing inclusion review",
-          "category": "data_quality",
-          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "medium",
-          "status": "partial",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        }
-      ],
-      "evidenceCompleteness": "partial",
-      "articleId": "gdelt-85444c3008b87a"
-    },
-    {
-      "signalId": "sig-gdelt-badd56138c4afc-fed-rates-policy",
-      "evidenceItems": [
-        {
-          "type": "keyword",
-          "value": "fed",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "keyword",
-          "value": "FOMC",
-          "directionImpact": "neutral",
-          "sourceField": "keywords"
-        },
-        {
-          "type": "data_quality",
-          "value": "DEGRADED_SOURCE_FAILURE",
-          "directionImpact": "supporting",
-          "sourceField": "source_report"
-        }
-      ],
-      "missingIndicators": [
-        {
-          "indicatorId": "official_policy_text",
-          "label": "official policy text",
-          "indicator": "official policy text",
-          "category": "rates",
-          "reason": "Need the official statement or minutes to compare with the article-time reading.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "policy_path_repricing",
-          "label": "policy path repricing",
-          "indicator": "policy path repricing",
-          "category": "rates",
-          "reason": "Need rates and FX follow-through after the policy event.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "high",
-          "status": "missing",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        },
-        {
-          "indicatorId": "briefing_inclusion_review",
-          "label": "Briefing inclusion review",
-          "indicator": "Briefing inclusion review",
-          "category": "data_quality",
-          "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
-          "relatedSector": "성장주",
-          "relatedTopic": "fed",
-          "priority": "medium",
-          "status": "partial",
-          "suggestedTargetIds": [
-            "US10Y",
-            "USDKRW",
-            "NASDAQ"
-          ],
-          "reviewWindowRule": "rates_policy_default"
-        }
-      ],
-      "evidenceCompleteness": "partial",
-      "articleId": "gdelt-badd56138c4afc"
+      "articleId": "rss-08c806d31ebea8"
     }
   ]
 }

@@ -1,11 +1,9 @@
 {
   "schemaVersion": "briefon-applied-briefing-v1",
-  "sourceLabel": "RSS/GDELT static data",
+  "sourceLabel": "RSS static data",
   "briefingId": "brief_202606280850",
   "generatedAt": "2026-06-28T08:50:00+09:00",
   "appliedSignals": [
-    "sig-rss-404b9711e64f8f-market-move",
-    "sig-rss-65d9cd43394d05-market-move",
     "sig-rss-c1df5d6fec6be6-market-move",
     "sig-rss-153dfce93d833b-fed-rates-policy",
     "sig-rss-f67b9451c01d9a-market-move",
@@ -17,25 +15,25 @@
     "sig-rss-e518025b0006f6-ir-company-update",
     "sig-rss-76ab7eed8ee693-market-move",
     "sig-rss-dc1ff10a7d1831-ai-industry-news",
-    "sig-rss-cf39c5ec1a086c-ai-industry-news",
     "sig-rss-ca52a0a469b7c2-ai-industry-news",
+    "sig-rss-cf39c5ec1a086c-ai-industry-news",
     "sig-rss-b768c51fe8112a-ir-company-update",
+    "sig-rss-5b34ede4ec19f6-market-move",
     "sig-rss-faf36364238f06-ai-industry-news",
     "sig-rss-864498d9a64cee-market-move",
     "sig-rss-6ef1cffd2bbb0a-nvidia-industry-news",
-    "sig-rss-d3b052f9f06615-ai-industry-news",
     "sig-rss-cb8fc12e888bbc-nvidia-industry-news",
+    "sig-rss-d3b052f9f06615-ai-industry-news",
     "sig-rss-5f2ffd3c669560-ai-industry-news",
     "sig-rss-e538cd19366402-ai-industry-news",
     "sig-rss-d85d11f495c52e-market-move",
-    "sig-rss-0f7a1042bf1fc6-ai-industry-news",
-    "sig-rss-752ae974935e21-ai-industry-news",
     "sig-rss-a12b380a93d013-ai-industry-news",
     "sig-rss-74961e78fdf521-ai-industry-news",
-    "sig-rss-b74ac2d18a918d-ai-industry-news"
+    "sig-rss-b375f197f1fa7c-ai-industry-news",
+    "sig-rss-b74ac2d18a918d-ai-industry-news",
+    "sig-rss-08c806d31ebea8-ai-industry-news"
   ],
   "displayedTopics": [
-    "환율",
     "코스피",
     "fed",
     "시장 전체",
@@ -44,8 +42,8 @@
     "nvidia"
   ],
   "sourceSummary": {
-    "rssCount": 88,
-    "gdeltCount": 7,
+    "rssCount": 80,
+    "gdeltCount": 0,
     "fixtureUsed": false,
     "dataQualityStatus": "DEGRADED_SOURCE_FAILURE"
   },
