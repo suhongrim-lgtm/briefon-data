@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "briefon-market-observations-v1",
+  "generatedAt": "2026-06-28T08:50:00+09:00",
+  "sourceLabel": "RSS/GDELT static data",
+  "observations": [
+    {
+      "observationId": "mkt_20260628_20ae206d9032",
+      "targetId": "KOSPI",
+      "targetType": "index",
+      "observedAt": null,
+      "value": null,
+      "currency": null,
+      "metric": "return_pct",
+      "dataSource": null,
+      "status": "pending"
+    },
+    {
+      "observationId": "mkt_20260628_962704c4a1d6",
+      "targetId": "USDKRW",
+      "targetType": "fx",
+      "observedAt": null,
+      "value": null,
+      "currency": null,
+      "metric": "change_pct",
+      "dataSource": null,
+      "status": "pending"
+    },
+    {
+      "observationId": "mkt_20260628_93638b36d2bc",
+      "targetId": "US10Y",
+      "targetType": "yield",
+      "observedAt": null,
+      "value": null,
+      "currency": null,
+      "metric": "change_bp",
+      "dataSource": null,
+      "status": "pending"
+    },
+    {
+      "observationId": "mkt_20260628_b0cddbf4a867",
+      "targetId": "NASDAQ",
+      "targetType": "index",
+      "observedAt": null,
+      "value": null,
+      "currency": null,
+      "metric": "return_pct",
+      "dataSource": null,
+      "status": "pending"
+    },
+    {
+      "observationId": "mkt_20260628_2af4682f438e",
+      "targetId": "SOXX",
+      "targetType": "etf",
+      "observedAt": null,
+      "value": null,
+      "currency": null,
+      "metric": "return_pct",
+      "dataSource": null,
+      "status": "pending"
+    },
+    {
+      "observationId": "mkt_20260628_80a7530c951f",
+      "targetId": "SKHYNIX",
+      "targetType": "stock",
+      "observedAt": null,
+      "value": null,
+      "currency": null,
+      "metric": "return_pct",
+      "dataSource": null,
+      "status": "pending"
+    },
+    {
+      "observationId": "mkt_20260628_0d230b482963",
+      "targetId": "SAMSUNG-ELECTRONICS",
+      "targetType": "stock",
+      "observedAt": null,
+      "value": null,
+      "currency": null,
+      "metric": "return_pct",
+      "dataSource": null,
+      "status": "pending"
+    },
+    {
+      "observationId": "mkt_20260628_c365d66114cc",
+      "targetId": "COMPANY-STOCK",
+      "targetType": "stock",
+      "observedAt": null,
+      "value": null,
+      "currency": null,
+      "metric": "return_pct",
+      "dataSource": null,
+      "status": "pending"
+    }
+  ]
+}

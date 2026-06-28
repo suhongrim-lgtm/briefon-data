@@ -9,15 +9,23 @@
     ],
     "sourceCounts": {
       "fixture": 0,
-      "rss": 6,
+      "rss": 3,
       "gdelt": 0
     },
-    "warningsCount": 0,
+    "warningsCount": 1,
     "fixtureUsed": false,
     "fixtureCount": 0,
-    "rssCount": 6,
+    "rssCount": 3,
     "gdeltCount": 0,
-    "failedSources": [],
+    "failedSources": [
+      {
+        "source": "gdelt",
+        "queryId": "ai-semiconductor",
+        "reason": "HTTP 429",
+        "attemptCount": 3,
+        "statusCode": 429
+      }
+    ],
     "sourceHealth": {
       "fixture": {
         "requested": true,
@@ -42,7 +50,7 @@
             "name": "Google News KR Economy",
             "ok": true,
             "failed": false,
-            "articleCount": 13,
+            "articleCount": 8,
             "reason": "articles collected"
           },
           {
@@ -50,7 +58,7 @@
             "name": "Google News KR Market",
             "ok": true,
             "failed": false,
-            "articleCount": 2,
+            "articleCount": 1,
             "reason": "articles collected"
           },
           {
@@ -58,7 +66,7 @@
             "name": "Google News Global Markets",
             "ok": true,
             "failed": false,
-            "articleCount": 91,
+            "articleCount": 83,
             "reason": "articles collected"
           },
           {
@@ -66,7 +74,7 @@
             "name": "Google News AI Semiconductor",
             "ok": true,
             "failed": false,
-            "articleCount": 38,
+            "articleCount": 13,
             "reason": "articles collected"
           }
         ]
@@ -74,42 +82,50 @@
       "gdelt": {
         "configuredCount": 2,
         "enabledCount": 2,
-        "successCount": 2,
-        "failedCount": 0,
+        "successCount": 1,
+        "failedCount": 1,
         "emptyCount": 0,
-        "rateLimitedCount": 1,
-        "failedSources": [],
+        "rateLimitedCount": 2,
+        "failedSources": [
+          {
+            "source": "gdelt",
+            "queryId": "ai-semiconductor",
+            "reason": "HTTP 429",
+            "attemptCount": 3,
+            "statusCode": 429
+          }
+        ],
         "details": [
           {
             "id": "global-market",
             "ok": true,
             "failed": false,
-            "rateLimited": false,
+            "rateLimited": true,
             "articleCount": 20,
-            "attemptCount": 1,
+            "attemptCount": 3,
             "statusCode": 200,
             "reason": "articles collected"
           },
           {
             "id": "ai-semiconductor",
-            "ok": true,
-            "failed": false,
+            "ok": false,
+            "failed": true,
             "rateLimited": true,
-            "articleCount": 20,
-            "attemptCount": 2,
-            "statusCode": 200,
-            "reason": "articles collected"
+            "articleCount": 0,
+            "attemptCount": 3,
+            "statusCode": 429,
+            "reason": "HTTP 429"
           }
         ]
       }
     },
-    "dataQualityStatus": "OK"
+    "dataQualityStatus": "DEGRADED_SOURCE_FAILURE"
   },
   "keywordSummaries": {
     "kw-nvidia": {
       "keywordId": "kw-nvidia",
       "summary": "엔비디아 관련 이슈 1건이 확인됐습니다. 관련 업종과 일정 변화를 함께 점검하세요.",
-      "newsCount": 5,
+      "newsCount": 2,
       "relatedEventIds": [],
       "relatedTerms": [
         "엔비디아",
@@ -164,8 +180,7 @@
         "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
         "tags": [
           "nvidia",
-          "nvda",
-          "ai"
+          "nvda"
         ],
         "sectors": [
           "반도체",
@@ -192,33 +207,6 @@
             "sourceType": "rss",
             "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUC1rWUZWckk5dTNzNmdia3JSejI5OG5lR2pFdm96X2VqZmZZYWVUR0xiM1ZOX0x1SXBMVHhfN0JiRTFaUGg4dTJsTnR1end6R3ZHazQ2Q2xyRkdLQk5GeGxWblYxdGxKV3VyYldkblRDclNQUUxNeVFfRTI0WFVWUWVnQXlYb1hlZ0hqaGJoOEdYMDl3X1NDLUVuRGdWQQ?oc=5",
             "publishedAt": "2026-06-28T04:08:52+09:00"
-          },
-          {
-            "id": "rss-9c6fac3fe05dae",
-            "title": "NVIDIA (NVDA) Launches BioNeMo Agent Toolkit to Accelerate AI-Driven Scientific Discovery in Life Sciences - Yahoo Finance",
-            "description": "NVIDIA (NVDA) Launches BioNeMo Agent Toolkit to Accelerate AI-Driven Scientific Discovery in Life Sciences Yahoo Finance",
-            "source": "Yahoo Finance",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQ1ZWR3pZVzU3R0JvMEJTMExMdFpnNmdfcnlFZ0JiR3hDWVVqV2hzSi05X2dLYnA0aXZ2OWpGcmtkMlNyc0pjUGZGRzBnSHoxVzU3RXVvMWJsbVNkZzhxUmM4dU5WdURFU3B2ZDFRU2FRRWdwb1o1MW91NHNMQmFjXzZWR0d0SW1PTEV6TkEzS2g3eTJzendxWUJUWGJZM1E?oc=5",
-            "publishedAt": "2026-06-27T20:21:42+09:00"
-          },
-          {
-            "id": "rss-ce37b0cd188043",
-            "title": "Nvidia Owns This Under-the-Radar $20 Stock Poised to Disrupt a $1.8 Trillion Market - The Motley Fool",
-            "description": "Nvidia Owns This Under-the-Radar $20 Stock Poised to Disrupt a $1.8 Trillion Market The Motley Fool",
-            "source": "The Motley Fool",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMWdSREhvRmNSSXVFVVUxenBWYTFxMmxEZy13UVZER3JVNVhaVUs2S0o2QUhJdWFIbGprMkpnbDhYMk5ob3BkdkdRbF9Fa0dzN3otX2o2VnQ1d0ZocHZRMEtlMzZyZFRwZnY1djBuZUxkVGRMZXhpbjVrOXQ3aFJ6YWF0alFFYVFOUmIyRHNwMTRpX1ZERmdwMA?oc=5",
-            "publishedAt": "2026-06-27T21:23:00+09:00"
-          },
-          {
-            "id": "rss-fa14b81801b5e6",
-            "title": "Where Will Nvidia Stock Be in 2030? - The Motley Fool",
-            "description": "Where Will Nvidia Stock Be in 2030? The Motley Fool",
-            "source": "The Motley Fool",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTkliTWJfOEZRRHZ6aUJNYlBKd3lVMktib1V0UTVWcVR3U1NXOGdvdGNWeXpISkd3RElObkJmWFlRVUdmMmVlZ0dhT0d1YkpPb2JVdFhKbzB5ZTF6VzdzamZ0WkE3T3lKV1lfdVdvY3JvR3JGNVVwYzVfaGNFTGR1bkI2UQ?oc=5",
-            "publishedAt": "2026-06-28T03:18:00+09:00"
           }
         ],
         "detail": "Where Will Nvidia Stock Be in 2030? Yahoo Finance"

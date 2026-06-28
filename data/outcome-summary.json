@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "briefon-outcome-summary-v1",
+  "generatedAt": "2026-06-28T08:50:00+09:00",
+  "sourceLabel": "RSS/GDELT static data",
+  "status": "pending_observation",
+  "totalOutcomeTargets": 254,
+  "observedCount": 0,
+  "pendingCount": 254,
+  "noDataCount": 0,
+  "sourceUnavailableCount": 0,
+  "notApplicableCount": 0,
+  "readyForReviewCount": 0
+}

@@ -4,14 +4,14 @@
   "sourceLabel": "RSS/GDELT static data",
   "articles": [
     {
-      "articleId": "rss-001aa062bd679d",
-      "collectedAt": "2026-06-28T09:33:04+09:00",
-      "publishedAt": "2026-06-28T09:33:04+09:00",
-      "source": "v.daum.net",
+      "articleId": "rss-404b9711e64f8f",
+      "collectedAt": "2026-06-28T05:49:00+09:00",
+      "publishedAt": "2026-06-28T05:49:00+09:00",
+      "source": "연합뉴스",
       "sourceType": "rss",
-      "title": "2분기 평균 환율 1,500원 넘었다…외환 위기 이후 처음 - v.daum.net",
-      "summary": "2분기 평균 환율 1,500원 넘었다…외환 위기 이후 처음 v.daum.net",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1OZkVGTmNnY0w1Y1I1OXlZdWR6MVZkU3h3dTd0Tk9wLWdhN2RLMlNsY25OcUVZS29BX2F0b011dG5xc3NfQURsOUJHeEd5Xzg?oc=5",
+      "title": "2분기 평균 환율 1,500원 넘었다…외환위기 이후 처음 - 연합뉴스",
+      "summary": "2분기 평균 환율 1,500원 넘었다…외환위기 이후 처음 연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBwUFFmaFZ5QVFmZENsS1JRdG5EX0NkTFdBc0ZJbFRLS2VQd3FzNlM3ak5QY0JzZTk5RndUQ2NmMGJUNHplQmgwcUVaTnJyMTlUb1UtNWpRZVVrRkHSAWBBVV95cUxQYjNYX3NSVG9ZcXcxNGlGWTQwZjRVUFBNbkhaY2s5eHpXZVBRVEViQkR2WFdzZEowdDFtTGVGdE5NRHcyWVZOWHk3VUNyNW5LZjlfTnV0SW4ycXl3a3I1UVE?oc=5",
       "keywords": [
         "환율",
         "원/달러 환율 상승"
@@ -24,20 +24,24 @@
         "유통"
       ],
       "fixtureUsed": false,
-      "appliedToBriefing": false,
+      "appliedToBriefing": true,
       "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
+      "briefingSurfaces": [
+        "economy"
+      ],
+      "relatedIssueIds": [
+        "issue-50691f94-003"
+      ]
     },
     {
-      "articleId": "rss-d77d41c7bdb984",
-      "collectedAt": "2026-06-28T08:52:01+09:00",
-      "publishedAt": "2026-06-28T08:52:01+09:00",
+      "articleId": "rss-ec40d7ad73aa47",
+      "collectedAt": "2026-06-28T09:17:49+09:00",
+      "publishedAt": "2026-06-28T09:17:49+09:00",
       "source": "v.daum.net",
       "sourceType": "rss",
-      "title": "환율 '1500원 시대' 현실화…28년 만의 고환율 경고 - v.daum.net",
-      "summary": "환율 '1500원 시대' 현실화…28년 만의 고환율 경고 v.daum.net",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5iOV91bF9mdDlLT3hORWpfM2k5aXFPVHQ0THZjX0ZySUhXNERJdGtSZWRJUkEtd01qdjBRQTdQbmlqTGlwTGc?oc=5",
+      "title": "[프리즘] 종전 합의에도…경제 짓누르는 '고환율·고물가' - v.daum.net",
+      "summary": "[프리즘] 종전 합의에도…경제 짓누르는 '고환율·고물가' v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9XLVBSMnl3X19ndkVRUmFvZmlOZVpwQ21nalU3UHM1UVg1UzcweFlDWkNGZ1Q0UG9kbkhXbUVoNGtINkk3R1BWdmNEQzNCZUU?oc=5",
       "keywords": [
         "환율",
         "원/달러 환율 상승"
@@ -80,35 +84,14 @@
       "relatedIssueIds": []
     },
     {
-      "articleId": "rss-93230ab19f253f",
-      "collectedAt": "2026-06-28T07:30:00+09:00",
-      "publishedAt": "2026-06-28T07:30:00+09:00",
-      "source": "Thông tấn xã Việt Nam (TTXVN)",
+      "articleId": "rss-d77d41c7bdb984",
+      "collectedAt": "2026-06-28T08:52:01+09:00",
+      "publishedAt": "2026-06-28T08:52:01+09:00",
+      "source": "v.daum.net",
       "sourceType": "rss",
-      "title": "스탠다드차타드은행, “베트남 경제 2026년 상반기 강력한 회복세 유지” - Thông tấn xã Việt Nam (TTXVN)",
-      "summary": "스탠다드차타드은행, “베트남 경제 2026년 상반기 강력한 회복세 유지” Thông tấn xã Việt Nam (TTXVN)",
-      "url": "https://news.google.com/rss/articles/CBMi8gZBVV95cUxNU2hqb2dsUXlqREhNRkF1WE14ZUpwVU1faVVHX3NQVWhGYkdqMmMzMFZWSEJEN2k0UElsZWtaR3Z0QkR6ZjNmcVZsV2FyQzQ2NzBGTFZrUU82c0JjbU16b3VCbnhZV2hkNktQSTdHNmxuRWFWck9sakdMSjJWNUd0eWxOTkh2a2wtVm1POG5aYjR5X0tvT1I4ZmRiM3QtY2F2a2dPaWpOaWpmQ2RwU21obHRiNlV6OE94RUNsRURma3NGRGxaS1FuX1VzWGlodE9iTlQ5YU9GNGtNaGtxcGQ4RnFnVXczQWhmZVFxRF9YZW0wMEE1UWQ0Q3ViR3BKSlQzaXRJQndOcEZNV01WTy1kLWlZbzVBRFFDNW5uRVcyTzFxRXd0d21RTGYyRzB6VEZwemJaMzZjdXlPRnFsczU0a0Q2SkNBZ1ZMMkg3Y1RXSFNMWVVDd3V1ZjctTm1RS0pCX1N2clVIMFo2X01XMDlxT19la0trM3ZnSFh2Z3NCZnVLTzFPczNSYmNaMWdRWEkwQ1g1R3JiendybU5sQTRVemFMelVWTzM0MGVmZUpTajdkTS1KaURzWjVXQ1NQN3hZakJZdHJSZW9qYkVVS2NnMi1vMHZobkM1dVhOVkdMeDhrT2tubS1wakxucmRQY0gyY3Z6NGFnQnZVeFZwWjhITG1KSUdYVVhoVWlOZFRxZUl3UldVMmtmN2hVZnhBNTlyajdQeDVsbEFWWk1DaXNseTh1R0Q0eGsxM1R4UkNsUkJGX3VqZjk2ek5yU0xzMDhYYjJQN3VkbXpncG1FRHlEckdKMU9na0NabjFXeXo3Y2lvOC1IOURPakRXQXlvc3VPc2hOMFVVaXp3eGx4R09MNWF5MWFrbWJZTU00RzFZMlFKS3owbk5ZYnRQWFR1WXdZY1VUWjY5TXY5S3U5UGg5eVBUUDNHNzhxVVRUVU9uWWdubUE4aFB0Rmh2YURjTlRUcGhjMVhCMmF0MEY5ek8waExROW1xZ3ZEWEduX3QyWEZQR3JpbjZ3V0RaM1JSbjcxdUNObXU4a3B4T0pocV8tUVY0dUdXMDVHT3Jia0R2Vk1DcTYtaHBjc21wYkRsQW9UbGp1NEw3c1ZZSEtzQmduQ2hJTXB3Y185MU1TWW1Jd1p0d0treWdDdk9zckZBeFFGdlE?oc=5",
-      "keywords": [],
-      "rawCategory": "market",
-      "category": "market",
-      "sectors": [
-        "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "rss-0f655d9c41f8e7",
-      "collectedAt": "2026-06-28T09:48:00+09:00",
-      "publishedAt": "2026-06-28T09:48:00+09:00",
-      "source": "뉴스핌",
-      "sourceType": "rss",
-      "title": "2분기 평균 환율 1500원 돌파…외환위기 이후 28년 만에 처음 - 뉴스핌",
-      "summary": "2분기 평균 환율 1500원 돌파…외환위기 이후 28년 만에 처음 뉴스핌",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBLRHBBX2QzV1pmZlpiQ3ZnRmY3cW1kN1kwMmJwaThraXlrSWZKRzNXMVV4Y3ZLNVRUQW5xWE1hVXVSRUkwQ1R4X2taYkNTckc3WTRsT01DdndXN0Rj?oc=5",
+      "title": "환율 '1500원 시대' 현실화…28년 만의 고환율 경고 - v.daum.net",
+      "summary": "환율 '1500원 시대' 현실화…28년 만의 고환율 경고 v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5iOV91bF9mdDlLT3hORWpfM2k5aXFPVHQ0THZjX0ZySUhXNERJdGtSZWRJUkEtd01qdjBRQTdQbmlqTGlwTGc?oc=5",
       "keywords": [
         "환율",
         "원/달러 환율 상승"
@@ -127,21 +110,17 @@
       "relatedIssueIds": []
     },
     {
-      "articleId": "rss-091bb64e8c2f31",
-      "collectedAt": "2026-06-28T09:00:00+09:00",
-      "publishedAt": "2026-06-28T09:00:00+09:00",
-      "source": "오피니언뉴스",
+      "articleId": "rss-165388e4e860a3",
+      "collectedAt": "2026-06-28T08:52:01+09:00",
+      "publishedAt": "2026-06-28T08:52:01+09:00",
+      "source": "v.daum.net",
       "sourceType": "rss",
-      "title": "[이번주 환율] 강달러에 1540원대 재진입…외국인 매도·연준 긴축 전망에 '1500원대 고착' - 오피니언뉴스",
-      "summary": "[이번주 환율] 강달러에 1540원대 재진입…외국인 매도·연준 긴축 전망에 '1500원대 고착' 오피니언뉴스",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QM0owdWNKQ1hESk94a0tld3VwN1R0ZUZYbF9xaWxUREdBUXo5cV94U0wzeEFMeWlIYk1PTmtmSGg1UjQxXzVYeWRVdFJTaUc3bmpwdV9ZN0tFd2FhS0RzNFBqR3BXQkhUdjhubTFzLU0?oc=5",
+      "title": "환율 '1500원 시대' 현실화…28년 만의 고환율 경고 - v.daum.net",
+      "summary": "환율 '1500원 시대' 현실화…28년 만의 고환율 경고 v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE13WmZobmMxOFRmMFY2Yy1VcEQyeWtxWXY2djI3Zko1aVNHSXdzenpJVUR0dEFmU3N5U2U4TDNuUTBkbnVoN3FtNjIxcw?oc=5",
       "keywords": [
-        "연준",
         "환율",
-        "달러",
-        "원/달러 환율 상승",
-        "미국 국채금리",
-        "FOMC"
+        "원/달러 환율 상승"
       ],
       "rawCategory": "market",
       "category": "market",
@@ -149,6 +128,27 @@
         "수출주",
         "항공",
         "유통"
+      ],
+      "fixtureUsed": false,
+      "appliedToBriefing": false,
+      "evaluationEligible": true,
+      "briefingSurfaces": [],
+      "relatedIssueIds": []
+    },
+    {
+      "articleId": "rss-93230ab19f253f",
+      "collectedAt": "2026-06-28T07:30:00+09:00",
+      "publishedAt": "2026-06-28T07:30:00+09:00",
+      "source": "Thông tấn xã Việt Nam (TTXVN)",
+      "sourceType": "rss",
+      "title": "스탠다드차타드은행, “베트남 경제 2026년 상반기 강력한 회복세 유지” - Thông tấn xã Việt Nam (TTXVN)",
+      "summary": "스탠다드차타드은행, “베트남 경제 2026년 상반기 강력한 회복세 유지” Thông tấn xã Việt Nam (TTXVN)",
+      "url": "https://news.google.com/rss/articles/CBMi8gZBVV95cUxNU2hqb2dsUXlqREhNRkF1WE14ZUpwVU1faVVHX3NQVWhGYkdqMmMzMFZWSEJEN2k0UElsZWtaR3Z0QkR6ZjNmcVZsV2FyQzQ2NzBGTFZrUU82c0JjbU16b3VCbnhZV2hkNktQSTdHNmxuRWFWck9sakdMSjJWNUd0eWxOTkh2a2wtVm1POG5aYjR5X0tvT1I4ZmRiM3QtY2F2a2dPaWpOaWpmQ2RwU21obHRiNlV6OE94RUNsRURma3NGRGxaS1FuX1VzWGlodE9iTlQ5YU9GNGtNaGtxcGQ4RnFnVXczQWhmZVFxRF9YZW0wMEE1UWQ0Q3ViR3BKSlQzaXRJQndOcEZNV01WTy1kLWlZbzVBRFFDNW5uRVcyTzFxRXd0d21RTGYyRzB6VEZwemJaMzZjdXlPRnFsczU0a0Q2SkNBZ1ZMMkg3Y1RXSFNMWVVDd3V1ZjctTm1RS0pCX1N2clVIMFo2X01XMDlxT19la0trM3ZnSFh2Z3NCZnVLTzFPczNSYmNaMWdRWEkwQ1g1R3JiendybU5sQTRVemFMelVWTzM0MGVmZUpTajdkTS1KaURzWjVXQ1NQN3hZakJZdHJSZW9qYkVVS2NnMi1vMHZobkM1dVhOVkdMeDhrT2tubS1wakxucmRQY0gyY3Z6NGFnQnZVeFZwWjhITG1KSUdYVVhoVWlOZFRxZUl3UldVMmtmN2hVZnhBNTlyajdQeDVsbEFWWk1DaXNseTh1R0Q0eGsxM1R4UkNsUkJGX3VqZjk2ek5yU0xzMDhYYjJQN3VkbXpncG1FRHlEckdKMU9na0NabjFXeXo3Y2lvOC1IOURPakRXQXlvc3VPc2hOMFVVaXp3eGx4R09MNWF5MWFrbWJZTU00RzFZMlFKS3owbk5ZYnRQWFR1WXdZY1VUWjY5TXY5S3U5UGg5eVBUUDNHNzhxVVRUVU9uWWdubUE4aFB0Rmh2YURjTlRUcGhjMVhCMmF0MEY5ek8waExROW1xZ3ZEWEduX3QyWEZQR3JpbjZ3V0RaM1JSbjcxdUNObXU4a3B4T0pocV8tUVY0dUdXMDVHT3Jia0R2Vk1DcTYtaHBjc21wYkRsQW9UbGp1NEw3c1ZZSEtzQmduQ2hJTXB3Y185MU1TWW1Jd1p0d0treWdDdk9zckZBeFFGdlE?oc=5",
+      "keywords": [],
+      "rawCategory": "market",
+      "category": "market",
+      "sectors": [
+        "시장 전체"
       ],
       "fixtureUsed": false,
       "appliedToBriefing": false,
@@ -183,37 +183,7 @@
         "preopen"
       ],
       "relatedIssueIds": [
-        "preopen-issue-50691f94-004"
-      ]
-    },
-    {
-      "articleId": "rss-6940ccaceb9aa7",
-      "collectedAt": "2026-06-28T07:37:09+09:00",
-      "publishedAt": "2026-06-28T07:37:09+09:00",
-      "source": "v.daum.net",
-      "sourceType": "rss",
-      "title": "2분기 환율 평균 1500원, 외환위기 이후 처음…'뉴노멀' 되나 - v.daum.net",
-      "summary": "2분기 환율 평균 1500원, 외환위기 이후 처음…'뉴노멀' 되나 v.daum.net",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9xelhsMlZzZGhSMDZLNnVORjhSWXVyeTlsamVPMXk4ZDJnenJ4NUdkb2x3WXZqQnhLV2U3Skh6bkxHbkRPUUE?oc=5",
-      "keywords": [
-        "환율",
-        "원/달러 환율 상승"
-      ],
-      "rawCategory": "market",
-      "category": "market",
-      "sectors": [
-        "수출주",
-        "항공",
-        "유통"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "preopen"
-      ],
-      "relatedIssueIds": [
-        "preopen-issue-50691f94-004"
+        "preopen-issue-50691f94-003"
       ]
     },
     {
@@ -232,79 +202,6 @@
       ],
       "rawCategory": "indicators",
       "category": "indicators",
-      "sectors": [
-        "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "rss-9b31cf9855afb7",
-      "collectedAt": "2026-06-28T05:03:17+09:00",
-      "publishedAt": "2026-06-28T05:03:17+09:00",
-      "source": "v.daum.net",
-      "sourceType": "rss",
-      "title": "환율 1550원 코앞서 ‘뚝’…금요일마다 떠오르는 ‘당국 개입설’ - v.daum.net",
-      "summary": "환율 1550원 코앞서 ‘뚝’…금요일마다 떠오르는 ‘당국 개입설’ v.daum.net",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1tQVlmYmE2TU9Eb19OdVFkZ2JCUVppRUVWQUN5VUpfX1JBaGxOZkdacmZQVkxxdU1hdk9oVVNQZEg4aExYZE5GWFliV1A4Uzg?oc=5",
-      "keywords": [
-        "환율",
-        "금",
-        "원/달러 환율 상승"
-      ],
-      "rawCategory": "market",
-      "category": "market",
-      "sectors": [
-        "수출주",
-        "항공",
-        "유통"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "economy"
-      ],
-      "relatedIssueIds": [
-        "issue-50691f94-003"
-      ]
-    },
-    {
-      "articleId": "rss-5073f59d1959ce",
-      "collectedAt": "2026-06-28T09:40:00+09:00",
-      "publishedAt": "2026-06-28T09:40:00+09:00",
-      "source": "브릿지경제",
-      "sourceType": "rss",
-      "title": "과천시, 사회적경제 지원센터 ‘가치연결 데이’ 개최 - 브릿지경제",
-      "summary": "과천시, 사회적경제 지원센터 ‘가치연결 데이’ 개최 브릿지경제",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5WUzBheVRqZml2a3JKaUxaQnlsa2tTYzBUczJfVWNlMGNRX1gyNnpZaGNvNmxfQ2FrWDJHMXJJTnZfMjRrUVp2WmNLcjBLaXBYUXM3eWVRMGw2UQ?oc=5",
-      "keywords": [],
-      "rawCategory": "market",
-      "category": "market",
-      "sectors": [
-        "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "rss-0e1925bfe19420",
-      "collectedAt": "2026-06-28T09:00:27+09:00",
-      "publishedAt": "2026-06-28T09:00:27+09:00",
-      "source": "한국경제",
-      "sourceType": "rss",
-      "title": "연합뉴스TV - 한국경제",
-      "summary": "연합뉴스TV 한국경제",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB6d0EwYzVHd1VUT2JsTnZLYUYxMG8wY0t4S3Z5WVo5a1ZQb29vblpwQzFIRnJFZkl4MzRiN1o3cmpsbkYxUjI4Q0UycVhZQ0o2NUpaOdIBVEFVX3lxTFB6d0EwYzVHd1VUT2JsTnZLYUYxMG8wY0t4S3Z5WVo5a1ZQb29vblpwQzFIRnJFZkl4MzRiN1o3cmpsbkYxUjI4Q0UycVhZQ0o2NUpaOQ?oc=5",
-      "keywords": [],
-      "rawCategory": "market",
-      "category": "market",
       "sectors": [
         "시장 전체"
       ],
@@ -340,30 +237,6 @@
       "relatedIssueIds": [
         "issue-market-9000-005"
       ]
-    },
-    {
-      "articleId": "rss-5cb2c2f0a188c1",
-      "collectedAt": "2026-06-28T07:00:12+09:00",
-      "publishedAt": "2026-06-28T07:00:12+09:00",
-      "source": "연합뉴스",
-      "sourceType": "rss",
-      "title": "[마켓인사이트] 다시 고개 든 AI 수익성 논란…코스피 향방은? - 연합뉴스",
-      "summary": "[마켓인사이트] 다시 고개 든 AI 수익성 논란…코스피 향방은? 연합뉴스",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBvSU1qUVBobk5mZDQ3WmRHUHNaZkRobmFtalE5ZjhNR3hQdVdla1ZhODFqT2dYLTREZzdvRThVdmd6VHNad0RUQmdCUVZvZWtpT0J6UTlnNGU0ZE0xS3NJZNIBYEFVX3lxTFBvSU1qUVBobk5mZDQ3WmRHUHNaZkRobmFtalE5ZjhNR3hQdVdla1ZhODFqT2dYLTREZzdvRThVdmd6VHNad0RUQmdCUVZvZWtpT0J6UTlnNGU0ZE0xS3NJZA?oc=5",
-      "keywords": [
-        "코스피",
-        "ai"
-      ],
-      "rawCategory": "market",
-      "category": "market",
-      "sectors": [
-        "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
     },
     {
       "articleId": "rss-1f828e94069299",
@@ -552,17 +425,16 @@
       ]
     },
     {
-      "articleId": "rss-e5921847b5eba5",
-      "collectedAt": "2026-06-27T04:32:36+09:00",
-      "publishedAt": "2026-06-27T04:32:36+09:00",
-      "source": "Kansas City Fed",
+      "articleId": "rss-b411175082bb46",
+      "collectedAt": "2026-06-27T02:00:00+09:00",
+      "publishedAt": "2026-06-27T02:00:00+09:00",
+      "source": "WSJ",
       "sourceType": "rss",
-      "title": "Nebraska’s Job Market Steady, but Uneven and Facing Uncertainty - Kansas City Fed",
-      "summary": "Nebraska’s Job Market Steady, but Uneven and Facing Uncertainty Kansas City Fed",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZWdwZG5STERuZll4NVhKeENHOGRFTWFkZkM5U2ltZWJlU1dzNWRTZW5iWHd4WXZwV0NuT0FSM0xtWkFjODJ3a09qNEVJSEpMQVU2akRXcUtUQW93ajJRelkzYzMtWTBTNXp5TlB6dnQ0R2ExZzZ3OVVVc0NnVWNJT1NKUUxuNUtzOC1tZjFwdy1MZFdQQkZLajdhVWpsUkNuaHVxNE9rOGNsX0YtSnFjb1pRTVdFMFZD?oc=5",
+      "title": "Atlanta Fed Search for New Leader Stalls - WSJ",
+      "summary": "Atlanta Fed Search for New Leader Stalls WSJ",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWS1DMHVCQ0tlZjBIaVpBQTN3X2JyNXFzaVBEdEdSbkRoNEZoV0NpdG5fQnNETWJUR1BGaWxKaTNfZWlNbWhlUklncEFZTE5PYk5ENE9HdXJUY0hVRGlSWVptSTJra0FUMkQ5UnJSejBJaDhZSG9KSGN5TWVFaks4OXRxM1dBVHNwR0FjeF9tZW1ScUN4a1FyUg?oc=5",
       "keywords": [
         "fed",
-        "ai",
         "FOMC"
       ],
       "rawCategory": "rates",
@@ -577,38 +449,6 @@
       "evaluationEligible": true,
       "briefingSurfaces": [],
       "relatedIssueIds": []
-    },
-    {
-      "articleId": "rss-5ef0a20fe26bf7",
-      "collectedAt": "2026-06-27T20:20:00+09:00",
-      "publishedAt": "2026-06-27T20:20:00+09:00",
-      "source": "Yahoo Finance",
-      "sourceType": "rss",
-      "title": "With Just 6 Words, Fed Chair Kevin Warsh Demolished Expectations. \"It's Hard to Believe,\" Says President Trump. - Yahoo Finance",
-      "summary": "With Just 6 Words, Fed Chair Kevin Warsh Demolished Expectations. \"It's Hard to Believe,\" Says President Trump. Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNV3A0dzVheWdkRENfbmlFNE43Yl9JZmdUNEY2emxrU2IwTWtabTdPQlYxY0tjSW5vQU54b3JBSTNVbnU5UWNZbXd4TEExMVQ3UW0xT1ZtNjVaUUhnNTdNUU1DZ190MEZPNzhXZjVaU2VURWRwd0Z3OW9BMHdDWlpWWVlxY0dHVDJtZVpETWpjWUM?oc=5",
-      "keywords": [
-        "fed",
-        "ai",
-        "ir",
-        "FOMC"
-      ],
-      "rawCategory": "rates",
-      "category": "rates",
-      "sectors": [
-        "성장주",
-        "은행",
-        "채권"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "economy"
-      ],
-      "relatedIssueIds": [
-        "issue-fomc-001"
-      ]
     },
     {
       "articleId": "rss-7c0abc6aa5ed70",
@@ -637,32 +477,6 @@
       "relatedIssueIds": [
         "issue-industry-mortgage-rates-edge-higher-amid-iran-te-007"
       ]
-    },
-    {
-      "articleId": "rss-b411175082bb46",
-      "collectedAt": "2026-06-27T02:00:00+09:00",
-      "publishedAt": "2026-06-27T02:00:00+09:00",
-      "source": "WSJ",
-      "sourceType": "rss",
-      "title": "Atlanta Fed Search for New Leader Stalls - WSJ",
-      "summary": "Atlanta Fed Search for New Leader Stalls WSJ",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWS1DMHVCQ0tlZjBIaVpBQTN3X2JyNXFzaVBEdEdSbkRoNEZoV0NpdG5fQnNETWJUR1BGaWxKaTNfZWlNbWhlUklncEFZTE5PYk5ENE9HdXJUY0hVRGlSWVptSTJra0FUMkQ5UnJSejBJaDhZSG9KSGN5TWVFaks4OXRxM1dBVHNwR0FjeF9tZW1ScUN4a1FyUg?oc=5",
-      "keywords": [
-        "fed",
-        "FOMC"
-      ],
-      "rawCategory": "rates",
-      "category": "rates",
-      "sectors": [
-        "성장주",
-        "은행",
-        "채권"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
     },
     {
       "articleId": "rss-fbe06e883caf32",
@@ -724,17 +538,16 @@
       "relatedIssueIds": []
     },
     {
-      "articleId": "rss-650736e7a7ae51",
-      "collectedAt": "2026-06-27T20:08:38+09:00",
-      "publishedAt": "2026-06-27T20:08:38+09:00",
-      "source": "Yahoo Finance",
+      "articleId": "rss-9cae568de994f9",
+      "collectedAt": "2026-06-28T05:27:17+09:00",
+      "publishedAt": "2026-06-28T05:27:17+09:00",
+      "source": "Bitget",
       "sourceType": "rss",
-      "title": "As oil fades as an inflation concern, will AI take its place? The Fed is watching closely. - Yahoo Finance",
-      "summary": "As oil fades as an inflation concern, will AI take its place? The Fed is watching closely. Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNZjlQbzJqWXYwb1VVNzhVUUFfamE5MmduZ2RJbzZvMU1Yc2V2clhuZnRBYUxIM1NzNmdTZXI1a0RQZjEwZWYxVWxaXzBKeDhFQ1Fpb3k2MmR4S3dGczVMR0ZLdVpMLWUyMi13c29YZUdNMGlBR2RudzZxbFhPRDh3Y3JMaVplV3ZucXlQQ29KUzg5SENSbkFjTkw2cGF4Y2lxTDgwUEhHSV9OV1hjb3lETVZ0MWI2cmtDaUM2aDB3RjlYZ0lNLXJIMW1SZTRkWEd3Nkl0T3ktVl9xYnctRl81cERocVpLQQ?oc=5",
+      "title": "Agency: It is unlikely that Trump's pressure on the Federal Reserve to cut interest rates will lead to inflation above 2%. - Bitget",
+      "summary": "Agency: It is unlikely that Trump's pressure on the Federal Reserve to cut interest rates will lead to inflation above 2%. Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1pcGdnaFB0bFloVl9jbXNNUzU5cm5TTUhNZF8wSlc4UU9mdlF2Q0tZSzlUTUxaaGhZdHFOZS1nM0pURl9aQlVOdk13YVVzVDRxWHEyNGJFNHNHLXV0M2JQd0VXZ9IBY0FVX3lxTE1pcGdnaFB0bFloVl9jbXNNUzU5cm5TTUhNZF8wSlc4UU9mdlF2Q0tZSzlUTUxaaGhZdHFOZS1nM0pURl9aQlVOdk13YVVzVDRxWHEyNGJFNHNHLXV0M2JQd0VXZw?oc=5",
       "keywords": [
         "fed",
-        "ai",
         "FOMC"
       ],
       "rawCategory": "rates",
@@ -755,16 +568,18 @@
       ]
     },
     {
-      "articleId": "rss-9cae568de994f9",
-      "collectedAt": "2026-06-28T05:27:17+09:00",
-      "publishedAt": "2026-06-28T05:27:17+09:00",
-      "source": "Bitget",
+      "articleId": "rss-5ef0a20fe26bf7",
+      "collectedAt": "2026-06-27T20:20:00+09:00",
+      "publishedAt": "2026-06-27T20:20:00+09:00",
+      "source": "Yahoo Finance",
       "sourceType": "rss",
-      "title": "Agency: It is unlikely that Trump's pressure on the Federal Reserve to cut interest rates will lead to inflation above 2%. - Bitget",
-      "summary": "Agency: It is unlikely that Trump's pressure on the Federal Reserve to cut interest rates will lead to inflation above 2%. Bitget",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1pcGdnaFB0bFloVl9jbXNNUzU5cm5TTUhNZF8wSlc4UU9mdlF2Q0tZSzlUTUxaaGhZdHFOZS1nM0pURl9aQlVOdk13YVVzVDRxWHEyNGJFNHNHLXV0M2JQd0VXZ9IBY0FVX3lxTE1pcGdnaFB0bFloVl9jbXNNUzU5cm5TTUhNZF8wSlc4UU9mdlF2Q0tZSzlUTUxaaGhZdHFOZS1nM0pURl9aQlVOdk13YVVzVDRxWHEyNGJFNHNHLXV0M2JQd0VXZw?oc=5",
+      "title": "With Just 6 Words, Fed Chair Kevin Warsh Demolished Expectations. \"It's Hard to Believe,\" Says President Trump. - Yahoo Finance",
+      "summary": "With Just 6 Words, Fed Chair Kevin Warsh Demolished Expectations. \"It's Hard to Believe,\" Says President Trump. Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNV3A0dzVheWdkRENfbmlFNE43Yl9JZmdUNEY2emxrU2IwTWtabTdPQlYxY0tjSW5vQU54b3JBSTNVbnU5UWNZbXd4TEExMVQ3UW0xT1ZtNjVaUUhnNTdNUU1DZ190MEZPNzhXZjVaU2VURWRwd0Z3OW9BMHdDWlpWWVlxY0dHVDJtZVpETWpjWUM?oc=5",
       "keywords": [
         "fed",
+        "ai",
+        "ir",
         "FOMC"
       ],
       "rawCategory": "rates",
@@ -811,32 +626,6 @@
       "relatedIssueIds": []
     },
     {
-      "articleId": "rss-4ee319f59f1b7c",
-      "collectedAt": "2026-06-27T21:20:48+09:00",
-      "publishedAt": "2026-06-27T21:20:48+09:00",
-      "source": "InsuranceNewsNet",
-      "sourceType": "rss",
-      "title": "See a $100,000 bill and get a bag of shredded cash at Philly Federal Reserve - InsuranceNewsNet",
-      "summary": "See a $100,000 bill and get a bag of shredded cash at Philly Federal Reserve InsuranceNewsNet",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUG1LczAwRFRsMUhqS3ZUYVdPd0NDbEl2S3RLd2xiV0RNYTc0cG5PTWpBak5ZTnM3RDY1RUpsTm5xN1lHN1JQa000YkZESHk1eVAzR2UybHBna2tiODdqNjNOUEd4Y2QyZlQtdWR5S1ZwX1NzdnlobUVSOEtCaUxPR0RKMUFjZGxjQlJHaVpnLUdnaFRoN0Q4em1XcUNsX3VFRXdrMURib3JVYndHTjNkRlMtRnk?oc=5",
-      "keywords": [
-        "fed",
-        "FOMC"
-      ],
-      "rawCategory": "rates",
-      "category": "rates",
-      "sectors": [
-        "성장주",
-        "은행",
-        "채권"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
       "articleId": "rss-9342f0ebdfc7a5",
       "collectedAt": "2026-06-27T04:16:46+09:00",
       "publishedAt": "2026-06-27T04:16:46+09:00",
@@ -852,32 +641,6 @@
       "category": "industry",
       "sectors": [
         "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "rss-37a041ff4c8513",
-      "collectedAt": "2026-06-27T11:45:00+09:00",
-      "publishedAt": "2026-06-27T11:45:00+09:00",
-      "source": "The Journal Gazette",
-      "sourceType": "rss",
-      "title": "Warsh's gamble: A quieter Federal Reserve could mean volatile markets, higher rates - The Journal Gazette",
-      "summary": "Warsh's gamble: A quieter Federal Reserve could mean volatile markets, higher rates The Journal Gazette",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNa2VWZlpRWFdjTmdPTDU2OFNBQzQ1MnkteWxpSzZZQWNlWGJ2U0RGMFpnWEEwU2luX0RtWFFlX0NKcDlFTjN3NUZuZERKWWZteWQ5a3dEOGloVWNfNEFIY014UGVBX0xsWUpUZkExY2JxYWhtaUdubEY5cWZ3aTFHQ01PYVJ1cWUwZ2ZLeXBRRjJCcFVxQU9KMGxxV3hLQm1YOVZ1T3BsZnFWMVY2bGZENDBqLTZMX3Y0dE01c2lSYjNmc2tvYm9KT3ZEeWEwZUlRWkN6b3RWUXNqY3p1RlZPb0xXaDVOMXJMZ3hUU3pLbzM3eXJya3FGQ3VzY2lQUTRSdzdZ?oc=5",
-      "keywords": [
-        "fed",
-        "FOMC"
-      ],
-      "rawCategory": "rates",
-      "category": "rates",
-      "sectors": [
-        "성장주",
-        "은행",
-        "채권"
       ],
       "fixtureUsed": false,
       "appliedToBriefing": false,
@@ -912,18 +675,47 @@
       "relatedIssueIds": []
     },
     {
-      "articleId": "rss-225bfd812d2f32",
-      "collectedAt": "2026-06-27T20:53:07+09:00",
-      "publishedAt": "2026-06-27T20:53:07+09:00",
-      "source": "economy.ac",
+      "articleId": "rss-37a041ff4c8513",
+      "collectedAt": "2026-06-27T11:45:00+09:00",
+      "publishedAt": "2026-06-27T11:45:00+09:00",
+      "source": "The Journal Gazette",
       "sourceType": "rss",
-      "title": "Federal Reserve Independence: What Kevin Warsh’s First FOMC Reveals - economy.ac",
-      "summary": "Federal Reserve Independence: What Kevin Warsh’s First FOMC Reveals economy.ac",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE82UURtZWtnQ1N5Xzk5Nl84blJxa3lGd3B3QTI4WU5SdkdOdnBrblVrNWVIczlIc1NaSHZIaDVCX0lMeXFjVjFRTnR0alpzd1dBZE9UV0k0UUJFZw?oc=5",
+      "title": "Warsh's gamble: A quieter Federal Reserve could mean volatile markets, higher rates - The Journal Gazette",
+      "summary": "Warsh's gamble: A quieter Federal Reserve could mean volatile markets, higher rates The Journal Gazette",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNa2VWZlpRWFdjTmdPTDU2OFNBQzQ1MnkteWxpSzZZQWNlWGJ2U0RGMFpnWEEwU2luX0RtWFFlX0NKcDlFTjN3NUZuZERKWWZteWQ5a3dEOGloVWNfNEFIY014UGVBX0xsWUpUZkExY2JxYWhtaUdubEY5cWZ3aTFHQ01PYVJ1cWUwZ2ZLeXBRRjJCcFVxQU9KMGxxV3hLQm1YOVZ1T3BsZnFWMVY2bGZENDBqLTZMX3Y0dE01c2lSYjNmc2tvYm9KT3ZEeWEwZUlRWkN6b3RWUXNqY3p1RlZPb0xXaDVOMXJMZ3hUU3pLbzM3eXJya3FGQ3VzY2lQUTRSdzdZ?oc=5",
       "keywords": [
-        "fomc",
         "fed",
-        "ir",
+        "FOMC"
+      ],
+      "rawCategory": "rates",
+      "category": "rates",
+      "sectors": [
+        "성장주",
+        "은행",
+        "채권"
+      ],
+      "fixtureUsed": false,
+      "appliedToBriefing": true,
+      "evaluationEligible": true,
+      "briefingSurfaces": [
+        "economy"
+      ],
+      "relatedIssueIds": [
+        "issue-fomc-001"
+      ]
+    },
+    {
+      "articleId": "rss-650736e7a7ae51",
+      "collectedAt": "2026-06-27T20:08:38+09:00",
+      "publishedAt": "2026-06-27T20:08:38+09:00",
+      "source": "Yahoo Finance",
+      "sourceType": "rss",
+      "title": "As oil fades as an inflation concern, will AI take its place? The Fed is watching closely. - Yahoo Finance",
+      "summary": "As oil fades as an inflation concern, will AI take its place? The Fed is watching closely. Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNZjlQbzJqWXYwb1VVNzhVUUFfamE5MmduZ2RJbzZvMU1Yc2V2clhuZnRBYUxIM1NzNmdTZXI1a0RQZjEwZWYxVWxaXzBKeDhFQ1Fpb3k2MmR4S3dGczVMR0ZLdVpMLWUyMi13c29YZUdNMGlBR2RudzZxbFhPRDh3Y3JMaVplV3ZucXlQQ29KUzg5SENSbkFjTkw2cGF4Y2lxTDgwUEhHSV9OV1hjb3lETVZ0MWI2cmtDaUM2aDB3RjlYZ0lNLXJIMW1SZTRkWEd3Nkl0T3ktVl9xYnctRl81cERocVpLQQ?oc=5",
+      "keywords": [
+        "fed",
+        "ai",
         "FOMC"
       ],
       "rawCategory": "rates",
@@ -940,17 +732,16 @@
       "relatedIssueIds": []
     },
     {
-      "articleId": "rss-35486c7d801cf5",
-      "collectedAt": "2026-06-28T03:26:12+09:00",
-      "publishedAt": "2026-06-28T03:26:12+09:00",
-      "source": "The Globe and Mail",
+      "articleId": "rss-54c96d01d6c9fd",
+      "collectedAt": "2026-06-26T22:35:59+09:00",
+      "publishedAt": "2026-06-26T22:35:59+09:00",
+      "source": "CNBC",
       "sourceType": "rss",
-      "title": "The Fed Removed This 1 Key Phrase From the Inflation Report. What That Means for the Market. - The Globe and Mail",
-      "summary": "The Fed Removed This 1 Key Phrase From the Inflation Report. What That Means for the Market. The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOXzBLaVpmNW5ZV2ZvdTcyY3BaZjU1Q2o4bU00bmkybnFrcHRsQXRrblU1VTVYNG5xcWNkT2drWnlVOFh2b01ZOXQtUHk5NERpQ3Vza0twNmZINzlLS3hMYUM3cEZPMUstcVZ6SDl3ZnZhX1YzU0V2ZnNNTm9oSFRtNURPd0NCUVoxLXRMaDZBc09lVkx0M2xEWjVlN3ZBa2ZEc0hMeHpGMDVjZTJvWm1pdmFmTUxyNkFwcWVLN2pHUGJsZEVROWd3eHpoTHlWS3dPMmw2Yk4zRmRiM1ZJS3lDZzE0U2FMZG0tTXJfUWs5RHBmbTZuV1ZwcVVjd3dMeGJ1dEo5U1A1SXA?oc=5",
+      "title": "Warsh reaches within the Fed for latest advisory appointments - CNBC",
+      "summary": "Warsh reaches within the Fed for latest advisory appointments CNBC",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRnkxM1ZPLVJaRU93WkJKOUpidG50Zjdic1doZndEQWloMXpOMGl2LWZlUmlzb1ZaRjlFWFRrV1FqWVZMSHBSVXBUbERiZFFBSGxrV1NaZWtWYWtrbmRScEVEMHBJZzVYVDF2VTNuZVlSS3JETTIySmViUjZfVGkxdGZfZ24wYWZEMDE3U1pUU0NiOGtNTWJleXNUZE11dnPSAaQBQVVfeXFMTk52ZFR2UWFFZGpnTjVibVFlYWlQdnZ5cWNmM3hZc1dSd3VtdUF6VEp5T25UNUtwVGVPY3dtM0xMUTl0LWg2cXdXTDBMVTNMeUdHMWtIa19icU9TUm9LMmZoNFdfS0UwUTcybFRlTGhqSWhmQkk4ZE1JUkVRT1JwQVVic29DMDQ2b01VREtDZlpYUDlfa0ZPVGtBcGt1aUZqT2RHMVk?oc=5",
       "keywords": [
         "fed",
-        "ai",
         "FOMC"
       ],
       "rawCategory": "rates",
@@ -995,16 +786,43 @@
       "relatedIssueIds": []
     },
     {
-      "articleId": "rss-c7be353335bccf",
-      "collectedAt": "2026-06-27T19:45:00+09:00",
-      "publishedAt": "2026-06-27T19:45:00+09:00",
-      "source": "Washington Examiner",
+      "articleId": "rss-4ee319f59f1b7c",
+      "collectedAt": "2026-06-27T21:20:48+09:00",
+      "publishedAt": "2026-06-27T21:20:48+09:00",
+      "source": "InsuranceNewsNet",
       "sourceType": "rss",
-      "title": "Kevin Warsh’s Federal Reserve inauguration does fewer things better - Washington Examiner",
-      "summary": "Kevin Warsh’s Federal Reserve inauguration does fewer things better Washington Examiner",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWDU3Y2I0a2Y2OTJXdUNNQXlJMzRmNWZmX3NvSG00cXBPUDlXVzNjbjdVcVlsV0kzY1FwUlV1ZEYySHgtV1FXajJ6VnZCLVN3Vy1pZXZhZmxoanBrX3JuaHNxMHFURHlfUlBOYWlrb29vTlpNQ0laZ3VxX3RlYkZ1bC1Xa0pSeFhFZ2R0dTZ0dTFCUUhDRk9BamFUcXJ3ZE1WSUFrZWpuRTFodnJMeWVjejNBNm5mejdRY0FzNERrSjE1SnVha3RLT04yMVBpZw?oc=5",
+      "title": "See a $100,000 bill and get a bag of shredded cash at Philly Federal Reserve - InsuranceNewsNet",
+      "summary": "See a $100,000 bill and get a bag of shredded cash at Philly Federal Reserve InsuranceNewsNet",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUG1LczAwRFRsMUhqS3ZUYVdPd0NDbEl2S3RLd2xiV0RNYTc0cG5PTWpBak5ZTnM3RDY1RUpsTm5xN1lHN1JQa000YkZESHk1eVAzR2UybHBna2tiODdqNjNOUEd4Y2QyZlQtdWR5S1ZwX1NzdnlobUVSOEtCaUxPR0RKMUFjZGxjQlJHaVpnLUdnaFRoN0Q4em1XcUNsX3VFRXdrMURib3JVYndHTjNkRlMtRnk?oc=5",
       "keywords": [
         "fed",
+        "FOMC"
+      ],
+      "rawCategory": "rates",
+      "category": "rates",
+      "sectors": [
+        "성장주",
+        "은행",
+        "채권"
+      ],
+      "fixtureUsed": false,
+      "appliedToBriefing": false,
+      "evaluationEligible": true,
+      "briefingSurfaces": [],
+      "relatedIssueIds": []
+    },
+    {
+      "articleId": "rss-35486c7d801cf5",
+      "collectedAt": "2026-06-28T03:26:12+09:00",
+      "publishedAt": "2026-06-28T03:26:12+09:00",
+      "source": "The Globe and Mail",
+      "sourceType": "rss",
+      "title": "The Fed Removed This 1 Key Phrase From the Inflation Report. What That Means for the Market. - The Globe and Mail",
+      "summary": "The Fed Removed This 1 Key Phrase From the Inflation Report. What That Means for the Market. The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOXzBLaVpmNW5ZV2ZvdTcyY3BaZjU1Q2o4bU00bmkybnFrcHRsQXRrblU1VTVYNG5xcWNkT2drWnlVOFh2b01ZOXQtUHk5NERpQ3Vza0twNmZINzlLS3hMYUM3cEZPMUstcVZ6SDl3ZnZhX1YzU0V2ZnNNTm9oSFRtNURPd0NCUVoxLXRMaDZBc09lVkx0M2xEWjVlN3ZBa2ZEc0hMeHpGMDVjZTJvWm1pdmFmTUxyNkFwcWVLN2pHUGJsZEVROWd3eHpoTHlWS3dPMmw2Yk4zRmRiM1ZJS3lDZzE0U2FMZG0tTXJfUWs5RHBmbTZuV1ZwcVVjd3dMeGJ1dEo5U1A1SXA?oc=5",
+      "keywords": [
+        "fed",
+        "ai",
         "FOMC"
       ],
       "rawCategory": "rates",
@@ -1047,16 +865,17 @@
       "relatedIssueIds": []
     },
     {
-      "articleId": "rss-d607ecd7602666",
-      "collectedAt": "2026-06-26T17:33:19+09:00",
-      "publishedAt": "2026-06-26T17:33:19+09:00",
-      "source": "CNBC",
+      "articleId": "rss-8457d902f65d65",
+      "collectedAt": "2026-06-26T20:53:29+09:00",
+      "publishedAt": "2026-06-26T20:53:29+09:00",
+      "source": "The Daily Economy",
       "sourceType": "rss",
-      "title": "2-year Treasury yield falls as Kashkari backs a Fed rate increase by year-end - CNBC",
-      "summary": "2-year Treasury yield falls as Kashkari backs a Fed rate increase by year-end CNBC",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOEhWeVlyN2Y4VGVlWXg3ampka2hCYnV3MFdSQjZJRUlRRm9xZ3RuS2E5NVdjUVdKUGYtOTBPT0stVy1NNUYwLTBfV3JLZ2paeC12ZC1pM1BzbHp0X0w4VXptVi1JWkpVOUpGejBON25YTlh6elNBN1hOOWlZSXAydE4yXzdZeTdBYXF2Y2V6Y9IBlAFBVV95cUxOeGFBWXBzVTFGNUY4QnBqUkJVWGVUTXZ1ck4xT3lwNXNVdjRFZXc0ZzR5T2R0Qm82b1g0N0xjMHBQMTlUQmtZNWtvSlg4T25qYlh6Z3gxWFk4cHQtU3BOYWFXbUpaWmFzTEJmU1RhNkFIMWRLcUZSV3J2dkstdnVTTzN4eml0UDQyNmxVMjZ1eDZ0LUZK?oc=5",
+      "title": "Markets Bet on Warsh to Fight Inflation. Will the Fed Deliver? - The Daily Economy",
+      "summary": "Markets Bet on Warsh to Fight Inflation. Will the Fed Deliver? The Daily Economy",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRWhhTzM2NGRhNS1BWVI5cDVsMGJ3c0xnZFBVbnoweUxOUldRSG12eEtFS3hGTGlPQTJyY0lwb0JEYmRpYm1DSTZ4ZTFCQ1JBYk9sRTVnV19fY2t6dUhhcnhMOWp6SDJkUkphWkxFMVd6dFh6TTc1eHpsMWgxd0hWYkNNOWpYMFA5WER2Zk01SllsUzFEaFk1Y2paN1ZVQQ?oc=5",
       "keywords": [
         "fed",
+        "ai",
         "FOMC"
       ],
       "rawCategory": "rates",
@@ -1073,17 +892,18 @@
       "relatedIssueIds": []
     },
     {
-      "articleId": "rss-8457d902f65d65",
-      "collectedAt": "2026-06-26T20:53:29+09:00",
-      "publishedAt": "2026-06-26T20:53:29+09:00",
-      "source": "The Daily Economy",
+      "articleId": "rss-225bfd812d2f32",
+      "collectedAt": "2026-06-27T20:53:07+09:00",
+      "publishedAt": "2026-06-27T20:53:07+09:00",
+      "source": "economy.ac",
       "sourceType": "rss",
-      "title": "Markets Bet on Warsh to Fight Inflation. Will the Fed Deliver? - The Daily Economy",
-      "summary": "Markets Bet on Warsh to Fight Inflation. Will the Fed Deliver? The Daily Economy",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRWhhTzM2NGRhNS1BWVI5cDVsMGJ3c0xnZFBVbnoweUxOUldRSG12eEtFS3hGTGlPQTJyY0lwb0JEYmRpYm1DSTZ4ZTFCQ1JBYk9sRTVnV19fY2t6dUhhcnhMOWp6SDJkUkphWkxFMVd6dFh6TTc1eHpsMWgxd0hWYkNNOWpYMFA5WER2Zk01SllsUzFEaFk1Y2paN1ZVQQ?oc=5",
+      "title": "Federal Reserve Independence: What Kevin Warsh’s First FOMC Reveals - economy.ac",
+      "summary": "Federal Reserve Independence: What Kevin Warsh’s First FOMC Reveals economy.ac",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE82UURtZWtnQ1N5Xzk5Nl84blJxa3lGd3B3QTI4WU5SdkdOdnBrblVrNWVIczlIc1NaSHZIaDVCX0lMeXFjVjFRTnR0alpzd1dBZE9UV0k0UUJFZw?oc=5",
       "keywords": [
+        "fomc",
         "fed",
-        "ai",
+        "ir",
         "FOMC"
       ],
       "rawCategory": "rates",
@@ -1150,91 +970,14 @@
       "relatedIssueIds": []
     },
     {
-      "articleId": "rss-76ab7eed8ee693",
-      "collectedAt": "2026-06-27T19:04:07+09:00",
-      "publishedAt": "2026-06-27T19:04:07+09:00",
-      "source": "eciks.org",
-      "sourceType": "rss",
-      "title": "30-year fixed mortgage rates stay flat around 6.5%, with experts watching inflation's next move - eciks.org",
-      "summary": "30-year fixed mortgage rates stay flat around 6.5%, with experts watching inflation's next move eciks.org",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE83dmNsekxZYWJlZ2RJVmVReHYxTHI1U2diZWpxS19kSHRwLVRVNVFxNjZhQVRDWXBnRzViUHM5RDFRQjZ5d1ZUNGN1OTU5R2YzN1dPekIzdzRxdGRtTlNIRTNlLXFadng4dVNFaGJUTnJ6RzJi?oc=5",
-      "keywords": [],
-      "rawCategory": "market",
-      "category": "market",
-      "sectors": [
-        "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "economy"
-      ],
-      "relatedIssueIds": [
-        "issue-market-30-year-fixed-mortgage-rates-stay-flat-ar-008"
-      ]
-    },
-    {
-      "articleId": "rss-760581a5a9967e",
-      "collectedAt": "2026-06-27T21:17:00+09:00",
-      "publishedAt": "2026-06-27T21:17:00+09:00",
-      "source": "thestreet.com",
-      "sourceType": "rss",
-      "title": "Inflation flips Wall Street’s Fed interest-rate bets - thestreet.com",
-      "summary": "Inflation flips Wall Street’s Fed interest-rate bets thestreet.com",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jblNWd1hSRjhWUWJFd20yT2N0akdtQnNHaGdrUXd1NXdWMVVPQXEyUnMtVnFOeFRCblNZTW5CcUZDMG1VRlJSS2lUbXZudXJXQi1Dd0xCZzB4eWpxU1RiRDVURkF0S21SQ2pQUllfSU1SQzM5WVRhVFlsZTRZTDA?oc=5",
-      "keywords": [
-        "fed",
-        "FOMC"
-      ],
-      "rawCategory": "rates",
-      "category": "rates",
-      "sectors": [
-        "성장주",
-        "은행",
-        "채권"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "rss-54c96d01d6c9fd",
-      "collectedAt": "2026-06-26T22:35:59+09:00",
-      "publishedAt": "2026-06-26T22:35:59+09:00",
-      "source": "CNBC",
-      "sourceType": "rss",
-      "title": "Warsh reaches within the Fed for latest advisory appointments - CNBC",
-      "summary": "Warsh reaches within the Fed for latest advisory appointments CNBC",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRnkxM1ZPLVJaRU93WkJKOUpidG50Zjdic1doZndEQWloMXpOMGl2LWZlUmlzb1ZaRjlFWFRrV1FqWVZMSHBSVXBUbERiZFFBSGxrV1NaZWtWYWtrbmRScEVEMHBJZzVYVDF2VTNuZVlSS3JETTIySmViUjZfVGkxdGZfZ24wYWZEMDE3U1pUU0NiOGtNTWJleXNUZE11dnPSAaQBQVVfeXFMTk52ZFR2UWFFZGpnTjVibVFlYWlQdnZ5cWNmM3hZc1dSd3VtdUF6VEp5T25UNUtwVGVPY3dtM0xMUTl0LWg2cXdXTDBMVTNMeUdHMWtIa19icU9TUm9LMmZoNFdfS0UwUTcybFRlTGhqSWhmQkk4ZE1JUkVRT1JwQVVic29DMDQ2b01VREtDZlpYUDlfa0ZPVGtBcGt1aUZqT2RHMVk?oc=5",
-      "keywords": [
-        "fed",
-        "FOMC"
-      ],
-      "rawCategory": "rates",
-      "category": "rates",
-      "sectors": [
-        "성장주",
-        "은행",
-        "채권"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "rss-ec982ff607ce19",
+      "articleId": "rss-c7be353335bccf",
       "collectedAt": "2026-06-27T19:45:00+09:00",
       "publishedAt": "2026-06-27T19:45:00+09:00",
-      "source": "The Motley Fool",
+      "source": "Washington Examiner",
       "sourceType": "rss",
-      "title": "Kevin Warsh Just Suggested the Fed May Bring Down the Hammer on Inflation. Could It Spell Trouble for Wall Street? - The Motley Fool",
-      "summary": "Kevin Warsh Just Suggested the Fed May Bring Down the Hammer on Inflation. Could It Spell Trouble for Wall Street? The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOenU2OFdySW1BU2N4UzNiV2tfREJ0TWxGNEdaUmJnQVY1UzlQeEhZNDVKU1ZxUjh5RmI3bWVWaEpOUFI1aXc4NF8zWGtRX0xDNXJMZWJpN0hGb1p5WnJjNDVORHdNeXl1czhPZGlta3dqczRiZDFxQ00zSVhIcXZUS1M1bU5aVlg1cmVnd0R4MXhpSjN1Ykg4?oc=5",
+      "title": "Kevin Warsh’s Federal Reserve inauguration does fewer things better - Washington Examiner",
+      "summary": "Kevin Warsh’s Federal Reserve inauguration does fewer things better Washington Examiner",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWDU3Y2I0a2Y2OTJXdUNNQXlJMzRmNWZmX3NvSG00cXBPUDlXVzNjbjdVcVlsV0kzY1FwUlV1ZEYySHgtV1FXajJ6VnZCLVN3Vy1pZXZhZmxoanBrX3JuaHNxMHFURHlfUlBOYWlrb29vTlpNQ0laZ3VxX3RlYkZ1bC1Xa0pSeFhFZ2R0dTZ0dTFCUUhDRk9BamFUcXJ3ZE1WSUFrZWpuRTFodnJMeWVjejNBNm5mejdRY0FzNERrSjE1SnVha3RLT04yMVBpZw?oc=5",
       "keywords": [
         "fed",
         "FOMC"
@@ -1276,167 +1019,8 @@
         "economy"
       ],
       "relatedIssueIds": [
-        "issue-company-wall-st-week-ahead-jobs-data-rate-bets-i-009"
+        "issue-company-wall-st-week-ahead-jobs-data-rate-bets-i-008"
       ]
-    },
-    {
-      "articleId": "rss-ccd36dfd119e7a",
-      "collectedAt": "2026-06-27T21:11:17+09:00",
-      "publishedAt": "2026-06-27T21:11:17+09:00",
-      "source": "Intellectia AI",
-      "sourceType": "rss",
-      "title": "Fed Interest Rates 2026: Inflation Outlook & Investment Strategy - Intellectia AI",
-      "summary": "Fed Interest Rates 2026: Inflation Outlook & Investment Strategy Intellectia AI",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1rTFZIOEZ4ckpOR1BKVjBublA3Qy03X0F6QWdrVGpnOFlsVEZRRE9vTzNLLTUzYmQ3Zm1JMlF5bDJyV2M2S2xMU0R3ZEtvOXRpRHpyUlF0MUxRTHNzM1ZLOVpVZFdsUTVRclhWclYtbi1teTRjZTRzRA?oc=5",
-      "keywords": [
-        "fed",
-        "ai",
-        "FOMC"
-      ],
-      "rawCategory": "rates",
-      "category": "rates",
-      "sectors": [
-        "성장주",
-        "은행",
-        "채권"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "rss-103071dc307c73",
-      "collectedAt": "2026-06-26T17:26:00+09:00",
-      "publishedAt": "2026-06-26T17:26:00+09:00",
-      "source": "Yahoo Finance",
-      "sourceType": "rss",
-      "title": "The Probability of a Federal Reserve Rate Hike Is Soaring, Which Poses a Serious Problem for Wall Street - Yahoo Finance",
-      "summary": "The Probability of a Federal Reserve Rate Hike Is Soaring, Which Poses a Serious Problem for Wall Street Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZlpfRDcxRm12T0ozT2pfUzVTR1p4MzBvT2c3eW9WLTR5aWFidGl1T3dkY0Y0RWNGZGE3ajFaTURqYThCTWttY01RSHVhaGlLNW9VUDFLNVZwT3dkY3BHbVNaVHpSeDRGakxKNkh6bTBXVkxEOE02dzVLZDdGamF6UnFiTzk4VVp0cVJVYnVSQmVxRkpMNTB4T2xCQWlfVGFZNzl5Vw?oc=5",
-      "keywords": [
-        "fed",
-        "FOMC"
-      ],
-      "rawCategory": "rates",
-      "category": "rates",
-      "sectors": [
-        "성장주",
-        "은행",
-        "채권"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "rss-82e1247b9f4fa3",
-      "collectedAt": "2026-06-26T19:00:00+09:00",
-      "publishedAt": "2026-06-26T19:00:00+09:00",
-      "source": "Bloomberg.com",
-      "sourceType": "rss",
-      "title": "Economists Lift US Core Inflation Forecasts, See Fed on Hold - Bloomberg.com",
-      "summary": "Economists Lift US Core Inflation Forecasts, See Fed on Hold Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTXN0T2VRWE1JNTl6ZEJhZXlWU3JaNUpGVU9HdkJQVGh0OXU4czBqX005aE5QOXNYVkJ6Z0hmbUZhWnRoWHRKR3p1Wl93SDBaaVBVZzNZRzlrcUU1T2lxdXpxbTFqOS1nN1BreDQ5ZkFuTzBCNjY0TDhNa0lMYllhNFhWVVJzLWhsZ0ZfLVdZRGtDRVhqMWptaGpXc1pkYlV6US1SZ01yOXRrbFlvWVRZ?oc=5",
-      "keywords": [
-        "fed",
-        "FOMC"
-      ],
-      "rawCategory": "rates",
-      "category": "rates",
-      "sectors": [
-        "성장주",
-        "은행",
-        "채권"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "rss-e90696bb1579df",
-      "collectedAt": "2026-06-27T20:51:00+09:00",
-      "publishedAt": "2026-06-27T20:51:00+09:00",
-      "source": "IndexBox",
-      "sourceType": "rss",
-      "title": "Oil Prices Decline, AI Spending Poses Inflation Challenge for Federal Reserve in 2026 - News and Statistics - IndexBox",
-      "summary": "Oil Prices Decline, AI Spending Poses Inflation Challenge for Federal Reserve in 2026 - News and Statistics IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNa0hDNE9MYzZ3cTdHUTZjUC1XSm9MZ2ZmcndZYVppcENJTXVCLXJMcFdmS3BRMXZwU0o0cG9iUjlpSVphNmVRWmhDTE1aN1VOQzlYdU5YNlFmZjdhclBCYkJLSFY5TzlUWmo5VXoycTY1WVBmaXZ3NzVoeF9GQjdQUUV1cEstQ2lCck9rcEJFLVduODJMc0NsZ3IwNVpMMl9wOWRkeVE3dVBCMG5WWENhc3l6SQ?oc=5",
-      "keywords": [
-        "fed",
-        "ai",
-        "FOMC"
-      ],
-      "rawCategory": "rates",
-      "category": "rates",
-      "sectors": [
-        "성장주",
-        "은행",
-        "채권"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "rss-9fed61c4d343ce",
-      "collectedAt": "2026-06-28T04:15:29+09:00",
-      "publishedAt": "2026-06-28T04:15:29+09:00",
-      "source": "CryptoRank",
-      "sourceType": "rss",
-      "title": "Morgan Stanley Says Fed Rate Hikes Could Return if Unemployment Falls Below 4% - CryptoRank",
-      "summary": "Morgan Stanley Says Fed Rate Hikes Could Return if Unemployment Falls Below 4% CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZXBCSXQwNXI0UzRYQXRCQVUzR21EVWs5bTNiLWNLYnNQTy1pZmdPLU1hT0VYUFZzRUFCQUdFSjlURnRkQzUzdTdUODFtbUtxT0dWUllJX3lEblBxeGx5WTVwYmludl8xMFBqVFI3RmdobE94OWZTSW9GNW1JcUZmWE9oY1htNncyWUlabkhiZGdadmh0b3dlZXEzU0d5cURRX0JaQzAwX2dSMm1IWUlkVmJnRElPUQ?oc=5",
-      "keywords": [
-        "fed",
-        "FOMC"
-      ],
-      "rawCategory": "rates",
-      "category": "rates",
-      "sectors": [
-        "성장주",
-        "은행",
-        "채권"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "rss-e89ea15944a09c",
-      "collectedAt": "2026-06-27T21:15:47+09:00",
-      "publishedAt": "2026-06-27T21:15:47+09:00",
-      "source": "Crypto Briefing",
-      "sourceType": "rss",
-      "title": "Federal Reserve’s Warsh faces early tenure challenges at ECB forum - Crypto Briefing",
-      "summary": "Federal Reserve’s Warsh faces early tenure challenges at ECB forum Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9RdnRxOXNpVzRuTWdNOVQ0cE5zcDNTSnE5RGl6QlhSVlB3Yjl4R3Y4WkhJQkVRRTNURmpaeV8tQXIxWWRWU0ZIdGY1aTdXN0plbzQteXo0MGJHZFdOWE1nSHprUWhhMlpPTHc?oc=5",
-      "keywords": [
-        "fed",
-        "ecb",
-        "FOMC"
-      ],
-      "rawCategory": "rates",
-      "category": "rates",
-      "sectors": [
-        "성장주",
-        "은행",
-        "채권"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
     },
     {
       "articleId": "rss-11a28ff8afe381",
@@ -1465,14 +1049,39 @@
       "relatedIssueIds": []
     },
     {
-      "articleId": "rss-9ce90e6c7685fb",
-      "collectedAt": "2026-06-26T19:00:00+09:00",
-      "publishedAt": "2026-06-26T19:00:00+09:00",
-      "source": "Financial Times",
+      "articleId": "rss-76ab7eed8ee693",
+      "collectedAt": "2026-06-27T19:04:07+09:00",
+      "publishedAt": "2026-06-27T19:04:07+09:00",
+      "source": "eciks.org",
       "sourceType": "rss",
-      "title": "Atlanta Fed struggles to find new chief after Raphael Bostic’s departure - Financial Times",
-      "summary": "Atlanta Fed struggles to find new chief after Raphael Bostic’s departure Financial Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOb1FNRkw0NUdyYlhYalVsWG9kVmtTcGhOdzFfNjVMRmZCTWlFcmdxb2JUZUkxSk80NnNtRzNxY3Qwc2R2TTZCWnB3ZnllSGxkNlRldElmdUo1MmNDMUZia3VwRl9XeDAxY2IyTENfcGhkSjZRNGlXYmE1UFA3WWEyZnVvVlA?oc=5",
+      "title": "30-year fixed mortgage rates stay flat around 6.5%, with experts watching inflation's next move - eciks.org",
+      "summary": "30-year fixed mortgage rates stay flat around 6.5%, with experts watching inflation's next move eciks.org",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE83dmNsekxZYWJlZ2RJVmVReHYxTHI1U2diZWpxS19kSHRwLVRVNVFxNjZhQVRDWXBnRzViUHM5RDFRQjZ5d1ZUNGN1OTU5R2YzN1dPekIzdzRxdGRtTlNIRTNlLXFadng4dVNFaGJUTnJ6RzJi?oc=5",
+      "keywords": [],
+      "rawCategory": "market",
+      "category": "market",
+      "sectors": [
+        "시장 전체"
+      ],
+      "fixtureUsed": false,
+      "appliedToBriefing": true,
+      "evaluationEligible": true,
+      "briefingSurfaces": [
+        "economy"
+      ],
+      "relatedIssueIds": [
+        "issue-market-30-year-fixed-mortgage-rates-stay-flat-ar-009"
+      ]
+    },
+    {
+      "articleId": "rss-760581a5a9967e",
+      "collectedAt": "2026-06-27T21:17:00+09:00",
+      "publishedAt": "2026-06-27T21:17:00+09:00",
+      "source": "thestreet.com",
+      "sourceType": "rss",
+      "title": "Inflation flips Wall Street’s Fed interest-rate bets - thestreet.com",
+      "summary": "Inflation flips Wall Street’s Fed interest-rate bets thestreet.com",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jblNWd1hSRjhWUWJFd20yT2N0akdtQnNHaGdrUXd1NXdWMVVPQXEyUnMtVnFOeFRCblNZTW5CcUZDMG1VRlJSS2lUbXZudXJXQi1Dd0xCZzB4eWpxU1RiRDVURkF0S21SQ2pQUllfSU1SQzM5WVRhVFlsZTRZTDA?oc=5",
       "keywords": [
         "fed",
         "FOMC"
@@ -1516,39 +1125,6 @@
       "evaluationEligible": true,
       "briefingSurfaces": [],
       "relatedIssueIds": []
-    },
-    {
-      "articleId": "rss-cf39c5ec1a086c",
-      "collectedAt": "2026-06-28T01:50:43+09:00",
-      "publishedAt": "2026-06-28T01:50:43+09:00",
-      "source": "조선일보",
-      "sourceType": "rss",
-      "title": "AI Boom Bubble Collapse Risk from Rate Hikes - 조선일보",
-      "summary": "AI Boom Bubble Collapse Risk from Rate Hikes 조선일보",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTFBNYTgyeHJyOERmNzlpbHJqUFlVWl9ocURySWJ4dEdELUFqQVQ3VDZPWkpaRk9iT3VKMnc5bXI5aC1yaUpEeTlqbVE4NE5mX3ZtSzNyUmw4cjZtWklNNkgtc3JIaUw5TzZhLUVMT3FxTm84UV9TMFp3d1ZjQ1VLdnk2VnFUWTBOc1pTNldn?oc=5",
-      "keywords": [
-        "ai",
-        "조선",
-        "조선 수주"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "조선",
-        "방산",
-        "기계"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "economy",
-        "interest"
-      ],
-      "relatedIssueIds": [
-        "issue-f5724fb8-004",
-        "interest-kw-shipbuilding-defense-issue-f5724fb8-004"
-      ]
     },
     {
       "articleId": "rss-641b808193d0b8",
@@ -1604,14 +1180,68 @@
       ]
     },
     {
-      "articleId": "rss-fe9d7203fc976b",
-      "collectedAt": "2026-06-26T19:03:11+09:00",
-      "publishedAt": "2026-06-26T19:03:11+09:00",
-      "source": "eciks.org",
+      "articleId": "rss-ccd36dfd119e7a",
+      "collectedAt": "2026-06-27T21:11:17+09:00",
+      "publishedAt": "2026-06-27T21:11:17+09:00",
+      "source": "Intellectia AI",
       "sourceType": "rss",
-      "title": "Mortgage rates hold near 6.5% as Fed keeps policy steady - eciks.org",
-      "summary": "Mortgage rates hold near 6.5% as Fed keeps policy steady eciks.org",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5vOGc5a0tzeGlkT3E0UDE3cklldWNZV042RE1MWEJsZ21yWkZzUDRNNy1yLXJYOVE5VW80dGFUVUZBYWlXVEt0Ri0ySlZGQzBNZFdDNVRtWmVBQzIzSWxxX0NmSVEyMlltdlRQR0Fya0hfT0syR1E?oc=5",
+      "title": "Fed Interest Rates 2026: Inflation Outlook & Investment Strategy - Intellectia AI",
+      "summary": "Fed Interest Rates 2026: Inflation Outlook & Investment Strategy Intellectia AI",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1rTFZIOEZ4ckpOR1BKVjBublA3Qy03X0F6QWdrVGpnOFlsVEZRRE9vTzNLLTUzYmQ3Zm1JMlF5bDJyV2M2S2xMU0R3ZEtvOXRpRHpyUlF0MUxRTHNzM1ZLOVpVZFdsUTVRclhWclYtbi1teTRjZTRzRA?oc=5",
+      "keywords": [
+        "fed",
+        "ai",
+        "FOMC"
+      ],
+      "rawCategory": "rates",
+      "category": "rates",
+      "sectors": [
+        "성장주",
+        "은행",
+        "채권"
+      ],
+      "fixtureUsed": false,
+      "appliedToBriefing": false,
+      "evaluationEligible": true,
+      "briefingSurfaces": [],
+      "relatedIssueIds": []
+    },
+    {
+      "articleId": "rss-86747512055d13",
+      "collectedAt": "2026-06-27T22:35:00+09:00",
+      "publishedAt": "2026-06-27T22:35:00+09:00",
+      "source": "The Globe and Mail",
+      "sourceType": "rss",
+      "title": "What a Kevin Warsh-Led Fed Could Mean for Mortgage REITs AGNC and Annaly Capital - The Globe and Mail",
+      "summary": "What a Kevin Warsh-Led Fed Could Mean for Mortgage REITs AGNC and Annaly Capital The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNdWlrRnFGcUNoSjZ4QldRSGhXZy11ZHpXdFU0dmdfN1FDNTNTNlVyZW9CTGpnWTA1SXFGdlVrU1Bjd2NrX0dGYU5VTHdWSmpORDZ4Z3lxRTBCQUR2dmU4WGdndUFKR3RIOWpVaXpUUVc1OFNOZGNxRmRTWWVmeE5sUDBCbWljLVVWWnlmVEl1b3U3LXR1Mk9BTjE2ckJXa2h5bjV5WVlkbGk4NGNWZEdEMTZqUTNVekM1MUtDNE0weXNDbFBNa0JFMGI4M1J3WVB4Yl9xR0RnakQ5YUhCbWpIRmphaGFfOGtidnlabjRzNHhIWl9NN1h4MXp3?oc=5",
+      "keywords": [
+        "fed",
+        "ai",
+        "FOMC"
+      ],
+      "rawCategory": "rates",
+      "category": "rates",
+      "sectors": [
+        "성장주",
+        "은행",
+        "채권"
+      ],
+      "fixtureUsed": false,
+      "appliedToBriefing": false,
+      "evaluationEligible": true,
+      "briefingSurfaces": [],
+      "relatedIssueIds": []
+    },
+    {
+      "articleId": "rss-ec982ff607ce19",
+      "collectedAt": "2026-06-27T19:45:00+09:00",
+      "publishedAt": "2026-06-27T19:45:00+09:00",
+      "source": "The Motley Fool",
+      "sourceType": "rss",
+      "title": "Kevin Warsh Just Suggested the Fed May Bring Down the Hammer on Inflation. Could It Spell Trouble for Wall Street? - The Motley Fool",
+      "summary": "Kevin Warsh Just Suggested the Fed May Bring Down the Hammer on Inflation. Could It Spell Trouble for Wall Street? The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOenU2OFdySW1BU2N4UzNiV2tfREJ0TWxGNEdaUmJnQVY1UzlQeEhZNDVKU1ZxUjh5RmI3bWVWaEpOUFI1aXc4NF8zWGtRX0xDNXJMZWJpN0hGb1p5WnJjNDVORHdNeXl1czhPZGlta3dqczRiZDFxQ00zSVhIcXZUS1M1bU5aVlg1cmVnd0R4MXhpSjN1Ykg4?oc=5",
       "keywords": [
         "fed",
         "FOMC"
@@ -1656,31 +1286,118 @@
       "relatedIssueIds": []
     },
     {
-      "articleId": "rss-b768c51fe8112a",
-      "collectedAt": "2026-06-27T18:37:00+09:00",
-      "publishedAt": "2026-06-27T18:37:00+09:00",
-      "source": "FXEmpire",
+      "articleId": "rss-cf39c5ec1a086c",
+      "collectedAt": "2026-06-28T01:50:43+09:00",
+      "publishedAt": "2026-06-28T01:50:43+09:00",
+      "source": "조선일보",
       "sourceType": "rss",
-      "title": "S&P 500 and Dow Jones Forecast: Stocks Face Inflation Risk Despite Trade Relief - FXEmpire",
-      "summary": "S&P 500 and Dow Jones Forecast: Stocks Face Inflation Risk Despite Trade Relief FXEmpire",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMFQtaUlFZExwbXpucXN1b2pKNHBQV2xPQW1WZFFqSEpiNFpMNEw0em02UDBOdmhCcTJaSTFqWDBNb1VJbmowNnRfdnRUVU1uVkRhZ3hXVFZaVlViLVB4amQya1AtSzc2ZEdlT0p3dDNFbllwd241cmUzTFJURzRUZVFnUTljLVdlVU11TzNhbk56b1lCUW1nXzYwLXJXellSNTlScXgyNG1pTU9ES1hmNWYySlBrZUVaUjRaem9zbUxSU2NnYUJB?oc=5",
+      "title": "AI Boom Bubble Collapse Risk from Rate Hikes - 조선일보",
+      "summary": "AI Boom Bubble Collapse Risk from Rate Hikes 조선일보",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTFBNYTgyeHJyOERmNzlpbHJqUFlVWl9ocURySWJ4dEdELUFqQVQ3VDZPWkpaRk9iT3VKMnc5bXI5aC1yaUpEeTlqbVE4NE5mX3ZtSzNyUmw4cjZtWklNNkgtc3JIaUw5TzZhLUVMT3FxTm84UV9TMFp3d1ZjQ1VLdnk2VnFUWTBOc1pTNldn?oc=5",
       "keywords": [
-        "ir"
+        "ai",
+        "조선",
+        "조선 수주"
       ],
-      "rawCategory": "company",
-      "category": "company",
+      "rawCategory": "industry",
+      "category": "industry",
       "sectors": [
-        "시장 전체"
+        "조선",
+        "방산",
+        "기계"
       ],
       "fixtureUsed": false,
       "appliedToBriefing": true,
       "evaluationEligible": true,
       "briefingSurfaces": [
-        "economy"
+        "economy",
+        "interest"
       ],
       "relatedIssueIds": [
-        "issue-company-s-p-500-and-dow-jones-forecast-stocks-fa-011"
+        "issue-f5724fb8-004",
+        "interest-kw-shipbuilding-defense-issue-f5724fb8-004"
       ]
+    },
+    {
+      "articleId": "rss-3e61453526d48e",
+      "collectedAt": "2026-06-28T08:22:42+09:00",
+      "publishedAt": "2026-06-28T08:22:42+09:00",
+      "source": "Mshale",
+      "sourceType": "rss",
+      "title": "Alan Greenspan Dies At 100 | Former Federal Reserve Chairman Passes Away | Legacy Explained Pamela Anderson (qEw2gesOwr) - Mshale",
+      "summary": "Alan Greenspan Dies At 100 | Former Federal Reserve Chairman Passes Away | Legacy Explained Pamela Anderson (qEw2gesOwr) Mshale",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB0VHY4b2VsSjBETnBVazV6NVdCU29LMklwS2RzNDJiT1J0ZTd6WkRGME9qa2VKaTBZcVNtNW95Yy00N0xZaUFQLTRBNkVlamdLenZxZHFDY0NlZ1k2RVZMbQ?oc=5",
+      "keywords": [
+        "fed",
+        "ai",
+        "ir",
+        "FOMC"
+      ],
+      "rawCategory": "rates",
+      "category": "rates",
+      "sectors": [
+        "성장주",
+        "은행",
+        "채권"
+      ],
+      "fixtureUsed": false,
+      "appliedToBriefing": false,
+      "evaluationEligible": true,
+      "briefingSurfaces": [],
+      "relatedIssueIds": []
+    },
+    {
+      "articleId": "rss-0fd0aa06df385b",
+      "collectedAt": "2026-06-27T00:14:00+09:00",
+      "publishedAt": "2026-06-27T00:14:00+09:00",
+      "source": "Barron's",
+      "sourceType": "rss",
+      "title": "Kevin Warsh Wants to Take the Fed Back to Greenspan’s 1990s. There’s One Big Problem. - Barron's",
+      "summary": "Kevin Warsh Wants to Take the Fed Back to Greenspan’s 1990s. There’s One Big Problem. Barron's",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNN0x1d1VId011U2tQMEExV0tpcHg1b1RDX1ZjZkMxQUk3Q1lhR05nQnF5Y0RlTlFBdHdLbGdFMHN4NElvLUFCNDVVelVacnFYSTVUTVNSLTBWeU52Umc5X1U5LWxnNFZKeUFsZG9GY3YwVFdPYkRaRXRLMnJQRmlwaEFXYkxwd3FqRlV6Ng?oc=5",
+      "keywords": [
+        "fed",
+        "FOMC"
+      ],
+      "rawCategory": "rates",
+      "category": "rates",
+      "sectors": [
+        "성장주",
+        "은행",
+        "채권"
+      ],
+      "fixtureUsed": false,
+      "appliedToBriefing": false,
+      "evaluationEligible": true,
+      "briefingSurfaces": [],
+      "relatedIssueIds": []
+    },
+    {
+      "articleId": "rss-e89ea15944a09c",
+      "collectedAt": "2026-06-27T21:15:47+09:00",
+      "publishedAt": "2026-06-27T21:15:47+09:00",
+      "source": "Crypto Briefing",
+      "sourceType": "rss",
+      "title": "Federal Reserve’s Warsh faces early tenure challenges at ECB forum - Crypto Briefing",
+      "summary": "Federal Reserve’s Warsh faces early tenure challenges at ECB forum Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9RdnRxOXNpVzRuTWdNOVQ0cE5zcDNTSnE5RGl6QlhSVlB3Yjl4R3Y4WkhJQkVRRTNURmpaeV8tQXIxWWRWU0ZIdGY1aTdXN0plbzQteXo0MGJHZFdOWE1nSHprUWhhMlpPTHc?oc=5",
+      "keywords": [
+        "fed",
+        "ecb",
+        "FOMC"
+      ],
+      "rawCategory": "rates",
+      "category": "rates",
+      "sectors": [
+        "성장주",
+        "은행",
+        "채권"
+      ],
+      "fixtureUsed": false,
+      "appliedToBriefing": false,
+      "evaluationEligible": true,
+      "briefingSurfaces": [],
+      "relatedIssueIds": []
     },
     {
       "articleId": "rss-ca52a0a469b7c2",
@@ -1706,20 +1423,21 @@
         "economy"
       ],
       "relatedIssueIds": [
-        "issue-industry-eth-xrp-doge-price-news-majors-fall-9-o-012"
+        "issue-industry-eth-xrp-doge-price-news-majors-fall-9-o-011"
       ]
     },
     {
-      "articleId": "rss-0fd0aa06df385b",
-      "collectedAt": "2026-06-27T00:14:00+09:00",
-      "publishedAt": "2026-06-27T00:14:00+09:00",
-      "source": "Barron's",
+      "articleId": "rss-e90696bb1579df",
+      "collectedAt": "2026-06-27T20:51:00+09:00",
+      "publishedAt": "2026-06-27T20:51:00+09:00",
+      "source": "IndexBox",
       "sourceType": "rss",
-      "title": "Kevin Warsh Wants to Take the Fed Back to Greenspan’s 1990s. There’s One Big Problem. - Barron's",
-      "summary": "Kevin Warsh Wants to Take the Fed Back to Greenspan’s 1990s. There’s One Big Problem. Barron's",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNN0x1d1VId011U2tQMEExV0tpcHg1b1RDX1ZjZkMxQUk3Q1lhR05nQnF5Y0RlTlFBdHdLbGdFMHN4NElvLUFCNDVVelVacnFYSTVUTVNSLTBWeU52Umc5X1U5LWxnNFZKeUFsZG9GY3YwVFdPYkRaRXRLMnJQRmlwaEFXYkxwd3FqRlV6Ng?oc=5",
+      "title": "Oil Prices Decline, AI Spending Poses Inflation Challenge for Federal Reserve in 2026 - News and Statistics - IndexBox",
+      "summary": "Oil Prices Decline, AI Spending Poses Inflation Challenge for Federal Reserve in 2026 - News and Statistics IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNa0hDNE9MYzZ3cTdHUTZjUC1XSm9MZ2ZmcndZYVppcENJTXVCLXJMcFdmS3BRMXZwU0o0cG9iUjlpSVphNmVRWmhDTE1aN1VOQzlYdU5YNlFmZjdhclBCYkJLSFY5TzlUWmo5VXoycTY1WVBmaXZ3NzVoeF9GQjdQUUV1cEstQ2lCck9rcEJFLVduODJMc0NsZ3IwNVpMMl9wOWRkeVE3dVBCMG5WWENhc3l6SQ?oc=5",
       "keywords": [
         "fed",
+        "ai",
         "FOMC"
       ],
       "rawCategory": "rates",
@@ -1842,6 +1560,59 @@
       "relatedIssueIds": []
     },
     {
+      "articleId": "rss-b768c51fe8112a",
+      "collectedAt": "2026-06-27T18:37:00+09:00",
+      "publishedAt": "2026-06-27T18:37:00+09:00",
+      "source": "FXEmpire",
+      "sourceType": "rss",
+      "title": "S&P 500 and Dow Jones Forecast: Stocks Face Inflation Risk Despite Trade Relief - FXEmpire",
+      "summary": "S&P 500 and Dow Jones Forecast: Stocks Face Inflation Risk Despite Trade Relief FXEmpire",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMFQtaUlFZExwbXpucXN1b2pKNHBQV2xPQW1WZFFqSEpiNFpMNEw0em02UDBOdmhCcTJaSTFqWDBNb1VJbmowNnRfdnRUVU1uVkRhZ3hXVFZaVlViLVB4amQya1AtSzc2ZEdlT0p3dDNFbllwd241cmUzTFJURzRUZVFnUTljLVdlVU11TzNhbk56b1lCUW1nXzYwLXJXellSNTlScXgyNG1pTU9ES1hmNWYySlBrZUVaUjRaem9zbUxSU2NnYUJB?oc=5",
+      "keywords": [
+        "ir"
+      ],
+      "rawCategory": "company",
+      "category": "company",
+      "sectors": [
+        "시장 전체"
+      ],
+      "fixtureUsed": false,
+      "appliedToBriefing": true,
+      "evaluationEligible": true,
+      "briefingSurfaces": [
+        "economy"
+      ],
+      "relatedIssueIds": [
+        "issue-company-s-p-500-and-dow-jones-forecast-stocks-fa-012"
+      ]
+    },
+    {
+      "articleId": "rss-5bf00349bd0c3e",
+      "collectedAt": "2026-06-27T16:21:14+09:00",
+      "publishedAt": "2026-06-27T16:21:14+09:00",
+      "source": "VT Markets",
+      "sourceType": "rss",
+      "title": "Gold climbs as softer dollar, easing Treasury yields temper Federal Reserve rate expectations - VT Markets",
+      "summary": "Gold climbs as softer dollar, easing Treasury yields temper Federal Reserve rate expectations VT Markets",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSmhSejlnalBZQnVFZHhiYkZXaFF4dXJ1WVc0QS1ieVVXVndFRy1aNFhVRFJNdkF6OVpSX3Z3ZHJNbmpvQm12Rmo3TERTMHZmRVRIQTMyZmtzeEFJcDZ6bmNHSDRrNHhOak5kTS1fMlVfellSNUIyN1JqS1djRG9RaDVxZHg2M3I2NnQzUTBtaVg0ajRjSEpqX3lhV2V4cjZJQjFMX3hxRWZGeTlncF9oZ082M1RFZUEyMGVRek52UlVIS1R6SU8zbmRvN2tzUlRuTHdIdw?oc=5",
+      "keywords": [
+        "fed",
+        "FOMC"
+      ],
+      "rawCategory": "rates",
+      "category": "rates",
+      "sectors": [
+        "성장주",
+        "은행",
+        "채권"
+      ],
+      "fixtureUsed": false,
+      "appliedToBriefing": false,
+      "evaluationEligible": true,
+      "briefingSurfaces": [],
+      "relatedIssueIds": []
+    },
+    {
       "articleId": "rss-e1f95841f91390",
       "collectedAt": "2026-06-26T20:11:00+09:00",
       "publishedAt": "2026-06-26T20:11:00+09:00",
@@ -1865,86 +1636,31 @@
       "relatedIssueIds": []
     },
     {
-      "articleId": "rss-4db9787e74b863",
-      "collectedAt": "2026-06-27T20:50:00+09:00",
-      "publishedAt": "2026-06-27T20:50:00+09:00",
-      "source": "IndexBox",
+      "articleId": "rss-8dbc88551686bf",
+      "collectedAt": "2026-06-28T05:58:40+09:00",
+      "publishedAt": "2026-06-28T05:58:40+09:00",
+      "source": "MSN",
       "sourceType": "rss",
-      "title": "Kevin Warsh Leads First FOMC Meeting: Rates Unchanged at 3.5%-3.75% as Inflation Hits 4.2% - News and Statistics - IndexBox",
-      "summary": "Kevin Warsh Leads First FOMC Meeting: Rates Unchanged at 3.5%-3.75% as Inflation Hits 4.2% - News and Statistics IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOURoYXpBZXQ1YTg2Z2dzVVZOdnhhSVJUZHp3V2Vtekx0SGpkZmEtNFZVa003U3k3Q0JqT29POUdvcnFDVFV4NlNncWVBNy10WHkwaUc3MWRwVmIxbWpJUnVOTUdfc2R2XzhNSTQxYVhuXzNFMFliNjVBWjV1UGJLLVhoX29NUGtJZldwV25uQ1RBTFlLc1JVQmt4aGtaRFM1RmZqcW1GVUtUMUFubFptYWludTRnSVdPZFE?oc=5",
+      "title": "Fed's Daly says AI is not for now driving inflation up or down - MSN",
+      "summary": "Fed's Daly says AI is not for now driving inflation up or down MSN",
+      "url": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxOMXpqNVFIQk1lM010R1RhakZkblZyNWJObXRnQmU0Xy13MURjYm9mM1pHV180aTlHMFVuLTB5T1pUY0hNVDVXeFNHaHNJVnBCSlotM2hOdWhuWi1SSldUb2t5UWxJdW1iNEdEcDFRRS1EbXQtckhoR1FLS2RMZG02Z0Nab0NlZlJNanpDbndBUmlXXy14XzF4ZHo5T0sxYm9xbkJHdTZKN2Q5X19pWXpDamNuX2lCRVVPY0g2c0ZHVHdsb19LTUtYWGJ6M2F5OE10bFpSRld5S3JxSjJINjJBYnZNeWhxZ2x6NXd1ZHlGRFJzUmRsaDJ0OUdnOVo2M0ZxSjl0UFV6ZVR2UmlyVXJJX3JHeFJkSUx2WE0xRHZYWjcyUW85R21qMGJTdlZQWnFFVHlTUnBNQ1pSRDhDZi1yaWFKdTBwTHVnN3Y5QUJCelNUN3VCRllIbTFfTXF1U1ZFTjNFZS1ZM0JUYVJYTlE?oc=5",
       "keywords": [
-        "fomc",
-        "ir",
-        "FOMC"
-      ],
-      "rawCategory": "rates",
-      "category": "rates",
-      "sectors": [
-        "성장주",
-        "은행",
-        "채권"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "rss-387203b78aa9f8",
-      "collectedAt": "2026-06-27T20:01:00+09:00",
-      "publishedAt": "2026-06-27T20:01:00+09:00",
-      "source": "IndexBox",
-      "sourceType": "rss",
-      "title": "Kevin Warsh's First FOMC Meeting: Hawkish Stance on Inflation and Rate Hikes - News and Statistics - IndexBox",
-      "summary": "Kevin Warsh's First FOMC Meeting: Hawkish Stance on Inflation and Rate Hikes - News and Statistics IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYk1raXBTS2Z5UUtWWnk5RUkxeExsODVZQ3Q3dEtQSDlJWll1SnZsZXhYVk14a1ZvYTRNMXR6bzlPWU5tT2Y1alRLU21ZbmNGSWtHaDdZODNPc25jT29qQ3V3Yld2N18xQVRGNXNlNXhEWmdxV2lmaEVjWUR2Qzc4ODN3OWFwX29QaS1kTEFvd1YtV0pQT1NwRUJZQQ?oc=5",
-      "keywords": [
-        "fomc",
-        "ir",
-        "FOMC"
-      ],
-      "rawCategory": "rates",
-      "category": "rates",
-      "sectors": [
-        "성장주",
-        "은행",
-        "채권"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "rss-faf36364238f06",
-      "collectedAt": "2026-06-27T21:26:07+09:00",
-      "publishedAt": "2026-06-27T21:26:07+09:00",
-      "source": "Ticker News",
-      "sourceType": "rss",
-      "title": "Markets rattled by AI fears, Iran tensions and inflation concerns - Ticker News",
-      "summary": "Markets rattled by AI fears, Iran tensions and inflation concerns Ticker News",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdGlIa1BKT2lUWXgzVS1iYTAxT1FDN3BDc2F0NEpEMndoSWV2SlJnRGdlM2xwU1oySVFjU0NsdFVuTDcycFZiaEwwZ0lTMzJOM243RmNqOFgwc2dQc2ZaaFFFSG9RS2RoWjVKQnNYSndYN0MtdHFBczRGa1VDMk1GU3hkZHAteFRZWkNfWURVVGTSAZYBQVVfeXFMT3FQQUwxRUtoYnI2dzlDVFVyUUFvNkM3YkFmMXlwclJwQVd2X2ZSeGNkQWxHMkNvVTVibGFrZUNOeDI1OEFMY3RjS1RkNV9hT0p1cFVrLVJtelhSMDN6aG9Ed3Y3eEFMdEh4bE1Va0RaaklkQVVpallINFRWYktDZ0VvZ1pjR2RwRXZRbFhaZkE2UldrVXd3?oc=5",
-      "keywords": [
+        "fed",
         "ai",
-        "ir"
+        "FOMC"
       ],
-      "rawCategory": "industry",
-      "category": "industry",
+      "rawCategory": "rates",
+      "category": "rates",
       "sectors": [
-        "시장 전체"
+        "성장주",
+        "은행",
+        "채권"
       ],
       "fixtureUsed": false,
-      "appliedToBriefing": true,
+      "appliedToBriefing": false,
       "evaluationEligible": true,
-      "briefingSurfaces": [
-        "economy"
-      ],
-      "relatedIssueIds": [
-        "issue-industry-markets-rattled-by-ai-fears-iran-tensio-013"
-      ]
+      "briefingSurfaces": [],
+      "relatedIssueIds": []
     },
     {
       "articleId": "rss-0a07fcdb2a58ed",
@@ -1999,84 +1715,6 @@
       "relatedIssueIds": []
     },
     {
-      "articleId": "rss-3819cc2cd06719",
-      "collectedAt": "2026-06-27T02:32:38+09:00",
-      "publishedAt": "2026-06-27T02:32:38+09:00",
-      "source": "arabictrader.com",
-      "sourceType": "rss",
-      "title": "Kevin Warsh is pushing for reforms within the Federal Reserve through new advisors - arabictrader.com",
-      "summary": "Kevin Warsh is pushing for reforms within the Federal Reserve through new advisors arabictrader.com",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbDlJQjE2Nm9BMlJHWVJwTEg4ZDFWeVhyREZzNWIxcFVXTGtfblhNclYyejBuQnBVYUtNcjdHZFBBcnF6MFZnWks0TzQxcHJtWDBaY01uUS1KTDZPblFuTW1CTEhTdjhXSnhUN1FuVW1pTUNYN0NWeC12bm9oT096TzVPZGRHMjREaUZDS1pDM1YtaHRpUHUtRTVRUGU4bEpiWW1Jd0g5eV9MM2VmMjR6d0hQYnVWQXRaV2dXWnJFeFpDX3RmRU9zOUd5cnFxTnM?oc=5",
-      "keywords": [
-        "fed",
-        "FOMC"
-      ],
-      "rawCategory": "rates",
-      "category": "rates",
-      "sectors": [
-        "성장주",
-        "은행",
-        "채권"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "rss-d0249465ebcb7e",
-      "collectedAt": "2026-06-27T02:48:42+09:00",
-      "publishedAt": "2026-06-27T02:48:42+09:00",
-      "source": "Bitget",
-      "sourceType": "rss",
-      "title": "Selection of new president for Federal Reserve Bank of Atlanta reaches deadlock, search process restarts - Bitget",
-      "summary": "Selection of new president for Federal Reserve Bank of Atlanta reaches deadlock, search process restarts Bitget",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5Xcm52VkpHZlRqWVNTMGJYYy1oY1FuQlp4SHo3VFRmcXVKM3ptR05vRGNOcHlWbzB4UFFRUnJVNk9nOVpzaTRSYWVnNzJtS21wVWdBMThtU2dZNE9LMG13WVRXSdIBY0FVX3lxTE5Xcm52VkpHZlRqWVNTMGJYYy1oY1FuQlp4SHo3VFRmcXVKM3ptR05vRGNOcHlWbzB4UFFRUnJVNk9nOVpzaTRSYWVnNzJtS21wVWdBMThtU2dZNE9LMG13WVRXSQ?oc=5",
-      "keywords": [
-        "fed",
-        "FOMC"
-      ],
-      "rawCategory": "rates",
-      "category": "rates",
-      "sectors": [
-        "성장주",
-        "은행",
-        "채권"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "rss-9b384389518738",
-      "collectedAt": "2026-06-28T09:40:59+09:00",
-      "publishedAt": "2026-06-28T09:40:59+09:00",
-      "source": "MSN",
-      "sourceType": "rss",
-      "title": "Energy inflation has been more persistent than expected, Fed's Goolsbee tells CNBC - MSN",
-      "summary": "Energy inflation has been more persistent than expected, Fed's Goolsbee tells CNBC MSN",
-      "url": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxQNlZYWVJaelJYWXo5M1BOZVk3aWtaT0lraWRhTG05S25zMW5YT3hXQzhKYVlXY2cweVhUV1g0QjRrY3VWbkJHWnY2NVhTUzNUdmhuRzQ4WENVMk9VLU5MUVN6LXctNG5JVEpfVjQydXE1cHhURVlRLWhhQTZNbEZWZEFXV2hzbDlGMmtCWndQVGZpSFJxbG9wUjF4cjNWYkwwaTRlY3FpSE5ZV2NxazY2R3FqNkx0aTJFcHFTS0VBYTc1UXRzZHpzMXQ2TXcxeENaSUN1SjVHUUJhLV93MXR5dWxyLU1sRVFkT0R4c0tGc2x4a0hoZEc2NUFUdFNDWU5uWWxVX0oyTUg2cFk5VXlnNG1URkV2dlBkeTJzbjRscU5hVklFQlFfWVdCaGJoWjBsWkhJNVdYeFoyOUF5MTJtMUZIOC1CbF9yN1U2UDZjaXBDTWxyUGtmcWJqekFFWlRWZ3R1Vg?oc=5",
-      "keywords": [
-        "fed",
-        "FOMC"
-      ],
-      "rawCategory": "rates",
-      "category": "rates",
-      "sectors": [
-        "성장주",
-        "은행",
-        "채권"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
       "articleId": "rss-3f16a096228408",
       "collectedAt": "2026-06-27T05:18:29+09:00",
       "publishedAt": "2026-06-27T05:18:29+09:00",
@@ -2104,33 +1742,6 @@
       "relatedIssueIds": []
     },
     {
-      "articleId": "rss-0b0ec45e250827",
-      "collectedAt": "2026-06-27T21:21:17+09:00",
-      "publishedAt": "2026-06-27T21:21:17+09:00",
-      "source": "Intellectia AI",
-      "sourceType": "rss",
-      "title": "Fed Interest Rate Decision June 2026: Dot Plot Signals Hawkish Shift - Intellectia AI",
-      "summary": "Fed Interest Rate Decision June 2026: Dot Plot Signals Hawkish Shift Intellectia AI",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE51LW9XT3ZURHN6UXpCZS1TWVV3UG1oeUlQWnFZbWdMMDZxUW5CNy1Qa3hWM1NVcXpSRnJnNDhiRUN6eVhmOEFqX3c5UG8zTGtfQS1zTW5uZk1DdXdLWW1tbmR0amdkZkctelhvbDBBTmc5azNjakE?oc=5",
-      "keywords": [
-        "fed",
-        "ai",
-        "FOMC"
-      ],
-      "rawCategory": "rates",
-      "category": "rates",
-      "sectors": [
-        "성장주",
-        "은행",
-        "채권"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
       "articleId": "rss-517d43819f3bf2",
       "collectedAt": "2026-06-27T09:34:08+09:00",
       "publishedAt": "2026-06-27T09:34:08+09:00",
@@ -2139,85 +1750,6 @@
       "title": "In the early morning, the Federal Reserve \"declares war,\" and the world pretends not to hear - Bitget",
       "summary": "In the early morning, the Federal Reserve \"declares war,\" and the world pretends not to hear Bitget",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE05bllTXzNsSllsNzhqT2paZkUxcURkTHZVQk9QYjFtSkp3ODlKWUp5d2NzZzdBdGJFNXoxbHFDdEV5eG1UQUt4akVVM1QtZUVncHBsYkZRUHNpbTdqQkUwVVZfY9IBY0FVX3lxTE05bllTXzNsSllsNzhqT2paZkUxcURkTHZVQk9QYjFtSkp3ODlKWUp5d2NzZzdBdGJFNXoxbHFDdEV5eG1UQUt4akVVM1QtZUVncHBsYkZRUHNpbTdqQkUwVVZfYw?oc=5",
-      "keywords": [
-        "fed",
-        "FOMC"
-      ],
-      "rawCategory": "rates",
-      "category": "rates",
-      "sectors": [
-        "성장주",
-        "은행",
-        "채권"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "rss-3c6c06ba301fb5",
-      "collectedAt": "2026-06-26T18:45:16+09:00",
-      "publishedAt": "2026-06-26T18:45:16+09:00",
-      "source": "Yahoo",
-      "sourceType": "rss",
-      "title": "Fed Chair Warsh taps veteran economists as advisers, WSJ reports - Yahoo",
-      "summary": "Fed Chair Warsh taps veteran economists as advisers, WSJ reports Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQLXJYSzM0V2FpZ1hHSGdPc3NFaDh0dXNBdVJ2UjdOdk04MVJwa1hob1czS3c3UUN1bTJVYnQ2VGtZUTRNVS1Wdm0tTUwyNWRfdGVWZmF3T2Z4aUpvRUxqMkdoRndUNlZlYTVJTmgzYnJhQ1FLZ29BWjBRUWhXVTJlUVRqNlktdTZJMkZnLUY0N1REUQ?oc=5",
-      "keywords": [
-        "fed",
-        "ai",
-        "ir",
-        "FOMC"
-      ],
-      "rawCategory": "rates",
-      "category": "rates",
-      "sectors": [
-        "성장주",
-        "은행",
-        "채권"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "rss-864498d9a64cee",
-      "collectedAt": "2026-06-28T01:47:42+09:00",
-      "publishedAt": "2026-06-28T01:47:42+09:00",
-      "source": "Tekedia",
-      "sourceType": "rss",
-      "title": "US Personal Consumption Expenditures (PCE) Inflation Climbs to Three-Year High as Asian Markets Tumble - Tekedia",
-      "summary": "US Personal Consumption Expenditures (PCE) Inflation Climbs to Three-Year High as Asian Markets Tumble Tekedia",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTkJqb3FpSjV0SmxfVTBjLXZNY1JxVWlMOHA3eWJwTkJqbGh3SjNoN3ZTbl9pTXZHeks3MHIxYkZBbDRqNEhkTWxpYzByamFoUm8tWFZ3WXhLbTJyNUFzc2hqeVM3Y2JucFVVOHZEbDdNRWNfQlFBVFpuU0tUdjN4d3hDZkRYcW9DSjNDeHpvcExWUWdKU3JiQjhEU0ZVOHNiRE1BUi00UTJKNkctWFNUOVEwY2R1dzFLVE1kRFlhRzJxV0k?oc=5",
-      "keywords": [],
-      "rawCategory": "market",
-      "category": "market",
-      "sectors": [
-        "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "economy"
-      ],
-      "relatedIssueIds": [
-        "issue-market-us-personal-consumption-expenditures-pce--014"
-      ]
-    },
-    {
-      "articleId": "rss-82278c97fde329",
-      "collectedAt": "2026-06-27T17:48:59+09:00",
-      "publishedAt": "2026-06-27T17:48:59+09:00",
-      "source": "Bitget",
-      "sourceType": "rss",
-      "title": "The probability of a 25 basis point rate hike by the Federal Reserve in July is currently at 29.9%. - Bitget",
-      "summary": "The probability of a 25 basis point rate hike by the Federal Reserve in July is currently at 29.9%. Bitget",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5LVC05NVBuYmROUkxyUlV0QnZtY25iZTNTX1pRTEtVUk5jVlNqWnpqM3gtaHpWZ0NQZ3RuUG9FLVp3UG14ZEVBZDRwZG03ZXVnWGtzdDNjeGhrZEttNms4ajVlQdIBY0FVX3lxTE5LVC05NVBuYmROUkxyUlV0QnZtY25iZTNTX1pRTEtVUk5jVlNqWnpqM3gtaHpWZ0NQZ3RuUG9FLVp3UG14ZEVBZDRwZG03ZXVnWGtzdDNjeGhrZEttNms4ajVlQQ?oc=5",
       "keywords": [
         "fed",
         "FOMC"
@@ -2262,14 +1794,41 @@
       "relatedIssueIds": []
     },
     {
-      "articleId": "rss-c588f8816ff01d",
-      "collectedAt": "2026-06-27T02:48:42+09:00",
-      "publishedAt": "2026-06-27T02:48:42+09:00",
-      "source": "Bitget",
+      "articleId": "rss-4db9787e74b863",
+      "collectedAt": "2026-06-27T20:50:00+09:00",
+      "publishedAt": "2026-06-27T20:50:00+09:00",
+      "source": "IndexBox",
       "sourceType": "rss",
-      "title": "The US Federal Reserve's overnight reverse repurchase agreement (RRP) usage reached $642.6 million on Friday. - Bitget",
-      "summary": "The US Federal Reserve's overnight reverse repurchase agreement (RRP) usage reached $642.6 million on Friday. Bitget",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE44RUtpZDNXLUtIaTg3OGM4NXZhQnVuc1dVZGhXeEFsVVBHdVoxc29lUC01TWNjd0l6cFFoZGNzeXV0aldjSzI4TzhsOXpJaUd1X2ltcjY2U3ppXzh3VENhYlNmb9IBY0FVX3lxTE44RUtpZDNXLUtIaTg3OGM4NXZhQnVuc1dVZGhXeEFsVVBHdVoxc29lUC01TWNjd0l6cFFoZGNzeXV0aldjSzI4TzhsOXpJaUd1X2ltcjY2U3ppXzh3VENhYlNmbw?oc=5",
+      "title": "Kevin Warsh Leads First FOMC Meeting: Rates Unchanged at 3.5%-3.75% as Inflation Hits 4.2% - News and Statistics - IndexBox",
+      "summary": "Kevin Warsh Leads First FOMC Meeting: Rates Unchanged at 3.5%-3.75% as Inflation Hits 4.2% - News and Statistics IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOURoYXpBZXQ1YTg2Z2dzVVZOdnhhSVJUZHp3V2Vtekx0SGpkZmEtNFZVa003U3k3Q0JqT29POUdvcnFDVFV4NlNncWVBNy10WHkwaUc3MWRwVmIxbWpJUnVOTUdfc2R2XzhNSTQxYVhuXzNFMFliNjVBWjV1UGJLLVhoX29NUGtJZldwV25uQ1RBTFlLc1JVQmt4aGtaRFM1RmZqcW1GVUtUMUFubFptYWludTRnSVdPZFE?oc=5",
+      "keywords": [
+        "fomc",
+        "ir",
+        "FOMC"
+      ],
+      "rawCategory": "rates",
+      "category": "rates",
+      "sectors": [
+        "성장주",
+        "은행",
+        "채권"
+      ],
+      "fixtureUsed": false,
+      "appliedToBriefing": false,
+      "evaluationEligible": true,
+      "briefingSurfaces": [],
+      "relatedIssueIds": []
+    },
+    {
+      "articleId": "rss-e1130a53cc4f4e",
+      "collectedAt": "2026-06-27T14:37:30+09:00",
+      "publishedAt": "2026-06-27T14:37:30+09:00",
+      "source": "VT Markets",
+      "sourceType": "rss",
+      "title": "Commerzbank Sees Cooling US Inflation as Energy Prices Fall, Fed to Hold, Dollar Vulnerable - VT Markets",
+      "summary": "Commerzbank Sees Cooling US Inflation as Energy Prices Fall, Fed to Hold, Dollar Vulnerable VT Markets",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPLTJaM2lvTFlmSmM4UXl5ZXBUemVQMTNPamNLTFUyVzZrWnA2TkJTZWxpSDNlZkN6YkpVOE1HZ2hyQ1dWNmZhd1Q2dWoxUV9RWVA5Sng1dGRGN1RuSUFhcnppa1pmcm5uNHAxSkh1UWdLYlZYemtQUjZaS01QTF9na2RVb2h6V3NjZ0w0RWFEU0dVdzg2RVFOelc1QnQxNWlQTVFKbVlwZ2ZVYXM2N0lCd0hkMjNXWUpUYUNYTUZlU0lwZFkzWE1mcmY1cl9sWFgw?oc=5",
       "keywords": [
         "fed",
         "FOMC"
@@ -2288,21 +1847,158 @@
       "relatedIssueIds": []
     },
     {
-      "articleId": "rss-e67100dd325853",
-      "collectedAt": "2026-06-26T17:32:59+09:00",
-      "publishedAt": "2026-06-26T17:32:59+09:00",
-      "source": "Moomoo",
+      "articleId": "rss-faf36364238f06",
+      "collectedAt": "2026-06-27T21:26:07+09:00",
+      "publishedAt": "2026-06-27T21:26:07+09:00",
+      "source": "Ticker News",
       "sourceType": "rss",
-      "title": "U.S. inflation isn't cooling down that easily: even as oil prices fall, companies like Apple are still raising prices. - Moomoo",
-      "summary": "U.S. inflation isn't cooling down that easily: even as oil prices fall, companies like Apple are still raising prices. Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNS2V5NXFhUDhnLXhrXzh0WGVoOWxubVNDX21WZms5UjNwdHJfRW9LN0xmc2JOY2hoUC14QVhZT1NhOTk3dnk4SllETmRvMGozX2tmZWNWU0R1dzRxd3hLSlpLRTBPQTBfUkRHN00zV19BTXVDeF9oTU9OT3lwSjhURHFtN1ZTSFJkblh3UGdCSUJMcWxybFJ2UA?oc=5",
+      "title": "Markets rattled by AI fears, Iran tensions and inflation concerns - Ticker News",
+      "summary": "Markets rattled by AI fears, Iran tensions and inflation concerns Ticker News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdGlIa1BKT2lUWXgzVS1iYTAxT1FDN3BDc2F0NEpEMndoSWV2SlJnRGdlM2xwU1oySVFjU0NsdFVuTDcycFZiaEwwZ0lTMzJOM243RmNqOFgwc2dQc2ZaaFFFSG9RS2RoWjVKQnNYSndYN0MtdHFBczRGa1VDMk1GU3hkZHAteFRZWkNfWURVVGTSAZYBQVVfeXFMT3FQQUwxRUtoYnI2dzlDVFVyUUFvNkM3YkFmMXlwclJwQVd2X2ZSeGNkQWxHMkNvVTVibGFrZUNOeDI1OEFMY3RjS1RkNV9hT0p1cFVrLVJtelhSMDN6aG9Ed3Y3eEFMdEh4bE1Va0RaaklkQVVpallINFRWYktDZ0VvZ1pjR2RwRXZRbFhaZkE2UldrVXd3?oc=5",
       "keywords": [
-        "ai"
+        "ai",
+        "ir"
       ],
       "rawCategory": "industry",
       "category": "industry",
       "sectors": [
         "시장 전체"
+      ],
+      "fixtureUsed": false,
+      "appliedToBriefing": true,
+      "evaluationEligible": true,
+      "briefingSurfaces": [
+        "economy"
+      ],
+      "relatedIssueIds": [
+        "issue-industry-markets-rattled-by-ai-fears-iran-tensio-013"
+      ]
+    },
+    {
+      "articleId": "rss-387203b78aa9f8",
+      "collectedAt": "2026-06-27T20:01:00+09:00",
+      "publishedAt": "2026-06-27T20:01:00+09:00",
+      "source": "IndexBox",
+      "sourceType": "rss",
+      "title": "Kevin Warsh's First FOMC Meeting: Hawkish Stance on Inflation and Rate Hikes - News and Statistics - IndexBox",
+      "summary": "Kevin Warsh's First FOMC Meeting: Hawkish Stance on Inflation and Rate Hikes - News and Statistics IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYk1raXBTS2Z5UUtWWnk5RUkxeExsODVZQ3Q3dEtQSDlJWll1SnZsZXhYVk14a1ZvYTRNMXR6bzlPWU5tT2Y1alRLU21ZbmNGSWtHaDdZODNPc25jT29qQ3V3Yld2N18xQVRGNXNlNXhEWmdxV2lmaEVjWUR2Qzc4ODN3OWFwX29QaS1kTEFvd1YtV0pQT1NwRUJZQQ?oc=5",
+      "keywords": [
+        "fomc",
+        "ir",
+        "FOMC"
+      ],
+      "rawCategory": "rates",
+      "category": "rates",
+      "sectors": [
+        "성장주",
+        "은행",
+        "채권"
+      ],
+      "fixtureUsed": false,
+      "appliedToBriefing": false,
+      "evaluationEligible": true,
+      "briefingSurfaces": [],
+      "relatedIssueIds": []
+    },
+    {
+      "articleId": "rss-61aba9a6bd4277",
+      "collectedAt": "2026-06-27T13:33:17+09:00",
+      "publishedAt": "2026-06-27T13:33:17+09:00",
+      "source": "CryptoRank",
+      "sourceType": "rss",
+      "title": "Gold Drops Below $4,500 as Iran Tensions Fuel Inflation Fears, Bolster Fed Rate Hike Bets - CryptoRank",
+      "summary": "Gold Drops Below $4,500 as Iran Tensions Fuel Inflation Fears, Bolster Fed Rate Hike Bets CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNFhDR1YxNFItWlJtdGxlYmpjdGR2TlJqYUVWb1Q4ZS1ISE9tQWdpbHU4c1MwZEM1MzktMnRFWnJyRkc5eHpaSnV6OWlSUHhReENFNmZHWTRoeTVrcFF3ejNqTC03ZkZOTXM0dXBNcS1OcENlbVpoOHpCZjFKNloxbFhRZGlDU3VFZjdhV2JaU1NfUndDLWc?oc=5",
+      "keywords": [
+        "fed",
+        "ir",
+        "FOMC"
+      ],
+      "rawCategory": "rates",
+      "category": "rates",
+      "sectors": [
+        "성장주",
+        "은행",
+        "채권"
+      ],
+      "fixtureUsed": false,
+      "appliedToBriefing": false,
+      "evaluationEligible": true,
+      "briefingSurfaces": [],
+      "relatedIssueIds": []
+    },
+    {
+      "articleId": "rss-864498d9a64cee",
+      "collectedAt": "2026-06-28T01:47:42+09:00",
+      "publishedAt": "2026-06-28T01:47:42+09:00",
+      "source": "Tekedia",
+      "sourceType": "rss",
+      "title": "US Personal Consumption Expenditures (PCE) Inflation Climbs to Three-Year High as Asian Markets Tumble - Tekedia",
+      "summary": "US Personal Consumption Expenditures (PCE) Inflation Climbs to Three-Year High as Asian Markets Tumble Tekedia",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTkJqb3FpSjV0SmxfVTBjLXZNY1JxVWlMOHA3eWJwTkJqbGh3SjNoN3ZTbl9pTXZHeks3MHIxYkZBbDRqNEhkTWxpYzByamFoUm8tWFZ3WXhLbTJyNUFzc2hqeVM3Y2JucFVVOHZEbDdNRWNfQlFBVFpuU0tUdjN4d3hDZkRYcW9DSjNDeHpvcExWUWdKU3JiQjhEU0ZVOHNiRE1BUi00UTJKNkctWFNUOVEwY2R1dzFLVE1kRFlhRzJxV0k?oc=5",
+      "keywords": [],
+      "rawCategory": "market",
+      "category": "market",
+      "sectors": [
+        "시장 전체"
+      ],
+      "fixtureUsed": false,
+      "appliedToBriefing": true,
+      "evaluationEligible": true,
+      "briefingSurfaces": [
+        "economy"
+      ],
+      "relatedIssueIds": [
+        "issue-market-us-personal-consumption-expenditures-pce--014"
+      ]
+    },
+    {
+      "articleId": "rss-0b0ec45e250827",
+      "collectedAt": "2026-06-27T21:21:17+09:00",
+      "publishedAt": "2026-06-27T21:21:17+09:00",
+      "source": "Intellectia AI",
+      "sourceType": "rss",
+      "title": "Fed Interest Rate Decision June 2026: Dot Plot Signals Hawkish Shift - Intellectia AI",
+      "summary": "Fed Interest Rate Decision June 2026: Dot Plot Signals Hawkish Shift Intellectia AI",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE51LW9XT3ZURHN6UXpCZS1TWVV3UG1oeUlQWnFZbWdMMDZxUW5CNy1Qa3hWM1NVcXpSRnJnNDhiRUN6eVhmOEFqX3c5UG8zTGtfQS1zTW5uZk1DdXdLWW1tbmR0amdkZkctelhvbDBBTmc5azNjakE?oc=5",
+      "keywords": [
+        "fed",
+        "ai",
+        "FOMC"
+      ],
+      "rawCategory": "rates",
+      "category": "rates",
+      "sectors": [
+        "성장주",
+        "은행",
+        "채권"
+      ],
+      "fixtureUsed": false,
+      "appliedToBriefing": false,
+      "evaluationEligible": true,
+      "briefingSurfaces": [],
+      "relatedIssueIds": []
+    },
+    {
+      "articleId": "rss-82278c97fde329",
+      "collectedAt": "2026-06-27T17:48:59+09:00",
+      "publishedAt": "2026-06-27T17:48:59+09:00",
+      "source": "Bitget",
+      "sourceType": "rss",
+      "title": "The probability of a 25 basis point rate hike by the Federal Reserve in July is currently at 29.9%. - Bitget",
+      "summary": "The probability of a 25 basis point rate hike by the Federal Reserve in July is currently at 29.9%. Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5LVC05NVBuYmROUkxyUlV0QnZtY25iZTNTX1pRTEtVUk5jVlNqWnpqM3gtaHpWZ0NQZ3RuUG9FLVp3UG14ZEVBZDRwZG03ZXVnWGtzdDNjeGhrZEttNms4ajVlQdIBY0FVX3lxTE5LVC05NVBuYmROUkxyUlV0QnZtY25iZTNTX1pRTEtVUk5jVlNqWnpqM3gtaHpWZ0NQZ3RuUG9FLVp3UG14ZEVBZDRwZG03ZXVnWGtzdDNjeGhrZEttNms4ajVlQQ?oc=5",
+      "keywords": [
+        "fed",
+        "FOMC"
+      ],
+      "rawCategory": "rates",
+      "category": "rates",
+      "sectors": [
+        "성장주",
+        "은행",
+        "채권"
       ],
       "fixtureUsed": false,
       "appliedToBriefing": false,
@@ -2367,6 +2063,39 @@
       ],
       "relatedIssueIds": [
         "issue-industry-the-ai-bubble-has-further-to-run-despit-015"
+      ]
+    },
+    {
+      "articleId": "rss-cb8fc12e888bbc",
+      "collectedAt": "2026-06-28T04:08:52+09:00",
+      "publishedAt": "2026-06-28T04:08:52+09:00",
+      "source": "Yahoo Finance",
+      "sourceType": "rss",
+      "title": "NVIDIA (NVDA) Announces the NVIDIA Vera Rubin Platform - Yahoo Finance",
+      "summary": "NVIDIA (NVDA) Announces the NVIDIA Vera Rubin Platform Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUC1rWUZWckk5dTNzNmdia3JSejI5OG5lR2pFdm96X2VqZmZZYWVUR0xiM1ZOX0x1SXBMVHhfN0JiRTFaUGg4dTJsTnR1end6R3ZHazQ2Q2xyRkdLQk5GeGxWblYxdGxKV3VyYldkblRDclNQUUxNeVFfRTI0WFVWUWVnQXlYb1hlZ0hqaGJoOEdYMDl3X1NDLUVuRGdWQQ?oc=5",
+      "keywords": [
+        "nvidia",
+        "nvda",
+        "엔비디아"
+      ],
+      "rawCategory": "industry",
+      "category": "industry",
+      "sectors": [
+        "반도체",
+        "데이터센터",
+        "장비"
+      ],
+      "fixtureUsed": false,
+      "appliedToBriefing": true,
+      "evaluationEligible": true,
+      "briefingSurfaces": [
+        "economy",
+        "interest"
+      ],
+      "relatedIssueIds": [
+        "issue-ef403eaa-002",
+        "interest-kw-nvidia-issue-ef403eaa-002"
       ]
     },
     {
@@ -2450,6 +2179,60 @@
       ]
     },
     {
+      "articleId": "rss-0f7a1042bf1fc6",
+      "collectedAt": "2026-06-28T02:51:12+09:00",
+      "publishedAt": "2026-06-28T02:51:12+09:00",
+      "source": "anl.gov",
+      "sourceType": "rss",
+      "title": "Accelerating Science with AI - anl.gov",
+      "summary": "Accelerating Science with AI anl.gov",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9HUWlmeFctYXZwb0ZCX25QUzB2UnlWREVKM05qbjFQeU5kRnVhTFJuNmphS3FNb2RjMzhCenU4TEF4T1NHMF9CZ1BTQ1JGczV0cXJ2WHB1Qk1HaVFfUmhKZWNzY0tUMEhaaElNc1RVUkt1UQ?oc=5",
+      "keywords": [
+        "ai"
+      ],
+      "rawCategory": "industry",
+      "category": "industry",
+      "sectors": [
+        "시장 전체"
+      ],
+      "fixtureUsed": false,
+      "appliedToBriefing": true,
+      "evaluationEligible": true,
+      "briefingSurfaces": [
+        "economy"
+      ],
+      "relatedIssueIds": [
+        "issue-industry-accelerating-science-with-ai-anl-gov-019"
+      ]
+    },
+    {
+      "articleId": "rss-752ae974935e21",
+      "collectedAt": "2026-06-28T00:00:22+09:00",
+      "publishedAt": "2026-06-28T00:00:22+09:00",
+      "source": "ServeTheHome",
+      "sourceType": "rss",
+      "title": "Taking an Up-Close Look at the Supermicro GB300 Super AI Station - ServeTheHome",
+      "summary": "Taking an Up-Close Look at the Supermicro GB300 Super AI Station ServeTheHome",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeDJ6bTdIQU5UVmlUZ3loOFBHdHg2SEs0Zmd1X3ZBeEtRaHJuTXRjMnl3aVl3V0pra1FwZVF1MlNjcW4zSTNOM3A1cGREa2tyMVpiSF9xLWtQVjhBeU5mdHpJdktjTVl5QTE4bnpHZWdvUzUtaEZoYkVwa3J3XzExYkJyY2JXYTJwR1Fib05ybjVmX3BzM2ZiS3FR?oc=5",
+      "keywords": [
+        "ai"
+      ],
+      "rawCategory": "industry",
+      "category": "industry",
+      "sectors": [
+        "시장 전체"
+      ],
+      "fixtureUsed": false,
+      "appliedToBriefing": true,
+      "evaluationEligible": true,
+      "briefingSurfaces": [
+        "economy"
+      ],
+      "relatedIssueIds": [
+        "issue-industry-taking-an-up-close-look-at-the-supermic-020"
+      ]
+    },
+    {
       "articleId": "rss-a12b380a93d013",
       "collectedAt": "2026-06-27T22:12:36+09:00",
       "publishedAt": "2026-06-27T22:12:36+09:00",
@@ -2473,7 +2256,7 @@
         "economy"
       ],
       "relatedIssueIds": [
-        "issue-industry-alphabet-burnishes-one-of-its-best-weap-019"
+        "issue-industry-alphabet-burnishes-one-of-its-best-weap-021"
       ]
     },
     {
@@ -2500,241 +2283,7 @@
         "economy"
       ],
       "relatedIssueIds": [
-        "issue-industry-it-s-not-going-away-the-stanford-econom-020"
-      ]
-    },
-    {
-      "articleId": "rss-cb8fc12e888bbc",
-      "collectedAt": "2026-06-28T04:08:52+09:00",
-      "publishedAt": "2026-06-28T04:08:52+09:00",
-      "source": "Yahoo Finance",
-      "sourceType": "rss",
-      "title": "NVIDIA (NVDA) Announces the NVIDIA Vera Rubin Platform - Yahoo Finance",
-      "summary": "NVIDIA (NVDA) Announces the NVIDIA Vera Rubin Platform Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUC1rWUZWckk5dTNzNmdia3JSejI5OG5lR2pFdm96X2VqZmZZYWVUR0xiM1ZOX0x1SXBMVHhfN0JiRTFaUGg4dTJsTnR1end6R3ZHazQ2Q2xyRkdLQk5GeGxWblYxdGxKV3VyYldkblRDclNQUUxNeVFfRTI0WFVWUWVnQXlYb1hlZ0hqaGJoOEdYMDl3X1NDLUVuRGdWQQ?oc=5",
-      "keywords": [
-        "nvidia",
-        "nvda",
-        "엔비디아"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "반도체",
-        "데이터센터",
-        "장비"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "economy",
-        "interest"
-      ],
-      "relatedIssueIds": [
-        "issue-ef403eaa-002",
-        "interest-kw-nvidia-issue-ef403eaa-002"
-      ]
-    },
-    {
-      "articleId": "rss-be16e95cf5582d",
-      "collectedAt": "2026-06-28T04:00:00+09:00",
-      "publishedAt": "2026-06-28T04:00:00+09:00",
-      "source": "The Hill",
-      "sourceType": "rss",
-      "title": "AI is creating America’s next underclass - The Hill",
-      "summary": "AI is creating America’s next underclass The Hill",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNN09kN0tNa2NJT3BVV1UwVzROR1BFb21Wa0I2dVN2YU4zYnp2Z1JXN0E3d21ETWJJZzZUdm9ZcjB5YmVGY3F2V0VmcHc3NU56bjZBZmlYVFRrZFl6a2hoUFViV3pyakRyOU1VTWNMN2dGTzlxUTBpcjFwWER4WGt6YdIBhgFBVV95cUxQSEpESnF4NUM0RXZQMFZGWHlhRUR2T29kajBfVS1LX2VFNXBoWjdDMFdVbkJGUDBNMlhnTV9XbVFRc3lRemJJczZDMGtRT01EazVwOWFTM1JNYS1mX2JFc3BVV0xXb25DSHd2Vk9oSE5CejhaV1ZtaHlPTFVqc19hWmQ4SWdHdw?oc=5",
-      "keywords": [
-        "ai"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "economy"
-      ],
-      "relatedIssueIds": [
-        "issue-industry-ai-is-creating-america-s-next-underclas-021"
-      ]
-    },
-    {
-      "articleId": "rss-b74ac2d18a918d",
-      "collectedAt": "2026-06-27T21:00:01+09:00",
-      "publishedAt": "2026-06-27T21:00:01+09:00",
-      "source": "CNBC",
-      "sourceType": "rss",
-      "title": "How GE Vernova builds the massive gas turbines powering the AI data center boom - CNBC",
-      "summary": "How GE Vernova builds the massive gas turbines powering the AI data center boom CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOOWJyakJOOHU5STZ2dnNwNGVZazRKczFHNnlZZnZzaUpzRnhZTUMxOW9zNUE1TExrakpTVlVTRU9HNWZtNEFwemVGWEd4RTg1Y2szV1lmMnBkQVNEYTlGOElDOThJbUYxUXlxdkMtWVVEOHEyY0gzVkc1UHBLUjVQbS1B0gGHAUFVX3lxTFBMUWE0MS01eHJPWEtBU0lDYV9fSlloY095dEFnUXJXd2RSa0ZKT253bUpUaExmRXQ5blZsSzRRT0J1SkQ1NTVwYTh4WlhEOUEwSEp4Rkl2S2xXNXJ5aFpaWTVhUDVpZFZyVFNlSnNRaXJjYkNrSERxekc3a0xqZGVPQzdjOW1yVQ?oc=5",
-      "keywords": [
-        "ai"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "economy"
-      ],
-      "relatedIssueIds": [
-        "issue-industry-how-ge-vernova-builds-the-massive-gas-t-022"
-      ]
-    },
-    {
-      "articleId": "rss-b375f197f1fa7c",
-      "collectedAt": "2026-06-27T23:01:00+09:00",
-      "publishedAt": "2026-06-27T23:01:00+09:00",
-      "source": "Fortune",
-      "sourceType": "rss",
-      "title": "Anthropic’s Mythos 5 AI model cleared by U.S. for wider use - Fortune",
-      "summary": "Anthropic’s Mythos 5 AI model cleared by U.S. for wider use Fortune",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQUI0dGRWU0J5UDFxVVRJbUw2eDUzTVEzNW1WVThBck1mZVlwSlM5WVRXNHBSY29SNWxxdWFOWDF2cEVSbjNCLVdBVmZWSzdOTW9tWERYYmJDU0k2eDZ0dFpjWEM1YmJvR1FBNVl0a2xOcThCYlVTeGFRXzA1OTRsVFYzdnFMbkJXNnZLVGNHMWtOdGhYdlVzeTZWMWJVMlE?oc=5",
-      "keywords": [
-        "ai"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "economy"
-      ],
-      "relatedIssueIds": [
-        "issue-industry-anthropic-s-mythos-5-ai-model-cleared-b-023"
-      ]
-    },
-    {
-      "articleId": "rss-af4b54f6227eb9",
-      "collectedAt": "2026-06-27T21:00:00+09:00",
-      "publishedAt": "2026-06-27T21:00:00+09:00",
-      "source": "TechCrunch",
-      "sourceType": "rss",
-      "title": "Asian AI startups launch Mythos-like models as Anthropic’s export ban drags on - TechCrunch",
-      "summary": "Asian AI startups launch Mythos-like models as Anthropic’s export ban drags on TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVUZ5U0xNLVpBSVdWbkN1bTFFeHNYZjZOQzNZR3VWRjVVVjBKdDM0dGRvQzgxcFpEaWFzY1o5Z2dydFZwcGtnc2NDRXIwa2g0YnNCemM4UExkT2U3Rmd1TTk0OWlmbEc3TmtJVVlrMjJ5REFyY1BwQmlRaXg1MHVUSkZJRGxQQTJaYkFBcUZLdXp3eFVYTmFqN09wTU1FUUFJZVlLWTVzTHBkNVR2cjlYV3N3?oc=5",
-      "keywords": [
-        "ai"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "economy"
-      ],
-      "relatedIssueIds": [
-        "issue-industry-asian-ai-startups-launch-mythos-like-mo-024"
-      ]
-    },
-    {
-      "articleId": "rss-9c6fac3fe05dae",
-      "collectedAt": "2026-06-27T20:21:42+09:00",
-      "publishedAt": "2026-06-27T20:21:42+09:00",
-      "source": "Yahoo Finance",
-      "sourceType": "rss",
-      "title": "NVIDIA (NVDA) Launches BioNeMo Agent Toolkit to Accelerate AI-Driven Scientific Discovery in Life Sciences - Yahoo Finance",
-      "summary": "NVIDIA (NVDA) Launches BioNeMo Agent Toolkit to Accelerate AI-Driven Scientific Discovery in Life Sciences Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQ1ZWR3pZVzU3R0JvMEJTMExMdFpnNmdfcnlFZ0JiR3hDWVVqV2hzSi05X2dLYnA0aXZ2OWpGcmtkMlNyc0pjUGZGRzBnSHoxVzU3RXVvMWJsbVNkZzhxUmM4dU5WdURFU3B2ZDFRU2FRRWdwb1o1MW91NHNMQmFjXzZWR0d0SW1PTEV6TkEzS2g3eTJzendxWUJUWGJZM1E?oc=5",
-      "keywords": [
-        "ai",
-        "nvidia",
-        "nvda",
-        "엔비디아"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "반도체",
-        "데이터센터",
-        "장비"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "economy",
-        "interest"
-      ],
-      "relatedIssueIds": [
-        "issue-ef403eaa-002",
-        "interest-kw-nvidia-issue-ef403eaa-002"
-      ]
-    },
-    {
-      "articleId": "rss-ce37b0cd188043",
-      "collectedAt": "2026-06-27T21:23:00+09:00",
-      "publishedAt": "2026-06-27T21:23:00+09:00",
-      "source": "The Motley Fool",
-      "sourceType": "rss",
-      "title": "Nvidia Owns This Under-the-Radar $20 Stock Poised to Disrupt a $1.8 Trillion Market - The Motley Fool",
-      "summary": "Nvidia Owns This Under-the-Radar $20 Stock Poised to Disrupt a $1.8 Trillion Market The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMWdSREhvRmNSSXVFVVUxenBWYTFxMmxEZy13UVZER3JVNVhaVUs2S0o2QUhJdWFIbGprMkpnbDhYMk5ob3BkdkdRbF9Fa0dzN3otX2o2VnQ1d0ZocHZRMEtlMzZyZFRwZnY1djBuZUxkVGRMZXhpbjVrOXQ3aFJ6YWF0alFFYVFOUmIyRHNwMTRpX1ZERmdwMA?oc=5",
-      "keywords": [
-        "nvidia",
-        "엔비디아"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "반도체",
-        "데이터센터",
-        "장비"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "economy",
-        "interest"
-      ],
-      "relatedIssueIds": [
-        "issue-ef403eaa-002",
-        "interest-kw-nvidia-issue-ef403eaa-002"
-      ]
-    },
-    {
-      "articleId": "rss-08c806d31ebea8",
-      "collectedAt": "2026-06-28T00:10:58+09:00",
-      "publishedAt": "2026-06-28T00:10:58+09:00",
-      "source": "KevinMD.com",
-      "sourceType": "rss",
-      "title": "Is AI replacing radiologists? A radiologist disagrees. - KevinMD.com",
-      "summary": "Is AI replacing radiologists? A radiologist disagrees. KevinMD.com",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZ0pyZll5b0tnM2YwQUFBODh2bl9vR3p3amQ1WkFHazRGT2VlVEVGYzRMMklEUUFvWnlPeXV2MkpRMjZjUzNsX0FhQ0FUWTROMF9RUjNtZjlyM18zWWtMMVpDWG1BeUxiblVWUEVQZW9DMXl2dEkwQ0JXUC1sNUZwXzZyb0s0Sm4ydGdOYWdR?oc=5",
-      "keywords": [
-        "ai"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "economy"
-      ],
-      "relatedIssueIds": [
-        "issue-industry-is-ai-replacing-radiologists-a-radiolog-025"
+        "issue-industry-it-s-not-going-away-the-stanford-econom-022"
       ]
     },
     {
@@ -2761,6 +2310,33 @@
       "relatedIssueIds": []
     },
     {
+      "articleId": "rss-b74ac2d18a918d",
+      "collectedAt": "2026-06-27T21:00:01+09:00",
+      "publishedAt": "2026-06-27T21:00:01+09:00",
+      "source": "CNBC",
+      "sourceType": "rss",
+      "title": "How GE Vernova builds the massive gas turbines powering the AI data center boom - CNBC",
+      "summary": "How GE Vernova builds the massive gas turbines powering the AI data center boom CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOOWJyakJOOHU5STZ2dnNwNGVZazRKczFHNnlZZnZzaUpzRnhZTUMxOW9zNUE1TExrakpTVlVTRU9HNWZtNEFwemVGWEd4RTg1Y2szV1lmMnBkQVNEYTlGOElDOThJbUYxUXlxdkMtWVVEOHEyY0gzVkc1UHBLUjVQbS1B0gGHAUFVX3lxTFBMUWE0MS01eHJPWEtBU0lDYV9fSlloY095dEFnUXJXd2RSa0ZKT253bUpUaExmRXQ5blZsSzRRT0J1SkQ1NTVwYTh4WlhEOUEwSEp4Rkl2S2xXNXJ5aFpaWTVhUDVpZFZyVFNlSnNRaXJjYkNrSERxekc3a0xqZGVPQzdjOW1yVQ?oc=5",
+      "keywords": [
+        "ai"
+      ],
+      "rawCategory": "industry",
+      "category": "industry",
+      "sectors": [
+        "시장 전체"
+      ],
+      "fixtureUsed": false,
+      "appliedToBriefing": true,
+      "evaluationEligible": true,
+      "briefingSurfaces": [
+        "economy"
+      ],
+      "relatedIssueIds": [
+        "issue-industry-how-ge-vernova-builds-the-massive-gas-t-023"
+      ]
+    },
+    {
       "articleId": "rss-d9e4101e8ddcf5",
       "collectedAt": "2026-06-28T09:00:00+09:00",
       "publishedAt": "2026-06-28T09:00:00+09:00",
@@ -2769,553 +2345,6 @@
       "title": "AI Fever Powers HK Share Sales Through Hurdles to Five-Year High - Bloomberg.com",
       "summary": "AI Fever Powers HK Share Sales Through Hurdles to Five-Year High Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTTQ1VE1MbjNKU1VKY2JuRXFVTUJrWVhEVHl6dUdlellIN1ZSVkoyVm1xSl9rdjJhYW5WcU5NMDFSM0xEdkxTckF4TVdOd3JUQW40OExxcF93aTFvUUd2MU83azhvSUg1MGlrLVdueG1ZNXFEV1l2aVBCVURRdDlkMXcxT0tlbnE1enljLXRjN2wwZUJraEZGaGpoajR5dTVMN1I0ajJzVkIwOWNxTXlqV0ZmX2RyZw?oc=5",
-      "keywords": [
-        "ai"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "rss-572154710dbe9a",
-      "collectedAt": "2026-06-28T01:28:14+09:00",
-      "publishedAt": "2026-06-28T01:28:14+09:00",
-      "source": "Forbes",
-      "sourceType": "rss",
-      "title": "Digging Out From The AI Money Pit - Forbes",
-      "summary": "Digging Out From The AI Money Pit Forbes",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWVlrS2dGRnJFYTVYSnY0V3MwNW04dkxtY2dCSHYzSkJxVWQybm9jdUtFeG5WLXRkbW40MTZrcHZRY1djd0UtTkpfU3JjclBFajZPSmxSZzdLTTNxRVRuOE1CRUIxVUFZa3dWUFhUZjU2UmdqeWVRdmVNcGoxTTZuNW1vaU1NdWwtbVFpRHJCMkRVdw?oc=5",
-      "keywords": [
-        "ai"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "economy"
-      ],
-      "relatedIssueIds": [
-        "issue-industry-digging-out-from-the-ai-money-pit-forbe-026"
-      ]
-    },
-    {
-      "articleId": "rss-752bf26db7226b",
-      "collectedAt": "2026-06-28T03:17:07+09:00",
-      "publishedAt": "2026-06-28T03:17:07+09:00",
-      "source": "ABC7 Chicago",
-      "sourceType": "rss",
-      "title": "Phishing scammers using AI to create convincing fake delivery texts and emails after big online shopping events like Prime Day - ABC7 Chicago",
-      "summary": "Phishing scammers using AI to create convincing fake delivery texts and emails after big online shopping events like Prime Day ABC7 Chicago",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPT1YzRGZQX0czUS1TVkctaHBhNHZmUU5VbWljNmxiWEx0RFpDOXUtSldPaWJWQUdwcDNoaThOTklNVy1HMWxRWnJmdThWelB5WndfSkJlZkdQc3A2djJRaEZXam9VYlFZZWtiWlU4UVNFSVQ0U3NYY0JjT3lxdDNzdGZRcnNYd2VjdDBqODFja2ZmQVNCN2lKZHp5UmIzSkktOThtT1RoNWw4bDd1cjVwd0JrZjBGNEVzSkdZcTNiLTB0SzZ5SmpDa0RrLXBpQnhpV0FneUFMVl9nNTdhSDZ0aGwyUXpobUnSAewBQVVfeXFMTzZjN1ZBY2t6YjFQOVhmb0duU3k1d2FacE45MkwxcXljekQwc1NWd1lhdl95ZWM2Vmh4U3BxV1BxcUZHWGNkS1VfckZRY1BEUGJ1bE54czgzTTBBbjNxZjJQamx5OHNBbExHaEFMOHE2Tms2dUdVTklLVDA1ZDJ4REdGN2FHLXJXTlFPQ0VPY2ZwTlpFY3dZc0JXQllPMHdRNGRIaFI4X0xXVjR1emhnT3BfS2JzQVZlZm5tbzVaX3V2V1ctaVdNbVlZWTBmNXVwQlRSTjJuY3M3WmUwem9DZDhWeV82aW1SYUFpTnQ?oc=5",
-      "keywords": [
-        "ppi",
-        "ai"
-      ],
-      "rawCategory": "indicators",
-      "category": "indicators",
-      "sectors": [
-        "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "economy"
-      ],
-      "relatedIssueIds": [
-        "issue-indicators-phishing-scammers-using-ai-to-create--027"
-      ]
-    },
-    {
-      "articleId": "rss-fa14b81801b5e6",
-      "collectedAt": "2026-06-28T03:18:00+09:00",
-      "publishedAt": "2026-06-28T03:18:00+09:00",
-      "source": "The Motley Fool",
-      "sourceType": "rss",
-      "title": "Where Will Nvidia Stock Be in 2030? - The Motley Fool",
-      "summary": "Where Will Nvidia Stock Be in 2030? The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTkliTWJfOEZRRHZ6aUJNYlBKd3lVMktib1V0UTVWcVR3U1NXOGdvdGNWeXpISkd3RElObkJmWFlRVUdmMmVlZ0dhT0d1YkpPb2JVdFhKbzB5ZTF6VzdzamZ0WkE3T3lKV1lfdVdvY3JvR3JGNVVwYzVfaGNFTGR1bkI2UQ?oc=5",
-      "keywords": [
-        "nvidia",
-        "엔비디아"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "반도체",
-        "데이터센터",
-        "장비"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "economy",
-        "interest"
-      ],
-      "relatedIssueIds": [
-        "issue-ef403eaa-002",
-        "interest-kw-nvidia-issue-ef403eaa-002"
-      ]
-    },
-    {
-      "articleId": "rss-a2434af9aa0fbf",
-      "collectedAt": "2026-06-26T23:24:17+09:00",
-      "publishedAt": "2026-06-26T23:24:17+09:00",
-      "source": "American Psychological Association (APA)",
-      "sourceType": "rss",
-      "title": "Patients are bringing AI to therapy - American Psychological Association (APA)",
-      "summary": "Patients are bringing AI to therapy American Psychological Association (APA)",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1WWnJKR2tRSjN0dk1PajZUX085VmM3aGxKZWRJWGNnTjVvSHZSZWlnd05oM2llajF6YXBDRV8zOTRFRjV6ZTF2SW5FUUh2UU5OLVNMN0tYX2k2cXZvZHFvU2c5UXF6OHNJY3lieQ?oc=5",
-      "keywords": [
-        "ai"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "rss-23656258497fff",
-      "collectedAt": "2026-06-28T04:32:36+09:00",
-      "publishedAt": "2026-06-28T04:32:36+09:00",
-      "source": "Yahoo Finance",
-      "sourceType": "rss",
-      "title": "Micron (MU): The Best AI Stock That Will Make You Rich in 10 Years - Yahoo Finance",
-      "summary": "Micron (MU): The Best AI Stock That Will Make You Rich in 10 Years Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObWd4Z3ozMkRlS0I1cnMyeVU0Z2VGSHYyN3ZRV244QWtLWksxaDBSczJBWE1Ia01qT3JTTmZBZksyNTZsTDhwc3pPNmFvUG9nWVdiNktyMjRYZm9NSmJqVWsxZTRBNVl2THdMRFdVY0lXTUpPdWttU3pVY2xDZ3QwNG5fQThPaWd1WktDVkxRQWNSQQ?oc=5",
-      "keywords": [
-        "ai"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "economy"
-      ],
-      "relatedIssueIds": [
-        "issue-industry-micron-mu-the-best-ai-stock-that-will-m-028"
-      ]
-    },
-    {
-      "articleId": "rss-5fb299697a46e0",
-      "collectedAt": "2026-06-28T09:11:00+09:00",
-      "publishedAt": "2026-06-28T09:11:00+09:00",
-      "source": "The Motley Fool",
-      "sourceType": "rss",
-      "title": "The Strangest AI Stock of 2026 Doesn't Make Chips. It Owns Land in Texas. - The Motley Fool",
-      "summary": "The Strangest AI Stock of 2026 Doesn't Make Chips. It Owns Land in Texas. The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQlVvampidTNRXzdXLXRRY2dqY3FMSEVPeUNsbEQ4cVNVOWlSLXFGMEgzMU1KajZyRjBCdVQ0NmUxVUVrMU5Kd2xyR2RyQld5cTF5QmhMQnk0SUdqV0NqN0EzVDBWLVlwZ1ZVdHBrSnYxZ2VreE5OekdqamFzLWxWRDlEREx4SjhwN2J4UUtUZUl4NFNubENUMw?oc=5",
-      "keywords": [
-        "ai"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "rss-dd7bf69d53a8f1",
-      "collectedAt": "2026-06-28T04:32:17+09:00",
-      "publishedAt": "2026-06-28T04:32:17+09:00",
-      "source": "Yahoo Finance",
-      "sourceType": "rss",
-      "title": "Apple (AAPL) Plans Mac Chip Roadmap Shift Toward AI-Focused M7 - Yahoo Finance",
-      "summary": "Apple (AAPL) Plans Mac Chip Roadmap Shift Toward AI-Focused M7 Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcFpZZldqMXdvZVV3MGd2YndXUGsyaGpLS2VwbXh1VHQ2d2thbFhsYWFQZ0MxN0NZRTVybVVQSzJQRTQ5YTIzNDFmWFNqUElZbktOU2pxQ052NHdwalJjSklyWnZNMlVNdnFabXpONTM2Y2JDLWFERTFwdjFmSzlkWVlwY3RPUlJtZkMyZlJxWTVNLXM?oc=5",
-      "keywords": [
-        "ai"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "economy"
-      ],
-      "relatedIssueIds": [
-        "issue-industry-apple-aapl-plans-mac-chip-roadmap-shift-029"
-      ]
-    },
-    {
-      "articleId": "rss-4aa3e168aabbe3",
-      "collectedAt": "2026-06-27T08:50:00+09:00",
-      "publishedAt": "2026-06-27T08:50:00+09:00",
-      "source": "PBS",
-      "sourceType": "rss",
-      "title": "Apple increases prices for Macs and iPads, blaming memory chip shortage fueled by AI - PBS",
-      "summary": "Apple increases prices for Macs and iPads, blaming memory chip shortage fueled by AI PBS",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNU8wakFDQkR4dHB4YWZIemRWak5Bc1lBUS1lX0FNTE5mNmQ5VG9pUERLZkFLMWdUVHkxdWNxMXRTSE5BM1ItbnFHU0M1aVJndWNUd3VkV2FtWjdNbUhvY1BQS2h6ZWpyd3JVU3AzYlExem5GczQ0T0ROeEdSZjRBYTNpa3BWXzRzaTZEc0tyX1pLVUdtZ09BZC1hdDNfU3F3WTNRNUpGOUt3c3BoR0dyMmF2SXpzdFRqQzg5WdIBwgFBVV95cUxOWXpDYkpRc19IckJ3cm1UcEYxbnpzLWw4eGplYUEzYkNOTDFDM0RuaWhXTmN5dm45Z2pWb3NYRGw1N0RzbXZRVHJzaFFiU0VuWVo2UE9sUGFpRVVteTdKbjh5cjZWY0xtS1I4UGVhQV9iYzJOb2hJOHh2T2wxTkM5RERoVGVLc1hNdENjc1lHdndSY1NCNGc4UjJpdGVHaXlJLWdmNDhIUVVHSkpUX0ZQTmdhQmZ1SGdfVThieWxCZ3hSQQ?oc=5",
-      "keywords": [
-        "ai"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "economy"
-      ],
-      "relatedIssueIds": [
-        "issue-industry-apple-increases-prices-for-macs-and-ipa-030"
-      ]
-    },
-    {
-      "articleId": "rss-00b1b2c1347b09",
-      "collectedAt": "2026-06-27T16:05:23+09:00",
-      "publishedAt": "2026-06-27T16:05:23+09:00",
-      "source": "Axios",
-      "sourceType": "rss",
-      "title": "China's AI progress strains U.S. alliance pitch - Axios",
-      "summary": "China's AI progress strains U.S. alliance pitch Axios",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE00ZEduejlPNDJXblRRWXFyOXRhSGM0NTNXWlRpRWJ0ZDVSZ2hQVC01aUJLR3hXVXFhOHJ1b3I3TnEwcWdIMTNGeV94eWpPTU5YNElNWnZzYkRIRXRKOVQ2b0szRQ?oc=5",
-      "keywords": [
-        "ai"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "economy"
-      ],
-      "relatedIssueIds": [
-        "issue-industry-china-s-ai-progress-strains-u-s-allianc-031"
-      ]
-    },
-    {
-      "articleId": "rss-fcb072cdff4d85",
-      "collectedAt": "2026-06-28T04:32:30+09:00",
-      "publishedAt": "2026-06-28T04:32:30+09:00",
-      "source": "Yahoo Finance",
-      "sourceType": "rss",
-      "title": "Here’s Why Cisco (CSCO) is Among the 15 Best AI Stocks That Will Make You Rich in 10 Years - Yahoo Finance",
-      "summary": "Here’s Why Cisco (CSCO) is Among the 15 Best AI Stocks That Will Make You Rich in 10 Years Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNREx0QlhNaFEweDZGa1ZZa1ZyU09rblNqYmdoeENpZDFIdEdzOTlQclBqakFpQnNkdEhmVzFCYWR3ZDlGYkRhQUVyZkFLU3RtOHVhWnEyMVc5RGdqSFVmR2ktdVFqa25YZ21keXVSdWR5MVd2NXhjLThnZ0tLN1pvanR1MDNteC1UOF9LdVZIRGU?oc=5",
-      "keywords": [
-        "ai"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "economy"
-      ],
-      "relatedIssueIds": [
-        "issue-industry-here-s-why-cisco-csco-is-among-the-15-b-032"
-      ]
-    },
-    {
-      "articleId": "rss-9d647afc91a595",
-      "collectedAt": "2026-06-28T02:06:26+09:00",
-      "publishedAt": "2026-06-28T02:06:26+09:00",
-      "source": "Yahoo Finance",
-      "sourceType": "rss",
-      "title": "On Semiconductor (ON) Stock After 25% Weekly Drop Is The Valuation Now Attractive - Yahoo Finance",
-      "summary": "On Semiconductor (ON) Stock After 25% Weekly Drop Is The Valuation Now Attractive Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdkVyZGpsdzF0cUpZVDdqZ3dQX0l6bWszTTlFcVZkYnhNY2pWRkhSOXJmREpDdGRxeGJzYko0RmpyaEp5WGJhQ2NSQlU2V0JDUkJNYTVFcnd4M0pWcXdndlMwOEZobFZMMVhSanZacmxDaEVjbHBON1JvaHdHRnZINjlnXzNJZEN3WVY3d25RZ1Nuc0tuOVIwRFZtMXNMMGFB?oc=5",
-      "keywords": [],
-      "rawCategory": "market",
-      "category": "market",
-      "sectors": [
-        "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "economy"
-      ],
-      "relatedIssueIds": [
-        "issue-market-on-semiconductor-on-stock-after-25-weekly-033"
-      ]
-    },
-    {
-      "articleId": "rss-bc99b0ef688845",
-      "collectedAt": "2026-06-27T23:00:03+09:00",
-      "publishedAt": "2026-06-27T23:00:03+09:00",
-      "source": "Medical Xpress",
-      "sourceType": "rss",
-      "title": "Hospital AI tool predicts low blood sugar in patients up to 24 hours in advance - Medical Xpress",
-      "summary": "Hospital AI tool predicts low blood sugar in patients up to 24 hours in advance Medical Xpress",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9CSi11QkwzRWpGQnN0VGtwdEVHMEp4ek5mZUtVSXlxMzRqanRPclluT181clYtQm5VX20tMWNZbTJ4QnBDOGJHSVJEVTlwVUJ6ODRrTU5Qc1hrUS1oeTJXWHNKajEzZWgzSzE1b1QzZ0lQcHI4OUhid0RVbGw?oc=5",
-      "keywords": [
-        "ai"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "economy"
-      ],
-      "relatedIssueIds": [
-        "issue-industry-hospital-ai-tool-predicts-low-blood-sug-034"
-      ]
-    },
-    {
-      "articleId": "rss-d722a890f28b21",
-      "collectedAt": "2026-06-28T04:18:00+09:00",
-      "publishedAt": "2026-06-28T04:18:00+09:00",
-      "source": "MarketWatch",
-      "sourceType": "rss",
-      "title": "Opinion: Can Qualcomm actually compete with Nvidia? Inside its bold data-center gamble. - MarketWatch",
-      "summary": "Opinion: Can Qualcomm actually compete with Nvidia? Inside its bold data-center gamble. MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQmFDZ3hLNGp0LU5GRzQxVXZ2MTV2NXRRY0NybkJqLWVEUXZET1l5RDlWYnRnVnFMV3U5aGJ5TVpNdlVuRFB2VTlIQVIyUzYxUjVySi1meWM4Q01kTkxTNEZFZy1ScXhuSzF5dFNMaTNZVlZVelNITkV6SkJzcU14TDJNTHc2WmFSVUhrN0IydV91bjhuQTZ1bk1HaDJGVDZja0oxM3JXU2Q5OWd6aHh1Vk5ldFhXUHhtZXpN?oc=5",
-      "keywords": [
-        "nvidia",
-        "엔비디아"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "반도체",
-        "데이터센터",
-        "장비"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "rss-46181f0c844199",
-      "collectedAt": "2026-06-27T10:13:24+09:00",
-      "publishedAt": "2026-06-27T10:13:24+09:00",
-      "source": "Politico",
-      "sourceType": "rss",
-      "title": "Trump administration partially lifts Anthropic’s AI export ban - Politico",
-      "summary": "Trump administration partially lifts Anthropic’s AI export ban Politico",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNjFnWVhNeF80dHJBV3VVbXlQbFdGNk8xUm11amJ5dlloS0VEb2hxeHRhdlBmS2VtcklrUmh3NXAzUktiblF1NjBKZzR5SEVOMmYtZXotaE41RGxWREJnZElzdUxkSVIyVTJtWG83SkEwb3hxZ2p1WW5fNjFKTTlDNmlEQTlCNGVyTS1XRUMwejlTVlpVRndMYVYzdFU?oc=5",
-      "keywords": [
-        "ai"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "economy"
-      ],
-      "relatedIssueIds": [
-        "issue-industry-trump-administration-partially-lifts-an-035"
-      ]
-    },
-    {
-      "articleId": "rss-760eae9aa404de",
-      "collectedAt": "2026-06-28T03:18:00+09:00",
-      "publishedAt": "2026-06-28T03:18:00+09:00",
-      "source": "Fox Business",
-      "sourceType": "rss",
-      "title": "Nobel economist warns AI doomsday job fears could become self-fulfilling prophecy - Fox Business",
-      "summary": "Nobel economist warns AI doomsday job fears could become self-fulfilling prophecy Fox Business",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTER3RGdjbnF5YzhkQmFXZXlueGJKUkk4N25TRmdpOHJLUmFEanBtYXI4aFEtMHFKU1JrQ2xKRm1obVJEci1wTmdoY3JtdnlrLWR2Zk9lVzB3MmRXZ2FlNHJwUlN6VFZZdDF5UXpvOG5UQWlpMkc5TzBOcXBEWFFqX0xQU3R4Z0szbUwxMW1RMDBTTVU2ZVN1OEhnVlRpdndoa2RxNlFmSHM0QXJWYl9GZmY4ZGZwLVB3TnhwRNIBwgFBVV95cUxNbXlseVQ1QmNFQlF0UGJRMk5Qa2dGeklFMnZpVXZuSmdJdF9BWFZ4bFdCOXd2ZHVNTHBkS0NGcERPVldzVWh1Y3Y1Y1JhT2t6Y0pUVnBWQzBjVXB5Mjd3VS0wLXFnb09rcGtkQzFGQTNqc1Jxc0lBNVU1bkF0WFZIQkJ6dWdrakJMMUlic3BWSTY0YzgyYS1NMkFSVWhrZi1HX1YwZ0xZZ09mS3R1b2tUWDQ5YmdNYXRtdVFudU1nQld6UQ?oc=5",
-      "keywords": [
-        "ai"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "economy"
-      ],
-      "relatedIssueIds": [
-        "issue-industry-nobel-economist-warns-ai-doomsday-job-f-036"
-      ]
-    },
-    {
-      "articleId": "rss-cefb907a58763c",
-      "collectedAt": "2026-06-28T08:00:00+09:00",
-      "publishedAt": "2026-06-28T08:00:00+09:00",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "sourceType": "rss",
-      "title": "The $7 Trillion AI Boom Is Turning Into The Energy Trade of the Century - Crude Oil Prices Today | OilPrice.com",
-      "summary": "The $7 Trillion AI Boom Is Turning Into The Energy Trade of the Century Crude Oil Prices Today | OilPrice.com",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcUg4VTVBc1N1aEpjRGtwVjlza0Z4d1VWRlIwZmtyX0xFRXhoMS0zeWdSZENfLWJZYU1LaGhrUTJkWmg2Z2NWZnZUOHYyaERLRU1WMlVfeURTZlBGWUU5UmRPMDNvbkdGeFJfYy1WVFFPTU9SLVpIVjJ1dGdQMDlyQ3JnOFg0SVF6bUhBbVRDUmNmbEFvekFuY250ejhjc3RCeC1nUE5HWE5UTGZJemg3YXdwQmlxRFh5R1HSAb8BQVVfeXFMTVBSeC1nOTV1UFN2N0ZFdWZaZmR5WW9hajF1aDR0MFVYZDg2aWprRTZHSlJ2WTdoX2V1N3BkbWM2bHhhUWU2R09LN3kteU9jeGxNYXJBU1dLME5TSUF1VjBtZVIxSVZleTY2dy1QSHV3bjVWN3EtaE9nNHl6WGhCREFzV1h5R18yM1VmZFJGWEVRcDd0azFTakpkWjNwUFF0MVdJN2piWXhta2tDTFQxV3d5QmJVdFk5bGNhOHR0WDA?oc=5",
-      "keywords": [
-        "ai"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "rss-6b7191fee78e0a",
-      "collectedAt": "2026-06-28T00:00:00+09:00",
-      "publishedAt": "2026-06-28T00:00:00+09:00",
-      "source": "Towards Data Science",
-      "sourceType": "rss",
-      "title": "We Built a Routing Layer to Cut Our AI Costs. It Broke the Product. - Towards Data Science",
-      "summary": "We Built a Routing Layer to Cut Our AI Costs. It Broke the Product. Towards Data Science",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVk1NZXJIZno2aUJaME5QQXpyM3RFeDVvU1Y2NjQ2Uno2TjBGZHNvQjZSbjFoQ2hXZjJPcDJmRHhMb2NjZDY5dldxSVpvU0k1OWU2M0JUYlY3aHgyeUJFNEVwUXl2RnFHNVVsWmtwLTRlN0R3azNDQ0JZREJNcUlFaEFocVFEYjVxdnpuUTNLYVlGSlNqXzZiR2J2Wk5MQQ?oc=5",
-      "keywords": [
-        "ai"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "economy"
-      ],
-      "relatedIssueIds": [
-        "issue-industry-we-built-a-routing-layer-to-cut-our-ai--037"
-      ]
-    },
-    {
-      "articleId": "rss-d98fe206866eae",
-      "collectedAt": "2026-06-27T07:08:09+09:00",
-      "publishedAt": "2026-06-27T07:08:09+09:00",
-      "source": "CNBC",
-      "sourceType": "rss",
-      "title": "China's Zhipu is closing in on top U.S. AI models with Anthropic and OpenAI held back - CNBC",
-      "summary": "China's Zhipu is closing in on top U.S. AI models with Anthropic and OpenAI held back CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSFBiWXhDV3VHdk83TGVfaWRuem1fODFCeUg2ckJFcGlXZzJFYUJKTzFQb0FKQ1BJLUZZN0Z3VkxKOW5Yb0lEQkw4WXB5cTRsenFGdnZLUURTeW1KdWZGakFWdlV0dFNRVkdpcElQS3lRNDhSN2x4R2xQT0FCT1Yxa01SbDdkNFdFM2fSAY8BQVVfeXFMTkFzUHpXWjJ3dGkybjdSLXBaNTEyX1Uyek4zU2ROMDRBbU5MdkV5Y3BwRm9PNEx5dzYyRDF5Y0ItMVNPZEVEZ1QzVWFRZHRhbVBJQ2FMRm01Wl9NMkxfbVVzaWcyMmh5bTczQy05MWtSeFRUWUxyeFZoekV2S0kzQXA3Si1xb2ltNVRNQXpXZWs?oc=5",
-      "keywords": [
-        "ai"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "economy"
-      ],
-      "relatedIssueIds": [
-        "issue-industry-china-s-zhipu-is-closing-in-on-top-u-s--038"
-      ]
-    },
-    {
-      "articleId": "rss-8a63414f86b506",
-      "collectedAt": "2026-06-27T05:09:00+09:00",
-      "publishedAt": "2026-06-27T05:09:00+09:00",
-      "source": "CBS News",
-      "sourceType": "rss",
-      "title": "Gadget prices have fallen for decades. Then AI happened. - CBS News",
-      "summary": "Gadget prices have fallen for decades. Then AI happened. CBS News",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeU9PWVUxbEcyTEZpTTlTQkhrLTJYR0RibUREOUFxbW4xZ2V3eUpnVFBRaUJuaFdvZV9IcGNBNHh2NExSdUVfcXRYSTA3Mk16NndMUUw5dTI4QkNJOGZBaHFNRFBUcDhyeVhFdFRJa2Q4WUVBVzRWeGlfaHdHQkg2N2xnWERwQk54?oc=5",
-      "keywords": [
-        "ai"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "rss-97c37bb7a9fb79",
-      "collectedAt": "2026-06-28T06:19:25+09:00",
-      "publishedAt": "2026-06-28T06:19:25+09:00",
-      "source": "Seeking Alpha",
-      "sourceType": "rss",
-      "title": "SA Asks: What's the most attractive chip stock right now? (NVDA:NASDAQ) - Seeking Alpha",
-      "summary": "SA Asks: What's the most attractive chip stock right now? (NVDA:NASDAQ) Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSDFHZWc3Q1FYRU9ZWWNxem9jS05GelQ3ZERoODlVTGY1T3U0d0l6U2w3VE9DRVhMc0hnbnp4MmxhQ0RXLWs5VUJTM3RzV1BmbnBfeS13ZjcxWkplalNiczcza1FUR1MyczJSQlpQUUtOM3VlWXctRDc3WU9pbjdKYUUydTZnQThMUVRxSGFvNUpuVVBqR01z?oc=5",
-      "keywords": [
-        "nvda",
-        "엔비디아"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "시장 전체"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "rss-837889b35a73ec",
-      "collectedAt": "2026-06-28T06:25:37+09:00",
-      "publishedAt": "2026-06-28T06:25:37+09:00",
-      "source": "Gizmodo",
-      "sourceType": "rss",
-      "title": "Big AI Had a Point When It Said It Needed to Be Told What Is Not Okay - Gizmodo",
-      "summary": "Big AI Had a Point When It Said It Needed to Be Told What Is Not Okay Gizmodo",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaFVUVGRGeVFKZ3FoY25CZmlkRjVTdUF4c09xTWI3bGNXbVFybHNfTGw2LTk4Z0FqSGpQTm9idURIV1NKX1VJeDk3Y0E4OHhCZmVxeEMtR21IelJhd3J2M21HNVRDRjQ4TGxEZ09LV2lHUzkxb0FUSmI4SWdIeG9hWWdPaGxOcEhQaVpjemV2M2psWi00TGxuZGpkdWYxWHA5a0E?oc=5",
       "keywords": [
         "ai"
       ],
@@ -3496,584 +2525,6 @@
         "성장주",
         "은행",
         "채권"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "gdelt-caa6fb1db667cf",
-      "collectedAt": "2026-06-28T08:50:00+09:00",
-      "publishedAt": "2026-06-28T08:50:00+09:00",
-      "source": "forbes.com",
-      "sourceType": "gdelt",
-      "title": "What Huawei Chip Strategy Reveals About Innovation Under Pressure",
-      "summary": "AI 반도체 article seen in forbes.com. This summary is a short rewritten description based on source metadata.",
-      "url": "https://www.forbes.com/sites/markgreeven/2026/06/27/what-huaweis-chip-strategy-reveals-about-innovation-under-pressure/",
-      "keywords": [
-        "ai",
-        "반도체",
-        "반도체 수출 규제"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "반도체",
-        "데이터센터",
-        "장비"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "preopen"
-      ],
-      "relatedIssueIds": [
-        "preopen-issue-3a55a6b1-001"
-      ]
-    },
-    {
-      "articleId": "gdelt-0d090c51783764",
-      "collectedAt": "2026-06-28T08:50:00+09:00",
-      "publishedAt": "2026-06-28T08:50:00+09:00",
-      "source": "theepochtimes.com",
-      "sourceType": "gdelt",
-      "title": "In AI Race With China , America Must Put Dominance Before Cooperation",
-      "summary": "AI 반도체 article seen in theepochtimes.com. This summary is a short rewritten description based on source metadata.",
-      "url": "https://www.theepochtimes.com/opinion/in-ai-race-with-china-america-must-put-dominance-before-cooperation-6054068",
-      "keywords": [
-        "ai",
-        "반도체",
-        "반도체 수출 규제"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "반도체",
-        "데이터센터",
-        "장비"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "preopen"
-      ],
-      "relatedIssueIds": [
-        "preopen-issue-3a55a6b1-001"
-      ]
-    },
-    {
-      "articleId": "gdelt-aa5019db8b4c1d",
-      "collectedAt": "2026-06-28T08:50:00+09:00",
-      "publishedAt": "2026-06-28T08:50:00+09:00",
-      "source": "finance.yahoo.com",
-      "sourceType": "gdelt",
-      "title": "NVIDIA Corporation ( NVDA ) Expands Vera CPU Push in China Despite Export Restrictions",
-      "summary": "AI 반도체 article seen in finance.yahoo.com. This summary is a short rewritten description based on source metadata.",
-      "url": "https://finance.yahoo.com/technology/articles/nvidia-corporation-nvda-expands-vera-105026448.html",
-      "keywords": [
-        "ai",
-        "반도체",
-        "nvidia",
-        "nvda",
-        "반도체 수출 규제",
-        "엔비디아"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "반도체",
-        "데이터센터",
-        "장비"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "preopen"
-      ],
-      "relatedIssueIds": [
-        "preopen-issue-3a55a6b1-001"
-      ]
-    },
-    {
-      "articleId": "gdelt-591dc9f38b4258",
-      "collectedAt": "2026-06-28T08:50:00+09:00",
-      "publishedAt": "2026-06-28T08:50:00+09:00",
-      "source": "finance.yahoo.com",
-      "sourceType": "gdelt",
-      "title": "OpenAI Is Building Its Own AI Chip With Broadcom . Should Nvidia Investors Be Worried ?",
-      "summary": "AI 반도체 article seen in finance.yahoo.com. This summary is a short rewritten description based on source metadata.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/openai-building-own-ai-chip-231200024.html",
-      "keywords": [
-        "ai",
-        "반도체",
-        "nvidia",
-        "반도체 수출 규제",
-        "엔비디아"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "반도체",
-        "데이터센터",
-        "장비"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "preopen"
-      ],
-      "relatedIssueIds": [
-        "preopen-issue-3a55a6b1-001"
-      ]
-    },
-    {
-      "articleId": "gdelt-5b7b3d7b19bdf8",
-      "collectedAt": "2026-06-28T08:50:00+09:00",
-      "publishedAt": "2026-06-28T08:50:00+09:00",
-      "source": "fool.com",
-      "sourceType": "gdelt",
-      "title": "OpenAI Is Building Its Own AI Chip With Broadcom . Should Nvidia Investors Be Worried ?",
-      "summary": "AI 반도체 article seen in fool.com. This summary is a short rewritten description based on source metadata.",
-      "url": "https://www.fool.com/investing/2026/06/26/openai-is-building-its-own-ai-chip-with-broadcom-s/?source=iedfolrf0000001",
-      "keywords": [
-        "ai",
-        "반도체",
-        "nvidia",
-        "반도체 수출 규제",
-        "엔비디아"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "반도체",
-        "데이터센터",
-        "장비"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": true,
-      "evaluationEligible": true,
-      "briefingSurfaces": [
-        "preopen"
-      ],
-      "relatedIssueIds": [
-        "preopen-issue-3a55a6b1-001"
-      ]
-    },
-    {
-      "articleId": "gdelt-895dcaa97904ce",
-      "collectedAt": "2026-06-28T08:50:00+09:00",
-      "publishedAt": "2026-06-28T08:50:00+09:00",
-      "source": "newkerala.com",
-      "sourceType": "gdelt",
-      "title": "US Cloud Bill Targets China AI Loophole",
-      "summary": "AI 반도체 article seen in newkerala.com. This summary is a short rewritten description based on source metadata.",
-      "url": "https://www.newkerala.com/news/a/cloud-bill-targets-china-ai-loophole-427.htm",
-      "keywords": [
-        "ai",
-        "반도체",
-        "반도체 수출 규제"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "반도체",
-        "데이터센터",
-        "장비"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "gdelt-3905435e3e9a31",
-      "collectedAt": "2026-06-28T08:50:00+09:00",
-      "publishedAt": "2026-06-28T08:50:00+09:00",
-      "source": "edaily.co.kr",
-      "sourceType": "gdelt",
-      "title": "전북 엔비디아 , 대구 테슬라 ?… 전문가들 무리수 공약 , 왜",
-      "summary": "AI 반도체 article seen in edaily.co.kr. This summary is a short rewritten description based on source metadata.",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=02492806645485984&mediaCodeNo=257",
-      "keywords": [
-        "ai",
-        "반도체",
-        "엔비디아",
-        "반도체 수출 규제"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "반도체",
-        "데이터센터",
-        "장비"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "gdelt-c5efdd206d2eeb",
-      "collectedAt": "2026-06-28T08:50:00+09:00",
-      "publishedAt": "2026-06-28T08:50:00+09:00",
-      "source": "fool.com",
-      "sourceType": "gdelt",
-      "title": "3 Beaten - Down AI Chip Stocks to Consider Buying in the Sell - Off",
-      "summary": "AI 반도체 article seen in fool.com. This summary is a short rewritten description based on source metadata.",
-      "url": "https://www.fool.com/investing/2026/06/26/3-beaten-down-ai-chip-stocks-to-consider-buying-in/",
-      "keywords": [
-        "ai",
-        "반도체",
-        "반도체 수출 규제"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "반도체",
-        "데이터센터",
-        "장비"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "gdelt-437f616b259f65",
-      "collectedAt": "2026-06-28T08:50:00+09:00",
-      "publishedAt": "2026-06-28T08:50:00+09:00",
-      "source": "fool.com",
-      "sourceType": "gdelt",
-      "title": "3 Beaten - Down AI Chip Stocks to Consider Buying in the Sell - Off",
-      "summary": "AI 반도체 article seen in fool.com. This summary is a short rewritten description based on source metadata.",
-      "url": "https://www.fool.com/investing/2026/06/26/3-beaten-down-ai-chip-stocks-to-consider-buying-in/?source=iedfolrf0000001",
-      "keywords": [
-        "ai",
-        "반도체",
-        "반도체 수출 규제"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "반도체",
-        "데이터센터",
-        "장비"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "gdelt-b0568fb59750c8",
-      "collectedAt": "2026-06-28T08:50:00+09:00",
-      "publishedAt": "2026-06-28T08:50:00+09:00",
-      "source": "finance.yahoo.com",
-      "sourceType": "gdelt",
-      "title": "Here Why Teradyne Shares Surged Higher Today ( Hint : It AI and Micron - Related )",
-      "summary": "AI 반도체 article seen in finance.yahoo.com. This summary is a short rewritten description based on source metadata.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/heres-why-teradyne-shares-surged-205305052.html",
-      "keywords": [
-        "ai",
-        "반도체",
-        "반도체 수출 규제"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "반도체",
-        "데이터센터",
-        "장비"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "gdelt-1cc1632430fb64",
-      "collectedAt": "2026-06-28T08:50:00+09:00",
-      "publishedAt": "2026-06-28T08:50:00+09:00",
-      "source": "finance.yahoo.com",
-      "sourceType": "gdelt",
-      "title": "NVIDIA ( NVDA ), AWS ( AMZN ) Partner to Boost Production - Scale AI with Blackwell - Powered Instances",
-      "summary": "AI 반도체 article seen in finance.yahoo.com. This summary is a short rewritten description based on source metadata.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-aws-amzn-partner-080430752.html",
-      "keywords": [
-        "ai",
-        "반도체",
-        "nvidia",
-        "nvda",
-        "반도체 수출 규제",
-        "엔비디아"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "반도체",
-        "데이터센터",
-        "장비"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "gdelt-8c832fb2774a5e",
-      "collectedAt": "2026-06-28T08:50:00+09:00",
-      "publishedAt": "2026-06-28T08:50:00+09:00",
-      "source": "247wallst.com",
-      "sourceType": "gdelt",
-      "title": "Forget the AI Chipmakers . For 0 . 47 % This Fund Owns the Companies Building the Data Centers",
-      "summary": "AI 반도체 article seen in 247wallst.com. This summary is a short rewritten description based on source metadata.",
-      "url": "https://247wallst.com/investing/2026/06/27/forget-the-ai-chipmakers-for-0-47-this-fund-owns-the-companies-building-the-data-centers/",
-      "keywords": [
-        "ai",
-        "반도체",
-        "반도체 수출 규제"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "반도체",
-        "데이터센터",
-        "장비"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "gdelt-d1affd1ed0959c",
-      "collectedAt": "2026-06-28T08:50:00+09:00",
-      "publishedAt": "2026-06-28T08:50:00+09:00",
-      "source": "insidermonkey.com",
-      "sourceType": "gdelt",
-      "title": "NVIDIA ( NVDA ) Launches BioNeMo Agent Toolkit to Accelerate AI - Driven Scientific Discovery in Life Sciences",
-      "summary": "AI 반도체 article seen in insidermonkey.com. This summary is a short rewritten description based on source metadata.",
-      "url": "https://www.insidermonkey.com/blog/nvidia-nvda-launches-bionemo-agent-toolkit-to-accelerate-ai-driven-scientific-discovery-in-life-sciences-1790207/",
-      "keywords": [
-        "ai",
-        "반도체",
-        "nvidia",
-        "nvda",
-        "반도체 수출 규제",
-        "엔비디아"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "반도체",
-        "데이터센터",
-        "장비"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "gdelt-6362d675b63cb8",
-      "collectedAt": "2026-06-28T08:50:00+09:00",
-      "publishedAt": "2026-06-28T08:50:00+09:00",
-      "source": "insidermonkey.com",
-      "sourceType": "gdelt",
-      "title": "Microchip Tech ( MCHP ) Armenia Office Receives U . S . Export License for Advanced FPGA Development",
-      "summary": "AI 반도체 article seen in insidermonkey.com. This summary is a short rewritten description based on source metadata.",
-      "url": "https://www.insidermonkey.com/blog/microchip-tech-mchp-armenia-office-receives-u-s-export-license-for-advanced-fpga-development-1790444/",
-      "keywords": [
-        "ai",
-        "반도체",
-        "반도체 수출 규제"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "반도체",
-        "데이터센터",
-        "장비"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "gdelt-734de5efedcbb0",
-      "collectedAt": "2026-06-28T08:50:00+09:00",
-      "publishedAt": "2026-06-28T08:50:00+09:00",
-      "source": "memeburn.com",
-      "sourceType": "gdelt",
-      "title": "OpenAI Unveils Jalapeño , Its First Custom AI Chip With Broadcom",
-      "summary": "AI 반도체 article seen in memeburn.com. This summary is a short rewritten description based on source metadata.",
-      "url": "https://memeburn.com/openai-unveils-jalapeno-first-custom-ai-chip-with-broadcom/",
-      "keywords": [
-        "ai",
-        "반도체",
-        "ir",
-        "반도체 수출 규제"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "반도체",
-        "데이터센터",
-        "장비"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "gdelt-63ab41e6f52e5a",
-      "collectedAt": "2026-06-28T08:50:00+09:00",
-      "publishedAt": "2026-06-28T08:50:00+09:00",
-      "source": "finance.yahoo.com",
-      "sourceType": "gdelt",
-      "title": "Intel Stock Has Rocketed 250 % Higher This Year . Is It Too Late to Buy ?",
-      "summary": "AI 반도체 article seen in finance.yahoo.com. This summary is a short rewritten description based on source metadata.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/intel-stock-rocketed-250-higher-105000945.html",
-      "keywords": [
-        "ai",
-        "반도체",
-        "반도체 수출 규제"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "반도체",
-        "데이터센터",
-        "장비"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "gdelt-db5af9b3b6d097",
-      "collectedAt": "2026-06-28T08:50:00+09:00",
-      "publishedAt": "2026-06-28T08:50:00+09:00",
-      "source": "finance.yahoo.com",
-      "sourceType": "gdelt",
-      "title": "Microchip Tech ( MCHP ) Armenia Office Receives U . S . Export License for Advanced FPGA Development",
-      "summary": "AI 반도체 article seen in finance.yahoo.com. This summary is a short rewritten description based on source metadata.",
-      "url": "https://finance.yahoo.com/technology/articles/microchip-tech-mchp-armenia-office-161638953.html",
-      "keywords": [
-        "ai",
-        "반도체",
-        "반도체 수출 규제"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "반도체",
-        "데이터센터",
-        "장비"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "gdelt-738d59301d5d6b",
-      "collectedAt": "2026-06-28T08:50:00+09:00",
-      "publishedAt": "2026-06-28T08:50:00+09:00",
-      "source": "finance.yahoo.com",
-      "sourceType": "gdelt",
-      "title": "Micron just dethroned Nvidia in one key way",
-      "summary": "AI 반도체 article seen in finance.yahoo.com. This summary is a short rewritten description based on source metadata.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/micron-just-dethroned-nvidia-one-013700188.html",
-      "keywords": [
-        "ai",
-        "반도체",
-        "nvidia",
-        "반도체 수출 규제",
-        "엔비디아"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "반도체",
-        "데이터센터",
-        "장비"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "gdelt-00423156c4afa9",
-      "collectedAt": "2026-06-28T08:50:00+09:00",
-      "publishedAt": "2026-06-28T08:50:00+09:00",
-      "source": "finance.yahoo.com",
-      "sourceType": "gdelt",
-      "title": "One Wall Street Analyst Sees 50 % Upside in SpaceX . Why Im Still Not Buying the Stock .",
-      "summary": "AI 반도체 article seen in finance.yahoo.com. This summary is a short rewritten description based on source metadata.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/one-wall-street-analyst-sees-205700536.html",
-      "keywords": [
-        "ai",
-        "반도체",
-        "반도체 수출 규제"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "반도체",
-        "데이터센터",
-        "장비"
-      ],
-      "fixtureUsed": false,
-      "appliedToBriefing": false,
-      "evaluationEligible": true,
-      "briefingSurfaces": [],
-      "relatedIssueIds": []
-    },
-    {
-      "articleId": "gdelt-15ccc199510939",
-      "collectedAt": "2026-06-28T08:50:00+09:00",
-      "publishedAt": "2026-06-28T08:50:00+09:00",
-      "source": "focustaiwan.tw",
-      "sourceType": "gdelt",
-      "title": "Taiwan top 5 , 000 firms post record profit in 2025 ; TSMC most profitable",
-      "summary": "AI 반도체 article seen in focustaiwan.tw. This summary is a short rewritten description based on source metadata.",
-      "url": "https://focustaiwan.tw/business/202606270005",
-      "keywords": [
-        "ai",
-        "반도체",
-        "ir",
-        "반도체 수출 규제"
-      ],
-      "rawCategory": "industry",
-      "category": "industry",
-      "sectors": [
-        "반도체",
-        "데이터센터",
-        "장비"
       ],
       "fixtureUsed": false,
       "appliedToBriefing": false,

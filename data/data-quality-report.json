@@ -4,9 +4,17 @@
   "sourceLabel": "RSS/GDELT static data",
   "fixtureUsed": false,
   "fixtureCount": 0,
-  "rssCount": 125,
-  "gdeltCount": 27,
-  "failedSources": [],
+  "rssCount": 88,
+  "gdeltCount": 7,
+  "failedSources": [
+    {
+      "source": "gdelt",
+      "queryId": "ai-semiconductor",
+      "reason": "HTTP 429",
+      "attemptCount": 3,
+      "statusCode": 429
+    }
+  ],
   "sourceHealth": {
     "fixture": {
       "requested": true,
@@ -31,7 +39,7 @@
           "name": "Google News KR Economy",
           "ok": true,
           "failed": false,
-          "articleCount": 13,
+          "articleCount": 8,
           "reason": "articles collected"
         },
         {
@@ -39,7 +47,7 @@
           "name": "Google News KR Market",
           "ok": true,
           "failed": false,
-          "articleCount": 2,
+          "articleCount": 1,
           "reason": "articles collected"
         },
         {
@@ -47,7 +55,7 @@
           "name": "Google News Global Markets",
           "ok": true,
           "failed": false,
-          "articleCount": 91,
+          "articleCount": 83,
           "reason": "articles collected"
         },
         {
@@ -55,7 +63,7 @@
           "name": "Google News AI Semiconductor",
           "ok": true,
           "failed": false,
-          "articleCount": 38,
+          "articleCount": 13,
           "reason": "articles collected"
         }
       ]
@@ -63,36 +71,44 @@
     "gdelt": {
       "configuredCount": 2,
       "enabledCount": 2,
-      "successCount": 2,
-      "failedCount": 0,
+      "successCount": 1,
+      "failedCount": 1,
       "emptyCount": 0,
-      "rateLimitedCount": 1,
-      "failedSources": [],
+      "rateLimitedCount": 2,
+      "failedSources": [
+        {
+          "source": "gdelt",
+          "queryId": "ai-semiconductor",
+          "reason": "HTTP 429",
+          "attemptCount": 3,
+          "statusCode": 429
+        }
+      ],
       "details": [
         {
           "id": "global-market",
           "ok": true,
           "failed": false,
-          "rateLimited": false,
+          "rateLimited": true,
           "articleCount": 20,
-          "attemptCount": 1,
+          "attemptCount": 3,
           "statusCode": 200,
           "reason": "articles collected"
         },
         {
           "id": "ai-semiconductor",
-          "ok": true,
-          "failed": false,
+          "ok": false,
+          "failed": true,
           "rateLimited": true,
-          "articleCount": 20,
-          "attemptCount": 2,
-          "statusCode": 200,
-          "reason": "articles collected"
+          "articleCount": 0,
+          "attemptCount": 3,
+          "statusCode": 429,
+          "reason": "HTTP 429"
         }
       ]
     }
   },
-  "dataQualityStatus": "OK",
+  "dataQualityStatus": "DEGRADED_SOURCE_FAILURE",
   "sourceReport": {
     "requestedSources": [
       "fixture",
@@ -116,18 +132,18 @@
       "rss": {
         "requested": true,
         "enabled": true,
-        "collected": 144,
-        "relevant": 125,
-        "used": 125,
+        "collected": 105,
+        "relevant": 88,
+        "used": 88,
         "failed": false,
         "reason": "articles collected"
       },
       "gdelt": {
         "requested": true,
         "enabled": true,
-        "collected": 40,
-        "relevant": 27,
-        "used": 27,
+        "collected": 20,
+        "relevant": 7,
+        "used": 7,
         "failed": false,
         "reason": "articles collected"
       }
@@ -156,7 +172,7 @@
             "name": "Google News KR Economy",
             "ok": true,
             "failed": false,
-            "articleCount": 13,
+            "articleCount": 8,
             "reason": "articles collected"
           },
           {
@@ -164,7 +180,7 @@
             "name": "Google News KR Market",
             "ok": true,
             "failed": false,
-            "articleCount": 2,
+            "articleCount": 1,
             "reason": "articles collected"
           },
           {
@@ -172,7 +188,7 @@
             "name": "Google News Global Markets",
             "ok": true,
             "failed": false,
-            "articleCount": 91,
+            "articleCount": 83,
             "reason": "articles collected"
           },
           {
@@ -180,7 +196,7 @@
             "name": "Google News AI Semiconductor",
             "ok": true,
             "failed": false,
-            "articleCount": 38,
+            "articleCount": 13,
             "reason": "articles collected"
           }
         ]
@@ -188,64 +204,68 @@
       "gdelt": {
         "configuredCount": 2,
         "enabledCount": 2,
-        "successCount": 2,
-        "failedCount": 0,
+        "successCount": 1,
+        "failedCount": 1,
         "emptyCount": 0,
-        "rateLimitedCount": 1,
-        "failedSources": [],
+        "rateLimitedCount": 2,
+        "failedSources": [
+          {
+            "source": "gdelt",
+            "queryId": "ai-semiconductor",
+            "reason": "HTTP 429",
+            "attemptCount": 3,
+            "statusCode": 429
+          }
+        ],
         "details": [
           {
             "id": "global-market",
             "ok": true,
             "failed": false,
-            "rateLimited": false,
+            "rateLimited": true,
             "articleCount": 20,
-            "attemptCount": 1,
+            "attemptCount": 3,
             "statusCode": 200,
             "reason": "articles collected"
           },
           {
             "id": "ai-semiconductor",
-            "ok": true,
-            "failed": false,
+            "ok": false,
+            "failed": true,
             "rateLimited": true,
-            "articleCount": 20,
-            "attemptCount": 2,
-            "statusCode": 200,
-            "reason": "articles collected"
+            "articleCount": 0,
+            "attemptCount": 3,
+            "statusCode": 429,
+            "reason": "HTTP 429"
           }
         ]
       }
     },
-    "failedSources": [],
+    "failedSources": [
+      {
+        "source": "gdelt",
+        "queryId": "ai-semiconductor",
+        "reason": "HTTP 429",
+        "attemptCount": 3,
+        "statusCode": 429
+      }
+    ],
     "fixtureUsed": false,
     "fallbackUsed": false,
     "fixtureCount": 0,
-    "rssCount": 125,
-    "gdeltCount": 27,
+    "rssCount": 88,
+    "gdeltCount": 7,
     "totals": {
-      "collected": 195,
-      "relevant": 152,
+      "collected": 136,
+      "relevant": 95,
       "duplicatesRemoved": 0,
-      "used": 152
+      "used": 95
     },
     "filterReport": {
-      "collected": 195,
-      "relevant": 152,
-      "excluded": 32,
+      "collected": 136,
+      "relevant": 95,
+      "excluded": 30,
       "excludedSamples": [
-        {
-          "title": "국민은행, 포용금융 확대…취약차주에 1.53조 공급 - 스트레이트뉴스",
-          "reason": "no BriefOn economic keyword"
-        },
-        {
-          "title": "Trading in these two ETFs suggests inflation fears are overblown - CNBC",
-          "reason": "no BriefOn economic keyword"
-        },
-        {
-          "title": "America In Focus: Key inflation gauge surges to 3-year high, mortgage rate climbs - KLAS 8",
-          "reason": "no BriefOn economic keyword"
-        },
         {
           "title": "Why investors may want to prioritize bond markets outside the U.S. - CNBC",
           "reason": "no BriefOn economic keyword"
@@ -253,53 +273,72 @@
         {
           "title": "Buy 4 Defensive Stocks as Inflation Hits Highest Level in 3 Years - Yahoo Finance",
           "reason": "no BriefOn economic keyword"
+        },
+        {
+          "title": "America In Focus: Key inflation gauge surges to 3-year high, mortgage rate climbs - 104.5 ",
+          "reason": "no BriefOn economic keyword"
+        },
+        {
+          "title": "Trading in these two ETFs suggests inflation fears are overblown - CNBC",
+          "reason": "no BriefOn economic keyword"
+        },
+        {
+          "title": "What to Look Out for in Economic Data This Week (June 29-July 3) - Kiplinger",
+          "reason": "no BriefOn economic keyword"
         }
       ]
     },
-    "warnings": [],
-    "dataQualityStatus": "OK",
+    "warnings": [
+      {
+        "source": "gdelt",
+        "level": "warning",
+        "queryId": "ai-semiconductor",
+        "message": "GDELT request failed: HTTP 429."
+      }
+    ],
+    "dataQualityStatus": "DEGRADED_SOURCE_FAILURE",
     "sourceLabel": "RSS/GDELT static data"
   },
   "quality": {
     "economy": {
-      "issueCount": 38,
+      "issueCount": 23,
       "keywordCount": 4,
-      "articleCount": 46,
-      "uniqueArticleCount": 46,
-      "articleOccurrenceCount": 46,
+      "articleCount": 28,
+      "uniqueArticleCount": 28,
+      "articleOccurrenceCount": 28,
       "sourceTypeCounts": {
         "fixture": 0,
-        "rss": 46,
+        "rss": 28,
         "gdelt": 0
       },
       "occurrenceSourceTypeCounts": {
         "fixture": 0,
-        "rss": 46,
+        "rss": 28,
         "gdelt": 0
       },
       "fixtureArticleCount": 0,
-      "rssArticleCount": 46,
+      "rssArticleCount": 28,
       "gdeltArticleCount": 0,
       "emptySections": []
     },
     "preopen": {
-      "issueCount": 2,
-      "articleCount": 7,
-      "uniqueArticleCount": 7,
-      "articleOccurrenceCount": 7,
+      "issueCount": 1,
+      "articleCount": 1,
+      "uniqueArticleCount": 1,
+      "articleOccurrenceCount": 1,
       "sourceTypeCounts": {
         "fixture": 0,
-        "rss": 2,
-        "gdelt": 5
+        "rss": 1,
+        "gdelt": 0
       },
       "occurrenceSourceTypeCounts": {
         "fixture": 0,
-        "rss": 2,
-        "gdelt": 5
+        "rss": 1,
+        "gdelt": 0
       },
       "fixtureArticleCount": 0,
-      "rssArticleCount": 2,
-      "gdeltArticleCount": 5,
+      "rssArticleCount": 1,
+      "gdeltArticleCount": 0,
       "status": "ready",
       "emptyReason": ""
     },
@@ -313,41 +352,29 @@
     "interest": {
       "keywordSummaryCount": 3,
       "issueCount": 2,
-      "articleCount": 6,
-      "uniqueArticleCount": 6,
-      "articleOccurrenceCount": 6,
+      "articleCount": 3,
+      "uniqueArticleCount": 3,
+      "articleOccurrenceCount": 3,
       "sourceTypeCounts": {
         "fixture": 0,
-        "rss": 6,
+        "rss": 3,
         "gdelt": 0
       },
       "occurrenceSourceTypeCounts": {
         "fixture": 0,
-        "rss": 6,
+        "rss": 3,
         "gdelt": 0
       },
       "fixtureArticleCount": 0,
-      "rssArticleCount": 6,
+      "rssArticleCount": 3,
       "gdeltArticleCount": 0
     }
   },
   "filterReport": {
-    "collected": 195,
-    "relevant": 152,
-    "excluded": 32,
+    "collected": 136,
+    "relevant": 95,
+    "excluded": 30,
     "excludedSamples": [
-      {
-        "title": "국민은행, 포용금융 확대…취약차주에 1.53조 공급 - 스트레이트뉴스",
-        "reason": "no BriefOn economic keyword"
-      },
-      {
-        "title": "Trading in these two ETFs suggests inflation fears are overblown - CNBC",
-        "reason": "no BriefOn economic keyword"
-      },
-      {
-        "title": "America In Focus: Key inflation gauge surges to 3-year high, mortgage rate climbs - KLAS 8",
-        "reason": "no BriefOn economic keyword"
-      },
       {
         "title": "Why investors may want to prioritize bond markets outside the U.S. - CNBC",
         "reason": "no BriefOn economic keyword"
@@ -355,8 +382,27 @@
       {
         "title": "Buy 4 Defensive Stocks as Inflation Hits Highest Level in 3 Years - Yahoo Finance",
         "reason": "no BriefOn economic keyword"
+      },
+      {
+        "title": "America In Focus: Key inflation gauge surges to 3-year high, mortgage rate climbs - 104.5 ",
+        "reason": "no BriefOn economic keyword"
+      },
+      {
+        "title": "Trading in these two ETFs suggests inflation fears are overblown - CNBC",
+        "reason": "no BriefOn economic keyword"
+      },
+      {
+        "title": "What to Look Out for in Economic Data This Week (June 29-July 3) - Kiplinger",
+        "reason": "no BriefOn economic keyword"
       }
     ]
   },
-  "warnings": []
+  "warnings": [
+    {
+      "source": "gdelt",
+      "level": "warning",
+      "queryId": "ai-semiconductor",
+      "message": "GDELT request failed: HTTP 429."
+    }
+  ]
 }
