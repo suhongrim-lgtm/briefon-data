@@ -2,29 +2,24 @@
   "schemaVersion": 1,
   "generatedAt": "2026-06-28T08:50:00+09:00",
   "targetTime": "2026-06-28T08:50:00+09:00",
-  "sourceLabel": " static data",
+  "sourceLabel": "RSS/GDELT static data",
   "sourceMeta": {
-    "sourceLabel": " static data",
-    "usedSources": [],
+    "sourceLabel": "RSS/GDELT static data",
+    "usedSources": [
+      "rss",
+      "gdelt"
+    ],
     "sourceCounts": {
       "fixture": 0,
-      "rss": 0,
-      "gdelt": 0
+      "rss": 2,
+      "gdelt": 5
     },
-    "warningsCount": 1,
+    "warningsCount": 0,
     "fixtureUsed": false,
     "fixtureCount": 0,
-    "rssCount": 0,
-    "gdeltCount": 0,
-    "failedSources": [
-      {
-        "source": "gdelt",
-        "queryId": "ai-semiconductor",
-        "reason": "HTTP 429",
-        "attemptCount": 3,
-        "statusCode": 429
-      }
-    ],
+    "rssCount": 2,
+    "gdeltCount": 5,
+    "failedSources": [],
     "sourceHealth": {
       "fixture": {
         "requested": true,
@@ -49,7 +44,7 @@
             "name": "Google News KR Economy",
             "ok": true,
             "failed": false,
-            "articleCount": 100,
+            "articleCount": 13,
             "reason": "articles collected"
           },
           {
@@ -57,7 +52,7 @@
             "name": "Google News KR Market",
             "ok": true,
             "failed": false,
-            "articleCount": 100,
+            "articleCount": 2,
             "reason": "articles collected"
           },
           {
@@ -65,7 +60,7 @@
             "name": "Google News Global Markets",
             "ok": true,
             "failed": false,
-            "articleCount": 100,
+            "articleCount": 91,
             "reason": "articles collected"
           },
           {
@@ -73,7 +68,7 @@
             "name": "Google News AI Semiconductor",
             "ok": true,
             "failed": false,
-            "articleCount": 100,
+            "articleCount": 38,
             "reason": "articles collected"
           }
         ]
@@ -81,19 +76,11 @@
       "gdelt": {
         "configuredCount": 2,
         "enabledCount": 2,
-        "successCount": 1,
-        "failedCount": 1,
+        "successCount": 2,
+        "failedCount": 0,
         "emptyCount": 0,
         "rateLimitedCount": 1,
-        "failedSources": [
-          {
-            "source": "gdelt",
-            "queryId": "ai-semiconductor",
-            "reason": "HTTP 429",
-            "attemptCount": 3,
-            "statusCode": 429
-          }
-        ],
+        "failedSources": [],
         "details": [
           {
             "id": "global-market",
@@ -107,32 +94,156 @@
           },
           {
             "id": "ai-semiconductor",
-            "ok": false,
-            "failed": true,
+            "ok": true,
+            "failed": false,
             "rateLimited": true,
-            "articleCount": 0,
-            "attemptCount": 3,
-            "statusCode": 429,
-            "reason": "HTTP 429"
+            "articleCount": 20,
+            "attemptCount": 2,
+            "statusCode": 200,
+            "reason": "articles collected"
           }
         ]
       }
     },
-    "dataQualityStatus": "DEGRADED_SOURCE_FAILURE"
+    "dataQualityStatus": "OK"
   },
-  "status": "empty",
-  "emptyReason": "no high impact issues",
+  "status": "ready",
+  "emptyReason": "",
   "market": "KR",
-  "sourceArticleCount": 431,
-  "usedArticleCount": 6,
-  "sourceCount": 431,
+  "sourceArticleCount": 195,
+  "usedArticleCount": 40,
+  "sourceCount": 195,
   "period": {
     "startAt": "2026-06-28T06:00:00+09:00",
     "endAt": "2026-06-28T08:50:00+09:00",
     "targetTime": "2026-06-28T08:50:00+09:00",
     "windowLabel": "오늘 06:00 - 08:50"
   },
-  "summary": "현재 기준을 충족한 긴급 시장 이슈가 없습니다.",
-  "checkPoints": [],
-  "issues": []
+  "summary": "2개 이슈가 국내 장 시작 전 확인 대상입니다. 환율, 금리, 반도체와 정책 변수를 우선 점검하세요.",
+  "checkPoints": [
+    "환율과 달러 흐름",
+    "미국 금리와 기술주 반응",
+    "반도체·AI 밸류체인",
+    "주요 일정 변화"
+  ],
+  "issues": [
+    {
+      "id": "preopen-issue-3a55a6b1-001",
+      "rank": 1,
+      "categoryId": "industry",
+      "impactLevel": "high",
+      "title": "What Huawei Chip Strategy Reveals About Innovation Under Pressure",
+      "summary": "AI 반도체 article seen in forbes.com. This summary is a short rewritten description based on source metadata.",
+      "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
+      "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
+      "tags": [
+        "ai",
+        "반도체",
+        "nvidia",
+        "nvda",
+        "엔비디아",
+        "ir"
+      ],
+      "sectors": [
+        "반도체",
+        "데이터센터",
+        "장비"
+      ],
+      "relatedEventIds": [
+        "event-korea-export-2026-06"
+      ],
+      "articles": [
+        {
+          "id": "gdelt-caa6fb1db667cf",
+          "title": "What Huawei Chip Strategy Reveals About Innovation Under Pressure",
+          "description": "AI 반도체 article seen in forbes.com. This summary is a short rewritten description based on source metadata.",
+          "source": "forbes.com",
+          "sourceType": "gdelt",
+          "url": "https://www.forbes.com/sites/markgreeven/2026/06/27/what-huaweis-chip-strategy-reveals-about-innovation-under-pressure/",
+          "publishedAt": "2026-06-28T08:50:00+09:00"
+        },
+        {
+          "id": "gdelt-0d090c51783764",
+          "title": "In AI Race With China , America Must Put Dominance Before Cooperation",
+          "description": "AI 반도체 article seen in theepochtimes.com. This summary is a short rewritten description based on source metadata.",
+          "source": "theepochtimes.com",
+          "sourceType": "gdelt",
+          "url": "https://www.theepochtimes.com/opinion/in-ai-race-with-china-america-must-put-dominance-before-cooperation-6054068",
+          "publishedAt": "2026-06-28T08:50:00+09:00"
+        },
+        {
+          "id": "gdelt-aa5019db8b4c1d",
+          "title": "NVIDIA Corporation ( NVDA ) Expands Vera CPU Push in China Despite Export Restrictions",
+          "description": "AI 반도체 article seen in finance.yahoo.com. This summary is a short rewritten description based on source metadata.",
+          "source": "finance.yahoo.com",
+          "sourceType": "gdelt",
+          "url": "https://finance.yahoo.com/technology/articles/nvidia-corporation-nvda-expands-vera-105026448.html",
+          "publishedAt": "2026-06-28T08:50:00+09:00"
+        },
+        {
+          "id": "gdelt-591dc9f38b4258",
+          "title": "OpenAI Is Building Its Own AI Chip With Broadcom . Should Nvidia Investors Be Worried ?",
+          "description": "AI 반도체 article seen in finance.yahoo.com. This summary is a short rewritten description based on source metadata.",
+          "source": "finance.yahoo.com",
+          "sourceType": "gdelt",
+          "url": "https://finance.yahoo.com/technology/ai/articles/openai-building-own-ai-chip-231200024.html",
+          "publishedAt": "2026-06-28T08:50:00+09:00"
+        },
+        {
+          "id": "gdelt-5b7b3d7b19bdf8",
+          "title": "OpenAI Is Building Its Own AI Chip With Broadcom . Should Nvidia Investors Be Worried ?",
+          "description": "AI 반도체 article seen in fool.com. This summary is a short rewritten description based on source metadata.",
+          "source": "fool.com",
+          "sourceType": "gdelt",
+          "url": "https://www.fool.com/investing/2026/06/26/openai-is-building-its-own-ai-chip-with-broadcom-s/?source=iedfolrf0000001",
+          "publishedAt": "2026-06-28T08:50:00+09:00"
+        }
+      ],
+      "updatedAt": "2026-06-28T08:50:00+09:00",
+      "active": true
+    },
+    {
+      "id": "preopen-issue-50691f94-004",
+      "rank": 2,
+      "categoryId": "market",
+      "impactLevel": "high",
+      "title": "2분기 환율 평균 1500원, 외환위기 이후 처음…'뉴노멀' 되나 - 진일보",
+      "summary": "2분기 환율 평균 1500원, 외환위기 이후 처음…'뉴노멀' 되나 진일보",
+      "whyItMatters": "시장흐름 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
+      "marketImpact": "외국인 수급과 수입 원가 부담에 영향을 줄 수 있습니다.",
+      "tags": [
+        "환율"
+      ],
+      "sectors": [
+        "수출주",
+        "항공",
+        "유통"
+      ],
+      "relatedEventIds": [
+        "event-us-cpi-2026-06"
+      ],
+      "articles": [
+        {
+          "id": "rss-65d9cd43394d05",
+          "title": "2분기 환율 평균 1500원, 외환위기 이후 처음…'뉴노멀' 되나 - 진일보",
+          "description": "2분기 환율 평균 1500원, 외환위기 이후 처음…'뉴노멀' 되나 진일보",
+          "source": "진일보",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8wTUxDYkRUOTF5YVFhVjFBX1lnbXZ0TEFlX2xETkt0eFhUbHBHX01rZW9CQ3JaV2lmUU5LNkpHVFctX1pxNm1vemp5dk56T0lhR1BFTnd0Q1h6R29yZEhMYXhSaE5vd19UdnhkWmp1aw?oc=5",
+          "publishedAt": "2026-06-28T07:37:07+09:00"
+        },
+        {
+          "id": "rss-6940ccaceb9aa7",
+          "title": "2분기 환율 평균 1500원, 외환위기 이후 처음…'뉴노멀' 되나 - v.daum.net",
+          "description": "2분기 환율 평균 1500원, 외환위기 이후 처음…'뉴노멀' 되나 v.daum.net",
+          "source": "v.daum.net",
+          "sourceType": "rss",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9xelhsMlZzZGhSMDZLNnVORjhSWXVyeTlsamVPMXk4ZDJnenJ4NUdkb2x3WXZqQnhLV2U3Skh6bkxHbkRPUUE?oc=5",
+          "publishedAt": "2026-06-28T07:37:09+09:00"
+        }
+      ],
+      "updatedAt": "2026-06-28T08:50:00+09:00",
+      "active": true
+    }
+  ]
 }

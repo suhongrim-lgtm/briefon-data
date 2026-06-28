@@ -9,23 +9,15 @@
     ],
     "sourceCounts": {
       "fixture": 0,
-      "rss": 22,
+      "rss": 6,
       "gdelt": 0
     },
-    "warningsCount": 1,
+    "warningsCount": 0,
     "fixtureUsed": false,
     "fixtureCount": 0,
-    "rssCount": 22,
+    "rssCount": 6,
     "gdeltCount": 0,
-    "failedSources": [
-      {
-        "source": "gdelt",
-        "queryId": "ai-semiconductor",
-        "reason": "HTTP 429",
-        "attemptCount": 3,
-        "statusCode": 429
-      }
-    ],
+    "failedSources": [],
     "sourceHealth": {
       "fixture": {
         "requested": true,
@@ -50,7 +42,7 @@
             "name": "Google News KR Economy",
             "ok": true,
             "failed": false,
-            "articleCount": 100,
+            "articleCount": 13,
             "reason": "articles collected"
           },
           {
@@ -58,7 +50,7 @@
             "name": "Google News KR Market",
             "ok": true,
             "failed": false,
-            "articleCount": 100,
+            "articleCount": 2,
             "reason": "articles collected"
           },
           {
@@ -66,7 +58,7 @@
             "name": "Google News Global Markets",
             "ok": true,
             "failed": false,
-            "articleCount": 100,
+            "articleCount": 91,
             "reason": "articles collected"
           },
           {
@@ -74,7 +66,7 @@
             "name": "Google News AI Semiconductor",
             "ok": true,
             "failed": false,
-            "articleCount": 100,
+            "articleCount": 38,
             "reason": "articles collected"
           }
         ]
@@ -82,19 +74,11 @@
       "gdelt": {
         "configuredCount": 2,
         "enabledCount": 2,
-        "successCount": 1,
-        "failedCount": 1,
+        "successCount": 2,
+        "failedCount": 0,
         "emptyCount": 0,
         "rateLimitedCount": 1,
-        "failedSources": [
-          {
-            "source": "gdelt",
-            "queryId": "ai-semiconductor",
-            "reason": "HTTP 429",
-            "attemptCount": 3,
-            "statusCode": 429
-          }
-        ],
+        "failedSources": [],
         "details": [
           {
             "id": "global-market",
@@ -108,18 +92,18 @@
           },
           {
             "id": "ai-semiconductor",
-            "ok": false,
-            "failed": true,
+            "ok": true,
+            "failed": false,
             "rateLimited": true,
-            "articleCount": 0,
-            "attemptCount": 3,
-            "statusCode": 429,
-            "reason": "HTTP 429"
+            "articleCount": 20,
+            "attemptCount": 2,
+            "statusCode": 200,
+            "reason": "articles collected"
           }
         ]
       }
     },
-    "dataQualityStatus": "DEGRADED_SOURCE_FAILURE"
+    "dataQualityStatus": "OK"
   },
   "keywordSummaries": {
     "kw-nvidia": {
@@ -133,36 +117,28 @@
         "NVDA",
         "젠슨 황",
         "nvidia",
-        "ai"
+        "nvda"
       ],
       "updatedAt": "2026-06-28T08:50:00+09:00"
     },
     "kw-semiconductor": {
       "keywordId": "kw-semiconductor",
-      "summary": "반도체 관련 이슈 2건이 확인됐습니다. 관련 업종과 일정 변화를 함께 점검하세요.",
-      "newsCount": 10,
-      "relatedEventIds": [
-        "event-us-cpi-2026-06",
-        "event-fomc-minutes-2026-06",
-        "event-korea-export-2026-06"
-      ],
+      "summary": "반도체 관련 새 이슈는 아직 확인되지 않았습니다.",
+      "newsCount": 0,
+      "relatedEventIds": [],
       "relatedTerms": [
         "반도체",
         "AI 반도체",
         "데이터센터",
-        "HBM",
-        "투자",
-        "규제"
+        "HBM"
       ],
       "updatedAt": "2026-06-28T08:50:00+09:00"
     },
     "kw-shipbuilding-defense": {
       "keywordId": "kw-shipbuilding-defense",
-      "summary": "조선·방산 관련 이슈 3건이 확인됐습니다. 관련 업종과 일정 변화를 함께 점검하세요.",
-      "newsCount": 12,
+      "summary": "조선·방산 관련 이슈 1건이 확인됐습니다. 관련 업종과 일정 변화를 함께 점검하세요.",
+      "newsCount": 1,
       "relatedEventIds": [
-        "event-us-cpi-2026-06",
-        "event-fomc-minutes-2026-06",
         "event-korea-export-2026-06"
       ],
       "relatedTerms": [
@@ -170,8 +146,7 @@
         "방산",
         "조선 수주",
         "방산 수출",
-        "반도체",
-        "투자"
+        "ai"
       ],
       "updatedAt": "2026-06-28T08:50:00+09:00"
     }
@@ -179,18 +154,18 @@
   "issuesByKeyword": {
     "kw-nvidia": [
       {
-        "id": "interest-kw-nvidia-issue-ef403eaa-005",
+        "id": "interest-kw-nvidia-issue-ef403eaa-002",
         "categoryId": "industry",
         "categoryLabel": "산업·테마",
         "impactLevel": "high",
-        "title": "Nvidia Owns This Under-the-Radar $20 Stock Poised to Disrupt a $1.8 Trillion Market - Yahoo Finance",
-        "whatHappened": "Nvidia Owns This Under-the-Radar $20 Stock Poised to Disrupt a $1.8 Trillion Market Yahoo Finance",
+        "title": "Where Will Nvidia Stock Be in 2030? - Yahoo Finance",
+        "whatHappened": "Where Will Nvidia Stock Be in 2030? Yahoo Finance",
         "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
         "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
         "tags": [
           "nvidia",
-          "ai",
-          "nvda"
+          "nvda",
+          "ai"
         ],
         "sectors": [
           "반도체",
@@ -201,13 +176,22 @@
         "updatedAt": "2026-06-28T08:50:00+09:00",
         "articles": [
           {
-            "id": "rss-9380df18a9e563",
-            "title": "Nvidia Owns This Under-the-Radar $20 Stock Poised to Disrupt a $1.8 Trillion Market - Yahoo Finance",
-            "description": "Nvidia Owns This Under-the-Radar $20 Stock Poised to Disrupt a $1.8 Trillion Market Yahoo Finance",
+            "id": "rss-6ef1cffd2bbb0a",
+            "title": "Where Will Nvidia Stock Be in 2030? - Yahoo Finance",
+            "description": "Where Will Nvidia Stock Be in 2030? Yahoo Finance",
             "source": "Yahoo Finance",
             "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVThremlmSC11LTVaaFZMQjBmNUdoNVpOVkRDMjZlckpvSWZlMk9FaW1KX094TEJkSUhnSUs4a1ZrZjlEeUZIQmNaajNFVTBDZHZKRTdkaFZJRmNvV3hZNzZxaThwSG9kOXYwTVJyOEJNcWZ1N3J6NkNnQWZlZ19kazN6TjlFOV9Dbm1zb0FvV25HX2E1?oc=5",
-            "publishedAt": "2026-06-27T20:43:00+09:00"
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNnFOMTRGZkdhdDlRaHNfbTV1bGRkMWZtd3lwalU1ZEhuR2dvMWcwMm5EUV9OUUpuMjJncjNZSWw5STVxTkV5dUM3TEk1SzZZWEFxQXBleFRnVGM3bkdfN0k2YkpQWEc4UDJSS3ZVSUxPOXVMLWUyWE5ndEZTLUZ0ejBFZFZRUXlidDQwS1RYWUhWZw?oc=5",
+            "publishedAt": "2026-06-28T02:38:00+09:00"
+          },
+          {
+            "id": "rss-cb8fc12e888bbc",
+            "title": "NVIDIA (NVDA) Announces the NVIDIA Vera Rubin Platform - Yahoo Finance",
+            "description": "NVIDIA (NVDA) Announces the NVIDIA Vera Rubin Platform Yahoo Finance",
+            "source": "Yahoo Finance",
+            "sourceType": "rss",
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUC1rWUZWckk5dTNzNmdia3JSejI5OG5lR2pFdm96X2VqZmZZYWVUR0xiM1ZOX0x1SXBMVHhfN0JiRTFaUGg4dTJsTnR1end6R3ZHazQ2Q2xyRkdLQk5GeGxWblYxdGxKV3VyYldkblRDclNQUUxNeVFfRTI0WFVWUWVnQXlYb1hlZ0hqaGJoOEdYMDl3X1NDLUVuRGdWQQ?oc=5",
+            "publishedAt": "2026-06-28T04:08:52+09:00"
           },
           {
             "id": "rss-9c6fac3fe05dae",
@@ -219,365 +203,40 @@
             "publishedAt": "2026-06-27T20:21:42+09:00"
           },
           {
-            "id": "rss-215013fee56fd6",
-            "title": "Is NVIDIA Corporation (NVDA) One of the Best Brain-Computer Interface Stocks to Buy? - Yahoo Finance",
-            "description": "Is NVIDIA Corporation (NVDA) One of the Best Brain-Computer Interface Stocks to Buy? Yahoo Finance",
-            "source": "Yahoo Finance",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMmNyZTNFblpYTHJTbFRvckVHTXlfZUo0ckMwTzlCMWZPeWFQUzJIU1ZfWmp4N3hhdzlGelo2UEFoNGFadE8wRFFIdWdGYV9maEFPbHp1TEhrX1lJa0M1ZVQzenVfZnZxLTlIRGFsZnRhaGp5TnF2aVFsMzZxRjlMN1h5SVVfYlVibTdhMk56SlgtLU5UcTFRYUFKcm1GUQ?oc=5",
-            "publishedAt": "2026-06-28T00:32:45+09:00"
-          },
-          {
-            "id": "rss-bd0421ddb90825",
-            "title": "Qualcomm’s big AI gamble: Breaking Nvidia’s chips stronghold - Yahoo Finance",
-            "description": "Qualcomm’s big AI gamble: Breaking Nvidia’s chips stronghold Yahoo Finance",
-            "source": "Yahoo Finance",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcllieEFHVTY4NXRGc3VNb3RlVEpmeW5fYlBKYVZCNnloOHhSLTVmemVaY2JLaWE2VVprTnFKRTVMNExmV2tUdFdjLVNwcVRtelRDc3d3blI3cm0xaER2NmFsbHoxVWZwX0YwdWYxMndlb1BZenU5UWlJT3JNcEVfU05VOVV6c3VObjJDNnRqVF9FbEY2Y0o1TW00RQ?oc=5",
-            "publishedAt": "2026-06-27T16:00:00+09:00"
-          },
-          {
-            "id": "rss-fb2b1fc55b55d2",
-            "title": "The Biggest Risk to Nvidia's Stock Price That Almost Nobody Is Talking About - The Motley Fool",
-            "description": "The Biggest Risk to Nvidia's Stock Price That Almost Nobody Is Talking About The Motley Fool",
+            "id": "rss-ce37b0cd188043",
+            "title": "Nvidia Owns This Under-the-Radar $20 Stock Poised to Disrupt a $1.8 Trillion Market - The Motley Fool",
+            "description": "Nvidia Owns This Under-the-Radar $20 Stock Poised to Disrupt a $1.8 Trillion Market The Motley Fool",
             "source": "The Motley Fool",
             "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRGpZQnJwbkNFQW5tLTZKQklrNl9EaDJGNzhJX0EtUE9ET0JTT3VMSkQ1aDNObkNIaVZNUWZ6S1pYTy1oU0xWZ0M2X3N4MXJDOENLcW44T3JtLXl3TEt5VDhUdmU3THhWTUNBSzZJWU40LVhTYXY1N0l4UEZ4bHV6OVpDRkpjWTNqTU9oUXlZaXFmNGg3V3dNWg?oc=5",
-            "publishedAt": "2026-06-27T17:00:00+09:00"
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMWdSREhvRmNSSXVFVVUxenBWYTFxMmxEZy13UVZER3JVNVhaVUs2S0o2QUhJdWFIbGprMkpnbDhYMk5ob3BkdkdRbF9Fa0dzN3otX2o2VnQ1d0ZocHZRMEtlMzZyZFRwZnY1djBuZUxkVGRMZXhpbjVrOXQ3aFJ6YWF0alFFYVFOUmIyRHNwMTRpX1ZERmdwMA?oc=5",
+            "publishedAt": "2026-06-27T21:23:00+09:00"
+          },
+          {
+            "id": "rss-fa14b81801b5e6",
+            "title": "Where Will Nvidia Stock Be in 2030? - The Motley Fool",
+            "description": "Where Will Nvidia Stock Be in 2030? The Motley Fool",
+            "source": "The Motley Fool",
+            "sourceType": "rss",
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTkliTWJfOEZRRHZ6aUJNYlBKd3lVMktib1V0UTVWcVR3U1NXOGdvdGNWeXpISkd3RElObkJmWFlRVUdmMmVlZ0dhT0d1YkpPb2JVdFhKbzB5ZTF6VzdzamZ0WkE3T3lKV1lfdVdvY3JvR3JGNVVwYzVfaGNFTGR1bkI2UQ?oc=5",
+            "publishedAt": "2026-06-28T03:18:00+09:00"
           }
         ],
-        "detail": "Nvidia Owns This Under-the-Radar $20 Stock Poised to Disrupt a $1.8 Trillion Market Yahoo Finance"
+        "detail": "Where Will Nvidia Stock Be in 2030? Yahoo Finance"
       }
     ],
-    "kw-semiconductor": [
-      {
-        "id": "interest-kw-semiconductor-issue-3a55a6b1-001",
-        "categoryId": "industry",
-        "categoryLabel": "산업·테마",
-        "impactLevel": "high",
-        "title": "[2026.05] 반도체 호조 - KDI 경제교육",
-        "whatHappened": "[2026.05] 반도체 호조 KDI 경제교육",
-        "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
-        "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
-        "tags": [
-          "반도체",
-          "투자",
-          "규제",
-          "데이터센터",
-          "조선",
-          "ai",
-          "금",
-          "고용"
-        ],
-        "sectors": [
-          "반도체",
-          "데이터센터",
-          "장비"
-        ],
-        "relatedEventIds": [
-          "event-us-cpi-2026-06",
-          "event-fomc-minutes-2026-06",
-          "event-korea-export-2026-06"
-        ],
-        "updatedAt": "2026-06-28T08:50:00+09:00",
-        "articles": [
-          {
-            "id": "rss-5f48ab9d457772",
-            "title": "[2026.05] 반도체 호조 - KDI 경제교육",
-            "description": "[2026.05] 반도체 호조 KDI 경제교육",
-            "source": "KDI 경제교육",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1GcTMwMndfRTdLVWo3MzRMcUxOeFd4QW81YWdQOW9TTmY3c2xOQnN0U0Z2X21UcmxzYzRUcXVlN3FabmRVYzQ3Qm84alhiYjJzZ3ZfMkJhYjJoMmF0VWZ2TQ?oc=5",
-            "publishedAt": "2026-06-27T06:36:44+09:00"
-          },
-          {
-            "id": "rss-d7535ef0a7bbef",
-            "title": "김영환 \"호남권 반도체 투자는 시장경제 허무는 중대 범죄\" - v.daum.net",
-            "description": "김영환 \"호남권 반도체 투자는 시장경제 허무는 중대 범죄\" v.daum.net",
-            "source": "v.daum.net",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE51SE1Za0VLYUtISmx3RWk4dF9VUnFOXzI1UG1UaTZ0bzliQVBiMmpvS19IUXFlM0hSbzVUTDVjeGVVbk1qYTVHcW9aX29icWc?oc=5",
-            "publishedAt": "2026-06-27T19:25:02+09:00"
-          },
-          {
-            "id": "rss-23b043495769e1",
-            "title": "‘호남 반도체 클러스터’...“국가균형성장 이끌 최적지” - 남해안신문",
-            "description": "‘호남 반도체 클러스터’...“국가균형성장 이끌 최적지” 남해안신문",
-            "source": "남해안신문",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5aM0lMb19veTNVVno3VkUxNkVGVTZkWWNtUlRKU1d5RjNRTGktaVJaMHhlNGxwaFRCZGlsa3hOclp1SVJ1MmJNeXFNSTRuS1ZvSktaekpMUU1XZ1ZYeGxTakEwQVVKR0lF?oc=5",
-            "publishedAt": "2026-06-27T15:21:51+09:00"
-          },
-          {
-            "id": "rss-fcf702970f321c",
-            "title": "규제지역에서 대출은 얼마나 나올까 - 한국경제",
-            "description": "규제지역에서 대출은 얼마나 나올까 한국경제",
-            "source": "한국경제",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ySE9TS2VNZk8wZnktay1MeUp5eTdub1dxemJUSm1tY3BXcDZUX0htVUtWNGt5aHpURWtfSzM0VTVmYVNYak9PQ2RqcmI1VzJQOElGeTdfX1Uyd9IBVEFVX3lxTFB6Y1BHR1RwNm9yZkJUZlBmUUN5WFY2Z0VIY3BBbDFBN2RkRmtrWU5VZEtKVjZFenJaNjBpNWtmNlloLWVLblNWSHQ1U0JfbVA0Ny12Nw?oc=5",
-            "publishedAt": "2026-06-27T18:00:01+09:00"
-          },
-          {
-            "id": "rss-378f358f99105d",
-            "title": "당진시, GS 데이터센터·반도체 투자 물망에 술렁 - 당진신문",
-            "description": "당진시, GS 데이터센터·반도체 투자 물망에 술렁 당진신문",
-            "source": "당진신문",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAwa0lHTWMxX2ZMaVJva0pOYks5aXdoOXhXTGM2a2hrRVFwenBWd1dxWV9VdUcyb2JWMnJJbXB4VkhqcVBWdWg4LWhGU25DbGtKMVdDT2F5VUp6VGdQVXllVFN6MHdGdVAz?oc=5",
-            "publishedAt": "2026-06-27T18:00:00+09:00"
-          }
-        ],
-        "detail": "[2026.05] 반도체 호조 KDI 경제교육"
-      },
-      {
-        "id": "interest-kw-semiconductor-issue-50691f94-003",
-        "categoryId": "market",
-        "categoryLabel": "시장흐름",
-        "impactLevel": "high",
-        "title": "한달반 째 환율 1,500원대…’뉴노멀’ 자리잡나 - 연합뉴스TV",
-        "whatHappened": "한달반 째 환율 1,500원대…’뉴노멀’ 자리잡나 연합뉴스TV",
-        "marketImpact": "외국인 수급과 수입 원가 부담에 영향을 줄 수 있습니다.",
-        "whyItMatters": "시장흐름 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
-        "tags": [
-          "환율",
-          "금리",
-          "금",
-          "달러",
-          "유가",
-          "채권",
-          "정책",
-          "반도체"
-        ],
-        "sectors": [
-          "수출주",
-          "항공",
-          "유통"
-        ],
-        "relatedEventIds": [
-          "event-us-cpi-2026-06",
-          "event-fomc-minutes-2026-06",
-          "event-korea-export-2026-06"
-        ],
-        "updatedAt": "2026-06-28T08:50:00+09:00",
-        "articles": [
-          {
-            "id": "rss-028ff3c72a95df",
-            "title": "한달반 째 환율 1,500원대…’뉴노멀’ 자리잡나 - 연합뉴스TV",
-            "description": "한달반 째 환율 1,500원대…’뉴노멀’ 자리잡나 연합뉴스TV",
-            "source": "연합뉴스TV",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oTzRkWFBDSXNUSHROT3NPWUQ3M3g3VmNJUmJ0WUxGQ204OHBkWGR5alZTdm5aOEc4NFdBRldERHZ3d0R5TmhKbVJkVHI2M3l0NktjdEJnM3Y5SkVzZWtLWm12cUhQNWs?oc=5",
-            "publishedAt": "2026-06-27T14:39:38+09:00"
-          },
-          {
-            "id": "rss-4ab61e2b57031c",
-            "title": "하반기 환율 하락 전망 속 ‘외국인 매도’·‘美 금리’ 변수 - 농민신문",
-            "description": "하반기 환율 하락 전망 속 ‘외국인 매도’·‘美 금리’ 변수 농민신문",
-            "source": "농민신문",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11R2F5SThxSXpDaDFfN1diMDBGNERmV2ZvS2dBeTlHNlV0YUh5UF9LR1pxS1RoWk9janhNQTBKWXlVcHN0WlVqamJWdTZMNHZqYUFPNXJWeGxJUQ?oc=5",
-            "publishedAt": "2026-06-27T11:00:00+09:00"
-          },
-          {
-            "id": "rss-9acec9764c1bb8",
-            "title": "환율 상승에 ‘달러 쟁이기’ - v.daum.net",
-            "description": "환율 상승에 ‘달러 쟁이기’ v.daum.net",
-            "source": "v.daum.net",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9nVVlGS0ljbk9FLU9WUS1PYzYyWFliRFlPdGxCQU9EdWd5RGRYME9rT291Qzd0QmZaQ0p0Y2duVy1ab25jUXlwVk1JSU90Sjg?oc=5",
-            "publishedAt": "2026-06-27T15:26:02+09:00"
-          },
-          {
-            "id": "rss-0aaf086f66c248",
-            "title": "유가는 되돌렸는데 달러는 강세…환율, 결국 금리의 문제 | - 연합인포맥스",
-            "description": "유가는 되돌렸는데 달러는 강세…환율, 결국 금리의 문제 | 연합인포맥스",
-            "source": "연합인포맥스",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1sWmZtVkkwU3N3RWgwWS03eXRsVmVLZUNMS21RVHlxS2d2ZjluaElsNmVmMTdPWGZYalZMTUVZSVg3QXhOZnM3Q3dHRS1DbEVQUE1RaVFCREMweGxiNmZ4WUlQZV9QU25La09jaXZLdVFodEMy?oc=5",
-            "publishedAt": "2026-06-27T07:23:39+09:00"
-          },
-          {
-            "id": "rss-eaac6646c3dd54",
-            "title": "ETF 이름 뒤 '(H)' 뜻 아세요?…환율이 수익률 바꾼다 - v.daum.net",
-            "description": "ETF 이름 뒤 '(H)' 뜻 아세요?…환율이 수익률 바꾼다 v.daum.net",
-            "source": "v.daum.net",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9MMy03Wkp1dnJtVlNydTFmY1M4c2xqdnd4LUxldGRnSFNmSl9kVnF1akd5TzNfdU5uSy1WdkpkS3RSM3M3V0hHSUNXN0EtNnM?oc=5",
-            "publishedAt": "2026-06-27T08:03:00+09:00"
-          }
-        ],
-        "detail": "한달반 째 환율 1,500원대…’뉴노멀’ 자리잡나 연합뉴스TV"
-      }
-    ],
+    "kw-semiconductor": [],
     "kw-shipbuilding-defense": [
       {
-        "id": "interest-kw-shipbuilding-defense-issue-3a55a6b1-001",
+        "id": "interest-kw-shipbuilding-defense-issue-f5724fb8-004",
         "categoryId": "industry",
         "categoryLabel": "산업·테마",
-        "impactLevel": "high",
-        "title": "[2026.05] 반도체 호조 - KDI 경제교육",
-        "whatHappened": "[2026.05] 반도체 호조 KDI 경제교육",
+        "impactLevel": "medium",
+        "title": "AI Boom Bubble Collapse Risk from Rate Hikes - 조선일보",
+        "whatHappened": "AI Boom Bubble Collapse Risk from Rate Hikes 조선일보",
         "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
         "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
         "tags": [
-          "반도체",
-          "투자",
-          "규제",
-          "데이터센터",
-          "조선",
           "ai",
-          "금",
-          "고용"
-        ],
-        "sectors": [
-          "반도체",
-          "데이터센터",
-          "장비"
-        ],
-        "relatedEventIds": [
-          "event-us-cpi-2026-06",
-          "event-fomc-minutes-2026-06",
-          "event-korea-export-2026-06"
-        ],
-        "updatedAt": "2026-06-28T08:50:00+09:00",
-        "articles": [
-          {
-            "id": "rss-5f48ab9d457772",
-            "title": "[2026.05] 반도체 호조 - KDI 경제교육",
-            "description": "[2026.05] 반도체 호조 KDI 경제교육",
-            "source": "KDI 경제교육",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1GcTMwMndfRTdLVWo3MzRMcUxOeFd4QW81YWdQOW9TTmY3c2xOQnN0U0Z2X21UcmxzYzRUcXVlN3FabmRVYzQ3Qm84alhiYjJzZ3ZfMkJhYjJoMmF0VWZ2TQ?oc=5",
-            "publishedAt": "2026-06-27T06:36:44+09:00"
-          },
-          {
-            "id": "rss-d7535ef0a7bbef",
-            "title": "김영환 \"호남권 반도체 투자는 시장경제 허무는 중대 범죄\" - v.daum.net",
-            "description": "김영환 \"호남권 반도체 투자는 시장경제 허무는 중대 범죄\" v.daum.net",
-            "source": "v.daum.net",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE51SE1Za0VLYUtISmx3RWk4dF9VUnFOXzI1UG1UaTZ0bzliQVBiMmpvS19IUXFlM0hSbzVUTDVjeGVVbk1qYTVHcW9aX29icWc?oc=5",
-            "publishedAt": "2026-06-27T19:25:02+09:00"
-          },
-          {
-            "id": "rss-23b043495769e1",
-            "title": "‘호남 반도체 클러스터’...“국가균형성장 이끌 최적지” - 남해안신문",
-            "description": "‘호남 반도체 클러스터’...“국가균형성장 이끌 최적지” 남해안신문",
-            "source": "남해안신문",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5aM0lMb19veTNVVno3VkUxNkVGVTZkWWNtUlRKU1d5RjNRTGktaVJaMHhlNGxwaFRCZGlsa3hOclp1SVJ1MmJNeXFNSTRuS1ZvSktaekpMUU1XZ1ZYeGxTakEwQVVKR0lF?oc=5",
-            "publishedAt": "2026-06-27T15:21:51+09:00"
-          },
-          {
-            "id": "rss-fcf702970f321c",
-            "title": "규제지역에서 대출은 얼마나 나올까 - 한국경제",
-            "description": "규제지역에서 대출은 얼마나 나올까 한국경제",
-            "source": "한국경제",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ySE9TS2VNZk8wZnktay1MeUp5eTdub1dxemJUSm1tY3BXcDZUX0htVUtWNGt5aHpURWtfSzM0VTVmYVNYak9PQ2RqcmI1VzJQOElGeTdfX1Uyd9IBVEFVX3lxTFB6Y1BHR1RwNm9yZkJUZlBmUUN5WFY2Z0VIY3BBbDFBN2RkRmtrWU5VZEtKVjZFenJaNjBpNWtmNlloLWVLblNWSHQ1U0JfbVA0Ny12Nw?oc=5",
-            "publishedAt": "2026-06-27T18:00:01+09:00"
-          },
-          {
-            "id": "rss-378f358f99105d",
-            "title": "당진시, GS 데이터센터·반도체 투자 물망에 술렁 - 당진신문",
-            "description": "당진시, GS 데이터센터·반도체 투자 물망에 술렁 당진신문",
-            "source": "당진신문",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAwa0lHTWMxX2ZMaVJva0pOYks5aXdoOXhXTGM2a2hrRVFwenBWd1dxWV9VdUcyb2JWMnJJbXB4VkhqcVBWdWg4LWhGU25DbGtKMVdDT2F5VUp6VGdQVXllVFN6MHdGdVAz?oc=5",
-            "publishedAt": "2026-06-27T18:00:00+09:00"
-          }
-        ],
-        "detail": "[2026.05] 반도체 호조 KDI 경제교육"
-      },
-      {
-        "id": "interest-kw-shipbuilding-defense-issue-212680a7-004",
-        "categoryId": "rates",
-        "categoryLabel": "중앙은행·금리",
-        "impactLevel": "high",
-        "title": "'실세' ECB 집행이사 \"인플레 2% 되돌리기 위해 추가 금리 인상할 것\" - KB Think",
-        "whatHappened": "'실세' ECB 집행이사 \"인플레 2% 되돌리기 위해 추가 금리 인상할 것\" KB Think",
-        "marketImpact": "성장주와 채권, 달러 흐름의 변동성을 확인해야 합니다.",
-        "whyItMatters": "중앙은행·금리 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
-        "tags": [
-          "금리",
-          "ecb",
-          "금",
-          "유가",
-          "채권",
-          "국채금리",
-          "fed",
-          "조선"
-        ],
-        "sectors": [
-          "운송",
-          "화학",
-          "정유"
-        ],
-        "relatedEventIds": [
-          "event-us-cpi-2026-06",
-          "event-fomc-minutes-2026-06",
-          "event-korea-export-2026-06"
-        ],
-        "updatedAt": "2026-06-28T08:50:00+09:00",
-        "articles": [
-          {
-            "id": "rss-5ecbd5d8016407",
-            "title": "'실세' ECB 집행이사 \"인플레 2% 되돌리기 위해 추가 금리 인상할 것\" - KB Think",
-            "description": "'실세' ECB 집행이사 \"인플레 2% 되돌리기 위해 추가 금리 인상할 것\" KB Think",
-            "source": "KB Think",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB1S0tERldxdjhvdDFZMllnMFdsYi13WG1EN2QwVjBhdnZfdzZONHhFOTFMb29jN0JNVHJoRl95QjIwRFNSTzBTaDF1MzdGbUE3WXVlcW1tc0VZT3J0Z3ZHR1hlQVp4dWxJOVV1MXVRTHBEdw?oc=5",
-            "publishedAt": "2026-06-27T23:42:50+09:00"
-          },
-          {
-            "id": "rss-94287efc133e66",
-            "title": "주담대 고정금리 비중 두 달 새 19%P 급락…변동금리 이탈 가속 - 서울경제",
-            "description": "주담대 고정금리 비중 두 달 새 19%P 급락…변동금리 이탈 가속 서울경제",
-            "source": "서울경제",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5FZUd0YWVvYzVHQTVDbVdqVVpQZzNKNTVaRTR0Wld3RDF1WF9fNHBubHlwYldfWGt0dElROFg2UlRUclZCTFFNejFZdkVYRGNzM2fSAVNBVV95cUxQUG9FdTY2NUxNYWVaajlGQk42Y1V0Qk1UbmwyaG1SNXJXeU5ha3J4c2ZCVHJhV3NKQUF5LVR1a1JGdC1Da2c1WVExYU1PQTd4Zm5kcw?oc=5",
-            "publishedAt": "2026-06-27T10:00:00+09:00"
-          },
-          {
-            "id": "rss-851bb7ac1d2096",
-            "title": "[돈MORE]8% 턱밑서 꺾인 주담대 고정금리…상승 압력은 여전 - 비즈워치",
-            "description": "[돈MORE]8% 턱밑서 꺾인 주담대 고정금리…상승 압력은 여전 비즈워치",
-            "source": "비즈워치",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE44emdwVkh2YTE4cEZFSWNzNGtsS2VFcWoyVFVJekFRd282LTdScHFWSXVxZEF2YzZBRUw2NTVCdFk5b1dXZXM1Z25pSFpuZDM4Wjg1T2M3WHVYbGppN3hlLWNJckw2aXk0ajRN?oc=5",
-            "publishedAt": "2026-06-27T12:00:03+09:00"
-          },
-          {
-            "id": "rss-2bc65fd275af53",
-            "title": "美 금리 인상론 제동…'연내 동결' 고개 - 신아일보",
-            "description": "美 금리 인상론 제동…'연내 동결' 고개 신아일보",
-            "source": "신아일보",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4yTHVoWERvRFV5X2ZWRmc5MGpnRERxaGN2UGdlN1ljd2FydlpHZG9HT2Iwcjd6UkRPTXhIbFBNMjhzLWIydDNyTG8wTmZKOV9BRk9sb1pudFVsTURybWZiMjBsVWJ0M3QxUmtTNlNlUWM?oc=5",
-            "publishedAt": "2026-06-27T17:00:00+09:00"
-          },
-          {
-            "id": "rss-3870f2f36ad878",
-            "title": "“최고 연 8%라더니”…청년미래적금, 우대금리 문턱에 청년들 ‘한숨’ [MZ 재테크] - 디지털데일리",
-            "description": "“최고 연 8%라더니”…청년미래적금, 우대금리 문턱에 청년들 ‘한숨’ [MZ 재테크] 디지털데일리",
-            "source": "디지털데일리",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1uMC14enB4Uk5EU0IwcFB3MUsyYS1PenVNbm12YkVjQUUzZ3I1UkVvbmNXQmRXTVpoc1N3bmFoRVFHbU9QU1ZQbmF1TlVIMVBROE9qMEh4LVktdWk1YjhCV1Zsb3I?oc=5",
-            "publishedAt": "2026-06-27T17:00:00+09:00"
-          }
-        ],
-        "detail": "'실세' ECB 집행이사 \"인플레 2% 되돌리기 위해 추가 금리 인상할 것\" KB Think"
-      },
-      {
-        "id": "interest-kw-shipbuilding-defense-issue-f5724fb8-008",
-        "categoryId": "industry",
-        "categoryLabel": "산업·테마",
-        "impactLevel": "high",
-        "title": "\"비트코인, 결국 사라질 것\"…닷컴버블 예측한 억만장자의 경고 - 조선일보",
-        "whatHappened": "\"비트코인, 결국 사라질 것\"…닷컴버블 예측한 억만장자의 경고 조선일보",
-        "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
-        "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
-        "tags": [
           "조선"
         ],
         "sectors": [
@@ -591,25 +250,16 @@
         "updatedAt": "2026-06-28T08:50:00+09:00",
         "articles": [
           {
-            "id": "rss-67181cc63ff37f",
-            "title": "\"비트코인, 결국 사라질 것\"…닷컴버블 예측한 억만장자의 경고 - 조선일보",
-            "description": "\"비트코인, 결국 사라질 것\"…닷컴버블 예측한 억만장자의 경고 조선일보",
+            "id": "rss-cf39c5ec1a086c",
+            "title": "AI Boom Bubble Collapse Risk from Rate Hikes - 조선일보",
+            "description": "AI Boom Bubble Collapse Risk from Rate Hikes 조선일보",
             "source": "조선일보",
             "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9MRFNfOFFOMm5NUWFXWnhLMEppa05oTlBjQ3V4b1pYZUFFVktGcGVGZzQ0UWotNVl5X2UxRXlzbFdHNlFydHo4anZLbzJoU3dXTGU4akxSWUo0T251NFo4T1FtaVRqa1VMdlRr?oc=5",
-            "publishedAt": "2026-06-27T12:00:00+09:00"
-          },
-          {
-            "id": "rss-840de011dc2c33",
-            "title": "'조선주 비싸다?'…엄경아 \"PER만으로 판단할 업종 아냐\" [경제일타강사] - MTN 머니투데이방송",
-            "description": "'조선주 비싸다?'…엄경아 \"PER만으로 판단할 업종 아냐\" [경제일타강사] MTN 머니투데이방송",
-            "source": "MTN 머니투데이방송",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mOS1wUUhHWFEzVjM2STBLTkl3a05oZm5EU2M2ZHZNam8yNk84NmsyZl9hR09CUUFrVTlhVDV1dU9yNWY2Rk0taDY0c2p3LVB0MmM4WWNzQ2NJVC1TVWlyWjZpVkI?oc=5",
-            "publishedAt": "2026-06-27T10:00:01+09:00"
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTFBNYTgyeHJyOERmNzlpbHJqUFlVWl9ocURySWJ4dEdELUFqQVQ3VDZPWkpaRk9iT3VKMnc5bXI5aC1yaUpEeTlqbVE4NE5mX3ZtSzNyUmw4cjZtWklNNkgtc3JIaUw5TzZhLUVMT3FxTm84UV9TMFp3d1ZjQ1VLdnk2VnFUWTBOc1pTNldn?oc=5",
+            "publishedAt": "2026-06-28T01:50:43+09:00"
           }
         ],
-        "detail": "\"비트코인, 결국 사라질 것\"…닷컴버블 예측한 억만장자의 경고 조선일보"
+        "detail": "AI Boom Bubble Collapse Risk from Rate Hikes 조선일보"
       }
     ]
   }

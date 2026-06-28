@@ -6,17 +6,9 @@
   "freshness": "generated",
   "fixtureUsed": false,
   "fixtureCount": 0,
-  "rssCount": 341,
-  "gdeltCount": 6,
-  "failedSources": [
-    {
-      "source": "gdelt",
-      "queryId": "ai-semiconductor",
-      "reason": "HTTP 429",
-      "attemptCount": 3,
-      "statusCode": 429
-    }
-  ],
+  "rssCount": 125,
+  "gdeltCount": 27,
+  "failedSources": [],
   "sourceHealth": {
     "fixture": {
       "requested": true,
@@ -41,7 +33,7 @@
           "name": "Google News KR Economy",
           "ok": true,
           "failed": false,
-          "articleCount": 100,
+          "articleCount": 13,
           "reason": "articles collected"
         },
         {
@@ -49,7 +41,7 @@
           "name": "Google News KR Market",
           "ok": true,
           "failed": false,
-          "articleCount": 100,
+          "articleCount": 2,
           "reason": "articles collected"
         },
         {
@@ -57,7 +49,7 @@
           "name": "Google News Global Markets",
           "ok": true,
           "failed": false,
-          "articleCount": 100,
+          "articleCount": 91,
           "reason": "articles collected"
         },
         {
@@ -65,7 +57,7 @@
           "name": "Google News AI Semiconductor",
           "ok": true,
           "failed": false,
-          "articleCount": 100,
+          "articleCount": 38,
           "reason": "articles collected"
         }
       ]
@@ -73,19 +65,11 @@
     "gdelt": {
       "configuredCount": 2,
       "enabledCount": 2,
-      "successCount": 1,
-      "failedCount": 1,
+      "successCount": 2,
+      "failedCount": 0,
       "emptyCount": 0,
       "rateLimitedCount": 1,
-      "failedSources": [
-        {
-          "source": "gdelt",
-          "queryId": "ai-semiconductor",
-          "reason": "HTTP 429",
-          "attemptCount": 3,
-          "statusCode": 429
-        }
-      ],
+      "failedSources": [],
       "details": [
         {
           "id": "global-market",
@@ -99,18 +83,18 @@
         },
         {
           "id": "ai-semiconductor",
-          "ok": false,
-          "failed": true,
+          "ok": true,
+          "failed": false,
           "rateLimited": true,
-          "articleCount": 0,
-          "attemptCount": 3,
-          "statusCode": 429,
-          "reason": "HTTP 429"
+          "articleCount": 20,
+          "attemptCount": 2,
+          "statusCode": 200,
+          "reason": "articles collected"
         }
       ]
     }
   },
-  "dataQualityStatus": "DEGRADED_SOURCE_FAILURE",
+  "dataQualityStatus": "OK",
   "sourceReport": {
     "requestedSources": [
       "fixture",
@@ -134,18 +118,18 @@
       "rss": {
         "requested": true,
         "enabled": true,
-        "collected": 400,
-        "relevant": 341,
-        "used": 341,
+        "collected": 144,
+        "relevant": 125,
+        "used": 125,
         "failed": false,
         "reason": "articles collected"
       },
       "gdelt": {
         "requested": true,
         "enabled": true,
-        "collected": 20,
-        "relevant": 6,
-        "used": 6,
+        "collected": 40,
+        "relevant": 27,
+        "used": 27,
         "failed": false,
         "reason": "articles collected"
       }
@@ -174,7 +158,7 @@
             "name": "Google News KR Economy",
             "ok": true,
             "failed": false,
-            "articleCount": 100,
+            "articleCount": 13,
             "reason": "articles collected"
           },
           {
@@ -182,7 +166,7 @@
             "name": "Google News KR Market",
             "ok": true,
             "failed": false,
-            "articleCount": 100,
+            "articleCount": 2,
             "reason": "articles collected"
           },
           {
@@ -190,7 +174,7 @@
             "name": "Google News Global Markets",
             "ok": true,
             "failed": false,
-            "articleCount": 100,
+            "articleCount": 91,
             "reason": "articles collected"
           },
           {
@@ -198,7 +182,7 @@
             "name": "Google News AI Semiconductor",
             "ok": true,
             "failed": false,
-            "articleCount": 100,
+            "articleCount": 38,
             "reason": "articles collected"
           }
         ]
@@ -206,19 +190,11 @@
       "gdelt": {
         "configuredCount": 2,
         "enabledCount": 2,
-        "successCount": 1,
-        "failedCount": 1,
+        "successCount": 2,
+        "failedCount": 0,
         "emptyCount": 0,
         "rateLimitedCount": 1,
-        "failedSources": [
-          {
-            "source": "gdelt",
-            "queryId": "ai-semiconductor",
-            "reason": "HTTP 429",
-            "attemptCount": 3,
-            "statusCode": 429
-          }
-        ],
+        "failedSources": [],
         "details": [
           {
             "id": "global-market",
@@ -232,90 +208,70 @@
           },
           {
             "id": "ai-semiconductor",
-            "ok": false,
-            "failed": true,
+            "ok": true,
+            "failed": false,
             "rateLimited": true,
-            "articleCount": 0,
-            "attemptCount": 3,
-            "statusCode": 429,
-            "reason": "HTTP 429"
+            "articleCount": 20,
+            "attemptCount": 2,
+            "statusCode": 200,
+            "reason": "articles collected"
           }
         ]
       }
     },
-    "failedSources": [
-      {
-        "source": "gdelt",
-        "queryId": "ai-semiconductor",
-        "reason": "HTTP 429",
-        "attemptCount": 3,
-        "statusCode": 429
-      }
-    ],
+    "failedSources": [],
     "fixtureUsed": false,
     "fallbackUsed": false,
     "fixtureCount": 0,
-    "rssCount": 341,
-    "gdeltCount": 6,
+    "rssCount": 125,
+    "gdeltCount": 27,
     "totals": {
-      "collected": 431,
-      "relevant": 347,
-      "duplicatesRemoved": 5,
-      "used": 347
+      "collected": 195,
+      "relevant": 152,
+      "duplicatesRemoved": 0,
+      "used": 152
     },
     "filterReport": {
-      "collected": 431,
-      "relevant": 347,
-      "excluded": 68,
+      "collected": 195,
+      "relevant": 152,
+      "excluded": 32,
       "excludedSamples": [
         {
-          "title": "월드옥타 경진기배 골프대회, 톈진서 성황리 개최 - 재외동포신문",
+          "title": "국민은행, 포용금융 확대…취약차주에 1.53조 공급 - 스트레이트뉴스",
           "reason": "no BriefOn economic keyword"
         },
         {
-          "title": "삼성·SK, 얼마나 벌길래…\"애플, 美 정부에 中 메모리 사용 승인 요청\" - v.daum.net",
+          "title": "Trading in these two ETFs suggests inflation fears are overblown - CNBC",
           "reason": "no BriefOn economic keyword"
         },
         {
-          "title": "\"삼겹살 회동합시다\"…젠슨 황에 날아간 초청장 - v.daum.net",
+          "title": "America In Focus: Key inflation gauge surges to 3-year high, mortgage rate climbs - KLAS 8",
           "reason": "no BriefOn economic keyword"
         },
         {
-          "title": "“오늘 주식 팔면 모레 아닌 내일 입금”…결제주기 단축 10월 나온다 - v.daum.net",
+          "title": "Why investors may want to prioritize bond markets outside the U.S. - CNBC",
           "reason": "no BriefOn economic keyword"
         },
         {
-          "title": "[주末머니]배터리주 반등은 언제…美 ESS·유럽 전기차 주목 - v.daum.net",
+          "title": "Buy 4 Defensive Stocks as Inflation Hits Highest Level in 3 Years - Yahoo Finance",
           "reason": "no BriefOn economic keyword"
         }
       ]
     },
-    "warnings": [
-      {
-        "source": "gdelt",
-        "level": "warning",
-        "queryId": "ai-semiconductor",
-        "message": "GDELT request failed: HTTP 429."
-      }
-    ],
-    "dataQualityStatus": "DEGRADED_SOURCE_FAILURE",
+    "warnings": [],
+    "dataQualityStatus": "OK",
     "sourceLabel": "RSS/GDELT static data"
   },
-  "warnings": [
-    {
-      "source": "gdelt",
-      "level": "warning",
-      "queryId": "ai-semiconductor",
-      "message": "GDELT request failed: HTTP 429."
-    }
-  ],
+  "warnings": [],
   "ledgerStatus": {
     "enabled": true,
     "methodVersion": "briefon-signal-rule-v1",
-    "articleSnapshotCount": 347,
-    "signalCount": 328,
-    "appliedSignalCount": 152,
-    "missingIndicatorCount": 12,
+    "articleSnapshotCount": 152,
+    "signalCount": 140,
+    "appliedSignalCount": 53,
+    "missingIndicatorCount": 10,
+    "missingIndicatorOccurrenceCount": 354,
+    "gapQualityStatus": "READY_FOR_REVIEW",
     "userOpinionIncluded": false,
     "outcomeStatus": "pending_outcome_review"
   },
