@@ -1,23 +1,28 @@
 {
   "schemaVersion": 1,
   "generatedAt": "2026-06-29T08:50:00+09:00",
-  "sourceLabel": "RSS static data",
+  "sourceLabel": " static data",
   "sourceMeta": {
-    "sourceLabel": "RSS static data",
-    "usedSources": [
-      "rss"
-    ],
+    "sourceLabel": " static data",
+    "usedSources": [],
     "sourceCounts": {
       "fixture": 0,
-      "rss": 10,
+      "rss": 0,
       "gdelt": 0
     },
-    "warningsCount": 1,
+    "warningsCount": 4,
     "fixtureUsed": false,
     "fixtureCount": 0,
-    "rssCount": 10,
+    "rssCount": 0,
     "gdeltCount": 0,
     "failedSources": [
+      {
+        "source": "gdelt",
+        "queryId": "global-market",
+        "reason": "HTTP 429",
+        "attemptCount": 3,
+        "statusCode": 429
+      },
       {
         "source": "gdelt",
         "queryId": "ai-semiconductor",
@@ -42,7 +47,7 @@
         "enabledCount": 4,
         "successCount": 4,
         "failedCount": 0,
-        "emptyCount": 0,
+        "emptyCount": 2,
         "failedSources": [],
         "details": [
           {
@@ -50,23 +55,23 @@
             "name": "Google News KR Economy",
             "ok": true,
             "failed": false,
-            "articleCount": 49,
-            "reason": "articles collected"
+            "articleCount": 0,
+            "reason": "no usable recent articles"
           },
           {
             "id": "google-news-kr-market",
             "name": "Google News KR Market",
             "ok": true,
             "failed": false,
-            "articleCount": 43,
-            "reason": "articles collected"
+            "articleCount": 0,
+            "reason": "no usable recent articles"
           },
           {
             "id": "google-news-global-markets",
             "name": "Google News Global Markets",
             "ok": true,
             "failed": false,
-            "articleCount": 91,
+            "articleCount": 49,
             "reason": "articles collected"
           },
           {
@@ -74,7 +79,7 @@
             "name": "Google News AI Semiconductor",
             "ok": true,
             "failed": false,
-            "articleCount": 87,
+            "articleCount": 10,
             "reason": "articles collected"
           }
         ]
@@ -82,11 +87,18 @@
       "gdelt": {
         "configuredCount": 2,
         "enabledCount": 2,
-        "successCount": 1,
-        "failedCount": 1,
+        "successCount": 0,
+        "failedCount": 2,
         "emptyCount": 0,
-        "rateLimitedCount": 1,
+        "rateLimitedCount": 2,
         "failedSources": [
+          {
+            "source": "gdelt",
+            "queryId": "global-market",
+            "reason": "HTTP 429",
+            "attemptCount": 3,
+            "statusCode": 429
+          },
           {
             "source": "gdelt",
             "queryId": "ai-semiconductor",
@@ -98,13 +110,13 @@
         "details": [
           {
             "id": "global-market",
-            "ok": true,
-            "failed": false,
-            "rateLimited": false,
-            "articleCount": 20,
-            "attemptCount": 1,
-            "statusCode": 200,
-            "reason": "articles collected"
+            "ok": false,
+            "failed": true,
+            "rateLimited": true,
+            "articleCount": 0,
+            "attemptCount": 3,
+            "statusCode": 429,
+            "reason": "HTTP 429"
           },
           {
             "id": "ai-semiconductor",
@@ -124,296 +136,47 @@
   "keywordSummaries": {
     "kw-nvidia": {
       "keywordId": "kw-nvidia",
-      "summary": "엔비디아 관련 이슈 1건이 확인됐습니다. 관련 업종과 일정 변화를 함께 점검하세요.",
-      "newsCount": 5,
+      "summary": "엔비디아 관련 새 이슈는 아직 확인되지 않았습니다.",
+      "newsCount": 0,
       "relatedEventIds": [],
       "relatedTerms": [
         "엔비디아",
         "NVIDIA",
         "NVDA",
-        "젠슨 황",
-        "nvidia",
-        "ai"
+        "젠슨 황"
       ],
       "updatedAt": "2026-06-29T08:50:00+09:00"
     },
     "kw-semiconductor": {
       "keywordId": "kw-semiconductor",
-      "summary": "반도체 관련 이슈 1건이 확인됐습니다. 관련 업종과 일정 변화를 함께 점검하세요.",
-      "newsCount": 4,
-      "relatedEventIds": [
-        "event-korea-export-2026-06"
-      ],
+      "summary": "반도체 관련 새 이슈는 아직 확인되지 않았습니다.",
+      "newsCount": 0,
+      "relatedEventIds": [],
       "relatedTerms": [
         "반도체",
         "AI 반도체",
         "데이터센터",
-        "HBM",
-        "투자",
-        "조선"
+        "HBM"
       ],
       "updatedAt": "2026-06-29T08:50:00+09:00"
     },
     "kw-shipbuilding-defense": {
       "keywordId": "kw-shipbuilding-defense",
-      "summary": "조선·방산 관련 이슈 2건이 확인됐습니다. 관련 업종과 일정 변화를 함께 점검하세요.",
-      "newsCount": 5,
-      "relatedEventIds": [
-        "event-korea-export-2026-06"
-      ],
+      "summary": "조선·방산 관련 새 이슈는 아직 확인되지 않았습니다.",
+      "newsCount": 0,
+      "relatedEventIds": [],
       "relatedTerms": [
         "조선",
         "방산",
         "조선 수주",
-        "방산 수출",
-        "반도체",
-        "투자"
+        "방산 수출"
       ],
       "updatedAt": "2026-06-29T08:50:00+09:00"
     }
   },
   "issuesByKeyword": {
-    "kw-nvidia": [
-      {
-        "id": "interest-kw-nvidia-issue-ef403eaa-002",
-        "categoryId": "industry",
-        "categoryLabel": "산업·테마",
-        "impactLevel": "high",
-        "title": "Why Wall Street thinks US memory maker Micron is the next Nvidia - Yahoo Finance",
-        "whatHappened": "Why Wall Street thinks US memory maker Micron is the next Nvidia Yahoo Finance",
-        "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
-        "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
-        "tags": [
-          "nvidia",
-          "ai",
-          "nvda",
-          "ir"
-        ],
-        "sectors": [
-          "반도체",
-          "데이터센터",
-          "장비"
-        ],
-        "relatedEventIds": [],
-        "updatedAt": "2026-06-29T08:50:00+09:00",
-        "articles": [
-          {
-            "id": "rss-262791c09e867b",
-            "title": "Why Wall Street thinks US memory maker Micron is the next Nvidia - Yahoo Finance",
-            "description": "Why Wall Street thinks US memory maker Micron is the next Nvidia Yahoo Finance",
-            "source": "Yahoo Finance",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSlFwUWV1LUxzN2hYT3BHaDByWGRlUFRUNXpZSmRjODJEUWY1R1RZXzZhWXRHRWRFZDUwbjkwQk5iSWx3NGYxQk5xRy1ia01wN3pYb1Jta25aXzJwTlJLbXVKOWFTczQ0bVVxUENqNjV1XzBoSE83SDVVVlMtSE5NRE9xTXRLY2FETlNma1NVdVZfb254?oc=5",
-            "publishedAt": "2026-06-29T00:00:00+09:00"
-          },
-          {
-            "id": "rss-4fc8c69ef49d2f",
-            "title": "1 Nvidia-Backed AI Infrastructure Stock to Buy Hand Over Fist Right Now - The Motley Fool",
-            "description": "1 Nvidia-Backed AI Infrastructure Stock to Buy Hand Over Fist Right Now The Motley Fool",
-            "source": "The Motley Fool",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdFkzZklxOUlxQmI2ZElkUWVsS0dweVEtbjF5Wnk0MEc5VnBoTjZsS3NFZ2ZvSDBHWW1mZEFLT3J5T2RKbG9aM0RCcEJjLUg0QmNBckF6T0Rfbmc4Ry0xYjZJWXJza2puUW1tN3prT3NlMERlZl96X1NTX3pYaWEyM0xTb3d6eDZuSG1MRWJvZHdpWE52eGhmWg?oc=5",
-            "publishedAt": "2026-06-29T01:30:00+09:00"
-          },
-          {
-            "id": "rss-5a2d4936492bf3",
-            "title": "Is NVIDIA Corporation (NVDA) One of the Best Semiconductor Stocks to Buy According to Billionaires? - Yahoo Finance",
-            "description": "Is NVIDIA Corporation (NVDA) One of the Best Semiconductor Stocks to Buy According to Billionaires? Yahoo Finance",
-            "source": "Yahoo Finance",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTXUxaW5pbHhhX2xMdDZ3TVFGNy1Va1hMS1AzZlpZZUpVNkpUb2p4b0pMbWxCZno2Y0FlRmZsRHBLcHJWazNjM3F5MWREVVMzSkgtdTZpX3dwbEF4bzdPSEFQVDBicVZseVkzZmVFQXgzVFNNMVFkcHlXS2dfMW5qRGNWdE9kQWNZR01CSmtKU1gxTVBPNF82MmVFalhaQQ?oc=5",
-            "publishedAt": "2026-06-29T03:44:18+09:00"
-          },
-          {
-            "id": "rss-13be99ea5894e5",
-            "title": "Micron is about to be more profitable than any U.S. company except Nvidia and Google - MarketWatch",
-            "description": "Micron is about to be more profitable than any U.S. company except Nvidia and Google MarketWatch",
-            "source": "MarketWatch",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNc2w0OS1IZXE1TzVjNmVCcDlXUFRQc202ZlNPLW5JMnZ2MmJhVUxkSFp6UDJxQWJ1UXF2NjJ6eU1GY1ZoQTdiRkhRbnB4Rk5NUEUzcGt1eFlCMG9fdU16R3g1eVBVRVprVnNQelNPN01QazJMSVV5c19JS3MxeVUtS3V2bGpkeHdaYUV5ZHRaVDhlM25TOXc5c1pJUUVuTk84UUZNZjBKLVBYOGlzX1NDd2Q0aUtnaDR2Z3BsZEdRWDNoczB5?oc=5",
-            "publishedAt": "2026-06-28T23:00:00+09:00"
-          },
-          {
-            "id": "rss-077ec93fef2e99",
-            "title": "IREN (NasdaqGS:IREN) Lands Microsoft And Nvidia Deals As AI Data Center Expansion Grows - Yahoo Finance",
-            "description": "IREN (NasdaqGS:IREN) Lands Microsoft And Nvidia Deals As AI Data Center Expansion Grows Yahoo Finance",
-            "source": "Yahoo Finance",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMndaX252QUpObDdHVXh2aDZoQmt2ZWthSmVOOW9lUHJoaEdjYWdPeHlENnlET3Z3WWFYVHY0ZldNQ00yaVRIRTlWT0ZRZjRhbDA2SzA0S0NXYkJINlJTb05aWERhNzJPVlhLWFFERkxiMDQ5Wm9jM1YwU0RKSlltejVWa28tQ1RMNElVdTB3bXA1eldVcTJieUJTLVVBb28?oc=5",
-            "publishedAt": "2026-06-28T15:07:27+09:00"
-          }
-        ],
-        "detail": "Why Wall Street thinks US memory maker Micron is the next Nvidia Yahoo Finance"
-      }
-    ],
-    "kw-semiconductor": [
-      {
-        "id": "interest-kw-semiconductor-issue-3a55a6b1-003",
-        "categoryId": "industry",
-        "categoryLabel": "산업·테마",
-        "impactLevel": "high",
-        "title": "李대통령, 靑서 '메가프로젝트' 보고회…호남 반도체투자 발표 - 연합뉴스",
-        "whatHappened": "李대통령, 靑서 '메가프로젝트' 보고회…호남 반도체투자 발표 연합뉴스",
-        "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
-        "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
-        "tags": [
-          "반도체",
-          "투자",
-          "조선",
-          "ai",
-          "데이터센터"
-        ],
-        "sectors": [
-          "반도체",
-          "데이터센터",
-          "장비"
-        ],
-        "relatedEventIds": [
-          "event-korea-export-2026-06"
-        ],
-        "updatedAt": "2026-06-29T08:50:00+09:00",
-        "articles": [
-          {
-            "id": "rss-5e77e02f0a3cf9",
-            "title": "李대통령, 靑서 '메가프로젝트' 보고회…호남 반도체투자 발표 - 연합뉴스",
-            "description": "李대통령, 靑서 '메가프로젝트' 보고회…호남 반도체투자 발표 연합뉴스",
-            "source": "연합뉴스",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9lSlRaX3dHcWJ3dWlpXzlKYkRDOUp0V2pnVzc2OXU1WTgybndCSFNRSzA1OVgxZVdSOVhuTDktNnplWDNKOWxRLWJBVVUyeGU2UlpqYkRRZ2Z2aTTSAWBBVV95cUxOTkVfVXoxWFFMTWx2cGZOYkEwNFkzUnBKN1luR2c5UVY0ZFlVRDl4b2xoby0wRi1kZ01RblZMRmlPb0F0SDdWSFBIdWlBVGF3VGg0M3R3QVdDQVRZclRMRWQ?oc=5",
-            "publishedAt": "2026-06-29T05:00:02+09:00"
-          },
-          {
-            "id": "rss-69e0dd86440756",
-            "title": "이재용 확신 본 李대통령…호남 반도체 승부수 띄웠다 - 중앙일보",
-            "description": "이재용 확신 본 李대통령…호남 반도체 승부수 띄웠다 중앙일보",
-            "source": "중앙일보",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0ZnZWMno4ZmFRTUM0c00wVzREVlBna0h0c0FnM0VHN2c1VlRwaW4tZzBEMWMyWTZzTks0MzFxaTF0ek9aY0dOSXNLcDlaYklTTkpScHdR?oc=5",
-            "publishedAt": "2026-06-29T05:00:01+09:00"
-          },
-          {
-            "id": "rss-99de1a012c0904",
-            "title": "李, 29일 호남 반도체 등 ‘3대 메가프로젝트’ 발표... “2000조 규모” - 조선일보",
-            "description": "李, 29일 호남 반도체 등 ‘3대 메가프로젝트’ 발표... “2000조 규모” 조선일보",
-            "source": "조선일보",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYTVMVDVkUEZHUkRtTjVVeFFkRHJxWGpHUUFlT1dPcjJKN0pwamlucEhJeXJIQVpRMFhydmxtcmx6ZFI4VHJHSVJXQll2eV9QbVozQlhZOU9sN0sxWEZpRXlhZGlsWlp1NFNEc3U5M0xuczRudFI3MjNycXdWM0g5c1FPcmZEOTc0?oc=5",
-            "publishedAt": "2026-06-28T23:09:00+09:00"
-          },
-          {
-            "id": "rss-c5fba8818a0a28",
-            "title": "2천조 투입 ‘3대 메가’…반도체 1500조, AI 데이터센터 500조 예상 - 한겨레",
-            "description": "2천조 투입 ‘3대 메가’…반도체 1500조, AI 데이터센터 500조 예상 한겨레",
-            "source": "한겨레",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBJOVAzN3poaTJJaVJmbEprbHRFTzVuZ2RBZlNCVzg5SUlOX3JmX1N6MDFMcjdic1lMLVhscGVvcnFCSWpVODYxcEFHSlBGc1liMHpJbkJBbGJNUlFBMXE1OTR5c3NjMEJGRWI4?oc=5",
-            "publishedAt": "2026-06-28T22:52:00+09:00"
-          }
-        ],
-        "detail": "李대통령, 靑서 '메가프로젝트' 보고회…호남 반도체투자 발표 연합뉴스"
-      }
-    ],
-    "kw-shipbuilding-defense": [
-      {
-        "id": "interest-kw-shipbuilding-defense-issue-3a55a6b1-003",
-        "categoryId": "industry",
-        "categoryLabel": "산업·테마",
-        "impactLevel": "high",
-        "title": "李대통령, 靑서 '메가프로젝트' 보고회…호남 반도체투자 발표 - 연합뉴스",
-        "whatHappened": "李대통령, 靑서 '메가프로젝트' 보고회…호남 반도체투자 발표 연합뉴스",
-        "marketImpact": "관련 밸류체인과 업종별 수급 변동성을 확인해야 합니다.",
-        "whyItMatters": "산업·테마 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
-        "tags": [
-          "반도체",
-          "투자",
-          "조선",
-          "ai",
-          "데이터센터"
-        ],
-        "sectors": [
-          "반도체",
-          "데이터센터",
-          "장비"
-        ],
-        "relatedEventIds": [
-          "event-korea-export-2026-06"
-        ],
-        "updatedAt": "2026-06-29T08:50:00+09:00",
-        "articles": [
-          {
-            "id": "rss-5e77e02f0a3cf9",
-            "title": "李대통령, 靑서 '메가프로젝트' 보고회…호남 반도체투자 발표 - 연합뉴스",
-            "description": "李대통령, 靑서 '메가프로젝트' 보고회…호남 반도체투자 발표 연합뉴스",
-            "source": "연합뉴스",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9lSlRaX3dHcWJ3dWlpXzlKYkRDOUp0V2pnVzc2OXU1WTgybndCSFNRSzA1OVgxZVdSOVhuTDktNnplWDNKOWxRLWJBVVUyeGU2UlpqYkRRZ2Z2aTTSAWBBVV95cUxOTkVfVXoxWFFMTWx2cGZOYkEwNFkzUnBKN1luR2c5UVY0ZFlVRDl4b2xoby0wRi1kZ01RblZMRmlPb0F0SDdWSFBIdWlBVGF3VGg0M3R3QVdDQVRZclRMRWQ?oc=5",
-            "publishedAt": "2026-06-29T05:00:02+09:00"
-          },
-          {
-            "id": "rss-69e0dd86440756",
-            "title": "이재용 확신 본 李대통령…호남 반도체 승부수 띄웠다 - 중앙일보",
-            "description": "이재용 확신 본 李대통령…호남 반도체 승부수 띄웠다 중앙일보",
-            "source": "중앙일보",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0ZnZWMno4ZmFRTUM0c00wVzREVlBna0h0c0FnM0VHN2c1VlRwaW4tZzBEMWMyWTZzTks0MzFxaTF0ek9aY0dOSXNLcDlaYklTTkpScHdR?oc=5",
-            "publishedAt": "2026-06-29T05:00:01+09:00"
-          },
-          {
-            "id": "rss-99de1a012c0904",
-            "title": "李, 29일 호남 반도체 등 ‘3대 메가프로젝트’ 발표... “2000조 규모” - 조선일보",
-            "description": "李, 29일 호남 반도체 등 ‘3대 메가프로젝트’ 발표... “2000조 규모” 조선일보",
-            "source": "조선일보",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYTVMVDVkUEZHUkRtTjVVeFFkRHJxWGpHUUFlT1dPcjJKN0pwamlucEhJeXJIQVpRMFhydmxtcmx6ZFI4VHJHSVJXQll2eV9QbVozQlhZOU9sN0sxWEZpRXlhZGlsWlp1NFNEc3U5M0xuczRudFI3MjNycXdWM0g5c1FPcmZEOTc0?oc=5",
-            "publishedAt": "2026-06-28T23:09:00+09:00"
-          },
-          {
-            "id": "rss-c5fba8818a0a28",
-            "title": "2천조 투입 ‘3대 메가’…반도체 1500조, AI 데이터센터 500조 예상 - 한겨레",
-            "description": "2천조 투입 ‘3대 메가’…반도체 1500조, AI 데이터센터 500조 예상 한겨레",
-            "source": "한겨레",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBJOVAzN3poaTJJaVJmbEprbHRFTzVuZ2RBZlNCVzg5SUlOX3JmX1N6MDFMcjdic1lMLVhscGVvcnFCSWpVODYxcEFHSlBGc1liMHpJbkJBbGJNUlFBMXE1OTR5c3NjMEJGRWI4?oc=5",
-            "publishedAt": "2026-06-28T22:52:00+09:00"
-          }
-        ],
-        "detail": "李대통령, 靑서 '메가프로젝트' 보고회…호남 반도체투자 발표 연합뉴스"
-      },
-      {
-        "id": "interest-kw-shipbuilding-defense-issue-f5724fb8-005",
-        "categoryId": "rates",
-        "categoryLabel": "중앙은행·금리",
-        "impactLevel": "medium",
-        "title": "2008 Financial Crisis Generation Reunites at ECB Symposium - 조선일보",
-        "whatHappened": "2008 Financial Crisis Generation Reunites at ECB Symposium 조선일보",
-        "marketImpact": "시장 전반의 위험 선호와 업종별 흐름을 확인해야 합니다.",
-        "whyItMatters": "중앙은행·금리 이슈는 국내 시장의 수급과 업종별 변동성에 영향을 줄 수 있습니다.",
-        "tags": [
-          "ecb",
-          "조선"
-        ],
-        "sectors": [
-          "조선",
-          "방산",
-          "기계"
-        ],
-        "relatedEventIds": [
-          "event-korea-export-2026-06"
-        ],
-        "updatedAt": "2026-06-29T08:50:00+09:00",
-        "articles": [
-          {
-            "id": "rss-d282892a0f57c2",
-            "title": "2008 Financial Crisis Generation Reunites at ECB Symposium - 조선일보",
-            "description": "2008 Financial Crisis Generation Reunites at ECB Symposium 조선일보",
-            "source": "조선일보",
-            "sourceType": "rss",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRG84TGlSVkJWUEJQMUpoUk1udERqeGI1cFM4WHZjbHA5NUt1UV9YLUZJMFlwTVE0NUVoaGF0TE1KSU03LXJ4eGFaS1hyRm1XSXZKRF83cWxtSnNzdkNfZzNtNTJPQ19LLTRmMVg3aUV5STFIWkg1bHRXTWNuTHdQcTBabk8?oc=5",
-            "publishedAt": "2026-06-28T08:09:30+09:00"
-          }
-        ],
-        "detail": "2008 Financial Crisis Generation Reunites at ECB Symposium 조선일보"
-      }
-    ]
+    "kw-nvidia": [],
+    "kw-semiconductor": [],
+    "kw-shipbuilding-defense": []
   }
 }

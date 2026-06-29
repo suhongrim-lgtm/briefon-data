@@ -1,20 +1,29 @@
 {
   "schemaVersion": "briefon-observation-runs-v1",
   "generatedAt": "2026-06-29T08:50:00+09:00",
-  "sourceLabel": "RSS/GDELT static data",
+  "sourceLabel": "RSS static data",
   "runs": [
     {
       "runId": "obsrun_202606290850",
       "runAt": "2026-06-29T08:50:00+09:00",
       "mode": "structure_only",
       "status": "completed",
-      "targetCount": 525,
+      "targetCount": 137,
       "observedCount": 0,
-      "pendingCount": 525,
+      "pendingCount": 137,
       "noDataCount": 0,
       "sourceUnavailableCount": 0,
       "notApplicableCount": 0,
-      "notes": "Outcome structure generated without external market data collection."
+      "notes": "Outcome structure generated without external market data collection.",
+      "adapterStats": [],
+      "matchingStats": {
+        "observationCount": 0,
+        "matchedObservationCount": 0,
+        "matchedOutcomeCount": 0,
+        "unmatchedObservationCount": 0,
+        "multiMatchCount": 0
+      },
+      "requestedModes": []
     }
   ]
 }

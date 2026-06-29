@@ -1,12 +1,19 @@
 {
   "schemaVersion": 1,
   "generatedAt": "2026-06-29T08:50:00+09:00",
-  "sourceLabel": "RSS/GDELT static data",
+  "sourceLabel": "RSS static data",
   "fixtureUsed": false,
   "fixtureCount": 0,
-  "rssCount": 247,
-  "gdeltCount": 4,
+  "rssCount": 50,
+  "gdeltCount": 0,
   "failedSources": [
+    {
+      "source": "gdelt",
+      "queryId": "global-market",
+      "reason": "HTTP 429",
+      "attemptCount": 3,
+      "statusCode": 429
+    },
     {
       "source": "gdelt",
       "queryId": "ai-semiconductor",
@@ -31,7 +38,7 @@
       "enabledCount": 4,
       "successCount": 4,
       "failedCount": 0,
-      "emptyCount": 0,
+      "emptyCount": 2,
       "failedSources": [],
       "details": [
         {
@@ -39,23 +46,23 @@
           "name": "Google News KR Economy",
           "ok": true,
           "failed": false,
-          "articleCount": 49,
-          "reason": "articles collected"
+          "articleCount": 0,
+          "reason": "no usable recent articles"
         },
         {
           "id": "google-news-kr-market",
           "name": "Google News KR Market",
           "ok": true,
           "failed": false,
-          "articleCount": 43,
-          "reason": "articles collected"
+          "articleCount": 0,
+          "reason": "no usable recent articles"
         },
         {
           "id": "google-news-global-markets",
           "name": "Google News Global Markets",
           "ok": true,
           "failed": false,
-          "articleCount": 91,
+          "articleCount": 49,
           "reason": "articles collected"
         },
         {
@@ -63,7 +70,7 @@
           "name": "Google News AI Semiconductor",
           "ok": true,
           "failed": false,
-          "articleCount": 87,
+          "articleCount": 10,
           "reason": "articles collected"
         }
       ]
@@ -71,11 +78,18 @@
     "gdelt": {
       "configuredCount": 2,
       "enabledCount": 2,
-      "successCount": 1,
-      "failedCount": 1,
+      "successCount": 0,
+      "failedCount": 2,
       "emptyCount": 0,
-      "rateLimitedCount": 1,
+      "rateLimitedCount": 2,
       "failedSources": [
+        {
+          "source": "gdelt",
+          "queryId": "global-market",
+          "reason": "HTTP 429",
+          "attemptCount": 3,
+          "statusCode": 429
+        },
         {
           "source": "gdelt",
           "queryId": "ai-semiconductor",
@@ -87,13 +101,13 @@
       "details": [
         {
           "id": "global-market",
-          "ok": true,
-          "failed": false,
-          "rateLimited": false,
-          "articleCount": 20,
-          "attemptCount": 1,
-          "statusCode": 200,
-          "reason": "articles collected"
+          "ok": false,
+          "failed": true,
+          "rateLimited": true,
+          "articleCount": 0,
+          "attemptCount": 3,
+          "statusCode": 429,
+          "reason": "HTTP 429"
         },
         {
           "id": "ai-semiconductor",
@@ -116,8 +130,7 @@
       "gdelt"
     ],
     "usedSources": [
-      "rss",
-      "gdelt"
+      "rss"
     ],
     "sourceCounts": {
       "fixture": {
@@ -132,20 +145,20 @@
       "rss": {
         "requested": true,
         "enabled": true,
-        "collected": 270,
-        "relevant": 247,
-        "used": 247,
+        "collected": 59,
+        "relevant": 50,
+        "used": 50,
         "failed": false,
         "reason": "articles collected"
       },
       "gdelt": {
         "requested": true,
         "enabled": true,
-        "collected": 20,
-        "relevant": 4,
-        "used": 4,
-        "failed": false,
-        "reason": "articles collected"
+        "collected": 0,
+        "relevant": 0,
+        "used": 0,
+        "failed": true,
+        "reason": "HTTP 429"
       }
     },
     "sourceHealth": {
@@ -164,7 +177,7 @@
         "enabledCount": 4,
         "successCount": 4,
         "failedCount": 0,
-        "emptyCount": 0,
+        "emptyCount": 2,
         "failedSources": [],
         "details": [
           {
@@ -172,23 +185,23 @@
             "name": "Google News KR Economy",
             "ok": true,
             "failed": false,
-            "articleCount": 49,
-            "reason": "articles collected"
+            "articleCount": 0,
+            "reason": "no usable recent articles"
           },
           {
             "id": "google-news-kr-market",
             "name": "Google News KR Market",
             "ok": true,
             "failed": false,
-            "articleCount": 43,
-            "reason": "articles collected"
+            "articleCount": 0,
+            "reason": "no usable recent articles"
           },
           {
             "id": "google-news-global-markets",
             "name": "Google News Global Markets",
             "ok": true,
             "failed": false,
-            "articleCount": 91,
+            "articleCount": 49,
             "reason": "articles collected"
           },
           {
@@ -196,7 +209,7 @@
             "name": "Google News AI Semiconductor",
             "ok": true,
             "failed": false,
-            "articleCount": 87,
+            "articleCount": 10,
             "reason": "articles collected"
           }
         ]
@@ -204,11 +217,18 @@
       "gdelt": {
         "configuredCount": 2,
         "enabledCount": 2,
-        "successCount": 1,
-        "failedCount": 1,
+        "successCount": 0,
+        "failedCount": 2,
         "emptyCount": 0,
-        "rateLimitedCount": 1,
+        "rateLimitedCount": 2,
         "failedSources": [
+          {
+            "source": "gdelt",
+            "queryId": "global-market",
+            "reason": "HTTP 429",
+            "attemptCount": 3,
+            "statusCode": 429
+          },
           {
             "source": "gdelt",
             "queryId": "ai-semiconductor",
@@ -220,13 +240,13 @@
         "details": [
           {
             "id": "global-market",
-            "ok": true,
-            "failed": false,
-            "rateLimited": false,
-            "articleCount": 20,
-            "attemptCount": 1,
-            "statusCode": 200,
-            "reason": "articles collected"
+            "ok": false,
+            "failed": true,
+            "rateLimited": true,
+            "articleCount": 0,
+            "attemptCount": 3,
+            "statusCode": 429,
+            "reason": "HTTP 429"
           },
           {
             "id": "ai-semiconductor",
@@ -244,6 +264,13 @@
     "failedSources": [
       {
         "source": "gdelt",
+        "queryId": "global-market",
+        "reason": "HTTP 429",
+        "attemptCount": 3,
+        "statusCode": 429
+      },
+      {
+        "source": "gdelt",
         "queryId": "ai-semiconductor",
         "reason": "HTTP 429",
         "attemptCount": 3,
@@ -253,25 +280,21 @@
     "fixtureUsed": false,
     "fallbackUsed": false,
     "fixtureCount": 0,
-    "rssCount": 247,
-    "gdeltCount": 4,
+    "rssCount": 50,
+    "gdeltCount": 0,
     "totals": {
-      "collected": 301,
-      "relevant": 251,
-      "duplicatesRemoved": 3,
-      "used": 251
+      "collected": 70,
+      "relevant": 50,
+      "duplicatesRemoved": 0,
+      "used": 50
     },
     "filterReport": {
-      "collected": 301,
-      "relevant": 251,
-      "excluded": 36,
+      "collected": 70,
+      "relevant": 50,
+      "excluded": 9,
       "excludedSamples": [
         {
-          "title": "As Supreme Court's term nears its end, three major Trump rulings due - USA Today",
-          "reason": "no BriefOn economic keyword"
-        },
-        {
-          "title": "Forget the ‘Sell America’ trade: Why U.S. markets keep proving the naysayers wrong - Marke",
+          "title": "As Supreme Court’s term nears its end, 3 major Trump rulings due - Honolulu Star-Advertise",
           "reason": "no BriefOn economic keyword"
         },
         {
@@ -285,10 +308,32 @@
         {
           "title": "Barkin warns inflation stays elevated, backs modest tightening to hit 2% - CHOSUNBIZ - Cho",
           "reason": "no BriefOn economic keyword"
+        },
+        {
+          "title": "America In Focus: Key inflation gauge surges to 3-year high, mortgage rate climbs - WANE 1",
+          "reason": "no BriefOn economic keyword"
         }
       ]
     },
     "warnings": [
+      {
+        "source": "rss",
+        "level": "info",
+        "sourceId": "google-news-kr-economy",
+        "message": "RSS source google-news-kr-economy returned no usable recent articles."
+      },
+      {
+        "source": "rss",
+        "level": "info",
+        "sourceId": "google-news-kr-market",
+        "message": "RSS source google-news-kr-market returned no usable recent articles."
+      },
+      {
+        "source": "gdelt",
+        "level": "warning",
+        "queryId": "global-market",
+        "message": "GDELT request failed: HTTP 429."
+      },
       {
         "source": "gdelt",
         "level": "warning",
@@ -297,50 +342,50 @@
       }
     ],
     "dataQualityStatus": "DEGRADED_SOURCE_FAILURE",
-    "sourceLabel": "RSS/GDELT static data"
+    "sourceLabel": "RSS static data"
   },
   "quality": {
     "economy": {
-      "issueCount": 53,
-      "keywordCount": 6,
-      "articleCount": 65,
-      "uniqueArticleCount": 65,
-      "articleOccurrenceCount": 65,
+      "issueCount": 14,
+      "keywordCount": 1,
+      "articleCount": 18,
+      "uniqueArticleCount": 18,
+      "articleOccurrenceCount": 18,
       "sourceTypeCounts": {
         "fixture": 0,
-        "rss": 65,
+        "rss": 18,
         "gdelt": 0
       },
       "occurrenceSourceTypeCounts": {
         "fixture": 0,
-        "rss": 65,
+        "rss": 18,
         "gdelt": 0
       },
       "fixtureArticleCount": 0,
-      "rssArticleCount": 65,
+      "rssArticleCount": 18,
       "gdeltArticleCount": 0,
       "emptySections": []
     },
     "preopen": {
-      "issueCount": 3,
-      "articleCount": 12,
-      "uniqueArticleCount": 12,
-      "articleOccurrenceCount": 12,
+      "issueCount": 0,
+      "articleCount": 0,
+      "uniqueArticleCount": 0,
+      "articleOccurrenceCount": 0,
       "sourceTypeCounts": {
         "fixture": 0,
-        "rss": 12,
+        "rss": 0,
         "gdelt": 0
       },
       "occurrenceSourceTypeCounts": {
         "fixture": 0,
-        "rss": 12,
+        "rss": 0,
         "gdelt": 0
       },
       "fixtureArticleCount": 0,
-      "rssArticleCount": 12,
+      "rssArticleCount": 0,
       "gdeltArticleCount": 0,
-      "status": "ready",
-      "emptyReason": ""
+      "status": "empty",
+      "emptyReason": "no high impact issues"
     },
     "events": {
       "eventCount": 3,
@@ -351,36 +396,32 @@
     },
     "interest": {
       "keywordSummaryCount": 3,
-      "issueCount": 4,
-      "articleCount": 10,
-      "uniqueArticleCount": 10,
-      "articleOccurrenceCount": 14,
+      "issueCount": 0,
+      "articleCount": 0,
+      "uniqueArticleCount": 0,
+      "articleOccurrenceCount": 0,
       "sourceTypeCounts": {
         "fixture": 0,
-        "rss": 10,
+        "rss": 0,
         "gdelt": 0
       },
       "occurrenceSourceTypeCounts": {
         "fixture": 0,
-        "rss": 14,
+        "rss": 0,
         "gdelt": 0
       },
       "fixtureArticleCount": 0,
-      "rssArticleCount": 10,
+      "rssArticleCount": 0,
       "gdeltArticleCount": 0
     }
   },
   "filterReport": {
-    "collected": 301,
-    "relevant": 251,
-    "excluded": 36,
+    "collected": 70,
+    "relevant": 50,
+    "excluded": 9,
     "excludedSamples": [
       {
-        "title": "As Supreme Court's term nears its end, three major Trump rulings due - USA Today",
-        "reason": "no BriefOn economic keyword"
-      },
-      {
-        "title": "Forget the ‘Sell America’ trade: Why U.S. markets keep proving the naysayers wrong - Marke",
+        "title": "As Supreme Court’s term nears its end, 3 major Trump rulings due - Honolulu Star-Advertise",
         "reason": "no BriefOn economic keyword"
       },
       {
@@ -394,10 +435,32 @@
       {
         "title": "Barkin warns inflation stays elevated, backs modest tightening to hit 2% - CHOSUNBIZ - Cho",
         "reason": "no BriefOn economic keyword"
+      },
+      {
+        "title": "America In Focus: Key inflation gauge surges to 3-year high, mortgage rate climbs - WANE 1",
+        "reason": "no BriefOn economic keyword"
       }
     ]
   },
   "warnings": [
+    {
+      "source": "rss",
+      "level": "info",
+      "sourceId": "google-news-kr-economy",
+      "message": "RSS source google-news-kr-economy returned no usable recent articles."
+    },
+    {
+      "source": "rss",
+      "level": "info",
+      "sourceId": "google-news-kr-market",
+      "message": "RSS source google-news-kr-market returned no usable recent articles."
+    },
+    {
+      "source": "gdelt",
+      "level": "warning",
+      "queryId": "global-market",
+      "message": "GDELT request failed: HTTP 429."
+    },
     {
       "source": "gdelt",
       "level": "warning",
