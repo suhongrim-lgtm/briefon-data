@@ -1,16 +1,16 @@
 {
   "schemaVersion": "briefon-observation-runs-v1",
-  "generatedAt": "2026-06-28T08:50:00+09:00",
-  "sourceLabel": "RSS static data",
+  "generatedAt": "2026-06-29T08:50:00+09:00",
+  "sourceLabel": "RSS/GDELT static data",
   "runs": [
     {
-      "runId": "obsrun_202606280850",
-      "runAt": "2026-06-28T08:50:00+09:00",
+      "runId": "obsrun_202606290850",
+      "runAt": "2026-06-29T08:50:00+09:00",
       "mode": "structure_only",
       "status": "completed",
-      "targetCount": 221,
+      "targetCount": 525,
       "observedCount": 0,
-      "pendingCount": 221,
+      "pendingCount": 525,
       "noDataCount": 0,
       "sourceUnavailableCount": 0,
       "notApplicableCount": 0,

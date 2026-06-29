@@ -1,21 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-28T08:50:00+09:00",
+  "generatedAt": "2026-06-29T08:50:00+09:00",
   "mode": "static",
-  "sourceLabel": "RSS static data",
+  "sourceLabel": "RSS/GDELT static data",
   "freshness": "generated",
   "fixtureUsed": false,
   "fixtureCount": 0,
-  "rssCount": 80,
-  "gdeltCount": 0,
+  "rssCount": 247,
+  "gdeltCount": 4,
   "failedSources": [
-    {
-      "source": "gdelt",
-      "queryId": "global-market",
-      "reason": "HTTP 429",
-      "attemptCount": 3,
-      "statusCode": 429
-    },
     {
       "source": "gdelt",
       "queryId": "ai-semiconductor",
@@ -40,7 +33,7 @@
       "enabledCount": 4,
       "successCount": 4,
       "failedCount": 0,
-      "emptyCount": 1,
+      "emptyCount": 0,
       "failedSources": [],
       "details": [
         {
@@ -48,15 +41,15 @@
           "name": "Google News KR Economy",
           "ok": true,
           "failed": false,
-          "articleCount": 0,
-          "reason": "no usable recent articles"
+          "articleCount": 49,
+          "reason": "articles collected"
         },
         {
           "id": "google-news-kr-market",
           "name": "Google News KR Market",
           "ok": true,
           "failed": false,
-          "articleCount": 1,
+          "articleCount": 43,
           "reason": "articles collected"
         },
         {
@@ -64,7 +57,7 @@
           "name": "Google News Global Markets",
           "ok": true,
           "failed": false,
-          "articleCount": 78,
+          "articleCount": 91,
           "reason": "articles collected"
         },
         {
@@ -72,7 +65,7 @@
           "name": "Google News AI Semiconductor",
           "ok": true,
           "failed": false,
-          "articleCount": 14,
+          "articleCount": 87,
           "reason": "articles collected"
         }
       ]
@@ -80,18 +73,11 @@
     "gdelt": {
       "configuredCount": 2,
       "enabledCount": 2,
-      "successCount": 0,
-      "failedCount": 2,
+      "successCount": 1,
+      "failedCount": 1,
       "emptyCount": 0,
-      "rateLimitedCount": 2,
+      "rateLimitedCount": 1,
       "failedSources": [
-        {
-          "source": "gdelt",
-          "queryId": "global-market",
-          "reason": "HTTP 429",
-          "attemptCount": 3,
-          "statusCode": 429
-        },
         {
           "source": "gdelt",
           "queryId": "ai-semiconductor",
@@ -103,13 +89,13 @@
       "details": [
         {
           "id": "global-market",
-          "ok": false,
-          "failed": true,
-          "rateLimited": true,
-          "articleCount": 0,
-          "attemptCount": 3,
-          "statusCode": 429,
-          "reason": "HTTP 429"
+          "ok": true,
+          "failed": false,
+          "rateLimited": false,
+          "articleCount": 20,
+          "attemptCount": 1,
+          "statusCode": 200,
+          "reason": "articles collected"
         },
         {
           "id": "ai-semiconductor",
@@ -132,7 +118,8 @@
       "gdelt"
     ],
     "usedSources": [
-      "rss"
+      "rss",
+      "gdelt"
     ],
     "sourceCounts": {
       "fixture": {
@@ -147,20 +134,20 @@
       "rss": {
         "requested": true,
         "enabled": true,
-        "collected": 93,
-        "relevant": 80,
-        "used": 80,
+        "collected": 270,
+        "relevant": 247,
+        "used": 247,
         "failed": false,
         "reason": "articles collected"
       },
       "gdelt": {
         "requested": true,
         "enabled": true,
-        "collected": 0,
-        "relevant": 0,
-        "used": 0,
-        "failed": true,
-        "reason": "HTTP 429"
+        "collected": 20,
+        "relevant": 4,
+        "used": 4,
+        "failed": false,
+        "reason": "articles collected"
       }
     },
     "sourceHealth": {
@@ -179,7 +166,7 @@
         "enabledCount": 4,
         "successCount": 4,
         "failedCount": 0,
-        "emptyCount": 1,
+        "emptyCount": 0,
         "failedSources": [],
         "details": [
           {
@@ -187,15 +174,15 @@
             "name": "Google News KR Economy",
             "ok": true,
             "failed": false,
-            "articleCount": 0,
-            "reason": "no usable recent articles"
+            "articleCount": 49,
+            "reason": "articles collected"
           },
           {
             "id": "google-news-kr-market",
             "name": "Google News KR Market",
             "ok": true,
             "failed": false,
-            "articleCount": 1,
+            "articleCount": 43,
             "reason": "articles collected"
           },
           {
@@ -203,7 +190,7 @@
             "name": "Google News Global Markets",
             "ok": true,
             "failed": false,
-            "articleCount": 78,
+            "articleCount": 91,
             "reason": "articles collected"
           },
           {
@@ -211,7 +198,7 @@
             "name": "Google News AI Semiconductor",
             "ok": true,
             "failed": false,
-            "articleCount": 14,
+            "articleCount": 87,
             "reason": "articles collected"
           }
         ]
@@ -219,18 +206,11 @@
       "gdelt": {
         "configuredCount": 2,
         "enabledCount": 2,
-        "successCount": 0,
-        "failedCount": 2,
+        "successCount": 1,
+        "failedCount": 1,
         "emptyCount": 0,
-        "rateLimitedCount": 2,
+        "rateLimitedCount": 1,
         "failedSources": [
-          {
-            "source": "gdelt",
-            "queryId": "global-market",
-            "reason": "HTTP 429",
-            "attemptCount": 3,
-            "statusCode": 429
-          },
           {
             "source": "gdelt",
             "queryId": "ai-semiconductor",
@@ -242,13 +222,13 @@
         "details": [
           {
             "id": "global-market",
-            "ok": false,
-            "failed": true,
-            "rateLimited": true,
-            "articleCount": 0,
-            "attemptCount": 3,
-            "statusCode": 429,
-            "reason": "HTTP 429"
+            "ok": true,
+            "failed": false,
+            "rateLimited": false,
+            "articleCount": 20,
+            "attemptCount": 1,
+            "statusCode": 200,
+            "reason": "articles collected"
           },
           {
             "id": "ai-semiconductor",
@@ -266,13 +246,6 @@
     "failedSources": [
       {
         "source": "gdelt",
-        "queryId": "global-market",
-        "reason": "HTTP 429",
-        "attemptCount": 3,
-        "statusCode": 429
-      },
-      {
-        "source": "gdelt",
         "queryId": "ai-semiconductor",
         "reason": "HTTP 429",
         "attemptCount": 3,
@@ -282,29 +255,29 @@
     "fixtureUsed": false,
     "fallbackUsed": false,
     "fixtureCount": 0,
-    "rssCount": 80,
-    "gdeltCount": 0,
+    "rssCount": 247,
+    "gdeltCount": 4,
     "totals": {
-      "collected": 104,
-      "relevant": 80,
-      "duplicatesRemoved": 0,
-      "used": 80
+      "collected": 301,
+      "relevant": 251,
+      "duplicatesRemoved": 3,
+      "used": 251
     },
     "filterReport": {
-      "collected": 104,
-      "relevant": 80,
-      "excluded": 13,
+      "collected": 301,
+      "relevant": 251,
+      "excluded": 36,
       "excludedSamples": [
         {
+          "title": "As Supreme Court's term nears its end, three major Trump rulings due - USA Today",
+          "reason": "no BriefOn economic keyword"
+        },
+        {
+          "title": "Forget the ‘Sell America’ trade: Why U.S. markets keep proving the naysayers wrong - Marke",
+          "reason": "no BriefOn economic keyword"
+        },
+        {
           "title": "Why investors may want to prioritize bond markets outside the U.S. - CNBC",
-          "reason": "no BriefOn economic keyword"
-        },
-        {
-          "title": "Buy 4 Defensive Stocks as Inflation Hits Highest Level in 3 Years - Yahoo Finance",
-          "reason": "no BriefOn economic keyword"
-        },
-        {
-          "title": "America In Focus: Key inflation gauge surges to 3-year high, mortgage rate climbs - KLAS 8",
           "reason": "no BriefOn economic keyword"
         },
         {
@@ -312,24 +285,12 @@
           "reason": "no BriefOn economic keyword"
         },
         {
-          "title": "What to Look Out for in Economic Data This Week (June 29-July 3) - Kiplinger",
+          "title": "Barkin warns inflation stays elevated, backs modest tightening to hit 2% - CHOSUNBIZ - Cho",
           "reason": "no BriefOn economic keyword"
         }
       ]
     },
     "warnings": [
-      {
-        "source": "rss",
-        "level": "info",
-        "sourceId": "google-news-kr-economy",
-        "message": "RSS source google-news-kr-economy returned no usable recent articles."
-      },
-      {
-        "source": "gdelt",
-        "level": "warning",
-        "queryId": "global-market",
-        "message": "GDELT request failed: HTTP 429."
-      },
       {
         "source": "gdelt",
         "level": "warning",
@@ -338,21 +299,9 @@
       }
     ],
     "dataQualityStatus": "DEGRADED_SOURCE_FAILURE",
-    "sourceLabel": "RSS static data"
+    "sourceLabel": "RSS/GDELT static data"
   },
   "warnings": [
-    {
-      "source": "rss",
-      "level": "info",
-      "sourceId": "google-news-kr-economy",
-      "message": "RSS source google-news-kr-economy returned no usable recent articles."
-    },
-    {
-      "source": "gdelt",
-      "level": "warning",
-      "queryId": "global-market",
-      "message": "GDELT request failed: HTTP 429."
-    },
     {
       "source": "gdelt",
       "level": "warning",
@@ -363,19 +312,19 @@
   "ledgerStatus": {
     "enabled": true,
     "methodVersion": "briefon-signal-rule-v1",
-    "articleSnapshotCount": 80,
-    "signalCount": 77,
-    "appliedSignalCount": 28,
-    "missingIndicatorCount": 8,
-    "missingIndicatorOccurrenceCount": 197,
+    "articleSnapshotCount": 251,
+    "signalCount": 188,
+    "appliedSignalCount": 77,
+    "missingIndicatorCount": 10,
+    "missingIndicatorOccurrenceCount": 453,
     "gapQualityStatus": "READY_FOR_REVIEW",
     "userOpinionIncluded": false,
     "outcomeStatus": {
       "enabled": true,
       "status": "pending_observation",
-      "outcomeTargetCount": 221,
+      "outcomeTargetCount": 525,
       "observedCount": 0,
-      "pendingCount": 221,
+      "pendingCount": 525,
       "noDataCount": 0,
       "sourceUnavailableCount": 0,
       "readyForReviewCount": 0
@@ -384,105 +333,113 @@
   "files": {
     "economy": {
       "path": "./data/economy-latest.json",
-      "generatedAt": "2026-06-28T08:50:00+09:00"
+      "generatedAt": "2026-06-29T08:50:00+09:00"
     },
     "preopen": {
       "path": "./data/preopen-latest.json",
-      "generatedAt": "2026-06-28T08:50:00+09:00"
+      "generatedAt": "2026-06-29T08:50:00+09:00"
     },
     "events": {
       "path": "./data/events-latest.json",
-      "generatedAt": "2026-06-28T08:50:00+09:00"
+      "generatedAt": "2026-06-29T08:50:00+09:00"
     },
     "interest": {
       "path": "./data/interest-latest.json",
-      "generatedAt": "2026-06-28T08:50:00+09:00"
+      "generatedAt": "2026-06-29T08:50:00+09:00"
     },
     "qualityReport": {
       "path": "./data/data-quality-report.json",
-      "generatedAt": "2026-06-28T08:50:00+09:00"
+      "generatedAt": "2026-06-29T08:50:00+09:00"
     },
     "articleSnapshots": {
       "path": "./data/article-snapshots.json",
-      "generatedAt": "2026-06-28T08:50:00+09:00"
+      "generatedAt": "2026-06-29T08:50:00+09:00"
     },
     "articleSignals": {
       "path": "./data/article-signals.json",
-      "generatedAt": "2026-06-28T08:50:00+09:00"
+      "generatedAt": "2026-06-29T08:50:00+09:00"
     },
     "signalEvidence": {
       "path": "./data/signal-evidence.json",
-      "generatedAt": "2026-06-28T08:50:00+09:00"
+      "generatedAt": "2026-06-29T08:50:00+09:00"
     },
     "watchTargets": {
       "path": "./data/watch-targets.json",
-      "generatedAt": "2026-06-28T08:50:00+09:00"
+      "generatedAt": "2026-06-29T08:50:00+09:00"
     },
     "appliedBriefing": {
       "path": "./data/applied-briefing.json",
-      "generatedAt": "2026-06-28T08:50:00+09:00"
+      "generatedAt": "2026-06-29T08:50:00+09:00"
     },
     "gapMetrics": {
       "path": "./data/gap-metrics.json",
-      "generatedAt": "2026-06-28T08:50:00+09:00"
+      "generatedAt": "2026-06-29T08:50:00+09:00"
     },
     "outcomeSnapshots": {
       "path": "./data/outcome-snapshots.json",
-      "generatedAt": "2026-06-28T08:50:00+09:00"
+      "generatedAt": "2026-06-29T08:50:00+09:00"
     },
     "observationRuns": {
       "path": "./data/observation-runs.json",
-      "generatedAt": "2026-06-28T08:50:00+09:00"
+      "generatedAt": "2026-06-29T08:50:00+09:00"
     },
     "marketObservations": {
       "path": "./data/market-observations.json",
-      "generatedAt": "2026-06-28T08:50:00+09:00"
+      "generatedAt": "2026-06-29T08:50:00+09:00"
     },
     "outcomeSummary": {
       "path": "./data/outcome-summary.json",
-      "generatedAt": "2026-06-28T08:50:00+09:00"
+      "generatedAt": "2026-06-29T08:50:00+09:00"
+    },
+    "expertReviews": {
+      "path": "./data/expert-reviews.json",
+      "generatedAt": "2026-06-29T08:50:00+09:00"
     }
   },
   "optionalFiles": {
     "articleSnapshots": {
       "path": "./data/article-snapshots.json",
-      "generatedAt": "2026-06-28T08:50:00+09:00"
+      "generatedAt": "2026-06-29T08:50:00+09:00"
     },
     "articleSignals": {
       "path": "./data/article-signals.json",
-      "generatedAt": "2026-06-28T08:50:00+09:00"
+      "generatedAt": "2026-06-29T08:50:00+09:00"
     },
     "signalEvidence": {
       "path": "./data/signal-evidence.json",
-      "generatedAt": "2026-06-28T08:50:00+09:00"
+      "generatedAt": "2026-06-29T08:50:00+09:00"
     },
     "watchTargets": {
       "path": "./data/watch-targets.json",
-      "generatedAt": "2026-06-28T08:50:00+09:00"
+      "generatedAt": "2026-06-29T08:50:00+09:00"
     },
     "appliedBriefing": {
       "path": "./data/applied-briefing.json",
-      "generatedAt": "2026-06-28T08:50:00+09:00"
+      "generatedAt": "2026-06-29T08:50:00+09:00"
     },
     "gapMetrics": {
       "path": "./data/gap-metrics.json",
-      "generatedAt": "2026-06-28T08:50:00+09:00"
+      "generatedAt": "2026-06-29T08:50:00+09:00"
     },
     "outcomeSnapshots": {
       "path": "./data/outcome-snapshots.json",
-      "generatedAt": "2026-06-28T08:50:00+09:00"
+      "generatedAt": "2026-06-29T08:50:00+09:00"
     },
     "observationRuns": {
       "path": "./data/observation-runs.json",
-      "generatedAt": "2026-06-28T08:50:00+09:00"
+      "generatedAt": "2026-06-29T08:50:00+09:00"
     },
     "marketObservations": {
       "path": "./data/market-observations.json",
-      "generatedAt": "2026-06-28T08:50:00+09:00"
+      "generatedAt": "2026-06-29T08:50:00+09:00"
     },
     "outcomeSummary": {
       "path": "./data/outcome-summary.json",
-      "generatedAt": "2026-06-28T08:50:00+09:00"
+      "generatedAt": "2026-06-29T08:50:00+09:00"
+    },
+    "expertReviews": {
+      "path": "./data/expert-reviews.json",
+      "generatedAt": "2026-06-29T08:50:00+09:00"
     }
   }
 }

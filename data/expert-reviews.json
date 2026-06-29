@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "briefon-expert-reviews-v1",
+  "generatedAt": "2026-06-29T08:50:00+09:00",
+  "sourceLabel": "RSS/GDELT static data",
+  "status": "pending_review",
+  "summary": {
+    "totalReviewTargets": 0,
+    "reviewedCount": 0,
+    "pendingReviewCount": 0,
+    "needsDataBackfillCount": 0,
+    "notApplicableCount": 0
+  },
+  "reviews": [],
+  "manualInputUsed": false,
+  "unmatchedManualReviewKeys": [],
+  "userOpinionIncluded": false
+}

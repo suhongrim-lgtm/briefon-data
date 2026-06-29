@@ -1,19 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-28T08:50:00+09:00",
-  "sourceLabel": "RSS static data",
+  "generatedAt": "2026-06-29T08:50:00+09:00",
+  "sourceLabel": "RSS/GDELT static data",
   "fixtureUsed": false,
   "fixtureCount": 0,
-  "rssCount": 80,
-  "gdeltCount": 0,
+  "rssCount": 247,
+  "gdeltCount": 4,
   "failedSources": [
-    {
-      "source": "gdelt",
-      "queryId": "global-market",
-      "reason": "HTTP 429",
-      "attemptCount": 3,
-      "statusCode": 429
-    },
     {
       "source": "gdelt",
       "queryId": "ai-semiconductor",
@@ -38,7 +31,7 @@
       "enabledCount": 4,
       "successCount": 4,
       "failedCount": 0,
-      "emptyCount": 1,
+      "emptyCount": 0,
       "failedSources": [],
       "details": [
         {
@@ -46,15 +39,15 @@
           "name": "Google News KR Economy",
           "ok": true,
           "failed": false,
-          "articleCount": 0,
-          "reason": "no usable recent articles"
+          "articleCount": 49,
+          "reason": "articles collected"
         },
         {
           "id": "google-news-kr-market",
           "name": "Google News KR Market",
           "ok": true,
           "failed": false,
-          "articleCount": 1,
+          "articleCount": 43,
           "reason": "articles collected"
         },
         {
@@ -62,7 +55,7 @@
           "name": "Google News Global Markets",
           "ok": true,
           "failed": false,
-          "articleCount": 78,
+          "articleCount": 91,
           "reason": "articles collected"
         },
         {
@@ -70,7 +63,7 @@
           "name": "Google News AI Semiconductor",
           "ok": true,
           "failed": false,
-          "articleCount": 14,
+          "articleCount": 87,
           "reason": "articles collected"
         }
       ]
@@ -78,18 +71,11 @@
     "gdelt": {
       "configuredCount": 2,
       "enabledCount": 2,
-      "successCount": 0,
-      "failedCount": 2,
+      "successCount": 1,
+      "failedCount": 1,
       "emptyCount": 0,
-      "rateLimitedCount": 2,
+      "rateLimitedCount": 1,
       "failedSources": [
-        {
-          "source": "gdelt",
-          "queryId": "global-market",
-          "reason": "HTTP 429",
-          "attemptCount": 3,
-          "statusCode": 429
-        },
         {
           "source": "gdelt",
           "queryId": "ai-semiconductor",
@@ -101,13 +87,13 @@
       "details": [
         {
           "id": "global-market",
-          "ok": false,
-          "failed": true,
-          "rateLimited": true,
-          "articleCount": 0,
-          "attemptCount": 3,
-          "statusCode": 429,
-          "reason": "HTTP 429"
+          "ok": true,
+          "failed": false,
+          "rateLimited": false,
+          "articleCount": 20,
+          "attemptCount": 1,
+          "statusCode": 200,
+          "reason": "articles collected"
         },
         {
           "id": "ai-semiconductor",
@@ -130,7 +116,8 @@
       "gdelt"
     ],
     "usedSources": [
-      "rss"
+      "rss",
+      "gdelt"
     ],
     "sourceCounts": {
       "fixture": {
@@ -145,20 +132,20 @@
       "rss": {
         "requested": true,
         "enabled": true,
-        "collected": 93,
-        "relevant": 80,
-        "used": 80,
+        "collected": 270,
+        "relevant": 247,
+        "used": 247,
         "failed": false,
         "reason": "articles collected"
       },
       "gdelt": {
         "requested": true,
         "enabled": true,
-        "collected": 0,
-        "relevant": 0,
-        "used": 0,
-        "failed": true,
-        "reason": "HTTP 429"
+        "collected": 20,
+        "relevant": 4,
+        "used": 4,
+        "failed": false,
+        "reason": "articles collected"
       }
     },
     "sourceHealth": {
@@ -177,7 +164,7 @@
         "enabledCount": 4,
         "successCount": 4,
         "failedCount": 0,
-        "emptyCount": 1,
+        "emptyCount": 0,
         "failedSources": [],
         "details": [
           {
@@ -185,15 +172,15 @@
             "name": "Google News KR Economy",
             "ok": true,
             "failed": false,
-            "articleCount": 0,
-            "reason": "no usable recent articles"
+            "articleCount": 49,
+            "reason": "articles collected"
           },
           {
             "id": "google-news-kr-market",
             "name": "Google News KR Market",
             "ok": true,
             "failed": false,
-            "articleCount": 1,
+            "articleCount": 43,
             "reason": "articles collected"
           },
           {
@@ -201,7 +188,7 @@
             "name": "Google News Global Markets",
             "ok": true,
             "failed": false,
-            "articleCount": 78,
+            "articleCount": 91,
             "reason": "articles collected"
           },
           {
@@ -209,7 +196,7 @@
             "name": "Google News AI Semiconductor",
             "ok": true,
             "failed": false,
-            "articleCount": 14,
+            "articleCount": 87,
             "reason": "articles collected"
           }
         ]
@@ -217,18 +204,11 @@
       "gdelt": {
         "configuredCount": 2,
         "enabledCount": 2,
-        "successCount": 0,
-        "failedCount": 2,
+        "successCount": 1,
+        "failedCount": 1,
         "emptyCount": 0,
-        "rateLimitedCount": 2,
+        "rateLimitedCount": 1,
         "failedSources": [
-          {
-            "source": "gdelt",
-            "queryId": "global-market",
-            "reason": "HTTP 429",
-            "attemptCount": 3,
-            "statusCode": 429
-          },
           {
             "source": "gdelt",
             "queryId": "ai-semiconductor",
@@ -240,13 +220,13 @@
         "details": [
           {
             "id": "global-market",
-            "ok": false,
-            "failed": true,
-            "rateLimited": true,
-            "articleCount": 0,
-            "attemptCount": 3,
-            "statusCode": 429,
-            "reason": "HTTP 429"
+            "ok": true,
+            "failed": false,
+            "rateLimited": false,
+            "articleCount": 20,
+            "attemptCount": 1,
+            "statusCode": 200,
+            "reason": "articles collected"
           },
           {
             "id": "ai-semiconductor",
@@ -264,13 +244,6 @@
     "failedSources": [
       {
         "source": "gdelt",
-        "queryId": "global-market",
-        "reason": "HTTP 429",
-        "attemptCount": 3,
-        "statusCode": 429
-      },
-      {
-        "source": "gdelt",
         "queryId": "ai-semiconductor",
         "reason": "HTTP 429",
         "attemptCount": 3,
@@ -280,29 +253,29 @@
     "fixtureUsed": false,
     "fallbackUsed": false,
     "fixtureCount": 0,
-    "rssCount": 80,
-    "gdeltCount": 0,
+    "rssCount": 247,
+    "gdeltCount": 4,
     "totals": {
-      "collected": 104,
-      "relevant": 80,
-      "duplicatesRemoved": 0,
-      "used": 80
+      "collected": 301,
+      "relevant": 251,
+      "duplicatesRemoved": 3,
+      "used": 251
     },
     "filterReport": {
-      "collected": 104,
-      "relevant": 80,
-      "excluded": 13,
+      "collected": 301,
+      "relevant": 251,
+      "excluded": 36,
       "excludedSamples": [
         {
+          "title": "As Supreme Court's term nears its end, three major Trump rulings due - USA Today",
+          "reason": "no BriefOn economic keyword"
+        },
+        {
+          "title": "Forget the ‘Sell America’ trade: Why U.S. markets keep proving the naysayers wrong - Marke",
+          "reason": "no BriefOn economic keyword"
+        },
+        {
           "title": "Why investors may want to prioritize bond markets outside the U.S. - CNBC",
-          "reason": "no BriefOn economic keyword"
-        },
-        {
-          "title": "Buy 4 Defensive Stocks as Inflation Hits Highest Level in 3 Years - Yahoo Finance",
-          "reason": "no BriefOn economic keyword"
-        },
-        {
-          "title": "America In Focus: Key inflation gauge surges to 3-year high, mortgage rate climbs - KLAS 8",
           "reason": "no BriefOn economic keyword"
         },
         {
@@ -310,24 +283,12 @@
           "reason": "no BriefOn economic keyword"
         },
         {
-          "title": "What to Look Out for in Economic Data This Week (June 29-July 3) - Kiplinger",
+          "title": "Barkin warns inflation stays elevated, backs modest tightening to hit 2% - CHOSUNBIZ - Cho",
           "reason": "no BriefOn economic keyword"
         }
       ]
     },
     "warnings": [
-      {
-        "source": "rss",
-        "level": "info",
-        "sourceId": "google-news-kr-economy",
-        "message": "RSS source google-news-kr-economy returned no usable recent articles."
-      },
-      {
-        "source": "gdelt",
-        "level": "warning",
-        "queryId": "global-market",
-        "message": "GDELT request failed: HTTP 429."
-      },
       {
         "source": "gdelt",
         "level": "warning",
@@ -336,50 +297,50 @@
       }
     ],
     "dataQualityStatus": "DEGRADED_SOURCE_FAILURE",
-    "sourceLabel": "RSS static data"
+    "sourceLabel": "RSS/GDELT static data"
   },
   "quality": {
     "economy": {
-      "issueCount": 23,
-      "keywordCount": 3,
-      "articleCount": 28,
-      "uniqueArticleCount": 28,
-      "articleOccurrenceCount": 28,
+      "issueCount": 53,
+      "keywordCount": 6,
+      "articleCount": 65,
+      "uniqueArticleCount": 65,
+      "articleOccurrenceCount": 65,
       "sourceTypeCounts": {
         "fixture": 0,
-        "rss": 28,
+        "rss": 65,
         "gdelt": 0
       },
       "occurrenceSourceTypeCounts": {
         "fixture": 0,
-        "rss": 28,
+        "rss": 65,
         "gdelt": 0
       },
       "fixtureArticleCount": 0,
-      "rssArticleCount": 28,
+      "rssArticleCount": 65,
       "gdeltArticleCount": 0,
       "emptySections": []
     },
     "preopen": {
-      "issueCount": 0,
-      "articleCount": 0,
-      "uniqueArticleCount": 0,
-      "articleOccurrenceCount": 0,
+      "issueCount": 3,
+      "articleCount": 12,
+      "uniqueArticleCount": 12,
+      "articleOccurrenceCount": 12,
       "sourceTypeCounts": {
         "fixture": 0,
-        "rss": 0,
+        "rss": 12,
         "gdelt": 0
       },
       "occurrenceSourceTypeCounts": {
         "fixture": 0,
-        "rss": 0,
+        "rss": 12,
         "gdelt": 0
       },
       "fixtureArticleCount": 0,
-      "rssArticleCount": 0,
+      "rssArticleCount": 12,
       "gdeltArticleCount": 0,
-      "status": "empty",
-      "emptyReason": "no high impact issues"
+      "status": "ready",
+      "emptyReason": ""
     },
     "events": {
       "eventCount": 3,
@@ -390,40 +351,40 @@
     },
     "interest": {
       "keywordSummaryCount": 3,
-      "issueCount": 2,
-      "articleCount": 3,
-      "uniqueArticleCount": 3,
-      "articleOccurrenceCount": 3,
+      "issueCount": 4,
+      "articleCount": 10,
+      "uniqueArticleCount": 10,
+      "articleOccurrenceCount": 14,
       "sourceTypeCounts": {
         "fixture": 0,
-        "rss": 3,
+        "rss": 10,
         "gdelt": 0
       },
       "occurrenceSourceTypeCounts": {
         "fixture": 0,
-        "rss": 3,
+        "rss": 14,
         "gdelt": 0
       },
       "fixtureArticleCount": 0,
-      "rssArticleCount": 3,
+      "rssArticleCount": 10,
       "gdeltArticleCount": 0
     }
   },
   "filterReport": {
-    "collected": 104,
-    "relevant": 80,
-    "excluded": 13,
+    "collected": 301,
+    "relevant": 251,
+    "excluded": 36,
     "excludedSamples": [
       {
+        "title": "As Supreme Court's term nears its end, three major Trump rulings due - USA Today",
+        "reason": "no BriefOn economic keyword"
+      },
+      {
+        "title": "Forget the ‘Sell America’ trade: Why U.S. markets keep proving the naysayers wrong - Marke",
+        "reason": "no BriefOn economic keyword"
+      },
+      {
         "title": "Why investors may want to prioritize bond markets outside the U.S. - CNBC",
-        "reason": "no BriefOn economic keyword"
-      },
-      {
-        "title": "Buy 4 Defensive Stocks as Inflation Hits Highest Level in 3 Years - Yahoo Finance",
-        "reason": "no BriefOn economic keyword"
-      },
-      {
-        "title": "America In Focus: Key inflation gauge surges to 3-year high, mortgage rate climbs - KLAS 8",
         "reason": "no BriefOn economic keyword"
       },
       {
@@ -431,24 +392,12 @@
         "reason": "no BriefOn economic keyword"
       },
       {
-        "title": "What to Look Out for in Economic Data This Week (June 29-July 3) - Kiplinger",
+        "title": "Barkin warns inflation stays elevated, backs modest tightening to hit 2% - CHOSUNBIZ - Cho",
         "reason": "no BriefOn economic keyword"
       }
     ]
   },
   "warnings": [
-    {
-      "source": "rss",
-      "level": "info",
-      "sourceId": "google-news-kr-economy",
-      "message": "RSS source google-news-kr-economy returned no usable recent articles."
-    },
-    {
-      "source": "gdelt",
-      "level": "warning",
-      "queryId": "global-market",
-      "message": "GDELT request failed: HTTP 429."
-    },
     {
       "source": "gdelt",
       "level": "warning",

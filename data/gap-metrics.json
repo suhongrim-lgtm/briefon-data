@@ -1,76 +1,53 @@
 {
   "schemaVersion": "briefon-gap-metrics-v2",
-  "sourceLabel": "RSS static data",
-  "generatedAt": "2026-06-28T08:50:00+09:00",
+  "sourceLabel": "RSS/GDELT static data",
+  "generatedAt": "2026-06-29T08:50:00+09:00",
   "status": "pending_outcome_review",
   "gapQualityStatus": "READY_FOR_REVIEW",
-  "totalMissingIndicatorOccurrences": 197,
+  "totalMissingIndicatorOccurrences": 453,
   "missingIndicatorSummary": [
-    {
-      "indicatorId": "official_policy_text",
-      "label": "official policy text",
-      "category": "rates",
-      "count": 52,
-      "priority": "high",
-      "relatedSectors": [
-        "성장주",
-        "은행",
-        "채권"
-      ],
-      "relatedTopics": [
-        "fed",
-        "fomc"
-      ],
-      "topReason": "Need the official statement or minutes to compare with the article-time reading.",
-      "suggestedTargetIds": [
-        "US10Y",
-        "USDKRW",
-        "NASDAQ"
-      ]
-    },
-    {
-      "indicatorId": "policy_path_repricing",
-      "label": "policy path repricing",
-      "category": "rates",
-      "count": 52,
-      "priority": "high",
-      "relatedSectors": [
-        "성장주",
-        "은행",
-        "채권"
-      ],
-      "relatedTopics": [
-        "fed",
-        "fomc"
-      ],
-      "topReason": "Need rates and FX follow-through after the policy event.",
-      "suggestedTargetIds": [
-        "US10Y",
-        "USDKRW",
-        "NASDAQ"
-      ]
-    },
     {
       "indicatorId": "briefing_inclusion_review",
       "label": "Briefing inclusion review",
       "category": "data_quality",
-      "count": 49,
+      "count": 111,
       "priority": "medium",
       "relatedSectors": [
+        "수출주",
+        "항공",
+        "유통",
+        "반도체",
+        "데이터센터",
+        "장비",
         "성장주",
         "은행",
         "채권",
-        "시장 전체"
+        "시장 전체",
+        "조선",
+        "방산",
+        "기계"
       ],
       "relatedTopics": [
-        "fed",
+        "환율",
+        "금리",
+        "중국 경기",
+        "고용",
+        "조선",
+        "연준",
+        "반도체",
+        "코스피",
+        "금",
         "ai",
-        "fomc"
+        "fed",
+        "fomc",
+        "시장 전체",
+        "nvidia"
       ],
       "topReason": "The article was not applied to the visible briefing and may need later inclusion review.",
       "suggestedTargetIds": [
-        "US10Y",
+        "KOSPI",
         "USDKRW",
+        "US10Y",
         "NASDAQ",
         "SOXX",
         "SKHYNIX",
@@ -81,19 +58,21 @@
       "indicatorId": "follow_up_disclosure",
       "label": "follow-up disclosure",
       "category": "sector_indicator",
-      "count": 17,
+      "count": 91,
       "priority": "medium",
       "relatedSectors": [
-        "시장 전체",
         "조선",
         "방산",
         "기계",
         "반도체",
         "데이터센터",
-        "장비"
+        "장비",
+        "시장 전체"
       ],
       "relatedTopics": [
+        "조선",
         "ai",
+        "반도체",
         "nvidia"
       ],
       "topReason": "Need shipment, order, or management follow-up to confirm the industry reading.",
@@ -107,19 +86,21 @@
       "indicatorId": "peer_price_basket",
       "label": "peer price basket",
       "category": "sector_indicator",
-      "count": 17,
+      "count": 91,
       "priority": "medium",
       "relatedSectors": [
-        "시장 전체",
         "조선",
         "방산",
         "기계",
         "반도체",
         "데이터센터",
-        "장비"
+        "장비",
+        "시장 전체"
       ],
       "relatedTopics": [
+        "조선",
         "ai",
+        "반도체",
         "nvidia"
       ],
       "topReason": "Need peer stock response to confirm whether the interpretation was sector-wide.",
@@ -130,17 +111,93 @@
       ]
     },
     {
+      "indicatorId": "official_policy_text",
+      "label": "official policy text",
+      "category": "rates",
+      "count": 60,
+      "priority": "high",
+      "relatedSectors": [
+        "반도체",
+        "데이터센터",
+        "장비",
+        "성장주",
+        "은행",
+        "채권",
+        "조선",
+        "방산",
+        "기계"
+      ],
+      "relatedTopics": [
+        "금리",
+        "연준",
+        "fed",
+        "fomc",
+        "ecb"
+      ],
+      "topReason": "Need the official statement or minutes to compare with the article-time reading.",
+      "suggestedTargetIds": [
+        "US10Y",
+        "USDKRW",
+        "NASDAQ"
+      ]
+    },
+    {
+      "indicatorId": "policy_path_repricing",
+      "label": "policy path repricing",
+      "category": "rates",
+      "count": 60,
+      "priority": "high",
+      "relatedSectors": [
+        "반도체",
+        "데이터센터",
+        "장비",
+        "성장주",
+        "은행",
+        "채권",
+        "조선",
+        "방산",
+        "기계"
+      ],
+      "relatedTopics": [
+        "금리",
+        "연준",
+        "fed",
+        "fomc",
+        "ecb"
+      ],
+      "topReason": "Need rates and FX follow-through after the policy event.",
+      "suggestedTargetIds": [
+        "US10Y",
+        "USDKRW",
+        "NASDAQ"
+      ]
+    },
+    {
       "indicatorId": "close_confirmation",
       "label": "close confirmation",
       "category": "market_price",
-      "count": 6,
+      "count": 34,
       "priority": "high",
       "relatedSectors": [
-        "시장 전체"
+        "수출주",
+        "항공",
+        "유통",
+        "시장 전체",
+        "조선",
+        "방산",
+        "기계",
+        "반도체",
+        "데이터센터",
+        "장비"
       ],
       "relatedTopics": [
+        "환율",
+        "금리",
+        "중국 경기",
+        "고용",
+        "시장 전체",
         "코스피",
-        "시장 전체"
+        "금"
       ],
       "topReason": "Need the next session close to verify whether the article-time move persisted.",
       "suggestedTargetIds": [
@@ -181,12 +238,48 @@
       "suggestedTargetIds": [
         "COMPANY-STOCK"
       ]
+    },
+    {
+      "indicatorId": "consensus_baseline",
+      "label": "consensus baseline",
+      "category": "macro_indicator",
+      "count": 1,
+      "priority": "high",
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "relatedTopics": [
+        "고용"
+      ],
+      "topReason": "Need market expectation data to judge whether the release was a surprise.",
+      "suggestedTargetIds": [
+        "US10Y",
+        "NASDAQ"
+      ]
+    },
+    {
+      "indicatorId": "official_release_value",
+      "label": "official release value",
+      "category": "macro_indicator",
+      "count": 1,
+      "priority": "high",
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "relatedTopics": [
+        "고용"
+      ],
+      "topReason": "Need the official macro release to compare article interpretation with the actual print.",
+      "suggestedTargetIds": [
+        "US10Y",
+        "NASDAQ"
+      ]
     }
   ],
   "sectorGapSummary": [
     {
       "sector": "성장주",
-      "missingIndicatorCount": 151,
+      "missingIndicatorCount": 166,
       "topMissingIndicators": [
         "official_policy_text",
         "policy_path_repricing",
@@ -195,7 +288,7 @@
     },
     {
       "sector": "은행",
-      "missingIndicatorCount": 151,
+      "missingIndicatorCount": 166,
       "topMissingIndicators": [
         "official_policy_text",
         "policy_path_repricing",
@@ -204,7 +297,7 @@
     },
     {
       "sector": "채권",
-      "missingIndicatorCount": 151,
+      "missingIndicatorCount": 166,
       "topMissingIndicators": [
         "official_policy_text",
         "policy_path_repricing",
@@ -213,66 +306,105 @@
     },
     {
       "sector": "시장 전체",
-      "missingIndicatorCount": 40,
+      "missingIndicatorCount": 147,
       "topMissingIndicators": [
         "follow_up_disclosure",
         "peer_price_basket",
-        "close_confirmation"
+        "briefing_inclusion_review"
       ]
     },
     {
       "sector": "데이터센터",
-      "missingIndicatorCount": 4,
+      "missingIndicatorCount": 103,
       "topMissingIndicators": [
         "follow_up_disclosure",
-        "peer_price_basket"
+        "peer_price_basket",
+        "briefing_inclusion_review"
       ]
     },
     {
       "sector": "반도체",
-      "missingIndicatorCount": 4,
+      "missingIndicatorCount": 103,
       "topMissingIndicators": [
         "follow_up_disclosure",
-        "peer_price_basket"
+        "peer_price_basket",
+        "briefing_inclusion_review"
       ]
     },
     {
       "sector": "장비",
-      "missingIndicatorCount": 4,
+      "missingIndicatorCount": 103,
       "topMissingIndicators": [
         "follow_up_disclosure",
-        "peer_price_basket"
+        "peer_price_basket",
+        "briefing_inclusion_review"
+      ]
+    },
+    {
+      "sector": "수출주",
+      "missingIndicatorCount": 21,
+      "topMissingIndicators": [
+        "close_confirmation",
+        "briefing_inclusion_review"
+      ]
+    },
+    {
+      "sector": "유통",
+      "missingIndicatorCount": 21,
+      "topMissingIndicators": [
+        "close_confirmation",
+        "briefing_inclusion_review"
+      ]
+    },
+    {
+      "sector": "항공",
+      "missingIndicatorCount": 21,
+      "topMissingIndicators": [
+        "close_confirmation",
+        "briefing_inclusion_review"
       ]
     },
     {
       "sector": "기계",
-      "missingIndicatorCount": 2,
+      "missingIndicatorCount": 16,
       "topMissingIndicators": [
-        "follow_up_disclosure",
-        "peer_price_basket"
+        "briefing_inclusion_review",
+        "close_confirmation",
+        "follow_up_disclosure"
       ]
     },
     {
       "sector": "방산",
-      "missingIndicatorCount": 2,
+      "missingIndicatorCount": 16,
       "topMissingIndicators": [
-        "follow_up_disclosure",
-        "peer_price_basket"
+        "briefing_inclusion_review",
+        "close_confirmation",
+        "follow_up_disclosure"
       ]
     },
     {
       "sector": "조선",
-      "missingIndicatorCount": 2,
+      "missingIndicatorCount": 16,
       "topMissingIndicators": [
-        "follow_up_disclosure",
-        "peer_price_basket"
+        "briefing_inclusion_review",
+        "close_confirmation",
+        "follow_up_disclosure"
       ]
     }
   ],
   "topicGapSummary": [
     {
+      "topic": "ai",
+      "missingIndicatorCount": 146,
+      "topMissingIndicators": [
+        "follow_up_disclosure",
+        "peer_price_basket",
+        "briefing_inclusion_review"
+      ]
+    },
+    {
       "topic": "fed",
-      "missingIndicatorCount": 142,
+      "missingIndicatorCount": 130,
       "topMissingIndicators": [
         "official_policy_text",
         "policy_path_repricing",
@@ -280,12 +412,54 @@
       ]
     },
     {
-      "topic": "ai",
-      "missingIndicatorCount": 32,
+      "topic": "반도체",
+      "missingIndicatorCount": 53,
       "topMissingIndicators": [
         "follow_up_disclosure",
         "peer_price_basket",
         "briefing_inclusion_review"
+      ]
+    },
+    {
+      "topic": "금리",
+      "missingIndicatorCount": 30,
+      "topMissingIndicators": [
+        "official_policy_text",
+        "policy_path_repricing",
+        "briefing_inclusion_review"
+      ]
+    },
+    {
+      "topic": "시장 전체",
+      "missingIndicatorCount": 17,
+      "topMissingIndicators": [
+        "close_confirmation",
+        "briefing_inclusion_review"
+      ]
+    },
+    {
+      "topic": "nvidia",
+      "missingIndicatorCount": 16,
+      "topMissingIndicators": [
+        "follow_up_disclosure",
+        "peer_price_basket",
+        "briefing_inclusion_review"
+      ]
+    },
+    {
+      "topic": "환율",
+      "missingIndicatorCount": 16,
+      "topMissingIndicators": [
+        "close_confirmation",
+        "briefing_inclusion_review"
+      ]
+    },
+    {
+      "topic": "코스피",
+      "missingIndicatorCount": 10,
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "close_confirmation"
       ]
     },
     {
@@ -298,10 +472,21 @@
       ]
     },
     {
-      "topic": "시장 전체",
+      "topic": "조선",
+      "missingIndicatorCount": 6,
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "topic": "고용",
       "missingIndicatorCount": 5,
       "topMissingIndicators": [
-        "close_confirmation"
+        "briefing_inclusion_review",
+        "close_confirmation",
+        "consensus_baseline"
       ]
     },
     {
@@ -313,17 +498,35 @@
       ]
     },
     {
-      "topic": "nvidia",
+      "topic": "중국 경기",
       "missingIndicatorCount": 4,
       "topMissingIndicators": [
-        "follow_up_disclosure",
-        "peer_price_basket"
+        "briefing_inclusion_review",
+        "close_confirmation"
       ]
     },
     {
-      "topic": "코스피",
-      "missingIndicatorCount": 1,
+      "topic": "연준",
+      "missingIndicatorCount": 3,
       "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "official_policy_text",
+        "policy_path_repricing"
+      ]
+    },
+    {
+      "topic": "ecb",
+      "missingIndicatorCount": 2,
+      "topMissingIndicators": [
+        "official_policy_text",
+        "policy_path_repricing"
+      ]
+    },
+    {
+      "topic": "금",
+      "missingIndicatorCount": 2,
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
         "close_confirmation"
       ]
     }
@@ -331,7 +534,25 @@
   "sourceGapSummary": [
     {
       "source": "Yahoo Finance",
-      "missingIndicatorCount": 15,
+      "missingIndicatorCount": 33,
+      "relatedSectors": [
+        "성장주",
+        "은행",
+        "채권",
+        "반도체",
+        "데이터센터",
+        "장비",
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "follow_up_disclosure",
+        "peer_price_basket",
+        "briefing_inclusion_review"
+      ]
+    },
+    {
+      "source": "The Motley Fool",
+      "missingIndicatorCount": 21,
       "relatedSectors": [
         "성장주",
         "은행",
@@ -344,17 +565,33 @@
       "topMissingIndicators": [
         "briefing_inclusion_review",
         "follow_up_disclosure",
-        "official_policy_text"
+        "peer_price_basket"
       ]
     },
     {
-      "source": "CNBC",
-      "missingIndicatorCount": 13,
+      "source": "조선일보",
+      "missingIndicatorCount": 17,
+      "relatedSectors": [
+        "조선",
+        "방산",
+        "기계",
+        "반도체",
+        "데이터센터",
+        "장비"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "Mshale",
+      "missingIndicatorCount": 15,
       "relatedSectors": [
         "성장주",
         "은행",
-        "채권",
-        "시장 전체"
+        "채권"
       ],
       "topMissingIndicators": [
         "briefing_inclusion_review",
@@ -363,13 +600,13 @@
       ]
     },
     {
-      "source": "Reuters",
-      "missingIndicatorCount": 13,
+      "source": "MSN",
+      "missingIndicatorCount": 14,
       "relatedSectors": [
+        "시장 전체",
         "성장주",
         "은행",
-        "채권",
-        "시장 전체"
+        "채권"
       ],
       "topMissingIndicators": [
         "briefing_inclusion_review",
@@ -379,16 +616,82 @@
     },
     {
       "source": "Bitget",
-      "missingIndicatorCount": 11,
+      "missingIndicatorCount": 12,
       "relatedSectors": [
         "성장주",
         "은행",
         "채권"
       ],
       "topMissingIndicators": [
+        "briefing_inclusion_review",
         "official_policy_text",
-        "policy_path_repricing",
+        "policy_path_repricing"
+      ]
+    },
+    {
+      "source": "Reuters",
+      "missingIndicatorCount": 12,
+      "relatedSectors": [
+        "성장주",
+        "은행",
+        "채권",
+        "반도체",
+        "데이터센터",
+        "장비",
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "follow_up_disclosure",
+        "peer_price_basket",
         "briefing_inclusion_review"
+      ]
+    },
+    {
+      "source": "The Globe and Mail",
+      "missingIndicatorCount": 12,
+      "relatedSectors": [
+        "성장주",
+        "은행",
+        "채권"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "official_policy_text",
+        "policy_path_repricing"
+      ]
+    },
+    {
+      "source": "연합인포맥스",
+      "missingIndicatorCount": 11,
+      "relatedSectors": [
+        "반도체",
+        "데이터센터",
+        "장비"
+      ],
+      "topMissingIndicators": [
+        "follow_up_disclosure",
+        "peer_price_basket",
+        "briefing_inclusion_review"
+      ]
+    },
+    {
+      "source": "Chosunbiz",
+      "missingIndicatorCount": 10,
+      "relatedSectors": [
+        "조선",
+        "방산",
+        "기계",
+        "수출주",
+        "항공",
+        "유통",
+        "반도체",
+        "데이터센터",
+        "장비"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "close_confirmation",
+        "follow_up_disclosure"
       ]
     },
     {
@@ -406,65 +709,74 @@
       ]
     },
     {
-      "source": "IndexBox",
+      "source": "KBS 뉴스",
       "missingIndicatorCount": 9,
       "relatedSectors": [
         "성장주",
         "은행",
-        "채권"
+        "채권",
+        "반도체",
+        "데이터센터",
+        "장비"
       ],
       "topMissingIndicators": [
         "briefing_inclusion_review",
-        "official_policy_text",
-        "policy_path_repricing"
+        "follow_up_disclosure",
+        "peer_price_basket"
       ]
     },
     {
-      "source": "MSN",
+      "source": "upi.com",
       "missingIndicatorCount": 9,
       "relatedSectors": [
-        "성장주",
-        "은행",
-        "채권"
+        "시장 전체"
       ],
       "topMissingIndicators": [
         "briefing_inclusion_review",
-        "official_policy_text",
-        "policy_path_repricing"
+        "follow_up_disclosure",
+        "peer_price_basket"
       ]
     },
     {
-      "source": "VT Markets",
-      "missingIndicatorCount": 9,
+      "source": "연합뉴스",
+      "missingIndicatorCount": 8,
       "relatedSectors": [
+        "수출주",
+        "항공",
+        "유통",
         "성장주",
         "은행",
-        "채권"
+        "채권",
+        "반도체",
+        "데이터센터",
+        "장비"
       ],
       "topMissingIndicators": [
         "briefing_inclusion_review",
-        "official_policy_text",
-        "policy_path_repricing"
+        "close_confirmation",
+        "follow_up_disclosure"
       ]
     },
     {
-      "source": "CryptoRank",
+      "source": "한국경제",
       "missingIndicatorCount": 7,
       "relatedSectors": [
         "성장주",
         "은행",
         "채권",
-        "시장 전체"
+        "반도체",
+        "데이터센터",
+        "장비"
       ],
       "topMissingIndicators": [
         "briefing_inclusion_review",
-        "official_policy_text",
-        "policy_path_repricing"
+        "close_confirmation",
+        "follow_up_disclosure"
       ]
     },
     {
       "source": "Fortune",
-      "missingIndicatorCount": 7,
+      "missingIndicatorCount": 6,
       "relatedSectors": [
         "성장주",
         "은행",
@@ -472,13 +784,13 @@
         "시장 전체"
       ],
       "topMissingIndicators": [
-        "follow_up_disclosure",
-        "peer_price_basket",
+        "official_policy_text",
+        "policy_path_repricing",
         "briefing_inclusion_review"
       ]
     },
     {
-      "source": "The Globe and Mail",
+      "source": "IndexBox",
       "missingIndicatorCount": 6,
       "relatedSectors": [
         "성장주",
@@ -492,8 +804,8 @@
       ]
     },
     {
-      "source": "Axios",
-      "missingIndicatorCount": 3,
+      "source": "Intellectia AI",
+      "missingIndicatorCount": 6,
       "relatedSectors": [
         "성장주",
         "은행",
@@ -506,8 +818,39 @@
       ]
     },
     {
-      "source": "Barron's",
-      "missingIndicatorCount": 3,
+      "source": "v.daum.net",
+      "missingIndicatorCount": 6,
+      "relatedSectors": [
+        "반도체",
+        "데이터센터",
+        "장비",
+        "성장주",
+        "은행",
+        "채권",
+        "수출주",
+        "항공",
+        "유통"
+      ],
+      "topMissingIndicators": [
+        "official_policy_text",
+        "policy_path_repricing",
+        "briefing_inclusion_review"
+      ]
+    },
+    {
+      "source": "WSJ",
+      "missingIndicatorCount": 6,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "富途牛牛",
+      "missingIndicatorCount": 6,
       "relatedSectors": [
         "성장주",
         "은행",
@@ -520,17 +863,128 @@
       ]
     },
     {
-      "source": "Bloomberg.com",
-      "missingIndicatorCount": 3,
+      "source": "머니투데이",
+      "missingIndicatorCount": 5,
       "relatedSectors": [
         "성장주",
         "은행",
-        "채권"
+        "채권",
+        "수출주",
+        "항공",
+        "유통"
       ],
       "topMissingIndicators": [
         "briefing_inclusion_review",
-        "official_policy_text",
-        "policy_path_repricing"
+        "close_confirmation",
+        "official_policy_text"
+      ]
+    },
+    {
+      "source": "아시아경제",
+      "missingIndicatorCount": 5,
+      "relatedSectors": [
+        "성장주",
+        "은행",
+        "채권",
+        "수출주",
+        "항공",
+        "유통"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "close_confirmation",
+        "official_policy_text"
+      ]
+    },
+    {
+      "source": "중앙일보",
+      "missingIndicatorCount": 5,
+      "relatedSectors": [
+        "반도체",
+        "데이터센터",
+        "장비"
+      ],
+      "topMissingIndicators": [
+        "follow_up_disclosure",
+        "peer_price_basket",
+        "briefing_inclusion_review"
+      ]
+    },
+    {
+      "source": "Business Insider",
+      "missingIndicatorCount": 4,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "Business Recorder",
+      "missingIndicatorCount": 4,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "close_confirmation"
+      ]
+    },
+    {
+      "source": "Financial Times",
+      "missingIndicatorCount": 4,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "The Times of India",
+      "missingIndicatorCount": 4,
+      "relatedSectors": [
+        "성장주",
+        "은행",
+        "채권",
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "close_confirmation",
+        "official_policy_text"
+      ]
+    },
+    {
+      "source": "전자신문",
+      "missingIndicatorCount": 4,
+      "relatedSectors": [
+        "시장 전체",
+        "반도체",
+        "데이터센터",
+        "장비"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "close_confirmation",
+        "follow_up_disclosure"
+      ]
+    },
+    {
+      "source": "AOL.com",
+      "missingIndicatorCount": 3,
+      "relatedSectors": [
+        "반도체",
+        "데이터센터",
+        "장비"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "follow_up_disclosure",
+        "peer_price_basket"
       ]
     },
     {
@@ -545,6 +999,44 @@
         "briefing_inclusion_review",
         "official_policy_text",
         "policy_path_repricing"
+      ]
+    },
+    {
+      "source": "CoinDesk",
+      "missingIndicatorCount": 3,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "CryptoRank",
+      "missingIndicatorCount": 3,
+      "relatedSectors": [
+        "성장주",
+        "은행",
+        "채권"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "official_policy_text",
+        "policy_path_repricing"
+      ]
+    },
+    {
+      "source": "Devdiscourse",
+      "missingIndicatorCount": 3,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "close_confirmation",
+        "follow_up_disclosure",
+        "peer_price_basket"
       ]
     },
     {
@@ -576,7 +1068,7 @@
       ]
     },
     {
-      "source": "Federal Reserve Bank of Minneapolis",
+      "source": "Financial Nigeria",
       "missingIndicatorCount": 3,
       "relatedSectors": [
         "성장주",
@@ -590,7 +1082,7 @@
       ]
     },
     {
-      "source": "Finance & Commerce",
+      "source": "fool.com",
       "missingIndicatorCount": 3,
       "relatedSectors": [
         "성장주",
@@ -604,7 +1096,69 @@
       ]
     },
     {
-      "source": "Fort Worth Inc.",
+      "source": "foreignpolicyjournal.com",
+      "missingIndicatorCount": 3,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "fox4news.com",
+      "missingIndicatorCount": 3,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "fox6now.com",
+      "missingIndicatorCount": 3,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "Investing.com",
+      "missingIndicatorCount": 3,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "JTBC",
+      "missingIndicatorCount": 3,
+      "relatedSectors": [
+        "반도체",
+        "데이터센터",
+        "장비"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "KB Think",
       "missingIndicatorCount": 3,
       "relatedSectors": [
         "성장주",
@@ -618,7 +1172,33 @@
       ]
     },
     {
-      "source": "Forth.News",
+      "source": "knn.co.kr",
+      "missingIndicatorCount": 3,
+      "relatedSectors": [
+        "반도체",
+        "데이터센터",
+        "장비"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "LiveNOW from FOX",
+      "missingIndicatorCount": 3,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "MPR News",
       "missingIndicatorCount": 3,
       "relatedSectors": [
         "성장주",
@@ -632,91 +1212,55 @@
       ]
     },
     {
-      "source": "InsuranceNewsNet",
+      "source": "PYMNTS.com",
       "missingIndicatorCount": 3,
       "relatedSectors": [
-        "성장주",
-        "은행",
-        "채권"
+        "시장 전체"
       ],
       "topMissingIndicators": [
         "briefing_inclusion_review",
-        "official_policy_text",
-        "policy_path_repricing"
+        "follow_up_disclosure",
+        "peer_price_basket"
       ]
     },
     {
-      "source": "Intellectia AI",
+      "source": "Semafor",
       "missingIndicatorCount": 3,
       "relatedSectors": [
-        "성장주",
-        "은행",
-        "채권"
+        "시장 전체"
       ],
       "topMissingIndicators": [
         "briefing_inclusion_review",
-        "official_policy_text",
-        "policy_path_repricing"
+        "follow_up_disclosure",
+        "peer_price_basket"
       ]
     },
     {
-      "source": "KITCO",
+      "source": "simplywall.st",
       "missingIndicatorCount": 3,
       "relatedSectors": [
-        "성장주",
-        "은행",
-        "채권"
+        "시장 전체"
       ],
       "topMissingIndicators": [
         "briefing_inclusion_review",
-        "official_policy_text",
-        "policy_path_repricing"
+        "follow_up_disclosure",
+        "peer_price_basket"
       ]
     },
     {
-      "source": "mpamag.com",
+      "source": "The Boston Globe",
       "missingIndicatorCount": 3,
       "relatedSectors": [
-        "성장주",
-        "은행",
-        "채권"
+        "시장 전체"
       ],
       "topMissingIndicators": [
         "briefing_inclusion_review",
-        "official_policy_text",
-        "policy_path_repricing"
+        "follow_up_disclosure",
+        "peer_price_basket"
       ]
     },
     {
-      "source": "Seeking Alpha",
-      "missingIndicatorCount": 3,
-      "relatedSectors": [
-        "성장주",
-        "은행",
-        "채권"
-      ],
-      "topMissingIndicators": [
-        "briefing_inclusion_review",
-        "official_policy_text",
-        "policy_path_repricing"
-      ]
-    },
-    {
-      "source": "The Daily Economy",
-      "missingIndicatorCount": 3,
-      "relatedSectors": [
-        "성장주",
-        "은행",
-        "채권"
-      ],
-      "topMissingIndicators": [
-        "briefing_inclusion_review",
-        "official_policy_text",
-        "policy_path_repricing"
-      ]
-    },
-    {
-      "source": "The Motley Fool",
+      "source": "The Edge Malaysia",
       "missingIndicatorCount": 3,
       "relatedSectors": [
         "성장주",
@@ -744,6 +1288,20 @@
       ]
     },
     {
+      "source": "TradingView",
+      "missingIndicatorCount": 3,
+      "relatedSectors": [
+        "성장주",
+        "은행",
+        "채권"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "official_policy_text",
+        "policy_path_repricing"
+      ]
+    },
+    {
       "source": "Washington Examiner",
       "missingIndicatorCount": 3,
       "relatedSectors": [
@@ -758,7 +1316,48 @@
       ]
     },
     {
-      "source": "WSJ",
+      "source": "YTN",
+      "missingIndicatorCount": 3,
+      "relatedSectors": [
+        "시장 전체",
+        "반도체",
+        "데이터센터",
+        "장비"
+      ],
+      "topMissingIndicators": [
+        "close_confirmation",
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "뉴스1",
+      "missingIndicatorCount": 3,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "consensus_baseline",
+        "official_release_value"
+      ]
+    },
+    {
+      "source": "디일렉",
+      "missingIndicatorCount": 3,
+      "relatedSectors": [
+        "반도체",
+        "데이터센터",
+        "장비"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "마켓인",
       "missingIndicatorCount": 3,
       "relatedSectors": [
         "성장주",
@@ -772,7 +1371,77 @@
       ]
     },
     {
-      "source": "CoinDesk",
+      "source": "세이프타임즈",
+      "missingIndicatorCount": 3,
+      "relatedSectors": [
+        "반도체",
+        "데이터센터",
+        "장비"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "아주경제",
+      "missingIndicatorCount": 3,
+      "relatedSectors": [
+        "반도체",
+        "데이터센터",
+        "장비"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "연합뉴스TV",
+      "missingIndicatorCount": 3,
+      "relatedSectors": [
+        "반도체",
+        "데이터센터",
+        "장비"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "테크데일리",
+      "missingIndicatorCount": 3,
+      "relatedSectors": [
+        "성장주",
+        "은행",
+        "채권"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "official_policy_text",
+        "policy_path_repricing"
+      ]
+    },
+    {
+      "source": "팍스경제TV",
+      "missingIndicatorCount": 3,
+      "relatedSectors": [
+        "성장주",
+        "은행",
+        "채권"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "official_policy_text",
+        "policy_path_repricing"
+      ]
+    },
+    {
+      "source": "1470 & 100.3 WMBD",
       "missingIndicatorCount": 2,
       "relatedSectors": [
         "시장 전체"
@@ -783,7 +1452,288 @@
       ]
     },
     {
-      "source": "FXEmpire",
+      "source": "24/7 Wall St.",
+      "missingIndicatorCount": 2,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "Bloomberg.com",
+      "missingIndicatorCount": 2,
+      "relatedSectors": [
+        "성장주",
+        "은행",
+        "채권"
+      ],
+      "topMissingIndicators": [
+        "official_policy_text",
+        "policy_path_repricing"
+      ]
+    },
+    {
+      "source": "Carscoops",
+      "missingIndicatorCount": 2,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "CNBC",
+      "missingIndicatorCount": 2,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "Daily Sabah",
+      "missingIndicatorCount": 2,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "delano.lu",
+      "missingIndicatorCount": 2,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "eciks.org",
+      "missingIndicatorCount": 2,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "close_confirmation"
+      ]
+    },
+    {
+      "source": "elperiodico.com",
+      "missingIndicatorCount": 2,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "close_confirmation"
+      ]
+    },
+    {
+      "source": "Financial Newswire",
+      "missingIndicatorCount": 2,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "GeekWire",
+      "missingIndicatorCount": 2,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "Genetic Engineering and Biotechnology News",
+      "missingIndicatorCount": 2,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "India News Network",
+      "missingIndicatorCount": 2,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "jabon.co.kr",
+      "missingIndicatorCount": 2,
+      "relatedSectors": [
+        "수출주",
+        "항공",
+        "유통"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "close_confirmation"
+      ]
+    },
+    {
+      "source": "KFYR-TV",
+      "missingIndicatorCount": 2,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "Kuwait Times",
+      "missingIndicatorCount": 2,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "Los Angeles Times",
+      "missingIndicatorCount": 2,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "Marcus on AI | Substack",
+      "missingIndicatorCount": 2,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "Marginal REVOLUTION",
+      "missingIndicatorCount": 2,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "MarketWatch",
+      "missingIndicatorCount": 2,
+      "relatedSectors": [
+        "반도체",
+        "데이터센터",
+        "장비"
+      ],
+      "topMissingIndicators": [
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "saastr.com",
+      "missingIndicatorCount": 2,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "TechCrunch",
+      "missingIndicatorCount": 2,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "The Atlantic",
+      "missingIndicatorCount": 2,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "The Business Times",
+      "missingIndicatorCount": 2,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "The Information",
+      "missingIndicatorCount": 2,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "The National CIO Review",
+      "missingIndicatorCount": 2,
+      "relatedSectors": [
+        "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "follow_up_disclosure",
+        "peer_price_basket"
+      ]
+    },
+    {
+      "source": "The New Indian Express",
       "missingIndicatorCount": 2,
       "relatedSectors": [
         "시장 전체"
@@ -794,7 +1744,7 @@
       ]
     },
     {
-      "source": "KevinMD.com",
+      "source": "Variety",
       "missingIndicatorCount": 2,
       "relatedSectors": [
         "시장 전체"
@@ -805,45 +1755,99 @@
       ]
     },
     {
-      "source": "LiveNOW from FOX",
+      "source": "경기일보",
       "missingIndicatorCount": 2,
       "relatedSectors": [
         "시장 전체"
       ],
       "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "close_confirmation"
+      ]
+    },
+    {
+      "source": "경향신문",
+      "missingIndicatorCount": 2,
+      "relatedSectors": [
+        "반도체",
+        "데이터센터",
+        "장비"
+      ],
+      "topMissingIndicators": [
         "follow_up_disclosure",
         "peer_price_basket"
       ]
     },
     {
-      "source": "MPR News",
+      "source": "뉴스핌",
       "missingIndicatorCount": 2,
       "relatedSectors": [
-        "성장주",
-        "은행",
-        "채권"
+        "수출주",
+        "항공",
+        "유통"
       ],
       "topMissingIndicators": [
-        "official_policy_text",
-        "policy_path_repricing"
+        "briefing_inclusion_review",
+        "close_confirmation"
       ]
     },
     {
-      "source": "Politico",
+      "source": "매일경제 마켓",
+      "missingIndicatorCount": 2,
+      "relatedSectors": [
+        "수출주",
+        "항공",
+        "유통"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "close_confirmation"
+      ]
+    },
+    {
+      "source": "문화일보",
       "missingIndicatorCount": 2,
       "relatedSectors": [
         "시장 전체"
       ],
       "topMissingIndicators": [
-        "follow_up_disclosure",
-        "peer_price_basket"
+        "briefing_inclusion_review",
+        "close_confirmation"
       ]
     },
     {
-      "source": "The Arkansas Democrat-Gazette",
+      "source": "오피니언뉴스",
       "missingIndicatorCount": 2,
       "relatedSectors": [
-        "시장 전체"
+        "수출주",
+        "항공",
+        "유통"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "close_confirmation"
+      ]
+    },
+    {
+      "source": "철강금속신문",
+      "missingIndicatorCount": 2,
+      "relatedSectors": [
+        "수출주",
+        "항공",
+        "유통"
+      ],
+      "topMissingIndicators": [
+        "briefing_inclusion_review",
+        "close_confirmation"
+      ]
+    },
+    {
+      "source": "한겨레",
+      "missingIndicatorCount": 2,
+      "relatedSectors": [
+        "반도체",
+        "데이터센터",
+        "장비"
       ],
       "topMissingIndicators": [
         "follow_up_disclosure",
@@ -851,66 +1855,7 @@
       ]
     },
     {
-      "source": "The Guardian",
-      "missingIndicatorCount": 2,
-      "relatedSectors": [
-        "시장 전체"
-      ],
-      "topMissingIndicators": [
-        "follow_up_disclosure",
-        "peer_price_basket"
-      ]
-    },
-    {
-      "source": "The Journal Gazette",
-      "missingIndicatorCount": 2,
-      "relatedSectors": [
-        "성장주",
-        "은행",
-        "채권"
-      ],
-      "topMissingIndicators": [
-        "official_policy_text",
-        "policy_path_repricing"
-      ]
-    },
-    {
-      "source": "Ticker News",
-      "missingIndicatorCount": 2,
-      "relatedSectors": [
-        "시장 전체"
-      ],
-      "topMissingIndicators": [
-        "follow_up_disclosure",
-        "peer_price_basket"
-      ]
-    },
-    {
-      "source": "Vatican News",
-      "missingIndicatorCount": 2,
-      "relatedSectors": [
-        "시장 전체"
-      ],
-      "topMissingIndicators": [
-        "follow_up_disclosure",
-        "peer_price_basket"
-      ]
-    },
-    {
-      "source": "조선일보",
-      "missingIndicatorCount": 2,
-      "relatedSectors": [
-        "조선",
-        "방산",
-        "기계"
-      ],
-      "topMissingIndicators": [
-        "follow_up_disclosure",
-        "peer_price_basket"
-      ]
-    },
-    {
-      "source": "ABC11 News",
+      "source": "BusinessToday Malaysia",
       "missingIndicatorCount": 1,
       "relatedSectors": [
         "시장 전체"
@@ -920,7 +1865,7 @@
       ]
     },
     {
-      "source": "Chattanooga Times Free Press",
+      "source": "facebook.com",
       "missingIndicatorCount": 1,
       "relatedSectors": [
         "시장 전체"
@@ -930,7 +1875,7 @@
       ]
     },
     {
-      "source": "eciks.org",
+      "source": "moneywise.com",
       "missingIndicatorCount": 1,
       "relatedSectors": [
         "시장 전체"
@@ -940,7 +1885,7 @@
       ]
     },
     {
-      "source": "Tekedia",
+      "source": "The Washington Post",
       "missingIndicatorCount": 1,
       "relatedSectors": [
         "시장 전체"
@@ -950,10 +1895,22 @@
       ]
     },
     {
-      "source": "중앙일보",
+      "source": "에너지경제신문",
       "missingIndicatorCount": 1,
       "relatedSectors": [
         "시장 전체"
+      ],
+      "topMissingIndicators": [
+        "close_confirmation"
+      ]
+    },
+    {
+      "source": "조세일보",
+      "missingIndicatorCount": 1,
+      "relatedSectors": [
+        "수출주",
+        "항공",
+        "유통"
       ],
       "topMissingIndicators": [
         "close_confirmation"
@@ -962,37 +1919,14 @@
   ],
   "recommendedDataAdditions": [
     {
-      "indicatorId": "official_policy_text",
-      "label": "official policy text",
-      "category": "rates",
-      "reason": "Need the official statement or minutes to compare with the article-time reading.",
-      "suggestedTargetIds": [
-        "US10Y",
-        "USDKRW",
-        "NASDAQ"
-      ],
-      "priority": "high"
-    },
-    {
-      "indicatorId": "policy_path_repricing",
-      "label": "policy path repricing",
-      "category": "rates",
-      "reason": "Need rates and FX follow-through after the policy event.",
-      "suggestedTargetIds": [
-        "US10Y",
-        "USDKRW",
-        "NASDAQ"
-      ],
-      "priority": "high"
-    },
-    {
       "indicatorId": "briefing_inclusion_review",
       "label": "Briefing inclusion review",
       "category": "data_quality",
       "reason": "The article was not applied to the visible briefing and may need later inclusion review.",
       "suggestedTargetIds": [
-        "US10Y",
+        "KOSPI",
         "USDKRW",
+        "US10Y",
         "NASDAQ",
         "SOXX",
         "SKHYNIX",
@@ -1023,6 +1957,30 @@
         "SAMSUNG-ELECTRONICS"
       ],
       "priority": "medium"
+    },
+    {
+      "indicatorId": "official_policy_text",
+      "label": "official policy text",
+      "category": "rates",
+      "reason": "Need the official statement or minutes to compare with the article-time reading.",
+      "suggestedTargetIds": [
+        "US10Y",
+        "USDKRW",
+        "NASDAQ"
+      ],
+      "priority": "high"
+    },
+    {
+      "indicatorId": "policy_path_repricing",
+      "label": "policy path repricing",
+      "category": "rates",
+      "reason": "Need rates and FX follow-through after the policy event.",
+      "suggestedTargetIds": [
+        "US10Y",
+        "USDKRW",
+        "NASDAQ"
+      ],
+      "priority": "high"
     },
     {
       "indicatorId": "close_confirmation",
